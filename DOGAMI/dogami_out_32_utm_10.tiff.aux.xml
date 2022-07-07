@@ -1,0 +1,17 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="DataType">Elevation</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <UnitType>US survey foot</UnitType>
+    <Metadata>
+      <MDI key="RepresentationType">ATHEMATIC</MDI>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">10019.7734375</MDI>
+      <MDI key="STATISTICS_MEAN">4360.0082815523</MDI>
+      <MDI key="STATISTICS_MINIMUM">1450.1271972656</MDI>
+      <MDI key="STATISTICS_STDDEV">1183.555913931</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">90.49</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

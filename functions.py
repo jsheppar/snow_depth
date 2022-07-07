@@ -7,8 +7,8 @@ import numpy.ma as ma
 import xarray as xr
 import rasterio
 import rioxarray
-import geoviews as gv
-from holoviews import opts
+#import geoviews as gv
+#from holoviews import opts
 from pyproj import Transformer
 import matplotlib.pyplot as plt
 import warnings
@@ -30,6 +30,12 @@ def coords_trans(lon, lat):
     for pt in transformer.itransform(points):
         x.append(pt[0])
         y.append(pt[1])
+    return (x, y)
+
+def coords_trans_unequal(lon, lat):
+    # convert coords to UTM 10
+    transformer = Transformer.from_crs(4326, 32610)
+    x, y = transformer.transform(lon, lat)
     return (x, y)
 
 
@@ -155,7 +161,7 @@ def compare_heights_v2(df, ref_tif):
         x = df['x'][ii]
         y = df['y'][ii]
         l = ref_tif.sel(x=x, y=y, method='nearest').values
-        if l < -1e20:
+        if l < -1e5:
             continue
         bare_earth_values.append(l)
         icesat_values.append(df['h_mean'][ii])
