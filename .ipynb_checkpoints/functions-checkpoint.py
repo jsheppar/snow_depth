@@ -166,3 +166,15 @@ def compare_heights_v2(df, ref_tif):
         bare_earth_values.append(l)
         icesat_values.append(df['h_mean'][ii])
     return (bare_earth_values, icesat_values)
+
+def compare_heights_v3(df, ref_tif):
+    subtracted_values = np.zeros(len(df))
+    for ii in range(len(df)):
+        x = df['x'][ii]
+        y = df['y'][ii]
+        l = ref_tif.sel(x=x, y=y, method='nearest').values
+        if (l < -1e5) or np.isnan(l):
+            subtracted_values[ii] = np.nan
+        else:
+            subtracted_values[ii] = df['h_mean'][ii]-l
+    return subtracted_values
