@@ -1,0 +1,61 @@
+{
+  "build": "hd011deb_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=11.a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/libllvm11-11.1.0-hd011deb_2",
+  "features": "",
+  "files": [
+    "lib/libLLVM-11.dylib",
+    "lib/libLTO.11.dylib",
+    "lib/libRemarks.11.dylib"
+  ],
+  "fn": "libllvm11-11.1.0-hd011deb_2.tar.bz2",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/libllvm11-11.1.0-hd011deb_2",
+    "type": 1
+  },
+  "md5": "2fb85f4602db53d72af74732ac23df59",
+  "name": "libllvm11",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/libllvm11-11.1.0-hd011deb_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libLLVM-11.dylib",
+        "path_type": "hardlink",
+        "sha256": "287fbb8f761aa8588ac8e1f96c064bfabbb5a2736564f50bf0906987cdb1169e",
+        "sha256_in_prefix": "287fbb8f761aa8588ac8e1f96c064bfabbb5a2736564f50bf0906987cdb1169e",
+        "size_in_bytes": 84774736
+      },
+      {
+        "_path": "lib/libLTO.11.dylib",
+        "path_type": "hardlink",
+        "sha256": "3704087d15254a52cded68916cd79a803b6300602ed67b889ebcf95c766ba530",
+        "sha256_in_prefix": "3704087d15254a52cded68916cd79a803b6300602ed67b889ebcf95c766ba530",
+        "size_in_bytes": 76672
+      },
+      {
+        "_path": "lib/libRemarks.11.dylib",
+        "path_type": "hardlink",
+        "sha256": "522fa32230e91a4015e672cd976a34e0ae4717d00fbf3720d634c22c8375ef5a",
+        "sha256_in_prefix": "522fa32230e91a4015e672cd976a34e0ae4717d00fbf3720d634c22c8375ef5a",
+        "size_in_bytes": 10864
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libllvm11==11.1.0=hd011deb_2",
+  "sha256": "82c6704f20ffb1a25677a5a24e36e199907ef43910254a2b11aa5742f7e4e7ea",
+  "size": 23581808,
+  "subdir": "osx-64",
+  "timestamp": 1617665570385,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libllvm11-11.1.0-hd011deb_2.tar.bz2",
+  "version": "11.1.0"
+}

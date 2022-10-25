@@ -13,7 +13,9 @@ from pyproj import Transformer
 import matplotlib.pyplot as plt
 import warnings
 from shapely.errors import ShapelyDeprecationWarning
-warnings.filterwarnings("ignore", category=ShapelyDeprecationWarning) 
+warnings.filterwarnings("ignore", category=ShapelyDeprecationWarning)
+import pyproj
+pyproj.set_use_global_context(True)
 
 def make_dist_alongtrack(ph_count, seg_length, dist_ph):
     repeat_num = np.cumsum(seg_length) - seg_length[0]
@@ -178,3 +180,109 @@ def compare_heights_v3(df, ref_tif):
         else:
             subtracted_values[ii] = df['h_mean'][ii]-l
     return subtracted_values
+
+def compare_heights_v4(df, ref_tif):       # averages the base dem as well in an area of width and length to icesat segment size
+    # ref_tif is an xarray dataarray, df is a pandas dataframe
+    
+    subtracted_values = np.zeros(len(df))
+    seg_geoms = np.empty(len(df), dtype=object)
+    
+    
+    for ii in range(len(df)):
+        if (ii-1) >= 0:
+            x_m1 = df['x'][ii-1]
+            y_m1 = df['y'][ii-1]
+        else:
+            x_m1 = df['x'][ii]
+            y_m1 = df['y'][ii]
+        if (ii+1) < len(df):
+            x_p1 = df['x'][ii+1]
+            y_p1 = df['y'][ii+1]
+        else:
+            x_p1 = df['x'][ii]
+            y_p1 = df['y'][ii]
+        w = df['w_surface_window_final'][ii]
+        dx = x_p1 - x_m1 #changed
+        dy = y_p1 - y_m1
+        L = np.sqrt(dx**2 + dy**2)
+        del_x = dy * w/L
+        del_y = -dx * w/L
+        
+        x_p_up = x_p1 - del_x #changed
+        y_p_up = y_p1 - del_y
+        x_m_up = x_m1 - del_x
+        y_m_up = y_m1 - del_y
+        
+        x_p_lo = x_p1 + del_x
+        y_p_lo = y_p1 + del_y
+        x_m_lo = x_m1 + del_x
+        y_m_lo = y_m1 + del_y
+        
+        geometries = [
+            {
+                'type': 'Polygon',
+                'coordinates': [[
+                    [x_m_up, y_m_up],
+                    [x_p_up, y_p_up],
+                    [x_p_lo, y_p_lo],
+                    [x_m_lo, y_m_lo],
+                    [x_m_up, y_m_up]
+                ]]
+            }
+        ]
+        
+        seg_geoms[ii] = geometries
+        try:
+            clipped = ref_tif.rio.clip(geometries, from_disk=True)
+            l = clipped.mean()
+            if (l < -1e5) or np.isnan(l):
+                subtracted_values[ii] = np.nan
+            else:
+                subtracted_values[ii] = df['h_mean'][ii]-l
+        except:
+            print("Clipping failed.")
+
+    return subtracted_values, seg_geoms
+
+def add_land_cover(add_to, add_from):
+    land_covers = np.empty(len(add_to), dtype=np.dtype('U40'))
+    for ii in range(len(add_to)):
+        x = add_to['x'][ii]
+        y = add_to['y'][ii]
+        lc = add_from.sel(x=x, y=y, method='nearest').values
+        if lc == 11:
+            lc = 'Open Water'
+        elif lc == 12:
+            lc = 'Perennial Ice/Snow'
+        elif lc == 21:
+            lc = 'Developed, Open Space'
+        elif lc == 22:
+            lc = 'Developed, Low Intensity'
+        elif lc == 23:
+            lc = 'Developed, Medium Intensity'
+        elif lc == 24:
+            lc = 'Developed, High Intensity'
+        elif lc == 31:
+            lc = 'Barren Land (Rock/Sand/Clay)'
+        elif lc == 41:
+            lc = 'Decideous Forest'
+        elif lc == 42:
+            lc = 'Evergreen Forest'
+        elif lc == 43:
+            lc = 'Mixed Forest'
+        elif lc == 52:
+            lc = 'Shrub/Scrub'
+        elif lc == 71:
+            lc = 'Grasslands/Herbaceous'
+        elif lc == 81:
+            lc = 'Pasture/Hay'
+        elif lc == 82:
+            lc = 'Cultivated Crops'
+        elif lc == 90:
+            lc = 'Woody Wetlands'
+        elif lc == 95:
+            lc = 'Emergent Herbaceous Wetlands'
+        land_covers[ii] = lc
+    add_to['land_cover'] = land_covers
+
+    

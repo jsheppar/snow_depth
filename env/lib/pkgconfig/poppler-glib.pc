@@ -1,0 +1,12 @@
+prefix=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env
+libdir=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib
+includedir=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/include
+
+Name: poppler-glib
+Description: GLib wrapper for poppler
+Version: 21.09.0
+Requires: glib-2.0 >= 2.56 gobject-2.0 >= 2.56 cairo >= 1.10.0 
+Requires.private: poppler = 21.09.0
+
+Libs: -L${libdir} -lpoppler-glib
+Cflags: -I${includedir}/poppler/glib

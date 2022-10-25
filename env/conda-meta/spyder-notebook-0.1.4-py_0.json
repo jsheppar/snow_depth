@@ -1,0 +1,238 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "nbformat",
+    "notebook >=4.3",
+    "psutil",
+    "python",
+    "qtpy",
+    "requests",
+    "spyder >=3.2"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/spyder-notebook-0.1.4-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/spyder_notebook-0.1.4-py2.7.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/spyder_notebook-0.1.4-py2.7.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/spyder_notebook-0.1.4-py2.7.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/spyder_notebook-0.1.4-py2.7.egg-info/requires.txt",
+    "lib/python3.8/site-packages/spyder_notebook-0.1.4-py2.7.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/spyder_notebook/__init__.py",
+    "lib/python3.8/site-packages/spyder_notebook/_version.py",
+    "lib/python3.8/site-packages/spyder_notebook/images/icon.svg",
+    "lib/python3.8/site-packages/spyder_notebook/notebookplugin.py",
+    "lib/python3.8/site-packages/spyder_notebook/tests/__init__.py",
+    "lib/python3.8/site-packages/spyder_notebook/tests/test.ipynb",
+    "lib/python3.8/site-packages/spyder_notebook/tests/test_plugin.py",
+    "lib/python3.8/site-packages/spyder_notebook/utils/__init__.py",
+    "lib/python3.8/site-packages/spyder_notebook/utils/nbopen.py",
+    "lib/python3.8/site-packages/spyder_notebook/utils/templates/welcome.html",
+    "lib/python3.8/site-packages/spyder_notebook/widgets/__init__.py",
+    "lib/python3.8/site-packages/spyder_notebook/widgets/client.py",
+    "lib/python3.8/site-packages/spyder_notebook/widgets/dom.py",
+    "lib/python3.8/site-packages/spyder_notebook/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/spyder_notebook/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/spyder_notebook/__pycache__/notebookplugin.cpython-38.pyc",
+    "lib/python3.8/site-packages/spyder_notebook/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/spyder_notebook/tests/__pycache__/test_plugin.cpython-38.pyc",
+    "lib/python3.8/site-packages/spyder_notebook/utils/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/spyder_notebook/utils/__pycache__/nbopen.cpython-38.pyc",
+    "lib/python3.8/site-packages/spyder_notebook/widgets/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/spyder_notebook/widgets/__pycache__/client.cpython-38.pyc",
+    "lib/python3.8/site-packages/spyder_notebook/widgets/__pycache__/dom.cpython-38.pyc"
+  ],
+  "fn": "spyder-notebook-0.1.4-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/spyder-notebook-0.1.4-py_0",
+    "type": 1
+  },
+  "md5": "4a3e6a8c0ee82d7c350457c452870300",
+  "name": "spyder-notebook",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/spyder-notebook-0.1.4-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/spyder_notebook-0.1.4-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "06be5937599efa15c73e994cb3bd2c034653ff9cead4c73125d61f58b259ff2c",
+        "sha256_in_prefix": "06be5937599efa15c73e994cb3bd2c034653ff9cead4c73125d61f58b259ff2c",
+        "size_in_bytes": 689
+      },
+      {
+        "_path": "site-packages/spyder_notebook-0.1.4-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "84174abc71b913140b1021714ae87d691b86343bbe154e91d05ef1367a100cf8",
+        "sha256_in_prefix": "84174abc71b913140b1021714ae87d691b86343bbe154e91d05ef1367a100cf8",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "site-packages/spyder_notebook-0.1.4-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/spyder_notebook-0.1.4-py2.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "d943fea6ae2b353695c1fd8e236510b3de7519a23990becf2662860ff1b456b3",
+        "sha256_in_prefix": "d943fea6ae2b353695c1fd8e236510b3de7519a23990becf2662860ff1b456b3",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "site-packages/spyder_notebook-0.1.4-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "541119858db9a87206e53973dd285f1cfb3f4563e15782d55108d15d9def28ab",
+        "sha256_in_prefix": "541119858db9a87206e53973dd285f1cfb3f4563e15782d55108d15d9def28ab",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "site-packages/spyder_notebook/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b2341fb3c6f289cb1c35f3a9dd31f0264bcd642a71d02125dbefb1286e9a63e7",
+        "sha256_in_prefix": "b2341fb3c6f289cb1c35f3a9dd31f0264bcd642a71d02125dbefb1286e9a63e7",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "site-packages/spyder_notebook/_version.py",
+        "path_type": "hardlink",
+        "sha256": "af6742b1512c7943a80508f6f1eba56cb4f16001cad23d13a7de1b749a9d84d2",
+        "sha256_in_prefix": "af6742b1512c7943a80508f6f1eba56cb4f16001cad23d13a7de1b749a9d84d2",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/spyder_notebook/images/icon.svg",
+        "path_type": "hardlink",
+        "sha256": "39f6602ddf3c2148ffe839105a0b71ae12d0ce19cb91a5de2a2884a7e4a9b4bb",
+        "sha256_in_prefix": "39f6602ddf3c2148ffe839105a0b71ae12d0ce19cb91a5de2a2884a7e4a9b4bb",
+        "size_in_bytes": 801
+      },
+      {
+        "_path": "site-packages/spyder_notebook/notebookplugin.py",
+        "path_type": "hardlink",
+        "sha256": "95694210e979ae0da3f8aa89c9ba609f610358c853fb7e0cc2d1bd26e4937cb5",
+        "sha256_in_prefix": "95694210e979ae0da3f8aa89c9ba609f610358c853fb7e0cc2d1bd26e4937cb5",
+        "size_in_bytes": 19455
+      },
+      {
+        "_path": "site-packages/spyder_notebook/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "097c5778a3f3260a66c69f0b6b7bde2721b45c62d8868adee57384258aa51835",
+        "sha256_in_prefix": "097c5778a3f3260a66c69f0b6b7bde2721b45c62d8868adee57384258aa51835",
+        "size_in_bytes": 322
+      },
+      {
+        "_path": "site-packages/spyder_notebook/tests/test.ipynb",
+        "path_type": "hardlink",
+        "sha256": "75c3e0ff9c337edda727fd10da93d8ced2ac5ee0c36089045b7b2ec1dc14afc5",
+        "sha256_in_prefix": "75c3e0ff9c337edda727fd10da93d8ced2ac5ee0c36089045b7b2ec1dc14afc5",
+        "size_in_bytes": 636
+      },
+      {
+        "_path": "site-packages/spyder_notebook/tests/test_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "a3cf768001a2fbfedf24dc3600b42066745e1f7d254e2b4eff73571e5b466775",
+        "sha256_in_prefix": "a3cf768001a2fbfedf24dc3600b42066745e1f7d254e2b4eff73571e5b466775",
+        "size_in_bytes": 9537
+      },
+      {
+        "_path": "site-packages/spyder_notebook/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "faa27e905f0fac0670be904c8d4f900545ee746983cb654c9cf75060b486e32a",
+        "sha256_in_prefix": "faa27e905f0fac0670be904c8d4f900545ee746983cb654c9cf75060b486e32a",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "site-packages/spyder_notebook/utils/nbopen.py",
+        "path_type": "hardlink",
+        "sha256": "3143f7453fa68e68632138ac048c7bb1508493232292c4b2fb4ebd85a4d04121",
+        "sha256_in_prefix": "3143f7453fa68e68632138ac048c7bb1508493232292c4b2fb4ebd85a4d04121",
+        "size_in_bytes": 3287
+      },
+      {
+        "_path": "site-packages/spyder_notebook/utils/templates/welcome.html",
+        "path_type": "hardlink",
+        "sha256": "5228959c6d4a42efd1f3607eda67b6a4c808a4be596327520d94d0e77149da0c",
+        "sha256_in_prefix": "5228959c6d4a42efd1f3607eda67b6a4c808a4be596327520d94d0e77149da0c",
+        "size_in_bytes": 16166
+      },
+      {
+        "_path": "site-packages/spyder_notebook/widgets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d1485a028e0a8510c0f9a682affe173a4ade107d2de250ddaa6e32623f889ebb",
+        "sha256_in_prefix": "d1485a028e0a8510c0f9a682affe173a4ade107d2de250ddaa6e32623f889ebb",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "site-packages/spyder_notebook/widgets/client.py",
+        "path_type": "hardlink",
+        "sha256": "6d022a5265a503a857d8d9f1bdec59e3546c55340f69bdd3eb7ed7f6f00ffb60",
+        "sha256_in_prefix": "6d022a5265a503a857d8d9f1bdec59e3546c55340f69bdd3eb7ed7f6f00ffb60",
+        "size_in_bytes": 10025
+      },
+      {
+        "_path": "site-packages/spyder_notebook/widgets/dom.py",
+        "path_type": "hardlink",
+        "sha256": "168d19d41c509a486efa647e0d154951c903ef2d18715eef15f05156e9e2e642",
+        "sha256_in_prefix": "168d19d41c509a486efa647e0d154951c903ef2d18715eef15f05156e9e2e642",
+        "size_in_bytes": 2321
+      },
+      {
+        "_path": "lib/python3.8/site-packages/spyder_notebook/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/spyder_notebook/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/spyder_notebook/__pycache__/notebookplugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/spyder_notebook/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/spyder_notebook/tests/__pycache__/test_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/spyder_notebook/utils/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/spyder_notebook/utils/__pycache__/nbopen.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/spyder_notebook/widgets/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/spyder_notebook/widgets/__pycache__/client.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/spyder_notebook/widgets/__pycache__/dom.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "spyder-notebook==0.1.4=py_0",
+  "sha256": "ffb48adb066c667abac200fdc48acf9f5d73c9dbfbb41b1476d26d955374f5c9",
+  "size": 21012,
+  "subdir": "noarch",
+  "timestamp": 1545509934850,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/spyder-notebook-0.1.4-py_0.tar.bz2",
+  "version": "0.1.4"
+}

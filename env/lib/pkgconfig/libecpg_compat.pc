@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: https://www.postgresql.org/
+Version: 13.3
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/include
+Libs: -L/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib -lecpg_compat
+Libs.private: -L/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib -lm

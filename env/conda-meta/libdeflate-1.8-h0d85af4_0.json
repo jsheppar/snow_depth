@@ -1,0 +1,73 @@
+{
+  "build": "h0d85af4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/libdeflate-1.8-h0d85af4_0",
+  "features": "",
+  "files": [
+    "bin/libdeflate-gunzip",
+    "bin/libdeflate-gzip",
+    "include/libdeflate.h",
+    "lib/libdeflate.0.dylib",
+    "lib/libdeflate.dylib"
+  ],
+  "fn": "libdeflate-1.8-h0d85af4_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/libdeflate-1.8-h0d85af4_0",
+    "type": 1
+  },
+  "md5": "0c233c9a12552ee43d1e3f477f2a54ee",
+  "name": "libdeflate",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/libdeflate-1.8-h0d85af4_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/libdeflate-gunzip",
+        "path_type": "hardlink",
+        "sha256": "980ca983d7ad32e98ae9e92917bbb6727c05912d2593013767375dc963923a1c",
+        "sha256_in_prefix": "980ca983d7ad32e98ae9e92917bbb6727c05912d2593013767375dc963923a1c",
+        "size_in_bytes": 79140
+      },
+      {
+        "_path": "bin/libdeflate-gzip",
+        "path_type": "hardlink",
+        "sha256": "980ca983d7ad32e98ae9e92917bbb6727c05912d2593013767375dc963923a1c",
+        "sha256_in_prefix": "980ca983d7ad32e98ae9e92917bbb6727c05912d2593013767375dc963923a1c",
+        "size_in_bytes": 79140
+      },
+      {
+        "_path": "include/libdeflate.h",
+        "path_type": "hardlink",
+        "sha256": "1df02babf54d4b54f7db9210d255850e2f62957f3eb1d65f6a6983d4c64b0f77",
+        "sha256_in_prefix": "1df02babf54d4b54f7db9210d255850e2f62957f3eb1d65f6a6983d4c64b0f77",
+        "size_in_bytes": 15152
+      },
+      {
+        "_path": "lib/libdeflate.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "e300bc36df202abfe52092274fdf3ba3cdcb9755dc3de396e8f5ba23b7ad665b",
+        "sha256_in_prefix": "e300bc36df202abfe52092274fdf3ba3cdcb9755dc3de396e8f5ba23b7ad665b",
+        "size_in_bytes": 73204
+      },
+      {
+        "_path": "lib/libdeflate.dylib",
+        "path_type": "softlink",
+        "sha256": "e300bc36df202abfe52092274fdf3ba3cdcb9755dc3de396e8f5ba23b7ad665b",
+        "size_in_bytes": 73204
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libdeflate==1.8=h0d85af4_0",
+  "sha256": "6044abb82059f61541f7a75f964123b34cbfc0852a2100cdbcad24d7d779a1a7",
+  "size": 68960,
+  "subdir": "osx-64",
+  "timestamp": 1626406373736,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libdeflate-1.8-h0d85af4_0.tar.bz2",
+  "version": "1.8"
+}

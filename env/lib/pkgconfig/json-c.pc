@@ -1,0 +1,12 @@
+prefix=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env
+exec_prefix=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env
+libdir=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib
+includedir=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/include
+
+Name: json-c
+Description: A JSON implementation in C
+Version: 0.15
+Requires:
+Libs.private: 
+Libs: -L${libdir} -ljson-c
+Cflags: -I${includedir} -I${includedir}/json-c

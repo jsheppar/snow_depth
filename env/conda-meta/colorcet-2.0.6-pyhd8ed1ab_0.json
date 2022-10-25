@@ -1,0 +1,334 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "param >=1.7.0",
+    "pyct >=0.4.4",
+    "python >=2.7"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/colorcet-2.0.6-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "bin/colorcet",
+    "lib/python3.8/site-packages/colorcet-2.0.6.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/colorcet-2.0.6.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/colorcet-2.0.6.dist-info/METADATA",
+    "lib/python3.8/site-packages/colorcet-2.0.6.dist-info/RECORD",
+    "lib/python3.8/site-packages/colorcet-2.0.6.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/colorcet-2.0.6.dist-info/WHEEL",
+    "lib/python3.8/site-packages/colorcet-2.0.6.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/colorcet-2.0.6.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/colorcet-2.0.6.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/colorcet/.version",
+    "lib/python3.8/site-packages/colorcet/__init__.py",
+    "lib/python3.8/site-packages/colorcet/__main__.py",
+    "lib/python3.8/site-packages/colorcet/examples/assets/images/census_fire.png",
+    "lib/python3.8/site-packages/colorcet/examples/assets/images/census_hot.png",
+    "lib/python3.8/site-packages/colorcet/examples/assets/images/fire.png",
+    "lib/python3.8/site-packages/colorcet/examples/assets/images/hot.png",
+    "lib/python3.8/site-packages/colorcet/examples/assets/images/jet.png",
+    "lib/python3.8/site-packages/colorcet/examples/assets/images/named.png",
+    "lib/python3.8/site-packages/colorcet/examples/assets/images/rainbow.png",
+    "lib/python3.8/site-packages/colorcet/examples/assets/write_named.py",
+    "lib/python3.8/site-packages/colorcet/examples/index.ipynb",
+    "lib/python3.8/site-packages/colorcet/examples/user_guide/Categorical.ipynb",
+    "lib/python3.8/site-packages/colorcet/examples/user_guide/Continuous.ipynb",
+    "lib/python3.8/site-packages/colorcet/examples/user_guide/index.ipynb",
+    "lib/python3.8/site-packages/colorcet/plotting.py",
+    "lib/python3.8/site-packages/colorcet/sineramp.py",
+    "lib/python3.8/site-packages/colorcet/tests/__init__.py",
+    "lib/python3.8/site-packages/colorcet/tests/test_aliases.py",
+    "lib/python3.8/site-packages/colorcet/tests/test_bokeh.py",
+    "lib/python3.8/site-packages/colorcet/tests/test_matplotlib.py",
+    "lib/python3.8/site-packages/colorcet/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/colorcet/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/colorcet/examples/assets/__pycache__/write_named.cpython-38.pyc",
+    "lib/python3.8/site-packages/colorcet/__pycache__/plotting.cpython-38.pyc",
+    "lib/python3.8/site-packages/colorcet/__pycache__/sineramp.cpython-38.pyc",
+    "lib/python3.8/site-packages/colorcet/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/colorcet/tests/__pycache__/test_aliases.cpython-38.pyc",
+    "lib/python3.8/site-packages/colorcet/tests/__pycache__/test_bokeh.cpython-38.pyc",
+    "lib/python3.8/site-packages/colorcet/tests/__pycache__/test_matplotlib.cpython-38.pyc"
+  ],
+  "fn": "colorcet-2.0.6-pyhd8ed1ab_0.tar.bz2",
+  "license": "CC-BY-4.0",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/colorcet-2.0.6-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "bdf0d14cb996a18a3df88ddac83e11f9",
+  "name": "colorcet",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/colorcet-2.0.6-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/colorcet",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/colorcet_1611108405642/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "e936a2cdfd51d93ae9ba9e5aac0ac72b3151fede3aa5c229b3fea241acb04028",
+        "sha256_in_prefix": "400378c4ef568324ee45102ea4f99c6ac3f6eca9862cdcfe008e1fe137b1f430",
+        "size_in_bytes": 499
+      },
+      {
+        "_path": "site-packages/colorcet-2.0.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/colorcet-2.0.6.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "c97deeeca4ae375a0334bc7f7af5f707aabfcec959c53c783b9f8771d28fd5b3",
+        "sha256_in_prefix": "c97deeeca4ae375a0334bc7f7af5f707aabfcec959c53c783b9f8771d28fd5b3",
+        "size_in_bytes": 14990
+      },
+      {
+        "_path": "site-packages/colorcet-2.0.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9d2f63a580bdc2c270340913590a76213d252e730a52bf5d37349039eeb5e900",
+        "sha256_in_prefix": "9d2f63a580bdc2c270340913590a76213d252e730a52bf5d37349039eeb5e900",
+        "size_in_bytes": 2742
+      },
+      {
+        "_path": "site-packages/colorcet-2.0.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "61f09de001a36d3c7b84ae9192b5b5a42e613d3cc3931782eef6276fa19d5c35",
+        "sha256_in_prefix": "61f09de001a36d3c7b84ae9192b5b5a42e613d3cc3931782eef6276fa19d5c35",
+        "size_in_bytes": 3267
+      },
+      {
+        "_path": "site-packages/colorcet-2.0.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/colorcet-2.0.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/colorcet-2.0.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "994de7b51b6ee69c04d33bb347690d25907d80916e900dda15eac436e61e199a",
+        "sha256_in_prefix": "994de7b51b6ee69c04d33bb347690d25907d80916e900dda15eac436e61e199a",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/colorcet-2.0.6.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "37f4765210caba81c9c9bf4648cc1de45b8d5213d0f09e95419b1b24147be363",
+        "sha256_in_prefix": "37f4765210caba81c9c9bf4648cc1de45b8d5213d0f09e95419b1b24147be363",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "site-packages/colorcet-2.0.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "534fc2e11f039c24465646af2e0d21586718c6a4272abe65ea324783d04eab1a",
+        "sha256_in_prefix": "534fc2e11f039c24465646af2e0d21586718c6a4272abe65ea324783d04eab1a",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/colorcet/.version",
+        "path_type": "hardlink",
+        "sha256": "a2e161f2d14f70d68f563c5b90e27bcd1b97cc82f016c739721969f26d203d58",
+        "sha256_in_prefix": "a2e161f2d14f70d68f563c5b90e27bcd1b97cc82f016c739721969f26d203d58",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "site-packages/colorcet/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "db9027d65dee75824e48e00e86a3a393bd6a2cdc5841cf4b5b17c961ae34e183",
+        "sha256_in_prefix": "db9027d65dee75824e48e00e86a3a393bd6a2cdc5841cf4b5b17c961ae34e183",
+        "size_in_bytes": 648588
+      },
+      {
+        "_path": "site-packages/colorcet/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "65d2bead93343008d236730906f537653aa0bd0dcfd49896b3fd37f1a9d0c320",
+        "sha256_in_prefix": "65d2bead93343008d236730906f537653aa0bd0dcfd49896b3fd37f1a9d0c320",
+        "size_in_bytes": 278
+      },
+      {
+        "_path": "site-packages/colorcet/examples/assets/images/census_fire.png",
+        "path_type": "hardlink",
+        "sha256": "642827ff7e518aff640243ea43c2c3ceff3bf59d4f592788055da71c21a925bb",
+        "sha256_in_prefix": "642827ff7e518aff640243ea43c2c3ceff3bf59d4f592788055da71c21a925bb",
+        "size_in_bytes": 562039
+      },
+      {
+        "_path": "site-packages/colorcet/examples/assets/images/census_hot.png",
+        "path_type": "hardlink",
+        "sha256": "983583d9b281a22d927b99a047feda4fffdd37fdc37028c6650f0d387a137aa0",
+        "sha256_in_prefix": "983583d9b281a22d927b99a047feda4fffdd37fdc37028c6650f0d387a137aa0",
+        "size_in_bytes": 409287
+      },
+      {
+        "_path": "site-packages/colorcet/examples/assets/images/fire.png",
+        "path_type": "hardlink",
+        "sha256": "8b545b1207af536a7dedd22828483332756b8dbad62bc3b1e2a6d76763e64e11",
+        "sha256_in_prefix": "8b545b1207af536a7dedd22828483332756b8dbad62bc3b1e2a6d76763e64e11",
+        "size_in_bytes": 8668
+      },
+      {
+        "_path": "site-packages/colorcet/examples/assets/images/hot.png",
+        "path_type": "hardlink",
+        "sha256": "9c6fe8a9c039ea96237837d414ebad43d0dbb7e0469319ce08fa493652c86686",
+        "sha256_in_prefix": "9c6fe8a9c039ea96237837d414ebad43d0dbb7e0469319ce08fa493652c86686",
+        "size_in_bytes": 6839
+      },
+      {
+        "_path": "site-packages/colorcet/examples/assets/images/jet.png",
+        "path_type": "hardlink",
+        "sha256": "03625666f92b2708c90c0e83c2c73c8760d6e6b6de05bb363d2d12cc9332be66",
+        "sha256_in_prefix": "03625666f92b2708c90c0e83c2c73c8760d6e6b6de05bb363d2d12cc9332be66",
+        "size_in_bytes": 8208
+      },
+      {
+        "_path": "site-packages/colorcet/examples/assets/images/named.png",
+        "path_type": "hardlink",
+        "sha256": "3a1b801af2fd23814cde601633a4fb92754ba0b1ff2b9721cdb76d2256eaa4b9",
+        "sha256_in_prefix": "3a1b801af2fd23814cde601633a4fb92754ba0b1ff2b9721cdb76d2256eaa4b9",
+        "size_in_bytes": 358116
+      },
+      {
+        "_path": "site-packages/colorcet/examples/assets/images/rainbow.png",
+        "path_type": "hardlink",
+        "sha256": "380cc612d28a4fb645a26b6bd978814f047d79bb581275989d056e14e4e354e5",
+        "sha256_in_prefix": "380cc612d28a4fb645a26b6bd978814f047d79bb581275989d056e14e4e354e5",
+        "size_in_bytes": 10647
+      },
+      {
+        "_path": "site-packages/colorcet/examples/assets/write_named.py",
+        "path_type": "hardlink",
+        "sha256": "a94ba7c65e30543d83de8c93ef07ea4fbf178e87b9f24d9e826ed75a9e7ba319",
+        "sha256_in_prefix": "a94ba7c65e30543d83de8c93ef07ea4fbf178e87b9f24d9e826ed75a9e7ba319",
+        "size_in_bytes": 1077
+      },
+      {
+        "_path": "site-packages/colorcet/examples/index.ipynb",
+        "path_type": "hardlink",
+        "sha256": "439e0f970ed8fb85206b0f9f4fb8e0086a91a9ff2f70a31b1860eeb36581200e",
+        "sha256_in_prefix": "439e0f970ed8fb85206b0f9f4fb8e0086a91a9ff2f70a31b1860eeb36581200e",
+        "size_in_bytes": 8196
+      },
+      {
+        "_path": "site-packages/colorcet/examples/user_guide/Categorical.ipynb",
+        "path_type": "hardlink",
+        "sha256": "ad91d89165290e6626a3890770ac5be510ba827c3ab92e37f72a360613b81ba9",
+        "sha256_in_prefix": "ad91d89165290e6626a3890770ac5be510ba827c3ab92e37f72a360613b81ba9",
+        "size_in_bytes": 13519
+      },
+      {
+        "_path": "site-packages/colorcet/examples/user_guide/Continuous.ipynb",
+        "path_type": "hardlink",
+        "sha256": "c24ea312aa564677bda28d88246d4e5187a4cca696282bc7ebe4b0b2c199ed84",
+        "sha256_in_prefix": "c24ea312aa564677bda28d88246d4e5187a4cca696282bc7ebe4b0b2c199ed84",
+        "size_in_bytes": 7737
+      },
+      {
+        "_path": "site-packages/colorcet/examples/user_guide/index.ipynb",
+        "path_type": "hardlink",
+        "sha256": "50b27e57cfd891e94ff7a270a6eb37dd8d4df4f84338116e9b2ab357dffd5f03",
+        "sha256_in_prefix": "50b27e57cfd891e94ff7a270a6eb37dd8d4df4f84338116e9b2ab357dffd5f03",
+        "size_in_bytes": 6236
+      },
+      {
+        "_path": "site-packages/colorcet/plotting.py",
+        "path_type": "hardlink",
+        "sha256": "6b55f10b90ab3f0a5cebe9997e9e7b573ef397a3452e034f26a5ea420e2063aa",
+        "sha256_in_prefix": "6b55f10b90ab3f0a5cebe9997e9e7b573ef397a3452e034f26a5ea420e2063aa",
+        "size_in_bytes": 5366
+      },
+      {
+        "_path": "site-packages/colorcet/sineramp.py",
+        "path_type": "hardlink",
+        "sha256": "3b2241a22452b39fb628031a6c369a650f30f67d56d7715068080519525ccf10",
+        "sha256_in_prefix": "3b2241a22452b39fb628031a6c369a650f30f67d56d7715068080519525ccf10",
+        "size_in_bytes": 6432
+      },
+      {
+        "_path": "site-packages/colorcet/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/colorcet/tests/test_aliases.py",
+        "path_type": "hardlink",
+        "sha256": "839cf589a3d53abd914ee2a7d382738aa0b7ceb9665b15b0e37c9370d6462e9a",
+        "sha256_in_prefix": "839cf589a3d53abd914ee2a7d382738aa0b7ceb9665b15b0e37c9370d6462e9a",
+        "size_in_bytes": 963
+      },
+      {
+        "_path": "site-packages/colorcet/tests/test_bokeh.py",
+        "path_type": "hardlink",
+        "sha256": "0297db3e562b475d6384e8fdd7d20368d0ccbdab7991083706e77ec793d1ec26",
+        "sha256_in_prefix": "0297db3e562b475d6384e8fdd7d20368d0ccbdab7991083706e77ec793d1ec26",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "site-packages/colorcet/tests/test_matplotlib.py",
+        "path_type": "hardlink",
+        "sha256": "78381ceba1edbaee1c3c3d0a96468eed644577f06bd6832897babf7613ab7aee",
+        "sha256_in_prefix": "78381ceba1edbaee1c3c3d0a96468eed644577f06bd6832897babf7613ab7aee",
+        "size_in_bytes": 1407
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorcet/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorcet/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorcet/examples/assets/__pycache__/write_named.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorcet/__pycache__/plotting.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorcet/__pycache__/sineramp.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorcet/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorcet/tests/__pycache__/test_aliases.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorcet/tests/__pycache__/test_bokeh.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorcet/tests/__pycache__/test_matplotlib.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "colorcet==2.0.6=pyhd8ed1ab_0",
+  "sha256": "fa2e9a45ae283100adad7b841736e769edc134cb398c897128998a064a6134cd",
+  "size": 1552899,
+  "subdir": "noarch",
+  "timestamp": 1611108565513,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/colorcet-2.0.6-pyhd8ed1ab_0.tar.bz2",
+  "version": "2.0.6"
+}

@@ -1,0 +1,222 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/xyzservices-2021.11.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "share/xyzservices/providers.json",
+    "lib/python3.8/site-packages/tests/__init__.py",
+    "lib/python3.8/site-packages/tests/test_lib.py",
+    "lib/python3.8/site-packages/tests/test_providers.py",
+    "lib/python3.8/site-packages/xyzservices-2021.11.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/xyzservices-2021.11.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/xyzservices-2021.11.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/xyzservices-2021.11.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/xyzservices-2021.11.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/xyzservices-2021.11.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/xyzservices-2021.11.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/xyzservices-2021.11.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/xyzservices/__init__.py",
+    "lib/python3.8/site-packages/xyzservices/_version.py",
+    "lib/python3.8/site-packages/xyzservices/data/__init__.py",
+    "lib/python3.8/site-packages/xyzservices/data/providers.json",
+    "lib/python3.8/site-packages/xyzservices/lib.py",
+    "lib/python3.8/site-packages/xyzservices/providers.py",
+    "lib/python3.8/site-packages/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/tests/__pycache__/test_lib.cpython-38.pyc",
+    "lib/python3.8/site-packages/tests/__pycache__/test_providers.cpython-38.pyc",
+    "lib/python3.8/site-packages/xyzservices/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/xyzservices/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/xyzservices/data/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/xyzservices/__pycache__/lib.cpython-38.pyc",
+    "lib/python3.8/site-packages/xyzservices/__pycache__/providers.cpython-38.pyc"
+  ],
+  "fn": "xyzservices-2021.11.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/xyzservices-2021.11.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "f9df7fdbc9dd56ea10d75a85280ace37",
+  "name": "xyzservices",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/xyzservices-2021.11.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "share/xyzservices/providers.json",
+        "path_type": "hardlink",
+        "sha256": "c538bd82a219fff7a4b8fbd39f67eb6e54e3297f52e0509f29c1efbea934cec7",
+        "sha256_in_prefix": "c538bd82a219fff7a4b8fbd39f67eb6e54e3297f52e0509f29c1efbea934cec7",
+        "size_in_bytes": 148138
+      },
+      {
+        "_path": "site-packages/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tests/test_lib.py",
+        "path_type": "hardlink",
+        "sha256": "40c366c6d2c2872726675185c054ef619d4a0a6be236a8fb1efc5eb2c9da0fcb",
+        "sha256_in_prefix": "40c366c6d2c2872726675185c054ef619d4a0a6be236a8fb1efc5eb2c9da0fcb",
+        "size_in_bytes": 8810
+      },
+      {
+        "_path": "site-packages/tests/test_providers.py",
+        "path_type": "hardlink",
+        "sha256": "58da02bf283ed386f759a9ae481f059812149fd09555de0fb8eb1e270370b28e",
+        "sha256_in_prefix": "58da02bf283ed386f759a9ae481f059812149fd09555de0fb8eb1e270370b28e",
+        "size_in_bytes": 5940
+      },
+      {
+        "_path": "site-packages/xyzservices-2021.11.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/xyzservices-2021.11.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d866b8c6c0e77e67b2c3f6d2cca771ffc05f65bbde1674dcf2e0ec55abb6ad61",
+        "sha256_in_prefix": "d866b8c6c0e77e67b2c3f6d2cca771ffc05f65bbde1674dcf2e0ec55abb6ad61",
+        "size_in_bytes": 1517
+      },
+      {
+        "_path": "site-packages/xyzservices-2021.11.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a55a70b4b08d3afba322f3eb7e52bce5d77c9ccc8291d96bfbff06a86beebb1f",
+        "sha256_in_prefix": "a55a70b4b08d3afba322f3eb7e52bce5d77c9ccc8291d96bfbff06a86beebb1f",
+        "size_in_bytes": 4002
+      },
+      {
+        "_path": "site-packages/xyzservices-2021.11.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "442891c187e50ad4f6a7c5daf485de6bef026cac0ec74269e1aac1152e972519",
+        "sha256_in_prefix": "442891c187e50ad4f6a7c5daf485de6bef026cac0ec74269e1aac1152e972519",
+        "size_in_bytes": 1953
+      },
+      {
+        "_path": "site-packages/xyzservices-2021.11.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/xyzservices-2021.11.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/xyzservices-2021.11.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0719bed0adf1783bdb0e955921cade45b24f33351fba05e70abd89a8b11d254f",
+        "sha256_in_prefix": "0719bed0adf1783bdb0e955921cade45b24f33351fba05e70abd89a8b11d254f",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/xyzservices-2021.11.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7d0b6d1f0bce4bcddb651cb74ac73c07cafa65e3e42aec0f7ebc6cfbff977270",
+        "sha256_in_prefix": "7d0b6d1f0bce4bcddb651cb74ac73c07cafa65e3e42aec0f7ebc6cfbff977270",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/xyzservices/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "406b1f70d6fdfcd58f83c4425e4974a4825e3e90c6c3e7423ef700a261a584f7",
+        "sha256_in_prefix": "406b1f70d6fdfcd58f83c4425e4974a4825e3e90c6c3e7423ef700a261a584f7",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "site-packages/xyzservices/_version.py",
+        "path_type": "hardlink",
+        "sha256": "fbcb7bc656933993fe25303ef7283497b14b64a91ee0c82a71e091ae1eecd893",
+        "sha256_in_prefix": "fbcb7bc656933993fe25303ef7283497b14b64a91ee0c82a71e091ae1eecd893",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "site-packages/xyzservices/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/xyzservices/data/providers.json",
+        "path_type": "hardlink",
+        "sha256": "c538bd82a219fff7a4b8fbd39f67eb6e54e3297f52e0509f29c1efbea934cec7",
+        "sha256_in_prefix": "c538bd82a219fff7a4b8fbd39f67eb6e54e3297f52e0509f29c1efbea934cec7",
+        "size_in_bytes": 148138
+      },
+      {
+        "_path": "site-packages/xyzservices/lib.py",
+        "path_type": "hardlink",
+        "sha256": "8cda1a17b4d82cc4081f1c1d807fe67bcae8cdad0392a31fda8f0174042da05a",
+        "sha256_in_prefix": "8cda1a17b4d82cc4081f1c1d807fe67bcae8cdad0392a31fda8f0174042da05a",
+        "size_in_bytes": 21626
+      },
+      {
+        "_path": "site-packages/xyzservices/providers.py",
+        "path_type": "hardlink",
+        "sha256": "e654dccaadec408cd2a9085732b6c92d45362273149a22be5697fa13a67a9d5b",
+        "sha256_in_prefix": "e654dccaadec408cd2a9085732b6c92d45362273149a22be5697fa13a67a9d5b",
+        "size_in_bytes": 368
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tests/__pycache__/test_lib.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/tests/__pycache__/test_providers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xyzservices/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xyzservices/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xyzservices/data/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xyzservices/__pycache__/lib.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/xyzservices/__pycache__/providers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "xyzservices==2021.11.0=pyhd8ed1ab_0",
+  "sha256": "6ada8c8587ffe67e1bdaa59c925135d2fcfd653506a586a000f61b42aaec77ae",
+  "size": 28795,
+  "subdir": "noarch",
+  "timestamp": 1636190262033,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/xyzservices-2021.11.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "2021.11.0"
+}

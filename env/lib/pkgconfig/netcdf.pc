@@ -1,0 +1,13 @@
+prefix=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env
+exec_prefix=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env
+libdir=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib
+includedir=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/include
+ccompiler=/Users/runner/miniforge3/conda-bld/libnetcdf_1630368167464/_build_env/bin/x86_64-apple-darwin13.4.0-clang
+
+Name: netCDF
+Description: NetCDF Client Library for C
+URL: http://www.unidata.ucar.edu/netcdf
+Version: 4.8.1
+Libs: -L${libdir} -lnetcdf
+Libs.private: -lmfhdf -ldf -lhdf5_hl -lhdf5 -lm -lcurl -lzip
+Cflags: -I${includedir}

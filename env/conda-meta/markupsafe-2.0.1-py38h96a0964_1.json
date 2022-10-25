@@ -1,0 +1,167 @@
+{
+  "build": "py38h96a0964_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/markupsafe-2.0.1-py38h96a0964_1",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/LICENSE.rst",
+    "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/markupsafe/__init__.py",
+    "lib/python3.8/site-packages/markupsafe/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/markupsafe/__pycache__/_native.cpython-38.pyc",
+    "lib/python3.8/site-packages/markupsafe/_native.py",
+    "lib/python3.8/site-packages/markupsafe/_speedups.c",
+    "lib/python3.8/site-packages/markupsafe/_speedups.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/markupsafe/_speedups.pyi",
+    "lib/python3.8/site-packages/markupsafe/py.typed"
+  ],
+  "fn": "markupsafe-2.0.1-py38h96a0964_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/markupsafe-2.0.1-py38h96a0964_1",
+    "type": 1
+  },
+  "md5": "a59c3faacc9e46aa672bc1d82231b047",
+  "name": "markupsafe",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/markupsafe-2.0.1-py38h96a0964_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+        "sha256_in_prefix": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9649de96df953c759a8b910972f66901318a55b5e483be21ec242e3f00d2ef55",
+        "sha256_in_prefix": "9649de96df953c759a8b910972f66901318a55b5e483be21ec242e3f00d2ef55",
+        "size_in_bytes": 3237
+      },
+      {
+        "_path": "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "eca932b46bf0ced6ecc2fdc9268c596a626e7460e892b21b306beeb54a692360",
+        "sha256_in_prefix": "eca932b46bf0ced6ecc2fdc9268c596a626e7460e892b21b306beeb54a692360",
+        "size_in_bytes": 1284
+      },
+      {
+        "_path": "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9b85a4e9e3b2f76c8963cee05409109e7faa9d16f4be5fefdb3b26c748605dfa",
+        "sha256_in_prefix": "9b85a4e9e3b2f76c8963cee05409109e7faa9d16f4be5fefdb3b26c748605dfa",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "822459df8cdf0d80c4ef578f290fd65c827ae73e71f4eec0a5d7b8cc29009493",
+        "sha256_in_prefix": "822459df8cdf0d80c4ef578f290fd65c827ae73e71f4eec0a5d7b8cc29009493",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/python3.8/site-packages/MarkupSafe-2.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ab2d0f9637b9209bafb020637a32728430a310075c0cb2bfd9a81571ec7c67a5",
+        "sha256_in_prefix": "ab2d0f9637b9209bafb020637a32728430a310075c0cb2bfd9a81571ec7c67a5",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.8/site-packages/markupsafe/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f537b3e1422523b27afec41c5052b574a9e24ff6fff1879fa46232609dd2af64",
+        "sha256_in_prefix": "f537b3e1422523b27afec41c5052b574a9e24ff6fff1879fa46232609dd2af64",
+        "size_in_bytes": 8923
+      },
+      {
+        "_path": "lib/python3.8/site-packages/markupsafe/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3fce718db2389714af6855299981b558e3e66ad6632f218d52e9e6e5804c5d52",
+        "sha256_in_prefix": "3fce718db2389714af6855299981b558e3e66ad6632f218d52e9e6e5804c5d52",
+        "size_in_bytes": 10678
+      },
+      {
+        "_path": "lib/python3.8/site-packages/markupsafe/__pycache__/_native.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "de2a67f4492c848870b84ef51c062bba282c86694f47db0432b4902a6c9c24cb",
+        "sha256_in_prefix": "de2a67f4492c848870b84ef51c062bba282c86694f47db0432b4902a6c9c24cb",
+        "size_in_bytes": 2303
+      },
+      {
+        "_path": "lib/python3.8/site-packages/markupsafe/_native.py",
+        "path_type": "hardlink",
+        "sha256": "19328457e6d6819b928e496130739844753d9340cc7b04dfe6654465f91bba7b",
+        "sha256_in_prefix": "19328457e6d6819b928e496130739844753d9340cc7b04dfe6654465f91bba7b",
+        "size_in_bytes": 1986
+      },
+      {
+        "_path": "lib/python3.8/site-packages/markupsafe/_speedups.c",
+        "path_type": "hardlink",
+        "sha256": "0830edc1a576d43da762dca99cc433c6fbe9669713bc8b3c399e8a0dad60e2dd",
+        "sha256_in_prefix": "0830edc1a576d43da762dca99cc433c6fbe9669713bc8b3c399e8a0dad60e2dd",
+        "size_in_bytes": 7400
+      },
+      {
+        "_path": "lib/python3.8/site-packages/markupsafe/_speedups.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/markupsafe_1635833661769/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "27dad182d9a07b0063a5fc7f4ea26d7cb5e5f7a0992b9f929201e722d59eeae2",
+        "sha256_in_prefix": "d30c1452ab0f88095686fbe8ae6dd1844f2b3f167695677b1d44dc96e0010e01",
+        "size_in_bytes": 13964
+      },
+      {
+        "_path": "lib/python3.8/site-packages/markupsafe/_speedups.pyi",
+        "path_type": "hardlink",
+        "sha256": "bdf302b0e81b01744d2d45e4caeca89c6f2e1162985383c3a8db8c68310b018c",
+        "sha256_in_prefix": "bdf302b0e81b01744d2d45e4caeca89c6f2e1162985383c3a8db8c68310b018c",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "lib/python3.8/site-packages/markupsafe/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "markupsafe==2.0.1=py38h96a0964_1",
+  "sha256": "9bb1734ed5e556552c285d4b6d22057f8091d147c20616ec8e292553f6031df2",
+  "size": 21505,
+  "subdir": "osx-64",
+  "timestamp": 1635833800384,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/markupsafe-2.0.1-py38h96a0964_1.tar.bz2",
+  "version": "2.0.1"
+}

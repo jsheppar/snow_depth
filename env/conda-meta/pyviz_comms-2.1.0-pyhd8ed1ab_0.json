@@ -1,0 +1,257 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "param",
+    "python >=2.7"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/pyviz_comms-2.1.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/install.json",
+    "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/package.json",
+    "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/schemas/@pyviz/jupyterlab_pyviz/package.json.orig",
+    "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/schemas/@pyviz/jupyterlab_pyviz/plugin.json",
+    "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/static/366.b19bb007778a276b2ee8.js",
+    "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/static/534.20c70d4645cf38a0db5b.js",
+    "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/static/remoteEntry.cf21702f9062a42069e0.js",
+    "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/static/style.js",
+    "lib/python3.8/site-packages/pyviz_comms-2.1.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pyviz_comms-2.1.0.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/pyviz_comms-2.1.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/pyviz_comms-2.1.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/pyviz_comms-2.1.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/pyviz_comms-2.1.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pyviz_comms-2.1.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pyviz_comms-2.1.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pyviz_comms/__init__.py",
+    "lib/python3.8/site-packages/pyviz_comms/_version.py",
+    "lib/python3.8/site-packages/pyviz_comms/labextension/package.json",
+    "lib/python3.8/site-packages/pyviz_comms/labextension/schemas/@pyviz/jupyterlab_pyviz/package.json.orig",
+    "lib/python3.8/site-packages/pyviz_comms/labextension/schemas/@pyviz/jupyterlab_pyviz/plugin.json",
+    "lib/python3.8/site-packages/pyviz_comms/labextension/static/366.b19bb007778a276b2ee8.js",
+    "lib/python3.8/site-packages/pyviz_comms/labextension/static/534.20c70d4645cf38a0db5b.js",
+    "lib/python3.8/site-packages/pyviz_comms/labextension/static/remoteEntry.cf21702f9062a42069e0.js",
+    "lib/python3.8/site-packages/pyviz_comms/labextension/static/style.js",
+    "lib/python3.8/site-packages/pyviz_comms/notebook.js",
+    "lib/python3.8/site-packages/pyviz_comms/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyviz_comms/__pycache__/_version.cpython-38.pyc"
+  ],
+  "fn": "pyviz_comms-2.1.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/pyviz_comms-2.1.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "9b3f9639f96de0242e0d96f7862c1bc8",
+  "name": "pyviz_comms",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/pyviz_comms-2.1.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/install.json",
+        "path_type": "hardlink",
+        "sha256": "f779357c4fcd92b022a74b2981d5dec96fb92133a9222f1adff091970467e80c",
+        "sha256_in_prefix": "f779357c4fcd92b022a74b2981d5dec96fb92133a9222f1adff091970467e80c",
+        "size_in_bytes": 184
+      },
+      {
+        "_path": "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/package.json",
+        "path_type": "hardlink",
+        "sha256": "f9d8ac23cf8d00f1bb601caf101f20bab9bcbdbcce142736ef969fb0db8f3bb2",
+        "sha256_in_prefix": "f9d8ac23cf8d00f1bb601caf101f20bab9bcbdbcce142736ef969fb0db8f3bb2",
+        "size_in_bytes": 3317
+      },
+      {
+        "_path": "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/schemas/@pyviz/jupyterlab_pyviz/package.json.orig",
+        "path_type": "hardlink",
+        "sha256": "796b5745c5841070ba621ab25b7b86bd3ae712d165210d5c8dc7e04fc38e0a18",
+        "sha256_in_prefix": "796b5745c5841070ba621ab25b7b86bd3ae712d165210d5c8dc7e04fc38e0a18",
+        "size_in_bytes": 3175
+      },
+      {
+        "_path": "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/schemas/@pyviz/jupyterlab_pyviz/plugin.json",
+        "path_type": "hardlink",
+        "sha256": "db9095c9c42adba9b99aa2a0e91d3e4f184b23f5a92649495aec63daf59ef732",
+        "sha256_in_prefix": "db9095c9c42adba9b99aa2a0e91d3e4f184b23f5a92649495aec63daf59ef732",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/static/366.b19bb007778a276b2ee8.js",
+        "path_type": "hardlink",
+        "sha256": "d1fd92accd70a104b80d6976722acf091354c13044551937971078635ba89ae5",
+        "sha256_in_prefix": "d1fd92accd70a104b80d6976722acf091354c13044551937971078635ba89ae5",
+        "size_in_bytes": 14875
+      },
+      {
+        "_path": "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/static/534.20c70d4645cf38a0db5b.js",
+        "path_type": "hardlink",
+        "sha256": "ed6028dd95362b63c8948ccdafc91eb84b513d13909d5b687a07a697e7076c5f",
+        "sha256_in_prefix": "ed6028dd95362b63c8948ccdafc91eb84b513d13909d5b687a07a697e7076c5f",
+        "size_in_bytes": 3418
+      },
+      {
+        "_path": "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/static/remoteEntry.cf21702f9062a42069e0.js",
+        "path_type": "hardlink",
+        "sha256": "c0fc314c2135c4c4b5923479bb2b41c722946dc18a356a7e75dabe35c436d033",
+        "sha256_in_prefix": "c0fc314c2135c4c4b5923479bb2b41c722946dc18a356a7e75dabe35c436d033",
+        "size_in_bytes": 7699
+      },
+      {
+        "_path": "share/jupyter/labextensions/@pyviz/jupyterlab_pyviz/static/style.js",
+        "path_type": "hardlink",
+        "sha256": "539af856b88572e7f458b70110bd5c4558741d70984dba9d3f060ebcf8e2ffce",
+        "sha256_in_prefix": "539af856b88572e7f458b70110bd5c4558741d70984dba9d3f060ebcf8e2ffce",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "site-packages/pyviz_comms-2.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pyviz_comms-2.1.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "6e135fd60b9060c54a845f06b6a11254549b7c985410c00d1186667c371dfe70",
+        "sha256_in_prefix": "6e135fd60b9060c54a845f06b6a11254549b7c985410c00d1186667c371dfe70",
+        "size_in_bytes": 1499
+      },
+      {
+        "_path": "site-packages/pyviz_comms-2.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5be13c3d271c02acda50871d3ef81598d3bb577939069efe7a3fb5064ebdecda",
+        "sha256_in_prefix": "5be13c3d271c02acda50871d3ef81598d3bb577939069efe7a3fb5064ebdecda",
+        "size_in_bytes": 5466
+      },
+      {
+        "_path": "site-packages/pyviz_comms-2.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4e46bc6244cb06bfe76aac375663440de6a856e01db08a2a68665de0ff48721d",
+        "sha256_in_prefix": "4e46bc6244cb06bfe76aac375663440de6a856e01db08a2a68665de0ff48721d",
+        "size_in_bytes": 3044
+      },
+      {
+        "_path": "site-packages/pyviz_comms-2.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyviz_comms-2.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pyviz_comms-2.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "be2b31da00171aa138def29b8a2601c1b819b08022895c65a0b75a78eef9f0cf",
+        "sha256_in_prefix": "be2b31da00171aa138def29b8a2601c1b819b08022895c65a0b75a78eef9f0cf",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/pyviz_comms-2.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "74d77425eebe95ee22363ed9a810285873315748e225f2f58c8db6b3d59ab7d1",
+        "sha256_in_prefix": "74d77425eebe95ee22363ed9a810285873315748e225f2f58c8db6b3d59ab7d1",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/pyviz_comms/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "06d2cf53c84b5f9725be928af297e154e7fd032f1a37103c034d2a9ca9029159",
+        "sha256_in_prefix": "06d2cf53c84b5f9725be928af297e154e7fd032f1a37103c034d2a9ca9029159",
+        "size_in_bytes": 18962
+      },
+      {
+        "_path": "site-packages/pyviz_comms/_version.py",
+        "path_type": "hardlink",
+        "sha256": "523edb80b4688f6c7f3f6efbba6535776bc97ba72a2ccaae80356c4deb929c55",
+        "sha256_in_prefix": "523edb80b4688f6c7f3f6efbba6535776bc97ba72a2ccaae80356c4deb929c55",
+        "size_in_bytes": 439
+      },
+      {
+        "_path": "site-packages/pyviz_comms/labextension/package.json",
+        "path_type": "hardlink",
+        "sha256": "f9d8ac23cf8d00f1bb601caf101f20bab9bcbdbcce142736ef969fb0db8f3bb2",
+        "sha256_in_prefix": "f9d8ac23cf8d00f1bb601caf101f20bab9bcbdbcce142736ef969fb0db8f3bb2",
+        "size_in_bytes": 3317
+      },
+      {
+        "_path": "site-packages/pyviz_comms/labextension/schemas/@pyviz/jupyterlab_pyviz/package.json.orig",
+        "path_type": "hardlink",
+        "sha256": "796b5745c5841070ba621ab25b7b86bd3ae712d165210d5c8dc7e04fc38e0a18",
+        "sha256_in_prefix": "796b5745c5841070ba621ab25b7b86bd3ae712d165210d5c8dc7e04fc38e0a18",
+        "size_in_bytes": 3175
+      },
+      {
+        "_path": "site-packages/pyviz_comms/labextension/schemas/@pyviz/jupyterlab_pyviz/plugin.json",
+        "path_type": "hardlink",
+        "sha256": "db9095c9c42adba9b99aa2a0e91d3e4f184b23f5a92649495aec63daf59ef732",
+        "sha256_in_prefix": "db9095c9c42adba9b99aa2a0e91d3e4f184b23f5a92649495aec63daf59ef732",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "site-packages/pyviz_comms/labextension/static/366.b19bb007778a276b2ee8.js",
+        "path_type": "hardlink",
+        "sha256": "d1fd92accd70a104b80d6976722acf091354c13044551937971078635ba89ae5",
+        "sha256_in_prefix": "d1fd92accd70a104b80d6976722acf091354c13044551937971078635ba89ae5",
+        "size_in_bytes": 14875
+      },
+      {
+        "_path": "site-packages/pyviz_comms/labextension/static/534.20c70d4645cf38a0db5b.js",
+        "path_type": "hardlink",
+        "sha256": "ed6028dd95362b63c8948ccdafc91eb84b513d13909d5b687a07a697e7076c5f",
+        "sha256_in_prefix": "ed6028dd95362b63c8948ccdafc91eb84b513d13909d5b687a07a697e7076c5f",
+        "size_in_bytes": 3418
+      },
+      {
+        "_path": "site-packages/pyviz_comms/labextension/static/remoteEntry.cf21702f9062a42069e0.js",
+        "path_type": "hardlink",
+        "sha256": "c0fc314c2135c4c4b5923479bb2b41c722946dc18a356a7e75dabe35c436d033",
+        "sha256_in_prefix": "c0fc314c2135c4c4b5923479bb2b41c722946dc18a356a7e75dabe35c436d033",
+        "size_in_bytes": 7699
+      },
+      {
+        "_path": "site-packages/pyviz_comms/labextension/static/style.js",
+        "path_type": "hardlink",
+        "sha256": "539af856b88572e7f458b70110bd5c4558741d70984dba9d3f060ebcf8e2ffce",
+        "sha256_in_prefix": "539af856b88572e7f458b70110bd5c4558741d70984dba9d3f060ebcf8e2ffce",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "site-packages/pyviz_comms/notebook.js",
+        "path_type": "hardlink",
+        "sha256": "f47e168bb8c75826e13f8dd13f859f90fa1ceef3e25e0aff04656811cfcdc39e",
+        "sha256_in_prefix": "f47e168bb8c75826e13f8dd13f859f90fa1ceef3e25e0aff04656811cfcdc39e",
+        "size_in_bytes": 4976
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyviz_comms/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyviz_comms/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pyviz_comms==2.1.0=pyhd8ed1ab_0",
+  "sha256": "cf1ed9a9c8cfd83aa65f5ebcd069d38ef66bf27de20bfb3f2db2ec5d7ba17604",
+  "size": 29980,
+  "subdir": "noarch",
+  "timestamp": 1625215666594,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyviz_comms-2.1.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "2.1.0"
+}

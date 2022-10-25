@@ -1,0 +1,186 @@
+{
+  "build": "nompi_py38h465ef27_101",
+  "build_number": 101,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "cftime",
+    "hdf5 >=1.12.1,<1.12.2.0a0",
+    "libnetcdf >=4.8.1,<4.8.2.0a0",
+    "numpy >=1.18.5,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "setuptools"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/netcdf4-1.5.8-nompi_py38h465ef27_101",
+  "features": "",
+  "files": [
+    "bin/nc3tonc4",
+    "bin/nc4tonc3",
+    "bin/ncinfo",
+    "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/LICENSE",
+    "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/METADATA",
+    "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/RECORD",
+    "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/WHEEL",
+    "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/netCDF4/__init__.py",
+    "lib/python3.8/site-packages/netCDF4/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/netCDF4/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/netCDF4/_netCDF4.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/netCDF4/utils.py"
+  ],
+  "fn": "netcdf4-1.5.8-nompi_py38h465ef27_101.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/netcdf4-1.5.8-nompi_py38h465ef27_101",
+    "type": 1
+  },
+  "md5": "13d7f5a42be77f35dbc52bddc231c300",
+  "name": "netcdf4",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/netcdf4-1.5.8-nompi_py38h465ef27_101.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/nc3tonc4",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/netcdf4_1636303122893/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "cda109ea2b5199153f4f0366aceec05fb2369a45021de41316e8877ad404b40b",
+        "sha256_in_prefix": "022b64abec6abb3ea2fb77807c9920a3513ddf860a79d5aacac2adf99bc0aa01",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "bin/nc4tonc3",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/netcdf4_1636303122893/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "eedc1f4ca9fd6a4b04a644c254df66bfaf6cbd33eea5ad8b3c340ae1ea2f073d",
+        "sha256_in_prefix": "1d68c6c28ff78eeebd8bb347d743ea99e8ae32dfba604ed45904b1694f369b2a",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "bin/ncinfo",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/netcdf4_1636303122893/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "0c39fa21f1ac74be929b12e21ee793b79fed240219f549290f0a6b5d9a717ad1",
+        "sha256_in_prefix": "525afce65d0c575027c3161b72acd5e3b7082437153b173cf8f6d60655e62eff",
+        "size_in_bytes": 470
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7fdd0c2647de9ed5aa549c21c46778374867793c2f874497b5480df22c7778ff",
+        "sha256_in_prefix": "7fdd0c2647de9ed5aa549c21c46778374867793c2f874497b5480df22c7778ff",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "439eff3f52a7bc9a8321f1e271d25dcd75531338fbb7ec9bd2d019081955314e",
+        "sha256_in_prefix": "439eff3f52a7bc9a8321f1e271d25dcd75531338fbb7ec9bd2d019081955314e",
+        "size_in_bytes": 1619
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "647d8bec1c1ab8587f965bf6d22b1c5abade1d9ab2458e7be8342081b60fa3df",
+        "sha256_in_prefix": "647d8bec1c1ab8587f965bf6d22b1c5abade1d9ab2458e7be8342081b60fa3df",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9b85a4e9e3b2f76c8963cee05409109e7faa9d16f4be5fefdb3b26c748605dfa",
+        "sha256_in_prefix": "9b85a4e9e3b2f76c8963cee05409109e7faa9d16f4be5fefdb3b26c748605dfa",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "1280bf8881fbe42bd7f76e283401457905a0c3333c64ee55c7cf71f85ecf03ab",
+        "sha256_in_prefix": "1280bf8881fbe42bd7f76e283401457905a0c3333c64ee55c7cf71f85ecf03ab",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "48e680d62a2292e107aefd8d9f1614ec105576ce59cc134e2d60392cdde9e589",
+        "sha256_in_prefix": "48e680d62a2292e107aefd8d9f1614ec105576ce59cc134e2d60392cdde9e589",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4-1.5.8.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b2d61b24f7075840abac53f036de136767640268c5ccd776f527394f416425fb",
+        "sha256_in_prefix": "b2d61b24f7075840abac53f036de136767640268c5ccd776f527394f416425fb",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "07ebc9d46412aa71b94d50e492bd750369ef369159be82c4679bc35dc7fff8db",
+        "sha256_in_prefix": "07ebc9d46412aa71b94d50e492bd750369ef369159be82c4679bc35dc7fff8db",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae45494bc4a641a94afa1ea86e899598c5c8a32c541159172696550ce6859c10",
+        "sha256_in_prefix": "ae45494bc4a641a94afa1ea86e899598c5c8a32c541159172696550ce6859c10",
+        "size_in_bytes": 813
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "74bac8ce4f00be3bb254ecd94094b4ff09f0a0a8bfced4af5fd62b464dd83933",
+        "sha256_in_prefix": "74bac8ce4f00be3bb254ecd94094b4ff09f0a0a8bfced4af5fd62b464dd83933",
+        "size_in_bytes": 23549
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4/_netCDF4.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/netcdf4_1636303122893/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "e102d8ce959dd1e5116ebf84c6059c8a00aee0af47799460c7fb471463ccb7eb",
+        "sha256_in_prefix": "f91d2307f5c8b45e2a6d9368382d426ff819852e87e9433dffe75c54b90cd8e1",
+        "size_in_bytes": 1256432
+      },
+      {
+        "_path": "lib/python3.8/site-packages/netCDF4/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0b29825576565e792772c09af2c7829f1b458fbcaf8e7e8da5ebd753b470cec6",
+        "sha256_in_prefix": "0b29825576565e792772c09af2c7829f1b458fbcaf8e7e8da5ebd753b470cec6",
+        "size_in_bytes": 37252
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "netcdf4==1.5.8=nompi_py38h465ef27_101",
+  "sha256": "986285aa9770f3031b9d4e40028c98d78c6a98f46f449f6844f66bff254904c4",
+  "size": 440219,
+  "subdir": "osx-64",
+  "timestamp": 1636303321984,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/netcdf4-1.5.8-nompi_py38h465ef27_101.tar.bz2",
+  "version": "1.5.8"
+}

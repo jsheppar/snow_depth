@@ -1,0 +1,182 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "future",
+    "python",
+    "ujson >=3.0.0"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/python-jsonrpc-server-0.4.0-pyh9f0ad1d_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/pyls_jsonrpc/__init__.py",
+    "lib/python3.8/site-packages/pyls_jsonrpc/_version.py",
+    "lib/python3.8/site-packages/pyls_jsonrpc/dispatchers.py",
+    "lib/python3.8/site-packages/pyls_jsonrpc/endpoint.py",
+    "lib/python3.8/site-packages/pyls_jsonrpc/exceptions.py",
+    "lib/python3.8/site-packages/pyls_jsonrpc/streams.py",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.4.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.4.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.4.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.4.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.4.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.4.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.4.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/python_jsonrpc_server-0.4.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/dispatchers.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/endpoint.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/streams.cpython-38.pyc"
+  ],
+  "fn": "python-jsonrpc-server-0.4.0-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/python-jsonrpc-server-0.4.0-pyh9f0ad1d_0",
+    "type": 1
+  },
+  "md5": "c39b1300b4380779816c2e6b7d0e8e1b",
+  "name": "python-jsonrpc-server",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/python-jsonrpc-server-0.4.0-pyh9f0ad1d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pyls_jsonrpc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5384323af5cb0ed2c176eb9e1b64d7ac7a655929c0093769ec3072e8f2583444",
+        "sha256_in_prefix": "5384323af5cb0ed2c176eb9e1b64d7ac7a655929c0093769ec3072e8f2583444",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "site-packages/pyls_jsonrpc/_version.py",
+        "path_type": "hardlink",
+        "sha256": "68c0e734c63cf7b2079ce1c0b18bc29d2ed22430e2e68a7ab48e16d194753e46",
+        "sha256_in_prefix": "68c0e734c63cf7b2079ce1c0b18bc29d2ed22430e2e68a7ab48e16d194753e46",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "site-packages/pyls_jsonrpc/dispatchers.py",
+        "path_type": "hardlink",
+        "sha256": "d71319e7d971d2e06c8fd811aeff7a721ec4255b21e3df6f0382adf6de862480",
+        "sha256_in_prefix": "d71319e7d971d2e06c8fd811aeff7a721ec4255b21e3df6f0382adf6de862480",
+        "size_in_bytes": 993
+      },
+      {
+        "_path": "site-packages/pyls_jsonrpc/endpoint.py",
+        "path_type": "hardlink",
+        "sha256": "a39cbb07d5c2f3535992bd1a0bcc862c5aafc8d41e0aa9f0cde41903ff8590e3",
+        "sha256_in_prefix": "a39cbb07d5c2f3535992bd1a0bcc862c5aafc8d41e0aa9f0cde41903ff8590e3",
+        "size_in_bytes": 9502
+      },
+      {
+        "_path": "site-packages/pyls_jsonrpc/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "974655d6770b287b587f2f6d07e2b11ba6ffdbfdf255149cfe8a01e4e14f3799",
+        "sha256_in_prefix": "974655d6770b287b587f2f6d07e2b11ba6ffdbfdf255149cfe8a01e4e14f3799",
+        "size_in_bytes": 2790
+      },
+      {
+        "_path": "site-packages/pyls_jsonrpc/streams.py",
+        "path_type": "hardlink",
+        "sha256": "e3b7f2ec9066039058b18bfc041c5442a085254b131e872d5411a6d8c58f5b79",
+        "sha256_in_prefix": "e3b7f2ec9066039058b18bfc041c5442a085254b131e872d5411a6d8c58f5b79",
+        "size_in_bytes": 3279
+      },
+      {
+        "_path": "site-packages/python_jsonrpc_server-0.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/python_jsonrpc_server-0.4.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "bc5576d09bfc98477222b026a6874b2cb0c9045b27f77818a36b748f94d2f97d",
+        "sha256_in_prefix": "bc5576d09bfc98477222b026a6874b2cb0c9045b27f77818a36b748f94d2f97d",
+        "size_in_bytes": 1090
+      },
+      {
+        "_path": "site-packages/python_jsonrpc_server-0.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "369de466a8ff84e0559c5845c7773ea57d7f1e06b1f4eab992d6bf4497b9a53e",
+        "sha256_in_prefix": "369de466a8ff84e0559c5845c7773ea57d7f1e06b1f4eab992d6bf4497b9a53e",
+        "size_in_bytes": 2733
+      },
+      {
+        "_path": "site-packages/python_jsonrpc_server-0.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b439ee66c9482a878d88ae580788d4cc6ddf9d2d5cd47f6e197e3f777418632c",
+        "sha256_in_prefix": "b439ee66c9482a878d88ae580788d4cc6ddf9d2d5cd47f6e197e3f777418632c",
+        "size_in_bytes": 1584
+      },
+      {
+        "_path": "site-packages/python_jsonrpc_server-0.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/python_jsonrpc_server-0.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/python_jsonrpc_server-0.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f0175664062f395520c82ddbec2ef9d81464c9687704b9246d11a3832ea8f89f",
+        "sha256_in_prefix": "f0175664062f395520c82ddbec2ef9d81464c9687704b9246d11a3832ea8f89f",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/python_jsonrpc_server-0.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e154c6e537ba372ab0c4c3f0d10b1d77854f034f0022450f95306c647370bfea",
+        "sha256_in_prefix": "e154c6e537ba372ab0c4c3f0d10b1d77854f034f0022450f95306c647370bfea",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/dispatchers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/endpoint.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyls_jsonrpc/__pycache__/streams.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "python-jsonrpc-server==0.4.0=pyh9f0ad1d_0",
+  "sha256": "2a6664663a68778ec6659450045df02e1b35158f4575ca19a64a6cbb172465e3",
+  "size": 11427,
+  "subdir": "noarch",
+  "timestamp": 1599827568744,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-jsonrpc-server-0.4.0-pyh9f0ad1d_0.tar.bz2",
+  "version": "0.4.0"
+}

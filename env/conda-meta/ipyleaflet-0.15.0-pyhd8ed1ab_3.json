@@ -1,0 +1,1624 @@
+{
+  "build": "pyhd8ed1ab_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "branca >=0.3.1,<0.5.0",
+    "ipywidgets >=7.6.0,<8.0.0",
+    "python >=3.6",
+    "shapely",
+    "traittypes >=0.2.1,<0.3.0",
+    "xyzservices >=2021.8.1"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/ipyleaflet-0.15.0-pyhd8ed1ab_3",
+  "features": "",
+  "files": [
+    "etc/jupyter/nbconfig/notebook.d/jupyter-leaflet.json",
+    "share/jupyter/labextensions/jupyter-leaflet/package.json",
+    "share/jupyter/labextensions/jupyter-leaflet/static/056dcd0b0dea7c78019243311551d64b.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/07f16cd155661436fe27959eab15c820.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/0b50583aa1b8ff230b57b92263e47a3e.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/0f2c10250081cf1bd9a4d2250b80dba6.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/138.002dd8f96b6a3a975f92.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/2273e3d8ad9264b7daa5bdbf8e6b47f8.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/243.d9d134ad2ffdfb9205b3.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/243.d9d134ad2ffdfb9205b3.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyter-leaflet/static/280.5de51328720a28cc66e7.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/292.abb15e393ff2062a9743.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/340.06cd3bdbc92899d7cb95.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/35.75d7ebb67cdd9a91223a.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/35ae4b5f1bf198c6d955618b85710d05.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/366.548c239572b0d4db46f3.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/401d815dc206b8dc1b17cd0e37695975.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/408.c77c0f86c82e98e327d2.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/44a526eed258222515aa21eaffd14a96.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/473ee081160a469c95199d70e78f55fa.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/4f0283c6ce28e888000e978e537a6a56.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/549b33bab7247b619c0292995f5a906b.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/592b7360116d244f9dd932b0c0041982.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/665.3328989849f89dbc115a.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/687.c586825145a31920f3d8.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/69fbc9c24b3665b801445c9bccc7017d.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/6a1e950d14904d4b6fb5c9bdc3dfad06.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/6e8e462555c4b10dbfbc206e8276e6e2.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/732.b1d9d728030835e29fb7.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/738.12432ed2776b6b36ef53.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/751.e7a5eee804906847cf86.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/787.e25c58192b0a5dac5650.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/790.f8079efbdd3073004e57.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/7910c667cb5ddcdcb4ee3278627c85e1.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/79148a43587cbe5c43d24fa894a78ba3.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/795.3a046e4856ac28bc2259.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/795.3a046e4856ac28bc2259.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyter-leaflet/static/818.212b33d3c22f5a0b7861.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/860.622fabbcf2290b711ac9.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/874.a932c7b7475213690696.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/961.5f16b23b622442c73cd9.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/980.77ca078a309d02743139.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/994ef255f2077b24b0d8975e90e37a33.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/9e9c77db241e8a58da99bf28694c907d.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/a6137456ed160d7606981aa57c559898.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/cfe6f6ffc5b2d6c482c36c68522f0282.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/d3a5d64a8534322988a4bed1b7dbc8b0.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/ddb8362e333c8f3225da9d578d00c14c.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/deac1d4aa2ccf7ed832e4db55bb64e63.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/e81afdf0b23bc88ea3e6ef3fc2fb65d6.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/f4b0c949877c5f94158208551a57e29d.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/f9b7a75b186911a1b04d08f8db305b7a.gif",
+    "share/jupyter/labextensions/jupyter-leaflet/static/fd48ced8485c638cadcea3eaab6d0937.png",
+    "share/jupyter/labextensions/jupyter-leaflet/static/remoteEntry.8f5cefaa26fbae099326.js",
+    "share/jupyter/labextensions/jupyter-leaflet/static/style.js",
+    "share/jupyter/nbextensions/jupyter-leaflet/056dcd0b0dea7c78019243311551d64b.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/07f16cd155661436fe27959eab15c820.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/0b50583aa1b8ff230b57b92263e47a3e.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/0f2c10250081cf1bd9a4d2250b80dba6.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/2273e3d8ad9264b7daa5bdbf8e6b47f8.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/35ae4b5f1bf198c6d955618b85710d05.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/401d815dc206b8dc1b17cd0e37695975.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/44a526eed258222515aa21eaffd14a96.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/473ee081160a469c95199d70e78f55fa.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/4f0283c6ce28e888000e978e537a6a56.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/549b33bab7247b619c0292995f5a906b.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/592b7360116d244f9dd932b0c0041982.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/69fbc9c24b3665b801445c9bccc7017d.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/6a1e950d14904d4b6fb5c9bdc3dfad06.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/6e8e462555c4b10dbfbc206e8276e6e2.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/7910c667cb5ddcdcb4ee3278627c85e1.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/79148a43587cbe5c43d24fa894a78ba3.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/994ef255f2077b24b0d8975e90e37a33.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/9e9c77db241e8a58da99bf28694c907d.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/a6137456ed160d7606981aa57c559898.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/cfe6f6ffc5b2d6c482c36c68522f0282.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/d3a5d64a8534322988a4bed1b7dbc8b0.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/ddb8362e333c8f3225da9d578d00c14c.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/deac1d4aa2ccf7ed832e4db55bb64e63.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/e81afdf0b23bc88ea3e6ef3fc2fb65d6.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/extension.js",
+    "share/jupyter/nbextensions/jupyter-leaflet/f4b0c949877c5f94158208551a57e29d.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/f9b7a75b186911a1b04d08f8db305b7a.gif",
+    "share/jupyter/nbextensions/jupyter-leaflet/fd48ced8485c638cadcea3eaab6d0937.png",
+    "share/jupyter/nbextensions/jupyter-leaflet/fd5728f2cf777b06b966d05c0c823dc9.svg",
+    "share/jupyter/nbextensions/jupyter-leaflet/index.js",
+    "share/jupyter/nbextensions/jupyter-leaflet/index.js.LICENSE.txt",
+    "share/jupyter/nbextensions/jupyter-leaflet/index.js.map",
+    "lib/python3.8/site-packages/ipyleaflet-0.15.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/ipyleaflet-0.15.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/ipyleaflet-0.15.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/ipyleaflet-0.15.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/ipyleaflet-0.15.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/ipyleaflet-0.15.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/ipyleaflet-0.15.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/ipyleaflet-0.15.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/ipyleaflet/__init__.py",
+    "lib/python3.8/site-packages/ipyleaflet/_version.py",
+    "lib/python3.8/site-packages/ipyleaflet/basemaps.py",
+    "lib/python3.8/site-packages/ipyleaflet/external/__init__.py",
+    "lib/python3.8/site-packages/ipyleaflet/external/here.py",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/package.json",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/056dcd0b0dea7c78019243311551d64b.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/07f16cd155661436fe27959eab15c820.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/0b50583aa1b8ff230b57b92263e47a3e.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/0f2c10250081cf1bd9a4d2250b80dba6.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/138.002dd8f96b6a3a975f92.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/2273e3d8ad9264b7daa5bdbf8e6b47f8.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/243.d9d134ad2ffdfb9205b3.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/243.d9d134ad2ffdfb9205b3.js.LICENSE.txt",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/280.5de51328720a28cc66e7.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/292.abb15e393ff2062a9743.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/340.06cd3bdbc92899d7cb95.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/35.75d7ebb67cdd9a91223a.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/35ae4b5f1bf198c6d955618b85710d05.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/366.548c239572b0d4db46f3.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/401d815dc206b8dc1b17cd0e37695975.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/408.c77c0f86c82e98e327d2.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/44a526eed258222515aa21eaffd14a96.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/473ee081160a469c95199d70e78f55fa.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/4f0283c6ce28e888000e978e537a6a56.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/549b33bab7247b619c0292995f5a906b.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/592b7360116d244f9dd932b0c0041982.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/665.3328989849f89dbc115a.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/687.c586825145a31920f3d8.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/69fbc9c24b3665b801445c9bccc7017d.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/6a1e950d14904d4b6fb5c9bdc3dfad06.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/6e8e462555c4b10dbfbc206e8276e6e2.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/732.b1d9d728030835e29fb7.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/738.12432ed2776b6b36ef53.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/751.e7a5eee804906847cf86.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/787.e25c58192b0a5dac5650.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/790.f8079efbdd3073004e57.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/7910c667cb5ddcdcb4ee3278627c85e1.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/79148a43587cbe5c43d24fa894a78ba3.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/795.3a046e4856ac28bc2259.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/795.3a046e4856ac28bc2259.js.LICENSE.txt",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/818.212b33d3c22f5a0b7861.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/860.622fabbcf2290b711ac9.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/874.a932c7b7475213690696.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/961.5f16b23b622442c73cd9.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/980.77ca078a309d02743139.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/994ef255f2077b24b0d8975e90e37a33.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/9e9c77db241e8a58da99bf28694c907d.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/a6137456ed160d7606981aa57c559898.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/cfe6f6ffc5b2d6c482c36c68522f0282.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/d3a5d64a8534322988a4bed1b7dbc8b0.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/ddb8362e333c8f3225da9d578d00c14c.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/deac1d4aa2ccf7ed832e4db55bb64e63.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/e81afdf0b23bc88ea3e6ef3fc2fb65d6.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/f4b0c949877c5f94158208551a57e29d.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/f9b7a75b186911a1b04d08f8db305b7a.gif",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/fd48ced8485c638cadcea3eaab6d0937.png",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/remoteEntry.8f5cefaa26fbae099326.js",
+    "lib/python3.8/site-packages/ipyleaflet/labextension/static/style.js",
+    "lib/python3.8/site-packages/ipyleaflet/leaflet.py",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/056dcd0b0dea7c78019243311551d64b.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/07f16cd155661436fe27959eab15c820.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/0b50583aa1b8ff230b57b92263e47a3e.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/0f2c10250081cf1bd9a4d2250b80dba6.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/2273e3d8ad9264b7daa5bdbf8e6b47f8.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/35ae4b5f1bf198c6d955618b85710d05.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/401d815dc206b8dc1b17cd0e37695975.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/44a526eed258222515aa21eaffd14a96.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/473ee081160a469c95199d70e78f55fa.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/4f0283c6ce28e888000e978e537a6a56.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/549b33bab7247b619c0292995f5a906b.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/592b7360116d244f9dd932b0c0041982.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/69fbc9c24b3665b801445c9bccc7017d.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/6a1e950d14904d4b6fb5c9bdc3dfad06.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/6e8e462555c4b10dbfbc206e8276e6e2.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/7910c667cb5ddcdcb4ee3278627c85e1.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/79148a43587cbe5c43d24fa894a78ba3.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/994ef255f2077b24b0d8975e90e37a33.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/9e9c77db241e8a58da99bf28694c907d.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/a6137456ed160d7606981aa57c559898.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/cfe6f6ffc5b2d6c482c36c68522f0282.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/d3a5d64a8534322988a4bed1b7dbc8b0.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/ddb8362e333c8f3225da9d578d00c14c.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/deac1d4aa2ccf7ed832e4db55bb64e63.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/e81afdf0b23bc88ea3e6ef3fc2fb65d6.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/extension.js",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/f4b0c949877c5f94158208551a57e29d.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/f9b7a75b186911a1b04d08f8db305b7a.gif",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/fd48ced8485c638cadcea3eaab6d0937.png",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/fd5728f2cf777b06b966d05c0c823dc9.svg",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/index.js",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/index.js.LICENSE.txt",
+    "lib/python3.8/site-packages/ipyleaflet/nbextension/index.js.map",
+    "lib/python3.8/site-packages/ipyleaflet/projections.py",
+    "lib/python3.8/site-packages/ipyleaflet/velocity.py",
+    "lib/python3.8/site-packages/ipyleaflet/xarray_ds.py",
+    "lib/python3.8/site-packages/ipyleaflet/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/ipyleaflet/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/ipyleaflet/__pycache__/basemaps.cpython-38.pyc",
+    "lib/python3.8/site-packages/ipyleaflet/external/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/ipyleaflet/external/__pycache__/here.cpython-38.pyc",
+    "lib/python3.8/site-packages/ipyleaflet/__pycache__/leaflet.cpython-38.pyc",
+    "lib/python3.8/site-packages/ipyleaflet/__pycache__/projections.cpython-38.pyc",
+    "lib/python3.8/site-packages/ipyleaflet/__pycache__/velocity.cpython-38.pyc",
+    "lib/python3.8/site-packages/ipyleaflet/__pycache__/xarray_ds.cpython-38.pyc"
+  ],
+  "fn": "ipyleaflet-0.15.0-pyhd8ed1ab_3.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/ipyleaflet-0.15.0-pyhd8ed1ab_3",
+    "type": 1
+  },
+  "md5": "07e75c9141ac57be63e19acea463da2b",
+  "name": "ipyleaflet",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/ipyleaflet-0.15.0-pyhd8ed1ab_3.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/jupyter/nbconfig/notebook.d/jupyter-leaflet.json",
+        "path_type": "hardlink",
+        "sha256": "0dd5c61df90f50f5f730ce40190d586f3c85141f6e486af21f6b57a4b8aba75b",
+        "sha256_in_prefix": "0dd5c61df90f50f5f730ce40190d586f3c85141f6e486af21f6b57a4b8aba75b",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/package.json",
+        "path_type": "hardlink",
+        "sha256": "3502394b6643e58cb7d675adfba7e9e8b50f27557a06dbafa26865d7a25fd3c6",
+        "sha256_in_prefix": "3502394b6643e58cb7d675adfba7e9e8b50f27557a06dbafa26865d7a25fd3c6",
+        "size_in_bytes": 2129
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/056dcd0b0dea7c78019243311551d64b.png",
+        "path_type": "hardlink",
+        "sha256": "7970eeda1c1d647da160b406bd0b6d336e2fddebc4f74431c306d7262a380043",
+        "sha256_in_prefix": "7970eeda1c1d647da160b406bd0b6d336e2fddebc4f74431c306d7262a380043",
+        "size_in_bytes": 387
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/07f16cd155661436fe27959eab15c820.png",
+        "path_type": "hardlink",
+        "sha256": "0194f340b27a4c5be35b83516c891c618016df39a7dab79f371b4cca0430e60a",
+        "sha256_in_prefix": "0194f340b27a4c5be35b83516c891c618016df39a7dab79f371b4cca0430e60a",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/0b50583aa1b8ff230b57b92263e47a3e.png",
+        "path_type": "hardlink",
+        "sha256": "948a01a00a8ffcf9f9f1aa35a47432d8ae28bcc26d531b8fb7e14cd52d693893",
+        "sha256_in_prefix": "948a01a00a8ffcf9f9f1aa35a47432d8ae28bcc26d531b8fb7e14cd52d693893",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/0f2c10250081cf1bd9a4d2250b80dba6.png",
+        "path_type": "hardlink",
+        "sha256": "d6926e36feb2224311ab88e08dd7c0eebdbe34a64b45ee09a8bc38ecab0cd5ee",
+        "sha256_in_prefix": "d6926e36feb2224311ab88e08dd7c0eebdbe34a64b45ee09a8bc38ecab0cd5ee",
+        "size_in_bytes": 165517
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/138.002dd8f96b6a3a975f92.js",
+        "path_type": "hardlink",
+        "sha256": "cc5a6a78a2d0b43c16edeff86abe9b49e8566202f92d5c42401c27e632691257",
+        "sha256_in_prefix": "cc5a6a78a2d0b43c16edeff86abe9b49e8566202f92d5c42401c27e632691257",
+        "size_in_bytes": 61646
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/2273e3d8ad9264b7daa5bdbf8e6b47f8.png",
+        "path_type": "hardlink",
+        "sha256": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437",
+        "sha256_in_prefix": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437",
+        "size_in_bytes": 1466
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/243.d9d134ad2ffdfb9205b3.js",
+        "path_type": "hardlink",
+        "sha256": "4f379e56082dd401b88e4165dcf1bf541a146287d71a696b375b412f24bc96a7",
+        "sha256_in_prefix": "4f379e56082dd401b88e4165dcf1bf541a146287d71a696b375b412f24bc96a7",
+        "size_in_bytes": 142203
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/243.d9d134ad2ffdfb9205b3.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "95efede2671f7967592b43ec0b831fb12fd69783319585840b25f3f9d2076392",
+        "sha256_in_prefix": "95efede2671f7967592b43ec0b831fb12fd69783319585840b25f3f9d2076392",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/280.5de51328720a28cc66e7.js",
+        "path_type": "hardlink",
+        "sha256": "e1e170fb1c7fa31353bbf69f8d32ed9a4666d898de65c9044b9b2f9e3f4af46b",
+        "sha256_in_prefix": "e1e170fb1c7fa31353bbf69f8d32ed9a4666d898de65c9044b9b2f9e3f4af46b",
+        "size_in_bytes": 83975
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/292.abb15e393ff2062a9743.js",
+        "path_type": "hardlink",
+        "sha256": "4107fc80f490ac63e379a93de465b475428b37ea9b15a564b59eb4db3d065c5b",
+        "sha256_in_prefix": "4107fc80f490ac63e379a93de465b475428b37ea9b15a564b59eb4db3d065c5b",
+        "size_in_bytes": 3113
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/340.06cd3bdbc92899d7cb95.js",
+        "path_type": "hardlink",
+        "sha256": "b813e0996b4847b4fa5fac3c3ba07de77ceaaef402afe0625ea7f53544d012e7",
+        "sha256_in_prefix": "b813e0996b4847b4fa5fac3c3ba07de77ceaaef402afe0625ea7f53544d012e7",
+        "size_in_bytes": 1687
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/35.75d7ebb67cdd9a91223a.js",
+        "path_type": "hardlink",
+        "sha256": "12f6e2a2b7afd1d1680771898212f43ed8257508226d9c08f5cf86b855e14d9c",
+        "sha256_in_prefix": "12f6e2a2b7afd1d1680771898212f43ed8257508226d9c08f5cf86b855e14d9c",
+        "size_in_bytes": 2771
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/35ae4b5f1bf198c6d955618b85710d05.png",
+        "path_type": "hardlink",
+        "sha256": "a7914120026f40f5da0d6f20c62222547795affd21382558dabc0f53511a8624",
+        "sha256_in_prefix": "a7914120026f40f5da0d6f20c62222547795affd21382558dabc0f53511a8624",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/366.548c239572b0d4db46f3.js",
+        "path_type": "hardlink",
+        "sha256": "9d37fd0c17e16d687d3b8e420520ff3a76c620e30a103b2dc3250cff3db67ab6",
+        "sha256_in_prefix": "9d37fd0c17e16d687d3b8e420520ff3a76c620e30a103b2dc3250cff3db67ab6",
+        "size_in_bytes": 6254
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/401d815dc206b8dc1b17cd0e37695975.png",
+        "path_type": "hardlink",
+        "sha256": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528",
+        "sha256_in_prefix": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528",
+        "size_in_bytes": 2464
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/408.c77c0f86c82e98e327d2.js",
+        "path_type": "hardlink",
+        "sha256": "24489a1928f1ef461a23547756da0669303aea5912bc72a30ce0cbe55d3365bd",
+        "sha256_in_prefix": "24489a1928f1ef461a23547756da0669303aea5912bc72a30ce0cbe55d3365bd",
+        "size_in_bytes": 1649
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/44a526eed258222515aa21eaffd14a96.png",
+        "path_type": "hardlink",
+        "sha256": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da",
+        "sha256_in_prefix": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/473ee081160a469c95199d70e78f55fa.png",
+        "path_type": "hardlink",
+        "sha256": "1d58b682e64eeac7a47f636082295bce3513bc90f0797a523014bcd5f86d9d7d",
+        "sha256_in_prefix": "1d58b682e64eeac7a47f636082295bce3513bc90f0797a523014bcd5f86d9d7d",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/4f0283c6ce28e888000e978e537a6a56.png",
+        "path_type": "hardlink",
+        "sha256": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf",
+        "sha256_in_prefix": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/549b33bab7247b619c0292995f5a906b.png",
+        "path_type": "hardlink",
+        "sha256": "52aceec684de337b93590340fb09bc4d2b760d85e32bd2511c5f242c0c5f0df0",
+        "sha256_in_prefix": "52aceec684de337b93590340fb09bc4d2b760d85e32bd2511c5f242c0c5f0df0",
+        "size_in_bytes": 3838
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/592b7360116d244f9dd932b0c0041982.png",
+        "path_type": "hardlink",
+        "sha256": "558233345e005b15b6b81bfa0c75877b3e7e17c90641b92e72cb1faed7bbbf27",
+        "sha256_in_prefix": "558233345e005b15b6b81bfa0c75877b3e7e17c90641b92e72cb1faed7bbbf27",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/665.3328989849f89dbc115a.js",
+        "path_type": "hardlink",
+        "sha256": "630b45b3f0d4998b678f0a24e6f7d28a6881027fe8c261a686833c8f37ecb66a",
+        "sha256_in_prefix": "630b45b3f0d4998b678f0a24e6f7d28a6881027fe8c261a686833c8f37ecb66a",
+        "size_in_bytes": 10022
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/687.c586825145a31920f3d8.js",
+        "path_type": "hardlink",
+        "sha256": "acbe5801d1114c214fc3d783e7c8664ed1c716ff076609771f678bb86cec33af",
+        "sha256_in_prefix": "acbe5801d1114c214fc3d783e7c8664ed1c716ff076609771f678bb86cec33af",
+        "size_in_bytes": 13489
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/69fbc9c24b3665b801445c9bccc7017d.png",
+        "path_type": "hardlink",
+        "sha256": "5d55e5b00993a8a670e73951459242c99f42f25758096c6acb6b269d39c757b8",
+        "sha256_in_prefix": "5d55e5b00993a8a670e73951459242c99f42f25758096c6acb6b269d39c757b8",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/6a1e950d14904d4b6fb5c9bdc3dfad06.png",
+        "path_type": "hardlink",
+        "sha256": "fa2c95e0610f3787c879645e42b86ad010c305f8312e116841730d00d4ab72b7",
+        "sha256_in_prefix": "fa2c95e0610f3787c879645e42b86ad010c305f8312e116841730d00d4ab72b7",
+        "size_in_bytes": 3581
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/6e8e462555c4b10dbfbc206e8276e6e2.png",
+        "path_type": "hardlink",
+        "sha256": "a59c1612e89468ce9d272d2e0d086c0f13029234ee1cce322237e9038a756ef3",
+        "sha256_in_prefix": "a59c1612e89468ce9d272d2e0d086c0f13029234ee1cce322237e9038a756ef3",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/732.b1d9d728030835e29fb7.js",
+        "path_type": "hardlink",
+        "sha256": "002a8419ebc392bf8eb9eebf250fd96f5f1802dd779bf396d0cbcd967d807f36",
+        "sha256_in_prefix": "002a8419ebc392bf8eb9eebf250fd96f5f1802dd779bf396d0cbcd967d807f36",
+        "size_in_bytes": 33520
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/738.12432ed2776b6b36ef53.js",
+        "path_type": "hardlink",
+        "sha256": "ce127a06e422969ea9747d5d4ae8458a2c8d2b60a532b5009cbbd27e50470c4b",
+        "sha256_in_prefix": "ce127a06e422969ea9747d5d4ae8458a2c8d2b60a532b5009cbbd27e50470c4b",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/751.e7a5eee804906847cf86.js",
+        "path_type": "hardlink",
+        "sha256": "205df60d5fa379577f0b59c7a3b2687bd0e47a2ad8af3861121054e2a51dcb6b",
+        "sha256_in_prefix": "205df60d5fa379577f0b59c7a3b2687bd0e47a2ad8af3861121054e2a51dcb6b",
+        "size_in_bytes": 3849
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/787.e25c58192b0a5dac5650.js",
+        "path_type": "hardlink",
+        "sha256": "648a7fbb698753a012db66b2a3ae696f1d9f77ad0a2187ca75bfb220ac833e01",
+        "sha256_in_prefix": "648a7fbb698753a012db66b2a3ae696f1d9f77ad0a2187ca75bfb220ac833e01",
+        "size_in_bytes": 67304
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/790.f8079efbdd3073004e57.js",
+        "path_type": "hardlink",
+        "sha256": "a80c21d1f3533605a71e8e2b6773012de22d02891428de9b566553116a25e8e5",
+        "sha256_in_prefix": "a80c21d1f3533605a71e8e2b6773012de22d02891428de9b566553116a25e8e5",
+        "size_in_bytes": 51067
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/7910c667cb5ddcdcb4ee3278627c85e1.png",
+        "path_type": "hardlink",
+        "sha256": "dc7ae401048e6ad3c8f56d991cbc83a775f59937f10f6e62f087d288aa4d7137",
+        "sha256_in_prefix": "dc7ae401048e6ad3c8f56d991cbc83a775f59937f10f6e62f087d288aa4d7137",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/79148a43587cbe5c43d24fa894a78ba3.png",
+        "path_type": "hardlink",
+        "sha256": "e41bc4be3d9cc8fcda26990db42fde1990230d352bc5f6f614fe89e163fb4edb",
+        "sha256_in_prefix": "e41bc4be3d9cc8fcda26990db42fde1990230d352bc5f6f614fe89e163fb4edb",
+        "size_in_bytes": 56965
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/795.3a046e4856ac28bc2259.js",
+        "path_type": "hardlink",
+        "sha256": "af3ca7a2b9ce112bf33fd154ecc94b692afc512837a430d1b357e058471e4e3c",
+        "sha256_in_prefix": "af3ca7a2b9ce112bf33fd154ecc94b692afc512837a430d1b357e058471e4e3c",
+        "size_in_bytes": 19617
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/795.3a046e4856ac28bc2259.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "6046202de5b23aba1ada05ef7b8e931bbdbd1653656e757c10ae7a978ff9b93e",
+        "sha256_in_prefix": "6046202de5b23aba1ada05ef7b8e931bbdbd1653656e757c10ae7a978ff9b93e",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/818.212b33d3c22f5a0b7861.js",
+        "path_type": "hardlink",
+        "sha256": "3d2be5bbcb6537a38633eb425f69da7ff536915d1099f3ab188c4d5f00e95602",
+        "sha256_in_prefix": "3d2be5bbcb6537a38633eb425f69da7ff536915d1099f3ab188c4d5f00e95602",
+        "size_in_bytes": 1136
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/860.622fabbcf2290b711ac9.js",
+        "path_type": "hardlink",
+        "sha256": "24094fcdc2f045826bcde92857b846b8a12f980a6751d590a46ac4088ddeb992",
+        "sha256_in_prefix": "24094fcdc2f045826bcde92857b846b8a12f980a6751d590a46ac4088ddeb992",
+        "size_in_bytes": 16298
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/874.a932c7b7475213690696.js",
+        "path_type": "hardlink",
+        "sha256": "28aceb3af2ca7bb624403486481f71016f6aade7894f9507b0197a3161322a3e",
+        "sha256_in_prefix": "28aceb3af2ca7bb624403486481f71016f6aade7894f9507b0197a3161322a3e",
+        "size_in_bytes": 42358
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/961.5f16b23b622442c73cd9.js",
+        "path_type": "hardlink",
+        "sha256": "cf93e7085b1c412600d8a89fd8e3541f0ca620477d389e0461bc38d03fe36a12",
+        "sha256_in_prefix": "cf93e7085b1c412600d8a89fd8e3541f0ca620477d389e0461bc38d03fe36a12",
+        "size_in_bytes": 36345
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/980.77ca078a309d02743139.js",
+        "path_type": "hardlink",
+        "sha256": "2006c5161690f592cc193890a417a97e756e5f3f6b1525040ce7a47753b72ea6",
+        "sha256_in_prefix": "2006c5161690f592cc193890a417a97e756e5f3f6b1525040ce7a47753b72ea6",
+        "size_in_bytes": 46467
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/994ef255f2077b24b0d8975e90e37a33.png",
+        "path_type": "hardlink",
+        "sha256": "7107fd0636a571de720766fd9bcd6cb5c952488987a858dd902608130fca19dc",
+        "sha256_in_prefix": "7107fd0636a571de720766fd9bcd6cb5c952488987a858dd902608130fca19dc",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/9e9c77db241e8a58da99bf28694c907d.png",
+        "path_type": "hardlink",
+        "sha256": "8703a2262710f5e3d29e65d2acdf90d6512e159e119d27b8234731d8a6208a20",
+        "sha256_in_prefix": "8703a2262710f5e3d29e65d2acdf90d6512e159e119d27b8234731d8a6208a20",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/a6137456ed160d7606981aa57c559898.png",
+        "path_type": "hardlink",
+        "sha256": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6",
+        "sha256_in_prefix": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/cfe6f6ffc5b2d6c482c36c68522f0282.png",
+        "path_type": "hardlink",
+        "sha256": "2972e9515ff9b486d358ffe03777ebdf2dd35a2c8ccf52424fda8a8d02c0fa85",
+        "sha256_in_prefix": "2972e9515ff9b486d358ffe03777ebdf2dd35a2c8ccf52424fda8a8d02c0fa85",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/d3a5d64a8534322988a4bed1b7dbc8b0.png",
+        "path_type": "hardlink",
+        "sha256": "b21a536be27313fb504f69f5899ff0b1245b276571769ac08d6c32c35676e47a",
+        "sha256_in_prefix": "b21a536be27313fb504f69f5899ff0b1245b276571769ac08d6c32c35676e47a",
+        "size_in_bytes": 1469
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/ddb8362e333c8f3225da9d578d00c14c.png",
+        "path_type": "hardlink",
+        "sha256": "c83b73f9d863b80a28eaaf71734d3efd7353ac6c045ab37cd293a77857689788",
+        "sha256_in_prefix": "c83b73f9d863b80a28eaaf71734d3efd7353ac6c045ab37cd293a77857689788",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/deac1d4aa2ccf7ed832e4db55bb64e63.png",
+        "path_type": "hardlink",
+        "sha256": "a8978a1d3d21d8ee6f16cce342ff67fc47c4241f52161f05baf88f15e1058199",
+        "sha256_in_prefix": "a8978a1d3d21d8ee6f16cce342ff67fc47c4241f52161f05baf88f15e1058199",
+        "size_in_bytes": 1906
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/e81afdf0b23bc88ea3e6ef3fc2fb65d6.png",
+        "path_type": "hardlink",
+        "sha256": "f001d4f02102a672b95fa57d279869fabee53a27356a4e4efd0d1e3a99c22db9",
+        "sha256_in_prefix": "f001d4f02102a672b95fa57d279869fabee53a27356a4e4efd0d1e3a99c22db9",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/f4b0c949877c5f94158208551a57e29d.png",
+        "path_type": "hardlink",
+        "sha256": "40bb0aff173baa6b3e8dba04ac23ada71909e09a4ca7f28fc24fd49bd360ca7d",
+        "sha256_in_prefix": "40bb0aff173baa6b3e8dba04ac23ada71909e09a4ca7f28fc24fd49bd360ca7d",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/f9b7a75b186911a1b04d08f8db305b7a.gif",
+        "path_type": "hardlink",
+        "sha256": "ebeab4d490fb22b2f82d28d2032777e8de98cc4d93338bb3475c5c9636eb8adf",
+        "sha256_in_prefix": "ebeab4d490fb22b2f82d28d2032777e8de98cc4d93338bb3475c5c9636eb8adf",
+        "size_in_bytes": 1849
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/fd48ced8485c638cadcea3eaab6d0937.png",
+        "path_type": "hardlink",
+        "sha256": "1755d22b1ffb0e8589b26ac562330047366ed15c9d075b85d0426065714fc2bc",
+        "sha256_in_prefix": "1755d22b1ffb0e8589b26ac562330047366ed15c9d075b85d0426065714fc2bc",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/remoteEntry.8f5cefaa26fbae099326.js",
+        "path_type": "hardlink",
+        "sha256": "4baccc61d8a2c85cf0f788f9093e92b9a27967c1336c8e4a01d93a4cb079c1c6",
+        "sha256_in_prefix": "4baccc61d8a2c85cf0f788f9093e92b9a27967c1336c8e4a01d93a4cb079c1c6",
+        "size_in_bytes": 10826
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyter-leaflet/static/style.js",
+        "path_type": "hardlink",
+        "sha256": "f8242dd194cf6824efad188b7339f17e501b7ef20a94e5738cea2cfa6b9a5d0f",
+        "sha256_in_prefix": "f8242dd194cf6824efad188b7339f17e501b7ef20a94e5738cea2cfa6b9a5d0f",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/056dcd0b0dea7c78019243311551d64b.png",
+        "path_type": "hardlink",
+        "sha256": "7970eeda1c1d647da160b406bd0b6d336e2fddebc4f74431c306d7262a380043",
+        "sha256_in_prefix": "7970eeda1c1d647da160b406bd0b6d336e2fddebc4f74431c306d7262a380043",
+        "size_in_bytes": 387
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/07f16cd155661436fe27959eab15c820.png",
+        "path_type": "hardlink",
+        "sha256": "0194f340b27a4c5be35b83516c891c618016df39a7dab79f371b4cca0430e60a",
+        "sha256_in_prefix": "0194f340b27a4c5be35b83516c891c618016df39a7dab79f371b4cca0430e60a",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/0b50583aa1b8ff230b57b92263e47a3e.png",
+        "path_type": "hardlink",
+        "sha256": "948a01a00a8ffcf9f9f1aa35a47432d8ae28bcc26d531b8fb7e14cd52d693893",
+        "sha256_in_prefix": "948a01a00a8ffcf9f9f1aa35a47432d8ae28bcc26d531b8fb7e14cd52d693893",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/0f2c10250081cf1bd9a4d2250b80dba6.png",
+        "path_type": "hardlink",
+        "sha256": "d6926e36feb2224311ab88e08dd7c0eebdbe34a64b45ee09a8bc38ecab0cd5ee",
+        "sha256_in_prefix": "d6926e36feb2224311ab88e08dd7c0eebdbe34a64b45ee09a8bc38ecab0cd5ee",
+        "size_in_bytes": 165517
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/2273e3d8ad9264b7daa5bdbf8e6b47f8.png",
+        "path_type": "hardlink",
+        "sha256": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437",
+        "sha256_in_prefix": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437",
+        "size_in_bytes": 1466
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/35ae4b5f1bf198c6d955618b85710d05.png",
+        "path_type": "hardlink",
+        "sha256": "a7914120026f40f5da0d6f20c62222547795affd21382558dabc0f53511a8624",
+        "sha256_in_prefix": "a7914120026f40f5da0d6f20c62222547795affd21382558dabc0f53511a8624",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/401d815dc206b8dc1b17cd0e37695975.png",
+        "path_type": "hardlink",
+        "sha256": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528",
+        "sha256_in_prefix": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528",
+        "size_in_bytes": 2464
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/44a526eed258222515aa21eaffd14a96.png",
+        "path_type": "hardlink",
+        "sha256": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da",
+        "sha256_in_prefix": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/473ee081160a469c95199d70e78f55fa.png",
+        "path_type": "hardlink",
+        "sha256": "1d58b682e64eeac7a47f636082295bce3513bc90f0797a523014bcd5f86d9d7d",
+        "sha256_in_prefix": "1d58b682e64eeac7a47f636082295bce3513bc90f0797a523014bcd5f86d9d7d",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/4f0283c6ce28e888000e978e537a6a56.png",
+        "path_type": "hardlink",
+        "sha256": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf",
+        "sha256_in_prefix": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/549b33bab7247b619c0292995f5a906b.png",
+        "path_type": "hardlink",
+        "sha256": "52aceec684de337b93590340fb09bc4d2b760d85e32bd2511c5f242c0c5f0df0",
+        "sha256_in_prefix": "52aceec684de337b93590340fb09bc4d2b760d85e32bd2511c5f242c0c5f0df0",
+        "size_in_bytes": 3838
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/592b7360116d244f9dd932b0c0041982.png",
+        "path_type": "hardlink",
+        "sha256": "558233345e005b15b6b81bfa0c75877b3e7e17c90641b92e72cb1faed7bbbf27",
+        "sha256_in_prefix": "558233345e005b15b6b81bfa0c75877b3e7e17c90641b92e72cb1faed7bbbf27",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/69fbc9c24b3665b801445c9bccc7017d.png",
+        "path_type": "hardlink",
+        "sha256": "5d55e5b00993a8a670e73951459242c99f42f25758096c6acb6b269d39c757b8",
+        "sha256_in_prefix": "5d55e5b00993a8a670e73951459242c99f42f25758096c6acb6b269d39c757b8",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/6a1e950d14904d4b6fb5c9bdc3dfad06.png",
+        "path_type": "hardlink",
+        "sha256": "fa2c95e0610f3787c879645e42b86ad010c305f8312e116841730d00d4ab72b7",
+        "sha256_in_prefix": "fa2c95e0610f3787c879645e42b86ad010c305f8312e116841730d00d4ab72b7",
+        "size_in_bytes": 3581
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/6e8e462555c4b10dbfbc206e8276e6e2.png",
+        "path_type": "hardlink",
+        "sha256": "a59c1612e89468ce9d272d2e0d086c0f13029234ee1cce322237e9038a756ef3",
+        "sha256_in_prefix": "a59c1612e89468ce9d272d2e0d086c0f13029234ee1cce322237e9038a756ef3",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/7910c667cb5ddcdcb4ee3278627c85e1.png",
+        "path_type": "hardlink",
+        "sha256": "dc7ae401048e6ad3c8f56d991cbc83a775f59937f10f6e62f087d288aa4d7137",
+        "sha256_in_prefix": "dc7ae401048e6ad3c8f56d991cbc83a775f59937f10f6e62f087d288aa4d7137",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/79148a43587cbe5c43d24fa894a78ba3.png",
+        "path_type": "hardlink",
+        "sha256": "e41bc4be3d9cc8fcda26990db42fde1990230d352bc5f6f614fe89e163fb4edb",
+        "sha256_in_prefix": "e41bc4be3d9cc8fcda26990db42fde1990230d352bc5f6f614fe89e163fb4edb",
+        "size_in_bytes": 56965
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/994ef255f2077b24b0d8975e90e37a33.png",
+        "path_type": "hardlink",
+        "sha256": "7107fd0636a571de720766fd9bcd6cb5c952488987a858dd902608130fca19dc",
+        "sha256_in_prefix": "7107fd0636a571de720766fd9bcd6cb5c952488987a858dd902608130fca19dc",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/9e9c77db241e8a58da99bf28694c907d.png",
+        "path_type": "hardlink",
+        "sha256": "8703a2262710f5e3d29e65d2acdf90d6512e159e119d27b8234731d8a6208a20",
+        "sha256_in_prefix": "8703a2262710f5e3d29e65d2acdf90d6512e159e119d27b8234731d8a6208a20",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/a6137456ed160d7606981aa57c559898.png",
+        "path_type": "hardlink",
+        "sha256": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6",
+        "sha256_in_prefix": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/cfe6f6ffc5b2d6c482c36c68522f0282.png",
+        "path_type": "hardlink",
+        "sha256": "2972e9515ff9b486d358ffe03777ebdf2dd35a2c8ccf52424fda8a8d02c0fa85",
+        "sha256_in_prefix": "2972e9515ff9b486d358ffe03777ebdf2dd35a2c8ccf52424fda8a8d02c0fa85",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/d3a5d64a8534322988a4bed1b7dbc8b0.png",
+        "path_type": "hardlink",
+        "sha256": "b21a536be27313fb504f69f5899ff0b1245b276571769ac08d6c32c35676e47a",
+        "sha256_in_prefix": "b21a536be27313fb504f69f5899ff0b1245b276571769ac08d6c32c35676e47a",
+        "size_in_bytes": 1469
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/ddb8362e333c8f3225da9d578d00c14c.png",
+        "path_type": "hardlink",
+        "sha256": "c83b73f9d863b80a28eaaf71734d3efd7353ac6c045ab37cd293a77857689788",
+        "sha256_in_prefix": "c83b73f9d863b80a28eaaf71734d3efd7353ac6c045ab37cd293a77857689788",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/deac1d4aa2ccf7ed832e4db55bb64e63.png",
+        "path_type": "hardlink",
+        "sha256": "a8978a1d3d21d8ee6f16cce342ff67fc47c4241f52161f05baf88f15e1058199",
+        "sha256_in_prefix": "a8978a1d3d21d8ee6f16cce342ff67fc47c4241f52161f05baf88f15e1058199",
+        "size_in_bytes": 1906
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/e81afdf0b23bc88ea3e6ef3fc2fb65d6.png",
+        "path_type": "hardlink",
+        "sha256": "f001d4f02102a672b95fa57d279869fabee53a27356a4e4efd0d1e3a99c22db9",
+        "sha256_in_prefix": "f001d4f02102a672b95fa57d279869fabee53a27356a4e4efd0d1e3a99c22db9",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/extension.js",
+        "path_type": "hardlink",
+        "sha256": "f345096a06706b0038940be9f7c85a964bff6e1325e53be6220c6b2b4e8953d6",
+        "sha256_in_prefix": "f345096a06706b0038940be9f7c85a964bff6e1325e53be6220c6b2b4e8953d6",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/f4b0c949877c5f94158208551a57e29d.png",
+        "path_type": "hardlink",
+        "sha256": "40bb0aff173baa6b3e8dba04ac23ada71909e09a4ca7f28fc24fd49bd360ca7d",
+        "sha256_in_prefix": "40bb0aff173baa6b3e8dba04ac23ada71909e09a4ca7f28fc24fd49bd360ca7d",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/f9b7a75b186911a1b04d08f8db305b7a.gif",
+        "path_type": "hardlink",
+        "sha256": "ebeab4d490fb22b2f82d28d2032777e8de98cc4d93338bb3475c5c9636eb8adf",
+        "sha256_in_prefix": "ebeab4d490fb22b2f82d28d2032777e8de98cc4d93338bb3475c5c9636eb8adf",
+        "size_in_bytes": 1849
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/fd48ced8485c638cadcea3eaab6d0937.png",
+        "path_type": "hardlink",
+        "sha256": "1755d22b1ffb0e8589b26ac562330047366ed15c9d075b85d0426065714fc2bc",
+        "sha256_in_prefix": "1755d22b1ffb0e8589b26ac562330047366ed15c9d075b85d0426065714fc2bc",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/fd5728f2cf777b06b966d05c0c823dc9.svg",
+        "path_type": "hardlink",
+        "sha256": "7077bae968047180921324df351d95fe2f021cdaefa01e20645162402f767da4",
+        "sha256_in_prefix": "7077bae968047180921324df351d95fe2f021cdaefa01e20645162402f767da4",
+        "size_in_bytes": 5551
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/index.js",
+        "path_type": "hardlink",
+        "sha256": "b03c75ae9d12b44ac68b404ebfc6ad2a38bbeeebed04e42658e25d32dcda7d89",
+        "sha256_in_prefix": "b03c75ae9d12b44ac68b404ebfc6ad2a38bbeeebed04e42658e25d32dcda7d89",
+        "size_in_bytes": 844185
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/index.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "d6bc43a13e3a53d6ea7022525aef12c4baee82f00c6fecedb2255e05c1511f48",
+        "sha256_in_prefix": "d6bc43a13e3a53d6ea7022525aef12c4baee82f00c6fecedb2255e05c1511f48",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "share/jupyter/nbextensions/jupyter-leaflet/index.js.map",
+        "path_type": "hardlink",
+        "sha256": "9c72c5aec7782cb0ef34f4edd19c735b2703968d4014db04146d82dd17b3f6a9",
+        "sha256_in_prefix": "9c72c5aec7782cb0ef34f4edd19c735b2703968d4014db04146d82dd17b3f6a9",
+        "size_in_bytes": 3265690
+      },
+      {
+        "_path": "site-packages/ipyleaflet-0.15.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/ipyleaflet-0.15.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "95da5ea1b58ad046eb1a7ed331410a99d3204f06cec056b10aba45fabefd7f78",
+        "sha256_in_prefix": "95da5ea1b58ad046eb1a7ed331410a99d3204f06cec056b10aba45fabefd7f78",
+        "size_in_bytes": 1101
+      },
+      {
+        "_path": "site-packages/ipyleaflet-0.15.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f939f47f9aed8ebbd4efc66bfbb22110bce5556acc84d95467d89a7f9a816a95",
+        "sha256_in_prefix": "f939f47f9aed8ebbd4efc66bfbb22110bce5556acc84d95467d89a7f9a816a95",
+        "size_in_bytes": 1026
+      },
+      {
+        "_path": "site-packages/ipyleaflet-0.15.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5e2fa62327bbfda32d4bfc649fb49f5f8f45303a55ee619662de1c2450d7f2c3",
+        "sha256_in_prefix": "5e2fa62327bbfda32d4bfc649fb49f5f8f45303a55ee619662de1c2450d7f2c3",
+        "size_in_bytes": 25067
+      },
+      {
+        "_path": "site-packages/ipyleaflet-0.15.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ipyleaflet-0.15.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/ipyleaflet-0.15.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3091ba25748c17e414ea37869753aa58d8339d390be81d48cf2fb54c1f0e2509",
+        "sha256_in_prefix": "3091ba25748c17e414ea37869753aa58d8339d390be81d48cf2fb54c1f0e2509",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/ipyleaflet-0.15.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7c38bcb4cb87f776425311f6c7952fb5da633ba82819d8957f27d8aa2f14ec87",
+        "sha256_in_prefix": "7c38bcb4cb87f776425311f6c7952fb5da633ba82819d8957f27d8aa2f14ec87",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/ipyleaflet/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5079e146323bc111a0fa067795e2cc1b3d31df5f22f95f4912dd61e628d35737",
+        "sha256_in_prefix": "5079e146323bc111a0fa067795e2cc1b3d31df5f22f95f4912dd61e628d35737",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "site-packages/ipyleaflet/_version.py",
+        "path_type": "hardlink",
+        "sha256": "18f4f961d81cc8c3cd32c50a375605c6f391d8119e909c26b47ff591cf5dff1e",
+        "sha256_in_prefix": "18f4f961d81cc8c3cd32c50a375605c6f391d8119e909c26b47ff591cf5dff1e",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "site-packages/ipyleaflet/basemaps.py",
+        "path_type": "hardlink",
+        "sha256": "cb12fd34e12aae9a43dcf706190f96dc8b3c99aa42d9d8e3e69903c80cdd5575",
+        "sha256_in_prefix": "cb12fd34e12aae9a43dcf706190f96dc8b3c99aa42d9d8e3e69903c80cdd5575",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "site-packages/ipyleaflet/external/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ipyleaflet/external/here.py",
+        "path_type": "hardlink",
+        "sha256": "803b1d2c9deb0310eb265cfb94ec515e1a95333ef8d7a93eefe608792fa8b021",
+        "sha256_in_prefix": "803b1d2c9deb0310eb265cfb94ec515e1a95333ef8d7a93eefe608792fa8b021",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/package.json",
+        "path_type": "hardlink",
+        "sha256": "3502394b6643e58cb7d675adfba7e9e8b50f27557a06dbafa26865d7a25fd3c6",
+        "sha256_in_prefix": "3502394b6643e58cb7d675adfba7e9e8b50f27557a06dbafa26865d7a25fd3c6",
+        "size_in_bytes": 2129
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/056dcd0b0dea7c78019243311551d64b.png",
+        "path_type": "hardlink",
+        "sha256": "7970eeda1c1d647da160b406bd0b6d336e2fddebc4f74431c306d7262a380043",
+        "sha256_in_prefix": "7970eeda1c1d647da160b406bd0b6d336e2fddebc4f74431c306d7262a380043",
+        "size_in_bytes": 387
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/07f16cd155661436fe27959eab15c820.png",
+        "path_type": "hardlink",
+        "sha256": "0194f340b27a4c5be35b83516c891c618016df39a7dab79f371b4cca0430e60a",
+        "sha256_in_prefix": "0194f340b27a4c5be35b83516c891c618016df39a7dab79f371b4cca0430e60a",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/0b50583aa1b8ff230b57b92263e47a3e.png",
+        "path_type": "hardlink",
+        "sha256": "948a01a00a8ffcf9f9f1aa35a47432d8ae28bcc26d531b8fb7e14cd52d693893",
+        "sha256_in_prefix": "948a01a00a8ffcf9f9f1aa35a47432d8ae28bcc26d531b8fb7e14cd52d693893",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/0f2c10250081cf1bd9a4d2250b80dba6.png",
+        "path_type": "hardlink",
+        "sha256": "d6926e36feb2224311ab88e08dd7c0eebdbe34a64b45ee09a8bc38ecab0cd5ee",
+        "sha256_in_prefix": "d6926e36feb2224311ab88e08dd7c0eebdbe34a64b45ee09a8bc38ecab0cd5ee",
+        "size_in_bytes": 165517
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/138.002dd8f96b6a3a975f92.js",
+        "path_type": "hardlink",
+        "sha256": "cc5a6a78a2d0b43c16edeff86abe9b49e8566202f92d5c42401c27e632691257",
+        "sha256_in_prefix": "cc5a6a78a2d0b43c16edeff86abe9b49e8566202f92d5c42401c27e632691257",
+        "size_in_bytes": 61646
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/2273e3d8ad9264b7daa5bdbf8e6b47f8.png",
+        "path_type": "hardlink",
+        "sha256": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437",
+        "sha256_in_prefix": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437",
+        "size_in_bytes": 1466
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/243.d9d134ad2ffdfb9205b3.js",
+        "path_type": "hardlink",
+        "sha256": "4f379e56082dd401b88e4165dcf1bf541a146287d71a696b375b412f24bc96a7",
+        "sha256_in_prefix": "4f379e56082dd401b88e4165dcf1bf541a146287d71a696b375b412f24bc96a7",
+        "size_in_bytes": 142203
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/243.d9d134ad2ffdfb9205b3.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "95efede2671f7967592b43ec0b831fb12fd69783319585840b25f3f9d2076392",
+        "sha256_in_prefix": "95efede2671f7967592b43ec0b831fb12fd69783319585840b25f3f9d2076392",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/280.5de51328720a28cc66e7.js",
+        "path_type": "hardlink",
+        "sha256": "e1e170fb1c7fa31353bbf69f8d32ed9a4666d898de65c9044b9b2f9e3f4af46b",
+        "sha256_in_prefix": "e1e170fb1c7fa31353bbf69f8d32ed9a4666d898de65c9044b9b2f9e3f4af46b",
+        "size_in_bytes": 83975
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/292.abb15e393ff2062a9743.js",
+        "path_type": "hardlink",
+        "sha256": "4107fc80f490ac63e379a93de465b475428b37ea9b15a564b59eb4db3d065c5b",
+        "sha256_in_prefix": "4107fc80f490ac63e379a93de465b475428b37ea9b15a564b59eb4db3d065c5b",
+        "size_in_bytes": 3113
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/340.06cd3bdbc92899d7cb95.js",
+        "path_type": "hardlink",
+        "sha256": "b813e0996b4847b4fa5fac3c3ba07de77ceaaef402afe0625ea7f53544d012e7",
+        "sha256_in_prefix": "b813e0996b4847b4fa5fac3c3ba07de77ceaaef402afe0625ea7f53544d012e7",
+        "size_in_bytes": 1687
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/35.75d7ebb67cdd9a91223a.js",
+        "path_type": "hardlink",
+        "sha256": "12f6e2a2b7afd1d1680771898212f43ed8257508226d9c08f5cf86b855e14d9c",
+        "sha256_in_prefix": "12f6e2a2b7afd1d1680771898212f43ed8257508226d9c08f5cf86b855e14d9c",
+        "size_in_bytes": 2771
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/35ae4b5f1bf198c6d955618b85710d05.png",
+        "path_type": "hardlink",
+        "sha256": "a7914120026f40f5da0d6f20c62222547795affd21382558dabc0f53511a8624",
+        "sha256_in_prefix": "a7914120026f40f5da0d6f20c62222547795affd21382558dabc0f53511a8624",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/366.548c239572b0d4db46f3.js",
+        "path_type": "hardlink",
+        "sha256": "9d37fd0c17e16d687d3b8e420520ff3a76c620e30a103b2dc3250cff3db67ab6",
+        "sha256_in_prefix": "9d37fd0c17e16d687d3b8e420520ff3a76c620e30a103b2dc3250cff3db67ab6",
+        "size_in_bytes": 6254
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/401d815dc206b8dc1b17cd0e37695975.png",
+        "path_type": "hardlink",
+        "sha256": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528",
+        "sha256_in_prefix": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528",
+        "size_in_bytes": 2464
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/408.c77c0f86c82e98e327d2.js",
+        "path_type": "hardlink",
+        "sha256": "24489a1928f1ef461a23547756da0669303aea5912bc72a30ce0cbe55d3365bd",
+        "sha256_in_prefix": "24489a1928f1ef461a23547756da0669303aea5912bc72a30ce0cbe55d3365bd",
+        "size_in_bytes": 1649
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/44a526eed258222515aa21eaffd14a96.png",
+        "path_type": "hardlink",
+        "sha256": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da",
+        "sha256_in_prefix": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/473ee081160a469c95199d70e78f55fa.png",
+        "path_type": "hardlink",
+        "sha256": "1d58b682e64eeac7a47f636082295bce3513bc90f0797a523014bcd5f86d9d7d",
+        "sha256_in_prefix": "1d58b682e64eeac7a47f636082295bce3513bc90f0797a523014bcd5f86d9d7d",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/4f0283c6ce28e888000e978e537a6a56.png",
+        "path_type": "hardlink",
+        "sha256": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf",
+        "sha256_in_prefix": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/549b33bab7247b619c0292995f5a906b.png",
+        "path_type": "hardlink",
+        "sha256": "52aceec684de337b93590340fb09bc4d2b760d85e32bd2511c5f242c0c5f0df0",
+        "sha256_in_prefix": "52aceec684de337b93590340fb09bc4d2b760d85e32bd2511c5f242c0c5f0df0",
+        "size_in_bytes": 3838
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/592b7360116d244f9dd932b0c0041982.png",
+        "path_type": "hardlink",
+        "sha256": "558233345e005b15b6b81bfa0c75877b3e7e17c90641b92e72cb1faed7bbbf27",
+        "sha256_in_prefix": "558233345e005b15b6b81bfa0c75877b3e7e17c90641b92e72cb1faed7bbbf27",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/665.3328989849f89dbc115a.js",
+        "path_type": "hardlink",
+        "sha256": "630b45b3f0d4998b678f0a24e6f7d28a6881027fe8c261a686833c8f37ecb66a",
+        "sha256_in_prefix": "630b45b3f0d4998b678f0a24e6f7d28a6881027fe8c261a686833c8f37ecb66a",
+        "size_in_bytes": 10022
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/687.c586825145a31920f3d8.js",
+        "path_type": "hardlink",
+        "sha256": "acbe5801d1114c214fc3d783e7c8664ed1c716ff076609771f678bb86cec33af",
+        "sha256_in_prefix": "acbe5801d1114c214fc3d783e7c8664ed1c716ff076609771f678bb86cec33af",
+        "size_in_bytes": 13489
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/69fbc9c24b3665b801445c9bccc7017d.png",
+        "path_type": "hardlink",
+        "sha256": "5d55e5b00993a8a670e73951459242c99f42f25758096c6acb6b269d39c757b8",
+        "sha256_in_prefix": "5d55e5b00993a8a670e73951459242c99f42f25758096c6acb6b269d39c757b8",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/6a1e950d14904d4b6fb5c9bdc3dfad06.png",
+        "path_type": "hardlink",
+        "sha256": "fa2c95e0610f3787c879645e42b86ad010c305f8312e116841730d00d4ab72b7",
+        "sha256_in_prefix": "fa2c95e0610f3787c879645e42b86ad010c305f8312e116841730d00d4ab72b7",
+        "size_in_bytes": 3581
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/6e8e462555c4b10dbfbc206e8276e6e2.png",
+        "path_type": "hardlink",
+        "sha256": "a59c1612e89468ce9d272d2e0d086c0f13029234ee1cce322237e9038a756ef3",
+        "sha256_in_prefix": "a59c1612e89468ce9d272d2e0d086c0f13029234ee1cce322237e9038a756ef3",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/732.b1d9d728030835e29fb7.js",
+        "path_type": "hardlink",
+        "sha256": "002a8419ebc392bf8eb9eebf250fd96f5f1802dd779bf396d0cbcd967d807f36",
+        "sha256_in_prefix": "002a8419ebc392bf8eb9eebf250fd96f5f1802dd779bf396d0cbcd967d807f36",
+        "size_in_bytes": 33520
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/738.12432ed2776b6b36ef53.js",
+        "path_type": "hardlink",
+        "sha256": "ce127a06e422969ea9747d5d4ae8458a2c8d2b60a532b5009cbbd27e50470c4b",
+        "sha256_in_prefix": "ce127a06e422969ea9747d5d4ae8458a2c8d2b60a532b5009cbbd27e50470c4b",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/751.e7a5eee804906847cf86.js",
+        "path_type": "hardlink",
+        "sha256": "205df60d5fa379577f0b59c7a3b2687bd0e47a2ad8af3861121054e2a51dcb6b",
+        "sha256_in_prefix": "205df60d5fa379577f0b59c7a3b2687bd0e47a2ad8af3861121054e2a51dcb6b",
+        "size_in_bytes": 3849
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/787.e25c58192b0a5dac5650.js",
+        "path_type": "hardlink",
+        "sha256": "648a7fbb698753a012db66b2a3ae696f1d9f77ad0a2187ca75bfb220ac833e01",
+        "sha256_in_prefix": "648a7fbb698753a012db66b2a3ae696f1d9f77ad0a2187ca75bfb220ac833e01",
+        "size_in_bytes": 67304
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/790.f8079efbdd3073004e57.js",
+        "path_type": "hardlink",
+        "sha256": "a80c21d1f3533605a71e8e2b6773012de22d02891428de9b566553116a25e8e5",
+        "sha256_in_prefix": "a80c21d1f3533605a71e8e2b6773012de22d02891428de9b566553116a25e8e5",
+        "size_in_bytes": 51067
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/7910c667cb5ddcdcb4ee3278627c85e1.png",
+        "path_type": "hardlink",
+        "sha256": "dc7ae401048e6ad3c8f56d991cbc83a775f59937f10f6e62f087d288aa4d7137",
+        "sha256_in_prefix": "dc7ae401048e6ad3c8f56d991cbc83a775f59937f10f6e62f087d288aa4d7137",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/79148a43587cbe5c43d24fa894a78ba3.png",
+        "path_type": "hardlink",
+        "sha256": "e41bc4be3d9cc8fcda26990db42fde1990230d352bc5f6f614fe89e163fb4edb",
+        "sha256_in_prefix": "e41bc4be3d9cc8fcda26990db42fde1990230d352bc5f6f614fe89e163fb4edb",
+        "size_in_bytes": 56965
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/795.3a046e4856ac28bc2259.js",
+        "path_type": "hardlink",
+        "sha256": "af3ca7a2b9ce112bf33fd154ecc94b692afc512837a430d1b357e058471e4e3c",
+        "sha256_in_prefix": "af3ca7a2b9ce112bf33fd154ecc94b692afc512837a430d1b357e058471e4e3c",
+        "size_in_bytes": 19617
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/795.3a046e4856ac28bc2259.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "6046202de5b23aba1ada05ef7b8e931bbdbd1653656e757c10ae7a978ff9b93e",
+        "sha256_in_prefix": "6046202de5b23aba1ada05ef7b8e931bbdbd1653656e757c10ae7a978ff9b93e",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/818.212b33d3c22f5a0b7861.js",
+        "path_type": "hardlink",
+        "sha256": "3d2be5bbcb6537a38633eb425f69da7ff536915d1099f3ab188c4d5f00e95602",
+        "sha256_in_prefix": "3d2be5bbcb6537a38633eb425f69da7ff536915d1099f3ab188c4d5f00e95602",
+        "size_in_bytes": 1136
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/860.622fabbcf2290b711ac9.js",
+        "path_type": "hardlink",
+        "sha256": "24094fcdc2f045826bcde92857b846b8a12f980a6751d590a46ac4088ddeb992",
+        "sha256_in_prefix": "24094fcdc2f045826bcde92857b846b8a12f980a6751d590a46ac4088ddeb992",
+        "size_in_bytes": 16298
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/874.a932c7b7475213690696.js",
+        "path_type": "hardlink",
+        "sha256": "28aceb3af2ca7bb624403486481f71016f6aade7894f9507b0197a3161322a3e",
+        "sha256_in_prefix": "28aceb3af2ca7bb624403486481f71016f6aade7894f9507b0197a3161322a3e",
+        "size_in_bytes": 42358
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/961.5f16b23b622442c73cd9.js",
+        "path_type": "hardlink",
+        "sha256": "cf93e7085b1c412600d8a89fd8e3541f0ca620477d389e0461bc38d03fe36a12",
+        "sha256_in_prefix": "cf93e7085b1c412600d8a89fd8e3541f0ca620477d389e0461bc38d03fe36a12",
+        "size_in_bytes": 36345
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/980.77ca078a309d02743139.js",
+        "path_type": "hardlink",
+        "sha256": "2006c5161690f592cc193890a417a97e756e5f3f6b1525040ce7a47753b72ea6",
+        "sha256_in_prefix": "2006c5161690f592cc193890a417a97e756e5f3f6b1525040ce7a47753b72ea6",
+        "size_in_bytes": 46467
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/994ef255f2077b24b0d8975e90e37a33.png",
+        "path_type": "hardlink",
+        "sha256": "7107fd0636a571de720766fd9bcd6cb5c952488987a858dd902608130fca19dc",
+        "sha256_in_prefix": "7107fd0636a571de720766fd9bcd6cb5c952488987a858dd902608130fca19dc",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/9e9c77db241e8a58da99bf28694c907d.png",
+        "path_type": "hardlink",
+        "sha256": "8703a2262710f5e3d29e65d2acdf90d6512e159e119d27b8234731d8a6208a20",
+        "sha256_in_prefix": "8703a2262710f5e3d29e65d2acdf90d6512e159e119d27b8234731d8a6208a20",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/a6137456ed160d7606981aa57c559898.png",
+        "path_type": "hardlink",
+        "sha256": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6",
+        "sha256_in_prefix": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/cfe6f6ffc5b2d6c482c36c68522f0282.png",
+        "path_type": "hardlink",
+        "sha256": "2972e9515ff9b486d358ffe03777ebdf2dd35a2c8ccf52424fda8a8d02c0fa85",
+        "sha256_in_prefix": "2972e9515ff9b486d358ffe03777ebdf2dd35a2c8ccf52424fda8a8d02c0fa85",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/d3a5d64a8534322988a4bed1b7dbc8b0.png",
+        "path_type": "hardlink",
+        "sha256": "b21a536be27313fb504f69f5899ff0b1245b276571769ac08d6c32c35676e47a",
+        "sha256_in_prefix": "b21a536be27313fb504f69f5899ff0b1245b276571769ac08d6c32c35676e47a",
+        "size_in_bytes": 1469
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/ddb8362e333c8f3225da9d578d00c14c.png",
+        "path_type": "hardlink",
+        "sha256": "c83b73f9d863b80a28eaaf71734d3efd7353ac6c045ab37cd293a77857689788",
+        "sha256_in_prefix": "c83b73f9d863b80a28eaaf71734d3efd7353ac6c045ab37cd293a77857689788",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/deac1d4aa2ccf7ed832e4db55bb64e63.png",
+        "path_type": "hardlink",
+        "sha256": "a8978a1d3d21d8ee6f16cce342ff67fc47c4241f52161f05baf88f15e1058199",
+        "sha256_in_prefix": "a8978a1d3d21d8ee6f16cce342ff67fc47c4241f52161f05baf88f15e1058199",
+        "size_in_bytes": 1906
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/e81afdf0b23bc88ea3e6ef3fc2fb65d6.png",
+        "path_type": "hardlink",
+        "sha256": "f001d4f02102a672b95fa57d279869fabee53a27356a4e4efd0d1e3a99c22db9",
+        "sha256_in_prefix": "f001d4f02102a672b95fa57d279869fabee53a27356a4e4efd0d1e3a99c22db9",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/f4b0c949877c5f94158208551a57e29d.png",
+        "path_type": "hardlink",
+        "sha256": "40bb0aff173baa6b3e8dba04ac23ada71909e09a4ca7f28fc24fd49bd360ca7d",
+        "sha256_in_prefix": "40bb0aff173baa6b3e8dba04ac23ada71909e09a4ca7f28fc24fd49bd360ca7d",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/f9b7a75b186911a1b04d08f8db305b7a.gif",
+        "path_type": "hardlink",
+        "sha256": "ebeab4d490fb22b2f82d28d2032777e8de98cc4d93338bb3475c5c9636eb8adf",
+        "sha256_in_prefix": "ebeab4d490fb22b2f82d28d2032777e8de98cc4d93338bb3475c5c9636eb8adf",
+        "size_in_bytes": 1849
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/fd48ced8485c638cadcea3eaab6d0937.png",
+        "path_type": "hardlink",
+        "sha256": "1755d22b1ffb0e8589b26ac562330047366ed15c9d075b85d0426065714fc2bc",
+        "sha256_in_prefix": "1755d22b1ffb0e8589b26ac562330047366ed15c9d075b85d0426065714fc2bc",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/remoteEntry.8f5cefaa26fbae099326.js",
+        "path_type": "hardlink",
+        "sha256": "4baccc61d8a2c85cf0f788f9093e92b9a27967c1336c8e4a01d93a4cb079c1c6",
+        "sha256_in_prefix": "4baccc61d8a2c85cf0f788f9093e92b9a27967c1336c8e4a01d93a4cb079c1c6",
+        "size_in_bytes": 10826
+      },
+      {
+        "_path": "site-packages/ipyleaflet/labextension/static/style.js",
+        "path_type": "hardlink",
+        "sha256": "f8242dd194cf6824efad188b7339f17e501b7ef20a94e5738cea2cfa6b9a5d0f",
+        "sha256_in_prefix": "f8242dd194cf6824efad188b7339f17e501b7ef20a94e5738cea2cfa6b9a5d0f",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "site-packages/ipyleaflet/leaflet.py",
+        "path_type": "hardlink",
+        "sha256": "83014dd510077f9826276729a9f860df238d0018c010f1af9a7965155d0ec5d0",
+        "sha256_in_prefix": "83014dd510077f9826276729a9f860df238d0018c010f1af9a7965155d0ec5d0",
+        "size_in_bytes": 79334
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/056dcd0b0dea7c78019243311551d64b.png",
+        "path_type": "hardlink",
+        "sha256": "7970eeda1c1d647da160b406bd0b6d336e2fddebc4f74431c306d7262a380043",
+        "sha256_in_prefix": "7970eeda1c1d647da160b406bd0b6d336e2fddebc4f74431c306d7262a380043",
+        "size_in_bytes": 387
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/07f16cd155661436fe27959eab15c820.png",
+        "path_type": "hardlink",
+        "sha256": "0194f340b27a4c5be35b83516c891c618016df39a7dab79f371b4cca0430e60a",
+        "sha256_in_prefix": "0194f340b27a4c5be35b83516c891c618016df39a7dab79f371b4cca0430e60a",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/0b50583aa1b8ff230b57b92263e47a3e.png",
+        "path_type": "hardlink",
+        "sha256": "948a01a00a8ffcf9f9f1aa35a47432d8ae28bcc26d531b8fb7e14cd52d693893",
+        "sha256_in_prefix": "948a01a00a8ffcf9f9f1aa35a47432d8ae28bcc26d531b8fb7e14cd52d693893",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/0f2c10250081cf1bd9a4d2250b80dba6.png",
+        "path_type": "hardlink",
+        "sha256": "d6926e36feb2224311ab88e08dd7c0eebdbe34a64b45ee09a8bc38ecab0cd5ee",
+        "sha256_in_prefix": "d6926e36feb2224311ab88e08dd7c0eebdbe34a64b45ee09a8bc38ecab0cd5ee",
+        "size_in_bytes": 165517
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/2273e3d8ad9264b7daa5bdbf8e6b47f8.png",
+        "path_type": "hardlink",
+        "sha256": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437",
+        "sha256_in_prefix": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437",
+        "size_in_bytes": 1466
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/35ae4b5f1bf198c6d955618b85710d05.png",
+        "path_type": "hardlink",
+        "sha256": "a7914120026f40f5da0d6f20c62222547795affd21382558dabc0f53511a8624",
+        "sha256_in_prefix": "a7914120026f40f5da0d6f20c62222547795affd21382558dabc0f53511a8624",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/401d815dc206b8dc1b17cd0e37695975.png",
+        "path_type": "hardlink",
+        "sha256": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528",
+        "sha256_in_prefix": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528",
+        "size_in_bytes": 2464
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/44a526eed258222515aa21eaffd14a96.png",
+        "path_type": "hardlink",
+        "sha256": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da",
+        "sha256_in_prefix": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/473ee081160a469c95199d70e78f55fa.png",
+        "path_type": "hardlink",
+        "sha256": "1d58b682e64eeac7a47f636082295bce3513bc90f0797a523014bcd5f86d9d7d",
+        "sha256_in_prefix": "1d58b682e64eeac7a47f636082295bce3513bc90f0797a523014bcd5f86d9d7d",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/4f0283c6ce28e888000e978e537a6a56.png",
+        "path_type": "hardlink",
+        "sha256": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf",
+        "sha256_in_prefix": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/549b33bab7247b619c0292995f5a906b.png",
+        "path_type": "hardlink",
+        "sha256": "52aceec684de337b93590340fb09bc4d2b760d85e32bd2511c5f242c0c5f0df0",
+        "sha256_in_prefix": "52aceec684de337b93590340fb09bc4d2b760d85e32bd2511c5f242c0c5f0df0",
+        "size_in_bytes": 3838
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/592b7360116d244f9dd932b0c0041982.png",
+        "path_type": "hardlink",
+        "sha256": "558233345e005b15b6b81bfa0c75877b3e7e17c90641b92e72cb1faed7bbbf27",
+        "sha256_in_prefix": "558233345e005b15b6b81bfa0c75877b3e7e17c90641b92e72cb1faed7bbbf27",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/69fbc9c24b3665b801445c9bccc7017d.png",
+        "path_type": "hardlink",
+        "sha256": "5d55e5b00993a8a670e73951459242c99f42f25758096c6acb6b269d39c757b8",
+        "sha256_in_prefix": "5d55e5b00993a8a670e73951459242c99f42f25758096c6acb6b269d39c757b8",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/6a1e950d14904d4b6fb5c9bdc3dfad06.png",
+        "path_type": "hardlink",
+        "sha256": "fa2c95e0610f3787c879645e42b86ad010c305f8312e116841730d00d4ab72b7",
+        "sha256_in_prefix": "fa2c95e0610f3787c879645e42b86ad010c305f8312e116841730d00d4ab72b7",
+        "size_in_bytes": 3581
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/6e8e462555c4b10dbfbc206e8276e6e2.png",
+        "path_type": "hardlink",
+        "sha256": "a59c1612e89468ce9d272d2e0d086c0f13029234ee1cce322237e9038a756ef3",
+        "sha256_in_prefix": "a59c1612e89468ce9d272d2e0d086c0f13029234ee1cce322237e9038a756ef3",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/7910c667cb5ddcdcb4ee3278627c85e1.png",
+        "path_type": "hardlink",
+        "sha256": "dc7ae401048e6ad3c8f56d991cbc83a775f59937f10f6e62f087d288aa4d7137",
+        "sha256_in_prefix": "dc7ae401048e6ad3c8f56d991cbc83a775f59937f10f6e62f087d288aa4d7137",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/79148a43587cbe5c43d24fa894a78ba3.png",
+        "path_type": "hardlink",
+        "sha256": "e41bc4be3d9cc8fcda26990db42fde1990230d352bc5f6f614fe89e163fb4edb",
+        "sha256_in_prefix": "e41bc4be3d9cc8fcda26990db42fde1990230d352bc5f6f614fe89e163fb4edb",
+        "size_in_bytes": 56965
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/994ef255f2077b24b0d8975e90e37a33.png",
+        "path_type": "hardlink",
+        "sha256": "7107fd0636a571de720766fd9bcd6cb5c952488987a858dd902608130fca19dc",
+        "sha256_in_prefix": "7107fd0636a571de720766fd9bcd6cb5c952488987a858dd902608130fca19dc",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/9e9c77db241e8a58da99bf28694c907d.png",
+        "path_type": "hardlink",
+        "sha256": "8703a2262710f5e3d29e65d2acdf90d6512e159e119d27b8234731d8a6208a20",
+        "sha256_in_prefix": "8703a2262710f5e3d29e65d2acdf90d6512e159e119d27b8234731d8a6208a20",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/a6137456ed160d7606981aa57c559898.png",
+        "path_type": "hardlink",
+        "sha256": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6",
+        "sha256_in_prefix": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/cfe6f6ffc5b2d6c482c36c68522f0282.png",
+        "path_type": "hardlink",
+        "sha256": "2972e9515ff9b486d358ffe03777ebdf2dd35a2c8ccf52424fda8a8d02c0fa85",
+        "sha256_in_prefix": "2972e9515ff9b486d358ffe03777ebdf2dd35a2c8ccf52424fda8a8d02c0fa85",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/d3a5d64a8534322988a4bed1b7dbc8b0.png",
+        "path_type": "hardlink",
+        "sha256": "b21a536be27313fb504f69f5899ff0b1245b276571769ac08d6c32c35676e47a",
+        "sha256_in_prefix": "b21a536be27313fb504f69f5899ff0b1245b276571769ac08d6c32c35676e47a",
+        "size_in_bytes": 1469
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/ddb8362e333c8f3225da9d578d00c14c.png",
+        "path_type": "hardlink",
+        "sha256": "c83b73f9d863b80a28eaaf71734d3efd7353ac6c045ab37cd293a77857689788",
+        "sha256_in_prefix": "c83b73f9d863b80a28eaaf71734d3efd7353ac6c045ab37cd293a77857689788",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/deac1d4aa2ccf7ed832e4db55bb64e63.png",
+        "path_type": "hardlink",
+        "sha256": "a8978a1d3d21d8ee6f16cce342ff67fc47c4241f52161f05baf88f15e1058199",
+        "sha256_in_prefix": "a8978a1d3d21d8ee6f16cce342ff67fc47c4241f52161f05baf88f15e1058199",
+        "size_in_bytes": 1906
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/e81afdf0b23bc88ea3e6ef3fc2fb65d6.png",
+        "path_type": "hardlink",
+        "sha256": "f001d4f02102a672b95fa57d279869fabee53a27356a4e4efd0d1e3a99c22db9",
+        "sha256_in_prefix": "f001d4f02102a672b95fa57d279869fabee53a27356a4e4efd0d1e3a99c22db9",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/extension.js",
+        "path_type": "hardlink",
+        "sha256": "f345096a06706b0038940be9f7c85a964bff6e1325e53be6220c6b2b4e8953d6",
+        "sha256_in_prefix": "f345096a06706b0038940be9f7c85a964bff6e1325e53be6220c6b2b4e8953d6",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/f4b0c949877c5f94158208551a57e29d.png",
+        "path_type": "hardlink",
+        "sha256": "40bb0aff173baa6b3e8dba04ac23ada71909e09a4ca7f28fc24fd49bd360ca7d",
+        "sha256_in_prefix": "40bb0aff173baa6b3e8dba04ac23ada71909e09a4ca7f28fc24fd49bd360ca7d",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/f9b7a75b186911a1b04d08f8db305b7a.gif",
+        "path_type": "hardlink",
+        "sha256": "ebeab4d490fb22b2f82d28d2032777e8de98cc4d93338bb3475c5c9636eb8adf",
+        "sha256_in_prefix": "ebeab4d490fb22b2f82d28d2032777e8de98cc4d93338bb3475c5c9636eb8adf",
+        "size_in_bytes": 1849
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/fd48ced8485c638cadcea3eaab6d0937.png",
+        "path_type": "hardlink",
+        "sha256": "1755d22b1ffb0e8589b26ac562330047366ed15c9d075b85d0426065714fc2bc",
+        "sha256_in_prefix": "1755d22b1ffb0e8589b26ac562330047366ed15c9d075b85d0426065714fc2bc",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/fd5728f2cf777b06b966d05c0c823dc9.svg",
+        "path_type": "hardlink",
+        "sha256": "7077bae968047180921324df351d95fe2f021cdaefa01e20645162402f767da4",
+        "sha256_in_prefix": "7077bae968047180921324df351d95fe2f021cdaefa01e20645162402f767da4",
+        "size_in_bytes": 5551
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/index.js",
+        "path_type": "hardlink",
+        "sha256": "b03c75ae9d12b44ac68b404ebfc6ad2a38bbeeebed04e42658e25d32dcda7d89",
+        "sha256_in_prefix": "b03c75ae9d12b44ac68b404ebfc6ad2a38bbeeebed04e42658e25d32dcda7d89",
+        "size_in_bytes": 844185
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/index.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "d6bc43a13e3a53d6ea7022525aef12c4baee82f00c6fecedb2255e05c1511f48",
+        "sha256_in_prefix": "d6bc43a13e3a53d6ea7022525aef12c4baee82f00c6fecedb2255e05c1511f48",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "site-packages/ipyleaflet/nbextension/index.js.map",
+        "path_type": "hardlink",
+        "sha256": "9c72c5aec7782cb0ef34f4edd19c735b2703968d4014db04146d82dd17b3f6a9",
+        "sha256_in_prefix": "9c72c5aec7782cb0ef34f4edd19c735b2703968d4014db04146d82dd17b3f6a9",
+        "size_in_bytes": 3265690
+      },
+      {
+        "_path": "site-packages/ipyleaflet/projections.py",
+        "path_type": "hardlink",
+        "sha256": "143096c5667a2aa86ba306e557ab3c44bf5a338ffb49f6b5bb385b41185d64f8",
+        "sha256_in_prefix": "143096c5667a2aa86ba306e557ab3c44bf5a338ffb49f6b5bb385b41185d64f8",
+        "size_in_bytes": 1516
+      },
+      {
+        "_path": "site-packages/ipyleaflet/velocity.py",
+        "path_type": "hardlink",
+        "sha256": "82059d65e4ff55c96016bff7e2abd3e0eef9bbb502cc3f630a251f0eea549aa2",
+        "sha256_in_prefix": "82059d65e4ff55c96016bff7e2abd3e0eef9bbb502cc3f630a251f0eea549aa2",
+        "size_in_bytes": 1904
+      },
+      {
+        "_path": "site-packages/ipyleaflet/xarray_ds.py",
+        "path_type": "hardlink",
+        "sha256": "9f4a8b71f1ed69381d3847de4c0ce3a1cf2b8a723cc4d7df1d5efb1d55e0e450",
+        "sha256_in_prefix": "9f4a8b71f1ed69381d3847de4c0ce3a1cf2b8a723cc4d7df1d5efb1d55e0e450",
+        "size_in_bytes": 3402
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ipyleaflet/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ipyleaflet/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ipyleaflet/__pycache__/basemaps.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ipyleaflet/external/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ipyleaflet/external/__pycache__/here.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ipyleaflet/__pycache__/leaflet.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ipyleaflet/__pycache__/projections.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ipyleaflet/__pycache__/velocity.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ipyleaflet/__pycache__/xarray_ds.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "ipyleaflet==0.15.0=pyhd8ed1ab_3",
+  "sha256": "9ce3181c3042fe9cdcc85a0e7025a3255507f1c1fd1495c44ca65119db0fc63a",
+  "size": 2428203,
+  "subdir": "noarch",
+  "timestamp": 1639075464009,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ipyleaflet-0.15.0-pyhd8ed1ab_3.tar.bz2",
+  "version": "0.15.0"
+}

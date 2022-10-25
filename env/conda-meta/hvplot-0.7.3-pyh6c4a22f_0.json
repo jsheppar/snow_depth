@@ -1,0 +1,957 @@
+{
+  "build": "pyh6c4a22f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "bokeh >=1.1.0",
+    "colorcet >=2",
+    "holoviews >=1.12.0",
+    "numpy >=1.15",
+    "pandas",
+    "python >=2.7"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/hvplot-0.7.3-pyh6c4a22f_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/hvplot-0.7.3.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/hvplot-0.7.3.dist-info/LICENSE",
+    "lib/python3.8/site-packages/hvplot-0.7.3.dist-info/METADATA",
+    "lib/python3.8/site-packages/hvplot-0.7.3.dist-info/RECORD",
+    "lib/python3.8/site-packages/hvplot-0.7.3.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/hvplot-0.7.3.dist-info/WHEEL",
+    "lib/python3.8/site-packages/hvplot-0.7.3.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/hvplot-0.7.3.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/hvplot-0.7.3.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/hvplot/.version",
+    "lib/python3.8/site-packages/hvplot/__init__.py",
+    "lib/python3.8/site-packages/hvplot/converter.py",
+    "lib/python3.8/site-packages/hvplot/cudf.py",
+    "lib/python3.8/site-packages/hvplot/dask.py",
+    "lib/python3.8/site-packages/hvplot/examples/assets/console.png",
+    "lib/python3.8/site-packages/hvplot/examples/assets/console_server.gif",
+    "lib/python3.8/site-packages/hvplot/examples/assets/diagram.png",
+    "lib/python3.8/site-packages/hvplot/examples/assets/diagram.svg",
+    "lib/python3.8/site-packages/hvplot/examples/assets/hvplot-wm.png",
+    "lib/python3.8/site-packages/hvplot/examples/assets/streamz_demo.gif",
+    "lib/python3.8/site-packages/hvplot/examples/data/crime.csv",
+    "lib/python3.8/site-packages/hvplot/examples/datasets.yaml",
+    "lib/python3.8/site-packages/hvplot/examples/homepage.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/geopandas/points.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/geopandas/polygons.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/area.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/bar.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/barh.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/bivariate.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/box.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/errorbars.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/heatmap.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/hexbin.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/hist.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/kde.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/labels.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/line.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/ohlc.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/scatter.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/step.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/table.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/pandas/violin.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/xarray/contour.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/xarray/contourf.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/xarray/image.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/xarray/quadmesh.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/xarray/rgb.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/reference/xarray/vectorfield.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Customization.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Geographic_Data.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Gridded_Data.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Interactive.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Introduction.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/NetworkX.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Pandas_API.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Plotting.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Statistical_Plots.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Streaming.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Subplots.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Timeseries_Data.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Viewing.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/Widgets.ipynb",
+    "lib/python3.8/site-packages/hvplot/examples/user_guide/images/simple.svg",
+    "lib/python3.8/site-packages/hvplot/ibis.py",
+    "lib/python3.8/site-packages/hvplot/intake.py",
+    "lib/python3.8/site-packages/hvplot/interactive.py",
+    "lib/python3.8/site-packages/hvplot/networkx.py",
+    "lib/python3.8/site-packages/hvplot/pandas.py",
+    "lib/python3.8/site-packages/hvplot/plotting/__init__.py",
+    "lib/python3.8/site-packages/hvplot/plotting/andrews_curves.py",
+    "lib/python3.8/site-packages/hvplot/plotting/core.py",
+    "lib/python3.8/site-packages/hvplot/plotting/lag_plot.py",
+    "lib/python3.8/site-packages/hvplot/plotting/parallel_coordinates.py",
+    "lib/python3.8/site-packages/hvplot/plotting/scatter_matrix.py",
+    "lib/python3.8/site-packages/hvplot/sample_data.py",
+    "lib/python3.8/site-packages/hvplot/streamz.py",
+    "lib/python3.8/site-packages/hvplot/tests/__init__.py",
+    "lib/python3.8/site-packages/hvplot/tests/testcharts.py",
+    "lib/python3.8/site-packages/hvplot/tests/testgeo.py",
+    "lib/python3.8/site-packages/hvplot/tests/testgridplots.py",
+    "lib/python3.8/site-packages/hvplot/tests/testnetworkx.py",
+    "lib/python3.8/site-packages/hvplot/tests/testoperations.py",
+    "lib/python3.8/site-packages/hvplot/tests/testoptions.py",
+    "lib/python3.8/site-packages/hvplot/tests/testoverrides.py",
+    "lib/python3.8/site-packages/hvplot/tests/testpanel.py",
+    "lib/python3.8/site-packages/hvplot/tests/testpatch.py",
+    "lib/python3.8/site-packages/hvplot/tests/testplotting.py",
+    "lib/python3.8/site-packages/hvplot/tests/teststreaming.py",
+    "lib/python3.8/site-packages/hvplot/tests/testtransforms.py",
+    "lib/python3.8/site-packages/hvplot/tests/testutil.py",
+    "lib/python3.8/site-packages/hvplot/util.py",
+    "lib/python3.8/site-packages/hvplot/utilities.py",
+    "lib/python3.8/site-packages/hvplot/xarray.py",
+    "lib/python3.8/site-packages/hvplot/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/converter.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/cudf.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/dask.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/ibis.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/intake.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/interactive.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/networkx.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/pandas.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/plotting/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/plotting/__pycache__/andrews_curves.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/plotting/__pycache__/core.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/plotting/__pycache__/lag_plot.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/plotting/__pycache__/parallel_coordinates.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/plotting/__pycache__/scatter_matrix.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/sample_data.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/streamz.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/testcharts.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/testgeo.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/testgridplots.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/testnetworkx.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/testoperations.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/testoptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/testoverrides.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/testpanel.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/testpatch.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/testplotting.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/teststreaming.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/testtransforms.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/tests/__pycache__/testutil.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/utilities.cpython-38.pyc",
+    "lib/python3.8/site-packages/hvplot/__pycache__/xarray.cpython-38.pyc"
+  ],
+  "fn": "hvplot-0.7.3-pyh6c4a22f_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/hvplot-0.7.3-pyh6c4a22f_0",
+    "type": 1
+  },
+  "md5": "0a95d235289e51e45cb355c9713fd9c4",
+  "name": "hvplot",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/hvplot-0.7.3-pyh6c4a22f_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/hvplot-0.7.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/hvplot-0.7.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3def192a7577a55a373395c2256bc61a19dfc03a5a003e091fdb9234ce87528b",
+        "sha256_in_prefix": "3def192a7577a55a373395c2256bc61a19dfc03a5a003e091fdb9234ce87528b",
+        "size_in_bytes": 1507
+      },
+      {
+        "_path": "site-packages/hvplot-0.7.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4a7524aa7d607c30c7648150972b71b4c0872adecad881da4012d01ead92c57a",
+        "sha256_in_prefix": "4a7524aa7d607c30c7648150972b71b4c0872adecad881da4012d01ead92c57a",
+        "size_in_bytes": 9672
+      },
+      {
+        "_path": "site-packages/hvplot-0.7.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1e0c736da96eb2d3fb55cfad523fdc57b3fe4ef3389c08cc16b029e57d3af31b",
+        "sha256_in_prefix": "1e0c736da96eb2d3fb55cfad523fdc57b3fe4ef3389c08cc16b029e57d3af31b",
+        "size_in_bytes": 10280
+      },
+      {
+        "_path": "site-packages/hvplot-0.7.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hvplot-0.7.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/hvplot-0.7.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "da558690414ac27cf4c0fa5b223cc3975501136407b67ea4af982c6775a1efe7",
+        "sha256_in_prefix": "da558690414ac27cf4c0fa5b223cc3975501136407b67ea4af982c6775a1efe7",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/hvplot-0.7.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "4b7313233b56f96949b5c110c0e176d9c6a2856f0838959ef56fc0d97cca0649",
+        "sha256_in_prefix": "4b7313233b56f96949b5c110c0e176d9c6a2856f0838959ef56fc0d97cca0649",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "site-packages/hvplot-0.7.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c9e600183447daaab62a9491adc4b4c52e757354cb9e0bab5cc7e2a8b50e20ba",
+        "sha256_in_prefix": "c9e600183447daaab62a9491adc4b4c52e757354cb9e0bab5cc7e2a8b50e20ba",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/hvplot/.version",
+        "path_type": "hardlink",
+        "sha256": "b3f42954b6127eda2ce10714ca644bd3bdd41134708f618e324abb5a8552cc85",
+        "sha256_in_prefix": "b3f42954b6127eda2ce10714ca644bd3bdd41134708f618e324abb5a8552cc85",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "site-packages/hvplot/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4ce2e9d19a706875c09affaf851df59bb00b36cf0044ec7771f306fe07fbf464",
+        "sha256_in_prefix": "4ce2e9d19a706875c09affaf851df59bb00b36cf0044ec7771f306fe07fbf464",
+        "size_in_bytes": 4429
+      },
+      {
+        "_path": "site-packages/hvplot/converter.py",
+        "path_type": "hardlink",
+        "sha256": "5d0cd904dfdfb3e77d9bde8c8e84aa47f7359bd6a64f14619cab912f0670ece2",
+        "sha256_in_prefix": "5d0cd904dfdfb3e77d9bde8c8e84aa47f7359bd6a64f14619cab912f0670ece2",
+        "size_in_bytes": 85244
+      },
+      {
+        "_path": "site-packages/hvplot/cudf.py",
+        "path_type": "hardlink",
+        "sha256": "2c9bdb5a344418e50cf84079fda7cb91826b24d76b22cf3d51f0eb418172f9c5",
+        "sha256_in_prefix": "2c9bdb5a344418e50cf84079fda7cb91826b24d76b22cf3d51f0eb418172f9c5",
+        "size_in_bytes": 935
+      },
+      {
+        "_path": "site-packages/hvplot/dask.py",
+        "path_type": "hardlink",
+        "sha256": "04e861a66319c178a75dcfe7fb368ec793e5bc48503a2e728ed4a8a6f4cb255b",
+        "sha256_in_prefix": "04e861a66319c178a75dcfe7fb368ec793e5bc48503a2e728ed4a8a6f4cb255b",
+        "size_in_bytes": 1077
+      },
+      {
+        "_path": "site-packages/hvplot/examples/assets/console.png",
+        "path_type": "hardlink",
+        "sha256": "25d7665bf629272840a7bea20c010e9e056f4d8fdbbe59420fa43b27a76fb94f",
+        "sha256_in_prefix": "25d7665bf629272840a7bea20c010e9e056f4d8fdbbe59420fa43b27a76fb94f",
+        "size_in_bytes": 359182
+      },
+      {
+        "_path": "site-packages/hvplot/examples/assets/console_server.gif",
+        "path_type": "hardlink",
+        "sha256": "6516d801b64c9577ff044e846c246831a9ab625a2f1baf1416cd428f7688719d",
+        "sha256_in_prefix": "6516d801b64c9577ff044e846c246831a9ab625a2f1baf1416cd428f7688719d",
+        "size_in_bytes": 1080507
+      },
+      {
+        "_path": "site-packages/hvplot/examples/assets/diagram.png",
+        "path_type": "hardlink",
+        "sha256": "2fe487d81c6eac46a0914f780ee0361735297f6073a1d1e8aaa6a4ee8c192692",
+        "sha256_in_prefix": "2fe487d81c6eac46a0914f780ee0361735297f6073a1d1e8aaa6a4ee8c192692",
+        "size_in_bytes": 137430
+      },
+      {
+        "_path": "site-packages/hvplot/examples/assets/diagram.svg",
+        "path_type": "hardlink",
+        "sha256": "37cf588de26c30b6a3cfe50043f3396d450f9875a187d9d2df47a496355798d2",
+        "sha256_in_prefix": "37cf588de26c30b6a3cfe50043f3396d450f9875a187d9d2df47a496355798d2",
+        "size_in_bytes": 502525
+      },
+      {
+        "_path": "site-packages/hvplot/examples/assets/hvplot-wm.png",
+        "path_type": "hardlink",
+        "sha256": "28fda57558a7c0c97ef479b5cf6b2c1ff5ff0d9fa13cb2c1be68cec2f1ff3277",
+        "sha256_in_prefix": "28fda57558a7c0c97ef479b5cf6b2c1ff5ff0d9fa13cb2c1be68cec2f1ff3277",
+        "size_in_bytes": 16120
+      },
+      {
+        "_path": "site-packages/hvplot/examples/assets/streamz_demo.gif",
+        "path_type": "hardlink",
+        "sha256": "7f36720fc820866c1c57a6923efdcf13ced768cbabbeaef8071baf5f244380a7",
+        "sha256_in_prefix": "7f36720fc820866c1c57a6923efdcf13ced768cbabbeaef8071baf5f244380a7",
+        "size_in_bytes": 1007817
+      },
+      {
+        "_path": "site-packages/hvplot/examples/data/crime.csv",
+        "path_type": "hardlink",
+        "sha256": "36b925b17cc6f52ebe3bd91f3bd62e91f32224f809e38542e518832f59b4e040",
+        "sha256_in_prefix": "36b925b17cc6f52ebe3bd91f3bd62e91f32224f809e38542e518832f59b4e040",
+        "size_in_bytes": 7871
+      },
+      {
+        "_path": "site-packages/hvplot/examples/datasets.yaml",
+        "path_type": "hardlink",
+        "sha256": "507fcf0a49f5384b526eef1ad3d6ddaeac6cb70f853fb74e3a5cb06afc868518",
+        "sha256_in_prefix": "507fcf0a49f5384b526eef1ad3d6ddaeac6cb70f853fb74e3a5cb06afc868518",
+        "size_in_bytes": 1313
+      },
+      {
+        "_path": "site-packages/hvplot/examples/homepage.ipynb",
+        "path_type": "hardlink",
+        "sha256": "f2f005b4e4fcfe8a6aa4d9a36c23dcdef47fcfb6fc2c7f96afa810e46fc4aa03",
+        "sha256_in_prefix": "f2f005b4e4fcfe8a6aa4d9a36c23dcdef47fcfb6fc2c7f96afa810e46fc4aa03",
+        "size_in_bytes": 9659
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/geopandas/points.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d61178160cbdc9bbb37bbcef78fc8a2880413aa0e8a30142a8fa9318c46d324e",
+        "sha256_in_prefix": "d61178160cbdc9bbb37bbcef78fc8a2880413aa0e8a30142a8fa9318c46d324e",
+        "size_in_bytes": 1816
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/geopandas/polygons.ipynb",
+        "path_type": "hardlink",
+        "sha256": "bae0cfeb62862abb32ed09659741ca65198b8bc424f52ed620cd792ff50c95e9",
+        "sha256_in_prefix": "bae0cfeb62862abb32ed09659741ca65198b8bc424f52ed620cd792ff50c95e9",
+        "size_in_bytes": 1734
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/area.ipynb",
+        "path_type": "hardlink",
+        "sha256": "3bb6917c42ba630b8e498bd2036cb5a530619f899cdfd094f40799819ab377e7",
+        "sha256_in_prefix": "3bb6917c42ba630b8e498bd2036cb5a530619f899cdfd094f40799819ab377e7",
+        "size_in_bytes": 2574
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/bar.ipynb",
+        "path_type": "hardlink",
+        "sha256": "9ad53ba7f723bee15ee0b19b6f125b71b0538710ac24343d4c7ee8e29829e685",
+        "sha256_in_prefix": "9ad53ba7f723bee15ee0b19b6f125b71b0538710ac24343d4c7ee8e29829e685",
+        "size_in_bytes": 1590
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/barh.ipynb",
+        "path_type": "hardlink",
+        "sha256": "e64c9c7cbd7a692c716660e82ae4f079b727183185fc5bb425d61edb0ea22283",
+        "sha256_in_prefix": "e64c9c7cbd7a692c716660e82ae4f079b727183185fc5bb425d61edb0ea22283",
+        "size_in_bytes": 1174
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/bivariate.ipynb",
+        "path_type": "hardlink",
+        "sha256": "3120b1b1ec62d1e145177454536bb8c4e016977ecfd69d00494785b221423070",
+        "sha256_in_prefix": "3120b1b1ec62d1e145177454536bb8c4e016977ecfd69d00494785b221423070",
+        "size_in_bytes": 949
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/box.ipynb",
+        "path_type": "hardlink",
+        "sha256": "290a6a7592c034fb2304aef5e4d9c2703c1dce969f3af897de7752ade264b5bb",
+        "sha256_in_prefix": "290a6a7592c034fb2304aef5e4d9c2703c1dce969f3af897de7752ade264b5bb",
+        "size_in_bytes": 1673
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/errorbars.ipynb",
+        "path_type": "hardlink",
+        "sha256": "e4a3e2d9a40c7a7905dde3c664db106a71ba1924570930c0b988eef599af7650",
+        "sha256_in_prefix": "e4a3e2d9a40c7a7905dde3c664db106a71ba1924570930c0b988eef599af7650",
+        "size_in_bytes": 1703
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/heatmap.ipynb",
+        "path_type": "hardlink",
+        "sha256": "efc69c75d9ef5e5fc164d60379405fc1e73707f064e7159d79a12cf9a8fb706b",
+        "sha256_in_prefix": "efc69c75d9ef5e5fc164d60379405fc1e73707f064e7159d79a12cf9a8fb706b",
+        "size_in_bytes": 2433
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/hexbin.ipynb",
+        "path_type": "hardlink",
+        "sha256": "544f65dc28e5bb005c04ed42fecc6de3fd7b10d6ba86cad5b12d8db700cc36f2",
+        "sha256_in_prefix": "544f65dc28e5bb005c04ed42fecc6de3fd7b10d6ba86cad5b12d8db700cc36f2",
+        "size_in_bytes": 947
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/hist.ipynb",
+        "path_type": "hardlink",
+        "sha256": "a34b213e2eed87d940960c1600a3c61b4f40b20da12a75797dcf162c7781be77",
+        "sha256_in_prefix": "a34b213e2eed87d940960c1600a3c61b4f40b20da12a75797dcf162c7781be77",
+        "size_in_bytes": 1138
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/kde.ipynb",
+        "path_type": "hardlink",
+        "sha256": "a63ad860e9831b39ea967685d04918913d1f9d83da4e8ed05be857f7c541ba27",
+        "sha256_in_prefix": "a63ad860e9831b39ea967685d04918913d1f9d83da4e8ed05be857f7c541ba27",
+        "size_in_bytes": 1774
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/labels.ipynb",
+        "path_type": "hardlink",
+        "sha256": "e6c51550ea15e4a26cfd63f360fe96b2b5ca5655bb7c077c006c1ebbc4f5ba44",
+        "sha256_in_prefix": "e6c51550ea15e4a26cfd63f360fe96b2b5ca5655bb7c077c006c1ebbc4f5ba44",
+        "size_in_bytes": 1495
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/line.ipynb",
+        "path_type": "hardlink",
+        "sha256": "27680f282e6cae9ee359e476cb92b73e0357e1bb4a15f004647bf45e6c545fc0",
+        "sha256_in_prefix": "27680f282e6cae9ee359e476cb92b73e0357e1bb4a15f004647bf45e6c545fc0",
+        "size_in_bytes": 989
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/ohlc.ipynb",
+        "path_type": "hardlink",
+        "sha256": "de5d2a9bad12872c655fcb08e38bceec469912dee30c16a738cc48760240be65",
+        "sha256_in_prefix": "de5d2a9bad12872c655fcb08e38bceec469912dee30c16a738cc48760240be65",
+        "size_in_bytes": 3056
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/scatter.ipynb",
+        "path_type": "hardlink",
+        "sha256": "9c3e292eecf31175366f899f0037078739a75d1af120dda15d4aef2a40aeb38a",
+        "sha256_in_prefix": "9c3e292eecf31175366f899f0037078739a75d1af120dda15d4aef2a40aeb38a",
+        "size_in_bytes": 1538
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/step.ipynb",
+        "path_type": "hardlink",
+        "sha256": "078df8a753b031d2e6deb6608e604de93b6809fa960c2909918218d66fe8d384",
+        "sha256_in_prefix": "078df8a753b031d2e6deb6608e604de93b6809fa960c2909918218d66fe8d384",
+        "size_in_bytes": 1029
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/table.ipynb",
+        "path_type": "hardlink",
+        "sha256": "837365eb5aa43ac46a0e6b8c3a41060fe463d24879b4b8b23dc86ef5ba369dbe",
+        "sha256_in_prefix": "837365eb5aa43ac46a0e6b8c3a41060fe463d24879b4b8b23dc86ef5ba369dbe",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/pandas/violin.ipynb",
+        "path_type": "hardlink",
+        "sha256": "b05637be7d020f4dd63d26850584d997d9e535fe8db92772ae329ab22cf7529b",
+        "sha256_in_prefix": "b05637be7d020f4dd63d26850584d997d9e535fe8db92772ae329ab22cf7529b",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/xarray/contour.ipynb",
+        "path_type": "hardlink",
+        "sha256": "be695d69bf8b1607e5c0602db6508434195aac43f8a1de6242962b58ca00347f",
+        "sha256_in_prefix": "be695d69bf8b1607e5c0602db6508434195aac43f8a1de6242962b58ca00347f",
+        "size_in_bytes": 1799
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/xarray/contourf.ipynb",
+        "path_type": "hardlink",
+        "sha256": "313b3c8f9612d2dd2c7ad1ca6872ca3364d5ab319d3c2a29bc16dec2ec4ed7f3",
+        "sha256_in_prefix": "313b3c8f9612d2dd2c7ad1ca6872ca3364d5ab319d3c2a29bc16dec2ec4ed7f3",
+        "size_in_bytes": 1715
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/xarray/image.ipynb",
+        "path_type": "hardlink",
+        "sha256": "5b9076afa7cd56839b9762915fc325835af6f8e3b3f941d7f62001d5b03dfc88",
+        "sha256_in_prefix": "5b9076afa7cd56839b9762915fc325835af6f8e3b3f941d7f62001d5b03dfc88",
+        "size_in_bytes": 2287
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/xarray/quadmesh.ipynb",
+        "path_type": "hardlink",
+        "sha256": "fca0c8ffe62ba1f8b827d115e35c923c018181c77b09abde86104fc67270081a",
+        "sha256_in_prefix": "fca0c8ffe62ba1f8b827d115e35c923c018181c77b09abde86104fc67270081a",
+        "size_in_bytes": 1472
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/xarray/rgb.ipynb",
+        "path_type": "hardlink",
+        "sha256": "8e88551309b1abb51fd5c0557e942e3119599369c9ca561c36031638554d2af5",
+        "sha256_in_prefix": "8e88551309b1abb51fd5c0557e942e3119599369c9ca561c36031638554d2af5",
+        "size_in_bytes": 1241
+      },
+      {
+        "_path": "site-packages/hvplot/examples/reference/xarray/vectorfield.ipynb",
+        "path_type": "hardlink",
+        "sha256": "8977b775330160be0bb1d8d171008a07b07a4eb60b01ea452e63d6fa91b37836",
+        "sha256_in_prefix": "8977b775330160be0bb1d8d171008a07b07a4eb60b01ea452e63d6fa91b37836",
+        "size_in_bytes": 2843
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Customization.ipynb",
+        "path_type": "hardlink",
+        "sha256": "9cf3956e58b8cc31056d4ea623fad8cdc2a3a3af4813e48d4ee1f84ac886e307",
+        "sha256_in_prefix": "9cf3956e58b8cc31056d4ea623fad8cdc2a3a3af4813e48d4ee1f84ac886e307",
+        "size_in_bytes": 11279
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Geographic_Data.ipynb",
+        "path_type": "hardlink",
+        "sha256": "0579ea736adf98ea0ae20afac5d2bb447e8e2f36aedd490c3dd172633eb43fcd",
+        "sha256_in_prefix": "0579ea736adf98ea0ae20afac5d2bb447e8e2f36aedd490c3dd172633eb43fcd",
+        "size_in_bytes": 11742
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Gridded_Data.ipynb",
+        "path_type": "hardlink",
+        "sha256": "b495d11929e600b1b93648cd56ab9430d8a75746ec8d27713a9c34c4332640a5",
+        "sha256_in_prefix": "b495d11929e600b1b93648cd56ab9430d8a75746ec8d27713a9c34c4332640a5",
+        "size_in_bytes": 8628
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Interactive.ipynb",
+        "path_type": "hardlink",
+        "sha256": "24000830d9b9d4b232da294438f5073761b85edfef6fdc5b4e7a0291b47ba6a9",
+        "sha256_in_prefix": "24000830d9b9d4b232da294438f5073761b85edfef6fdc5b4e7a0291b47ba6a9",
+        "size_in_bytes": 10012
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Introduction.ipynb",
+        "path_type": "hardlink",
+        "sha256": "5b2f2c48bb963b29752310d21e35fe47968a169f40ec638b9c096d0392b1a53c",
+        "sha256_in_prefix": "5b2f2c48bb963b29752310d21e35fe47968a169f40ec638b9c096d0392b1a53c",
+        "size_in_bytes": 5769
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/NetworkX.ipynb",
+        "path_type": "hardlink",
+        "sha256": "889e0a5cd2f0dce5fde936a32378261806af619f40e95c8600490da25369da27",
+        "sha256_in_prefix": "889e0a5cd2f0dce5fde936a32378261806af619f40e95c8600490da25369da27",
+        "size_in_bytes": 25591
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Pandas_API.ipynb",
+        "path_type": "hardlink",
+        "sha256": "3474a2f7ed1d5f26a84f180d59488d1d59881b382b496594c4e80c931c361b43",
+        "sha256_in_prefix": "3474a2f7ed1d5f26a84f180d59488d1d59881b382b496594c4e80c931c361b43",
+        "size_in_bytes": 31174
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Plotting.ipynb",
+        "path_type": "hardlink",
+        "sha256": "a0c9f73b6d5b1bbf26cea6b08ad8d438c0a0bf7d7e6db4e49fec51079b2b3009",
+        "sha256_in_prefix": "a0c9f73b6d5b1bbf26cea6b08ad8d438c0a0bf7d7e6db4e49fec51079b2b3009",
+        "size_in_bytes": 22053
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Statistical_Plots.ipynb",
+        "path_type": "hardlink",
+        "sha256": "39ced573652d93f6db0a96b6a339b6b24ffa1538ff0a32d95a8396c91595eb5e",
+        "sha256_in_prefix": "39ced573652d93f6db0a96b6a339b6b24ffa1538ff0a32d95a8396c91595eb5e",
+        "size_in_bytes": 4861
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Streaming.ipynb",
+        "path_type": "hardlink",
+        "sha256": "bc814dcd92c6347e3eb357135b217ecb1bd556dc75b2d0ac6f30b3c783b8aa36",
+        "sha256_in_prefix": "bc814dcd92c6347e3eb357135b217ecb1bd556dc75b2d0ac6f30b3c783b8aa36",
+        "size_in_bytes": 9185
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Subplots.ipynb",
+        "path_type": "hardlink",
+        "sha256": "2fee355dbb3dfdc18a215e185dfce13f544588e309c503370c2fcba559c8be15",
+        "sha256_in_prefix": "2fee355dbb3dfdc18a215e185dfce13f544588e309c503370c2fcba559c8be15",
+        "size_in_bytes": 4695
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Timeseries_Data.ipynb",
+        "path_type": "hardlink",
+        "sha256": "e63c41b12f5ab3a1ff589c3ab1b32b4ee54f01535b5cecaef75ea7e9a514ed42",
+        "sha256_in_prefix": "e63c41b12f5ab3a1ff589c3ab1b32b4ee54f01535b5cecaef75ea7e9a514ed42",
+        "size_in_bytes": 5093
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Viewing.ipynb",
+        "path_type": "hardlink",
+        "sha256": "66cc6a9aa52254e699f3baaa6a9c353205256714178f6ca775b4c46b4aafd6bc",
+        "sha256_in_prefix": "66cc6a9aa52254e699f3baaa6a9c353205256714178f6ca775b4c46b4aafd6bc",
+        "size_in_bytes": 6035
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/Widgets.ipynb",
+        "path_type": "hardlink",
+        "sha256": "8b17a57109380a6727004a95f1d9c878cd9903bde335ac811755362bf9930ba0",
+        "sha256_in_prefix": "8b17a57109380a6727004a95f1d9c878cd9903bde335ac811755362bf9930ba0",
+        "size_in_bytes": 5866
+      },
+      {
+        "_path": "site-packages/hvplot/examples/user_guide/images/simple.svg",
+        "path_type": "hardlink",
+        "sha256": "f5b0a3e50e2ca8d597af439e76565d2108764f0f7afb674a288b7224bd272e0a",
+        "sha256_in_prefix": "f5b0a3e50e2ca8d597af439e76565d2108764f0f7afb674a288b7224bd272e0a",
+        "size_in_bytes": 5117
+      },
+      {
+        "_path": "site-packages/hvplot/ibis.py",
+        "path_type": "hardlink",
+        "sha256": "f4d65360328ba4940b9023cdc0ed82cc1b451014f7b7522a1362d0da5c832b1a",
+        "sha256_in_prefix": "f4d65360328ba4940b9023cdc0ed82cc1b451014f7b7522a1362d0da5c832b1a",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "site-packages/hvplot/intake.py",
+        "path_type": "hardlink",
+        "sha256": "3b66868e2c06d89d88d448efb393df5bcbd07b8b97bf46f630d23b224891f7f5",
+        "sha256_in_prefix": "3b66868e2c06d89d88d448efb393df5bcbd07b8b97bf46f630d23b224891f7f5",
+        "size_in_bytes": 817
+      },
+      {
+        "_path": "site-packages/hvplot/interactive.py",
+        "path_type": "hardlink",
+        "sha256": "99a0b6ddebb537108a18f83abf01eee60cf3baa47a3e85e676ca13400048c067",
+        "sha256_in_prefix": "99a0b6ddebb537108a18f83abf01eee60cf3baa47a3e85e676ca13400048c067",
+        "size_in_bytes": 18378
+      },
+      {
+        "_path": "site-packages/hvplot/networkx.py",
+        "path_type": "hardlink",
+        "sha256": "d2ba0b76823a19897417425d43571ea8a00b5bd807762953b0a756bf234ed7b1",
+        "sha256_in_prefix": "d2ba0b76823a19897417425d43571ea8a00b5bd807762953b0a756bf234ed7b1",
+        "size_in_bytes": 20696
+      },
+      {
+        "_path": "site-packages/hvplot/pandas.py",
+        "path_type": "hardlink",
+        "sha256": "6fb8f9d86400c243fcdcb931681db9512a095c8230d043042ae27b6a65b88622",
+        "sha256_in_prefix": "6fb8f9d86400c243fcdcb931681db9512a095c8230d043042ae27b6a65b88622",
+        "size_in_bytes": 940
+      },
+      {
+        "_path": "site-packages/hvplot/plotting/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f42fece23352f88910e6df8d443c4ee791a162f00bdf71e74efcd0be8346a11d",
+        "sha256_in_prefix": "f42fece23352f88910e6df8d443c4ee791a162f00bdf71e74efcd0be8346a11d",
+        "size_in_bytes": 1648
+      },
+      {
+        "_path": "site-packages/hvplot/plotting/andrews_curves.py",
+        "path_type": "hardlink",
+        "sha256": "c6551e3a19780da437379420bb43fb96e4d8d61bf58e2889366ff8ba0a5de911",
+        "sha256_in_prefix": "c6551e3a19780da437379420bb43fb96e4d8d61bf58e2889366ff8ba0a5de911",
+        "size_in_bytes": 2271
+      },
+      {
+        "_path": "site-packages/hvplot/plotting/core.py",
+        "path_type": "hardlink",
+        "sha256": "7bf8dd27ba72fdff811fb9e320814c642556881bf4a4f6f6be36cd9a9860e40b",
+        "sha256_in_prefix": "7bf8dd27ba72fdff811fb9e320814c642556881bf4a4f6f6be36cd9a9860e40b",
+        "size_in_bytes": 23145
+      },
+      {
+        "_path": "site-packages/hvplot/plotting/lag_plot.py",
+        "path_type": "hardlink",
+        "sha256": "e156776a1ef06d84d2dc40ca4e1297a4d3bff1cc0654affb5b9161cf9f2dd96e",
+        "sha256_in_prefix": "e156776a1ef06d84d2dc40ca4e1297a4d3bff1cc0654affb5b9161cf9f2dd96e",
+        "size_in_bytes": 1010
+      },
+      {
+        "_path": "site-packages/hvplot/plotting/parallel_coordinates.py",
+        "path_type": "hardlink",
+        "sha256": "177c16ee8fd733d17ba7a57fee7df8485ee1428a903c52df125fa8529a5299a7",
+        "sha256_in_prefix": "177c16ee8fd733d17ba7a57fee7df8485ee1428a903c52df125fa8529a5299a7",
+        "size_in_bytes": 2104
+      },
+      {
+        "_path": "site-packages/hvplot/plotting/scatter_matrix.py",
+        "path_type": "hardlink",
+        "sha256": "62c1065dbb2e2aa3b737ee1901563f80b2cf6792ee2eb61593443864fbb5c392",
+        "sha256_in_prefix": "62c1065dbb2e2aa3b737ee1901563f80b2cf6792ee2eb61593443864fbb5c392",
+        "size_in_bytes": 4021
+      },
+      {
+        "_path": "site-packages/hvplot/sample_data.py",
+        "path_type": "hardlink",
+        "sha256": "66bbb91b7afee89200f03936711a5b267c10629d845d8adb8ed0e653eb58bb34",
+        "sha256_in_prefix": "66bbb91b7afee89200f03936711a5b267c10629d845d8adb8ed0e653eb58bb34",
+        "size_in_bytes": 702
+      },
+      {
+        "_path": "site-packages/hvplot/streamz.py",
+        "path_type": "hardlink",
+        "sha256": "2c7efedd09bd537a97e51017b43ce0ea0cd126edc90953afcf72f7b3656c5b8c",
+        "sha256_in_prefix": "2c7efedd09bd537a97e51017b43ce0ea0cd126edc90953afcf72f7b3656c5b8c",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "site-packages/hvplot/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hvplot/tests/testcharts.py",
+        "path_type": "hardlink",
+        "sha256": "2f44814404320f1c86ea6019535dded872d4342f2b3998851cb4565f6e7caa2f",
+        "sha256_in_prefix": "2f44814404320f1c86ea6019535dded872d4342f2b3998851cb4565f6e7caa2f",
+        "size_in_bytes": 16083
+      },
+      {
+        "_path": "site-packages/hvplot/tests/testgeo.py",
+        "path_type": "hardlink",
+        "sha256": "d057916c0c802564b7eeb806dacd5d60fefa9a9dbe9dc0cd3064d73d07d1edeb",
+        "sha256_in_prefix": "d057916c0c802564b7eeb806dacd5d60fefa9a9dbe9dc0cd3064d73d07d1edeb",
+        "size_in_bytes": 8502
+      },
+      {
+        "_path": "site-packages/hvplot/tests/testgridplots.py",
+        "path_type": "hardlink",
+        "sha256": "0fd21752350d6b36d393a3c51e86e9c76f67c686b21a0e6ede3d3a7f2b9632ed",
+        "sha256_in_prefix": "0fd21752350d6b36d393a3c51e86e9c76f67c686b21a0e6ede3d3a7f2b9632ed",
+        "size_in_bytes": 9360
+      },
+      {
+        "_path": "site-packages/hvplot/tests/testnetworkx.py",
+        "path_type": "hardlink",
+        "sha256": "afb97fb2775863854325a7f9312ed91c216db0aa15b1d3b83b309b70af279aa9",
+        "sha256_in_prefix": "afb97fb2775863854325a7f9312ed91c216db0aa15b1d3b83b309b70af279aa9",
+        "size_in_bytes": 665
+      },
+      {
+        "_path": "site-packages/hvplot/tests/testoperations.py",
+        "path_type": "hardlink",
+        "sha256": "709854703f765cc40ddd09efbce4eec83b90a6f9d5440c0f14631a79694795d5",
+        "sha256_in_prefix": "709854703f765cc40ddd09efbce4eec83b90a6f9d5440c0f14631a79694795d5",
+        "size_in_bytes": 7384
+      },
+      {
+        "_path": "site-packages/hvplot/tests/testoptions.py",
+        "path_type": "hardlink",
+        "sha256": "1d6d7b9fcdffc3680ef774bb5d15502c790e4927c767078d94180182d89c73b9",
+        "sha256_in_prefix": "1d6d7b9fcdffc3680ef774bb5d15502c790e4927c767078d94180182d89c73b9",
+        "size_in_bytes": 14479
+      },
+      {
+        "_path": "site-packages/hvplot/tests/testoverrides.py",
+        "path_type": "hardlink",
+        "sha256": "6b943e56ea2e83e66bde5917f1421577b5ae63311097db0b0a26bfcb2085e0d5",
+        "sha256_in_prefix": "6b943e56ea2e83e66bde5917f1421577b5ae63311097db0b0a26bfcb2085e0d5",
+        "size_in_bytes": 3286
+      },
+      {
+        "_path": "site-packages/hvplot/tests/testpanel.py",
+        "path_type": "hardlink",
+        "sha256": "2aaa3dddd48775bb7a3af5fde45bd628fd474a650ebad8bf86892058b09768e9",
+        "sha256_in_prefix": "2aaa3dddd48775bb7a3af5fde45bd628fd474a650ebad8bf86892058b09768e9",
+        "size_in_bytes": 2299
+      },
+      {
+        "_path": "site-packages/hvplot/tests/testpatch.py",
+        "path_type": "hardlink",
+        "sha256": "0a246fd91351f604e4557216b4e9bc10d6176a92d401e2af85907fda1a8a4aba",
+        "sha256_in_prefix": "0a246fd91351f604e4557216b4e9bc10d6176a92d401e2af85907fda1a8a4aba",
+        "size_in_bytes": 3136
+      },
+      {
+        "_path": "site-packages/hvplot/tests/testplotting.py",
+        "path_type": "hardlink",
+        "sha256": "91a3ef26b8ec21d7421d6896a139587d91c4b33cefbad788c871698bd99e6fc9",
+        "sha256_in_prefix": "91a3ef26b8ec21d7421d6896a139587d91c4b33cefbad788c871698bd99e6fc9",
+        "size_in_bytes": 2162
+      },
+      {
+        "_path": "site-packages/hvplot/tests/teststreaming.py",
+        "path_type": "hardlink",
+        "sha256": "ea2057936f8e0230db9ff84248e017de0a98d3958e0965e20fa814edacfc3a32",
+        "sha256_in_prefix": "ea2057936f8e0230db9ff84248e017de0a98d3958e0965e20fa814edacfc3a32",
+        "size_in_bytes": 1009
+      },
+      {
+        "_path": "site-packages/hvplot/tests/testtransforms.py",
+        "path_type": "hardlink",
+        "sha256": "588ea18fb4e56030a3eefbe3d29db412d0204fab2f3bf0f44670ec57877ad016",
+        "sha256_in_prefix": "588ea18fb4e56030a3eefbe3d29db412d0204fab2f3bf0f44670ec57877ad016",
+        "size_in_bytes": 1325
+      },
+      {
+        "_path": "site-packages/hvplot/tests/testutil.py",
+        "path_type": "hardlink",
+        "sha256": "5b2ba45fa8a9ebe93462db2b7e3fab979dbd6a3a2153587a41456ba553329ee0",
+        "sha256_in_prefix": "5b2ba45fa8a9ebe93462db2b7e3fab979dbd6a3a2153587a41456ba553329ee0",
+        "size_in_bytes": 8191
+      },
+      {
+        "_path": "site-packages/hvplot/util.py",
+        "path_type": "hardlink",
+        "sha256": "eada35764ea7a6a07d4d4f2c68e546c9df51be442ca5131e807009e599b25b6d",
+        "sha256_in_prefix": "eada35764ea7a6a07d4d4f2c68e546c9df51be442ca5131e807009e599b25b6d",
+        "size_in_bytes": 14181
+      },
+      {
+        "_path": "site-packages/hvplot/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "11b0b8f3c2972940cedfb8bb8471678a01b7db0e8fffccfd853444904ec3d654",
+        "sha256_in_prefix": "11b0b8f3c2972940cedfb8bb8471678a01b7db0e8fffccfd853444904ec3d654",
+        "size_in_bytes": 785
+      },
+      {
+        "_path": "site-packages/hvplot/xarray.py",
+        "path_type": "hardlink",
+        "sha256": "eaf6617625b740ab8318a5bdb95191ce07f22f6aad169a4d33a16128f691e35b",
+        "sha256_in_prefix": "eaf6617625b740ab8318a5bdb95191ce07f22f6aad169a4d33a16128f691e35b",
+        "size_in_bytes": 1732
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/converter.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/cudf.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/dask.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/ibis.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/intake.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/interactive.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/networkx.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/pandas.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/plotting/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/plotting/__pycache__/andrews_curves.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/plotting/__pycache__/core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/plotting/__pycache__/lag_plot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/plotting/__pycache__/parallel_coordinates.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/plotting/__pycache__/scatter_matrix.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/sample_data.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/streamz.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/testcharts.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/testgeo.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/testgridplots.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/testnetworkx.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/testoperations.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/testoptions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/testoverrides.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/testpanel.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/testpatch.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/testplotting.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/teststreaming.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/testtransforms.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/tests/__pycache__/testutil.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/utilities.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/hvplot/__pycache__/xarray.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "hvplot==0.7.3=pyh6c4a22f_0",
+  "sha256": "035b9500f37732e26552a6f5c3de3b821135a04e2f1c832691d6d81b5173460b",
+  "size": 3069335,
+  "subdir": "noarch",
+  "timestamp": 1627048964715,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/hvplot-0.7.3-pyh6c4a22f_0.tar.bz2",
+  "version": "0.7.3"
+}

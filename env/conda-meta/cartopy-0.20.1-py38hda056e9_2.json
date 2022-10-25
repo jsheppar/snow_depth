@@ -1,0 +1,1843 @@
+{
+  "build": "py38hda056e9_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "geos >=3.10.0,<3.10.1.0a0",
+    "libcxx >=11.1.0",
+    "matplotlib-base >=3.1",
+    "numpy >=1.18.5,<2.0a0",
+    "proj >=8.1.1,<8.1.2.0a0",
+    "pyproj >=3.0",
+    "pyshp >=2.1",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "scipy >=0.10",
+    "shapely >=1.6.4",
+    "six >=1.3.0"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/cartopy-0.20.1-py38hda056e9_2",
+  "features": "",
+  "files": [
+    "bin/cartopy_feature_download.py",
+    "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/COPYING",
+    "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/COPYING.LESSER",
+    "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/cartopy/__init__.py",
+    "lib/python3.8/site-packages/cartopy/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/__pycache__/_epsg.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/__pycache__/crs.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/__pycache__/geodesic.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/__pycache__/img_transform.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/__pycache__/vector_transform.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/_epsg.py",
+    "lib/python3.8/site-packages/cartopy/_version.py",
+    "lib/python3.8/site-packages/cartopy/crs.py",
+    "lib/python3.8/site-packages/cartopy/data/netcdf/HadISST1_SST_update.README.txt",
+    "lib/python3.8/site-packages/cartopy/data/netcdf/HadISST1_SST_update.nc",
+    "lib/python3.8/site-packages/cartopy/data/raster/natural_earth/50-natural-earth-1-downsampled.png",
+    "lib/python3.8/site-packages/cartopy/data/raster/natural_earth/images.json",
+    "lib/python3.8/site-packages/cartopy/data/raster/sample/Miriam.A2012270.2050.2km.README.txt",
+    "lib/python3.8/site-packages/cartopy/data/raster/sample/Miriam.A2012270.2050.2km.jpg",
+    "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/README.TXT",
+    "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/c/GSHHS_c_L1.dbf",
+    "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/c/GSHHS_c_L1.shp",
+    "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/c/GSHHS_c_L1.shx",
+    "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/l/GSHHS_l_L2.dbf",
+    "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/l/GSHHS_l_L2.shp",
+    "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/l/GSHHS_l_L2.shx",
+    "lib/python3.8/site-packages/cartopy/feature/__init__.py",
+    "lib/python3.8/site-packages/cartopy/feature/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/feature/__pycache__/nightshade.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/feature/nightshade.py",
+    "lib/python3.8/site-packages/cartopy/geodesic.py",
+    "lib/python3.8/site-packages/cartopy/img_transform.py",
+    "lib/python3.8/site-packages/cartopy/io/__init__.py",
+    "lib/python3.8/site-packages/cartopy/io/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/io/__pycache__/img_nest.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/io/__pycache__/img_tiles.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/io/__pycache__/ogc_clients.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/io/__pycache__/shapereader.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/io/__pycache__/srtm.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/io/img_nest.py",
+    "lib/python3.8/site-packages/cartopy/io/img_tiles.py",
+    "lib/python3.8/site-packages/cartopy/io/ogc_clients.py",
+    "lib/python3.8/site-packages/cartopy/io/shapereader.py",
+    "lib/python3.8/site-packages/cartopy/io/srtm.npz",
+    "lib/python3.8/site-packages/cartopy/io/srtm.py",
+    "lib/python3.8/site-packages/cartopy/mpl/__init__.py",
+    "lib/python3.8/site-packages/cartopy/mpl/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/mpl/__pycache__/clip_path.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/mpl/__pycache__/contour.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/mpl/__pycache__/feature_artist.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/mpl/__pycache__/geoaxes.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/mpl/__pycache__/geocollection.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/mpl/__pycache__/gridliner.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/mpl/__pycache__/patch.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/mpl/__pycache__/slippy_image_artist.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/mpl/__pycache__/style.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/mpl/__pycache__/ticker.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/mpl/clip_path.py",
+    "lib/python3.8/site-packages/cartopy/mpl/contour.py",
+    "lib/python3.8/site-packages/cartopy/mpl/feature_artist.py",
+    "lib/python3.8/site-packages/cartopy/mpl/geoaxes.py",
+    "lib/python3.8/site-packages/cartopy/mpl/geocollection.py",
+    "lib/python3.8/site-packages/cartopy/mpl/gridliner.py",
+    "lib/python3.8/site-packages/cartopy/mpl/patch.py",
+    "lib/python3.8/site-packages/cartopy/mpl/slippy_image_artist.py",
+    "lib/python3.8/site-packages/cartopy/mpl/style.py",
+    "lib/python3.8/site-packages/cartopy/mpl/ticker.py",
+    "lib/python3.8/site-packages/cartopy/tests/__init__.py",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/conftest.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_coastline.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_coding_standards.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_crs.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_crs_transform_vectors.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_features.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_geodesic.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_img_nest.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_img_tiles.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_img_transform.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_line_string.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_linear_ring.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_polygon.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_shapereader.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_vector_transform.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/conftest.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__init__.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/helpers.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_albers_equal_area.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_azimuthal_equidistant.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_eckert.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_equal_earth.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_equidistant_conic.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_geostationary.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_gnomonic.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_interrupted_goode_homolosine.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_lambert_azimuthal_equal_area.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_lambert_conformal.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_mercator.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_miller.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_mollweide.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_nearside_perspective.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_orthographic.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_robinson.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_rotated_geodetic.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_rotated_pole.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_sinusoidal.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_stereographic.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_transverse_mercator.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_utm.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/crs/helpers.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_albers_equal_area.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_azimuthal_equidistant.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_eckert.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_equal_earth.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_equidistant_conic.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_geostationary.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_gnomonic.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_interrupted_goode_homolosine.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_lambert_azimuthal_equal_area.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_lambert_conformal.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_mercator.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_miller.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_mollweide.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_nearside_perspective.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_orthographic.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_robinson.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_rotated_geodetic.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_rotated_pole.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_sinusoidal.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_stereographic.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_transverse_mercator.py",
+    "lib/python3.8/site-packages/cartopy/tests/crs/test_utm.py",
+    "lib/python3.8/site-packages/cartopy/tests/feature/__init__.py",
+    "lib/python3.8/site-packages/cartopy/tests/feature/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/feature/__pycache__/test_nightshade.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/feature/test_nightshade.py",
+    "lib/python3.8/site-packages/cartopy/tests/io/__init__.py",
+    "lib/python3.8/site-packages/cartopy/tests/io/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/io/__pycache__/test_downloaders.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/io/__pycache__/test_ogc_clients.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/io/__pycache__/test_srtm.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/io/test_downloaders.py",
+    "lib/python3.8/site-packages/cartopy/tests/io/test_ogc_clients.py",
+    "lib/python3.8/site-packages/cartopy/tests/io/test_srtm.py",
+    "lib/python3.8/site-packages/cartopy/tests/lakes_shapefile/ne_110m_lakes.dbf",
+    "lib/python3.8/site-packages/cartopy/tests/lakes_shapefile/ne_110m_lakes.shp",
+    "lib/python3.8/site-packages/cartopy/tests/lakes_shapefile/ne_110m_lakes.shx",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__init__.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/conftest.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_axes.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_caching.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_contour.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_crs.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_examples.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_feature_artist.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_features.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_gridliner.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_images.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_img_transform.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_mpl_integration.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_nightshade.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_patch.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_plots.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_pseudo_color.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_quiver.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_set_extent.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_shapely_to_mpl.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_style.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_ticker.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_ticks.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_web_services.cpython-38.pyc",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/conftest.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_axes.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_caching.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_contour.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_crs.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_examples.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_feature_artist.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_features.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_gridliner.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_images.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_img_transform.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_mpl_integration.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_nightshade.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_patch.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_plots.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_pseudo_color.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_quiver.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_set_extent.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_shapely_to_mpl.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_style.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_ticker.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_ticks.py",
+    "lib/python3.8/site-packages/cartopy/tests/mpl/test_web_services.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_coastline.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_coding_standards.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_crs.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_crs_transform_vectors.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_features.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_geodesic.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_img_nest.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_img_tiles.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_img_transform.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_line_string.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_linear_ring.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_polygon.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_shapereader.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_util.py",
+    "lib/python3.8/site-packages/cartopy/tests/test_vector_transform.py",
+    "lib/python3.8/site-packages/cartopy/trace.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/cartopy/util.py",
+    "lib/python3.8/site-packages/cartopy/vector_transform.py"
+  ],
+  "fn": "cartopy-0.20.1-py38hda056e9_2.tar.bz2",
+  "license": "LGPL-3.0-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/cartopy-0.20.1-py38hda056e9_2",
+    "type": 1
+  },
+  "md5": "a1f7270e0b7848f86a1c6f202c5a00d5",
+  "name": "cartopy",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/cartopy-0.20.1-py38hda056e9_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/cartopy_feature_download.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/cartopy_1635466705447/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "3593c02e4b40d765ac67eb6ead682fa0ebf5a6b01f384b3563a5b578feeedc89",
+        "sha256_in_prefix": "f6a853c0472d396352e9178170db63661dfb5b78d86b84059d34fc3dfe58c817",
+        "size_in_bytes": 6510
+      },
+      {
+        "_path": "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "sha256_in_prefix": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "size_in_bytes": 35147
+      },
+      {
+        "_path": "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/COPYING.LESSER",
+        "path_type": "hardlink",
+        "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+        "sha256_in_prefix": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+        "size_in_bytes": 7651
+      },
+      {
+        "_path": "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6271ae8d3e0d55dfa58008800a2d50da16064ed02095926abf4ac909b9629c04",
+        "sha256_in_prefix": "6271ae8d3e0d55dfa58008800a2d50da16064ed02095926abf4ac909b9629c04",
+        "size_in_bytes": 5871
+      },
+      {
+        "_path": "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ecb092ed96a66e49a90c1337fa45cd373002f979da990686e25f45f7bb2b65a3",
+        "sha256_in_prefix": "ecb092ed96a66e49a90c1337fa45cd373002f979da990686e25f45f7bb2b65a3",
+        "size_in_bytes": 17447
+      },
+      {
+        "_path": "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9b85a4e9e3b2f76c8963cee05409109e7faa9d16f4be5fefdb3b26c748605dfa",
+        "sha256_in_prefix": "9b85a4e9e3b2f76c8963cee05409109e7faa9d16f4be5fefdb3b26c748605dfa",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "562c5ac77ab6ecf076e25ad82e1a041d3f6e7c9390a1b50e17432212593741b1",
+        "sha256_in_prefix": "562c5ac77ab6ecf076e25ad82e1a041d3f6e7c9390a1b50e17432212593741b1",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "lib/python3.8/site-packages/Cartopy-0.20.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "27c703cd3315c69943321e825f688d6899bd5816b66d79283d17e1945d7a1bd8",
+        "sha256_in_prefix": "27c703cd3315c69943321e825f688d6899bd5816b66d79283d17e1945d7a1bd8",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "23d55635f85da78c6795f4b71b4f92562297787456fd4c596db73215423075cd",
+        "sha256_in_prefix": "23d55635f85da78c6795f4b71b4f92562297787456fd4c596db73215423075cd",
+        "size_in_bytes": 4183
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1817f9c1b2dfe72d5b578953ba4ab759aae0d5ff4283d1effabdca4cbaafc55",
+        "sha256_in_prefix": "f1817f9c1b2dfe72d5b578953ba4ab759aae0d5ff4283d1effabdca4cbaafc55",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/__pycache__/_epsg.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4058794e5ef9dc9ab12c664437c86d3352d80e2d3c863bf0f78c1022efac2807",
+        "sha256_in_prefix": "4058794e5ef9dc9ab12c664437c86d3352d80e2d3c863bf0f78c1022efac2807",
+        "size_in_bytes": 1027
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/__pycache__/_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3bf2c21dda89d28f0382a48157f4600b51a6033a659128b1e616e4bfb314dec0",
+        "sha256_in_prefix": "3bf2c21dda89d28f0382a48157f4600b51a6033a659128b1e616e4bfb314dec0",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/__pycache__/crs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "28220f038ccf297111ece9143b467bfb504e17f55953b10a8ed91d224c2712c6",
+        "sha256_in_prefix": "28220f038ccf297111ece9143b467bfb504e17f55953b10a8ed91d224c2712c6",
+        "size_in_bytes": 84784
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/__pycache__/geodesic.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "34e219efe2a0ece139e514cc4c9e6f3fc10b6d8ce276fa937f47a1a6794c237b",
+        "sha256_in_prefix": "34e219efe2a0ece139e514cc4c9e6f3fc10b6d8ce276fa937f47a1a6794c237b",
+        "size_in_bytes": 7135
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/__pycache__/img_transform.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d122ebc4b430b97b90764bde10536ffbae94a0ac084b6b3d9bd39de38a56e674",
+        "sha256_in_prefix": "d122ebc4b430b97b90764bde10536ffbae94a0ac084b6b3d9bd39de38a56e674",
+        "size_in_bytes": 8685
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e6f26d7b3914366585750c5cec59e17d5bd745643c9aa9d472aaefe41b4e18f",
+        "sha256_in_prefix": "0e6f26d7b3914366585750c5cec59e17d5bd745643c9aa9d472aaefe41b4e18f",
+        "size_in_bytes": 2825
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/__pycache__/vector_transform.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "19b858b75f473c9d85b6309d95f72b224f58820b1f84c6dafc4b2c391ed11f39",
+        "sha256_in_prefix": "19b858b75f473c9d85b6309d95f72b224f58820b1f84c6dafc4b2c391ed11f39",
+        "size_in_bytes": 4834
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/_epsg.py",
+        "path_type": "hardlink",
+        "sha256": "41eab32902739f042f801ffe6629c83338a5f1f519308d5a3b1cc681a997782a",
+        "sha256_in_prefix": "41eab32902739f042f801ffe6629c83338a5f1f519308d5a3b1cc681a997782a",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/_version.py",
+        "path_type": "hardlink",
+        "sha256": "e5d1012249ffbe586db9ddf9c383ca789130d0f22f4904a5b5522dc802343e8d",
+        "sha256_in_prefix": "e5d1012249ffbe586db9ddf9c383ca789130d0f22f4904a5b5522dc802343e8d",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/crs.py",
+        "path_type": "hardlink",
+        "sha256": "b74b29928643748ce8d79297f07eebedabd44ad5b3d37f3783144e7948f38c42",
+        "sha256_in_prefix": "b74b29928643748ce8d79297f07eebedabd44ad5b3d37f3783144e7948f38c42",
+        "size_in_bytes": 110653
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/netcdf/HadISST1_SST_update.README.txt",
+        "path_type": "hardlink",
+        "sha256": "2ca8199287f0b407f9a2a75608c97f41b571afe4ca42526362637bc6e55c1aa9",
+        "sha256_in_prefix": "2ca8199287f0b407f9a2a75608c97f41b571afe4ca42526362637bc6e55c1aa9",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/netcdf/HadISST1_SST_update.nc",
+        "path_type": "hardlink",
+        "sha256": "51c326c9816e93ec98db9568c6184f6ce9c7688346409569bca9a45cfa4a510f",
+        "sha256_in_prefix": "51c326c9816e93ec98db9568c6184f6ce9c7688346409569bca9a45cfa4a510f",
+        "size_in_bytes": 263540
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/raster/natural_earth/50-natural-earth-1-downsampled.png",
+        "path_type": "hardlink",
+        "sha256": "49c66a4db7f5a5cfd12bd344850e8c6e433ed1a4afad73f44e6e1a9aa13fa726",
+        "sha256_in_prefix": "49c66a4db7f5a5cfd12bd344850e8c6e433ed1a4afad73f44e6e1a9aa13fa726",
+        "size_in_bytes": 339069
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/raster/natural_earth/images.json",
+        "path_type": "hardlink",
+        "sha256": "a8675a108a39b4b99c6d182e990cef081bde913cd16bd89d4b0ae9fa7fe38fe9",
+        "sha256_in_prefix": "a8675a108a39b4b99c6d182e990cef081bde913cd16bd89d4b0ae9fa7fe38fe9",
+        "size_in_bytes": 413
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/raster/sample/Miriam.A2012270.2050.2km.README.txt",
+        "path_type": "hardlink",
+        "sha256": "a3c886bd8c68bdd763d9167e9d9aece133b54f76f8aacfbe4fbb39124c4f804c",
+        "sha256_in_prefix": "a3c886bd8c68bdd763d9167e9d9aece133b54f76f8aacfbe4fbb39124c4f804c",
+        "size_in_bytes": 323
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/raster/sample/Miriam.A2012270.2050.2km.jpg",
+        "path_type": "hardlink",
+        "sha256": "5dfda0a9cee9e6285ad778118624adfed864c7758bbfa9ed705e75636cdb610e",
+        "sha256_in_prefix": "5dfda0a9cee9e6285ad778118624adfed864c7758bbfa9ed705e75636cdb610e",
+        "size_in_bytes": 256220
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/README.TXT",
+        "path_type": "hardlink",
+        "sha256": "14940183a77037eac0b34115f988d1f1a9ef17a0a74eb1d7b229480a746572ab",
+        "sha256_in_prefix": "14940183a77037eac0b34115f988d1f1a9ef17a0a74eb1d7b229480a746572ab",
+        "size_in_bytes": 7622
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/c/GSHHS_c_L1.dbf",
+        "path_type": "hardlink",
+        "sha256": "ef7bf246e540ef49ccdcef581b0462fa640642e2b63f30285af229a3c24d4714",
+        "sha256_in_prefix": "ef7bf246e540ef49ccdcef581b0462fa640642e2b63f30285af229a3c24d4714",
+        "size_in_bytes": 170075
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/c/GSHHS_c_L1.shp",
+        "path_type": "hardlink",
+        "sha256": "164b89aa0d3c91c76579a95afb8d8d1544f074a3cb84be759de9bb24cdf90a49",
+        "sha256_in_prefix": "164b89aa0d3c91c76579a95afb8d8d1544f074a3cb84be759de9bb24cdf90a49",
+        "size_in_bytes": 167188
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/c/GSHHS_c_L1.shx",
+        "path_type": "hardlink",
+        "sha256": "18e5b7c556f2955d762348f9271a3ac522f49e681ff4f5693fcc3e7760ed180e",
+        "sha256_in_prefix": "18e5b7c556f2955d762348f9271a3ac522f49e681ff4f5693fcc3e7760ed180e",
+        "size_in_bytes": 6420
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/l/GSHHS_l_L2.dbf",
+        "path_type": "hardlink",
+        "sha256": "c6e42b89c3e47f73009cf467bdd39dda9e0ded03d7722e5959bbc3dda26fdec1",
+        "sha256_in_prefix": "c6e42b89c3e47f73009cf467bdd39dda9e0ded03d7722e5959bbc3dda26fdec1",
+        "size_in_bytes": 943000
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/l/GSHHS_l_L2.shp",
+        "path_type": "hardlink",
+        "sha256": "9644fbef4b69ecfc0980344d6c712200860a12c192b856acc33eb12e4d2669f5",
+        "sha256_in_prefix": "9644fbef4b69ecfc0980344d6c712200860a12c192b856acc33eb12e4d2669f5",
+        "size_in_bytes": 723052
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/data/shapefiles/gshhs/l/GSHHS_l_L2.shx",
+        "path_type": "hardlink",
+        "sha256": "b28891ba02fdf614cac33874e3d4497544bfbd5e11229d6f977ebd29d6552920",
+        "sha256_in_prefix": "b28891ba02fdf614cac33874e3d4497544bfbd5e11229d6f977ebd29d6552920",
+        "size_in_bytes": 35180
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/feature/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "03c6fec71baa34f52cf3f7a45f12495b6baafd32f615ed345e5c5934526549ae",
+        "sha256_in_prefix": "03c6fec71baa34f52cf3f7a45f12495b6baafd32f615ed345e5c5934526549ae",
+        "size_in_bytes": 16044
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/feature/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8816a38aaf013945fa5af71c02aa46d4b9a88343a26ca180f654418c3f97350e",
+        "sha256_in_prefix": "8816a38aaf013945fa5af71c02aa46d4b9a88343a26ca180f654418c3f97350e",
+        "size_in_bytes": 14257
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/feature/__pycache__/nightshade.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d541bb7474ca512a470ea0c49c763394a681424bdee015e2a47ba537434f7ce7",
+        "sha256_in_prefix": "d541bb7474ca512a470ea0c49c763394a681424bdee015e2a47ba537434f7ce7",
+        "size_in_bytes": 4502
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/feature/nightshade.py",
+        "path_type": "hardlink",
+        "sha256": "75935125cf1b1de74d2252023260bc5cfa75bebb40f179abd429f4b85fceaaae",
+        "sha256_in_prefix": "75935125cf1b1de74d2252023260bc5cfa75bebb40f179abd429f4b85fceaaae",
+        "size_in_bytes": 6442
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/geodesic.py",
+        "path_type": "hardlink",
+        "sha256": "6117ff75c7be3d92c6a1212f142de5e3312203c84be617766640c973f629d047",
+        "sha256_in_prefix": "6117ff75c7be3d92c6a1212f142de5e3312203c84be617766640c973f629d047",
+        "size_in_bytes": 8059
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/img_transform.py",
+        "path_type": "hardlink",
+        "sha256": "e7222df7ccb7319bc768c3020ddea4c76b3661ad6152e253848b3e3f3bf626af",
+        "sha256_in_prefix": "e7222df7ccb7319bc768c3020ddea4c76b3661ad6152e253848b3e3f3bf626af",
+        "size_in_bytes": 13105
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7c5b307cd31c5d3fd10827ccda12e85a099aa656b174f7c4dcc85985c5b76312",
+        "sha256_in_prefix": "7c5b307cd31c5d3fd10827ccda12e85a099aa656b174f7c4dcc85985c5b76312",
+        "size_in_bytes": 14117
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f03e69ec0a494a7997997dd5ca2d4e9bde8ca4d8f0952c48e5a44de3452f1687",
+        "sha256_in_prefix": "f03e69ec0a494a7997997dd5ca2d4e9bde8ca4d8f0952c48e5a44de3452f1687",
+        "size_in_bytes": 13778
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/__pycache__/img_nest.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f9a21423bd05b8ef8ce404bc164f84f2643a452bed574c822c9f98d04e21d0a9",
+        "sha256_in_prefix": "f9a21423bd05b8ef8ce404bc164f84f2643a452bed574c822c9f98d04e21d0a9",
+        "size_in_bytes": 17732
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/__pycache__/img_tiles.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "468e610cde176697e6c3bace73504ca2cc98a9cbadd79dfe6465dd40ddd9008b",
+        "sha256_in_prefix": "468e610cde176697e6c3bace73504ca2cc98a9cbadd79dfe6465dd40ddd9008b",
+        "size_in_bytes": 23331
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/__pycache__/ogc_clients.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "37fff114155e8d835e18c8125013d08eed8c5911c4724e96696404825eb2a1f1",
+        "sha256_in_prefix": "37fff114155e8d835e18c8125013d08eed8c5911c4724e96696404825eb2a1f1",
+        "size_in_bytes": 21503
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/__pycache__/shapereader.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "06aab341286120863290a66e4d3371c624bf9777de6bfe64bc4071b741e80128",
+        "sha256_in_prefix": "06aab341286120863290a66e4d3371c624bf9777de6bfe64bc4071b741e80128",
+        "size_in_bytes": 16226
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/__pycache__/srtm.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "820bf9b49d63a3ca29b7c944475722f55d27deecc972e5a6f45f9c8dea35e9d7",
+        "sha256_in_prefix": "820bf9b49d63a3ca29b7c944475722f55d27deecc972e5a6f45f9c8dea35e9d7",
+        "size_in_bytes": 15207
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/img_nest.py",
+        "path_type": "hardlink",
+        "sha256": "e67dfc23f1127745f16fd275872b1914846b4bc5bbe0193b99d3fd55818cc980",
+        "sha256_in_prefix": "e67dfc23f1127745f16fd275872b1914846b4bc5bbe0193b99d3fd55818cc980",
+        "size_in_bytes": 18941
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/img_tiles.py",
+        "path_type": "hardlink",
+        "sha256": "41104dc977f4d63f93dec7d6864fcbbde59a5c5ab90c513cc554b56b52672f84",
+        "sha256_in_prefix": "41104dc977f4d63f93dec7d6864fcbbde59a5c5ab90c513cc554b56b52672f84",
+        "size_in_bytes": 25318
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/ogc_clients.py",
+        "path_type": "hardlink",
+        "sha256": "59ba7ca3edb54bf076f0a7493c9eb528201a53caa17b7e4eb9187e5a7c205dae",
+        "sha256_in_prefix": "59ba7ca3edb54bf076f0a7493c9eb528201a53caa17b7e4eb9187e5a7c205dae",
+        "size_in_bytes": 34324
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/shapereader.py",
+        "path_type": "hardlink",
+        "sha256": "aa8a8fde585436b5c8ae064a23f0e3027b644191b5366fe63b3fe8f87f81e901",
+        "sha256_in_prefix": "aa8a8fde585436b5c8ae064a23f0e3027b644191b5366fe63b3fe8f87f81e901",
+        "size_in_bytes": 19391
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/srtm.npz",
+        "path_type": "hardlink",
+        "sha256": "2a53452388db589e575a55ed25a628cab1c4abcd7dcaa3f66ad220a65a9c9458",
+        "sha256_in_prefix": "2a53452388db589e575a55ed25a628cab1c4abcd7dcaa3f66ad220a65a9c9458",
+        "size_in_bytes": 2650
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/io/srtm.py",
+        "path_type": "hardlink",
+        "sha256": "1eda5269c94f8417185b465ffac53290cb27186f9d5c018f3291e2d0fc36440f",
+        "sha256_in_prefix": "1eda5269c94f8417185b465ffac53290cb27186f9d5c018f3291e2d0fc36440f",
+        "size_in_bytes": 17947
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "32b1d955af7b47f82c3e901d71a54bdf4e1dbe37765353071f1d17b7463eea1e",
+        "sha256_in_prefix": "32b1d955af7b47f82c3e901d71a54bdf4e1dbe37765353071f1d17b7463eea1e",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "379bc81414a5f87f8b467c06cfa34168b2cdfe1f03fbf7214a5a0716cef9befe",
+        "sha256_in_prefix": "379bc81414a5f87f8b467c06cfa34168b2cdfe1f03fbf7214a5a0716cef9befe",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/__pycache__/clip_path.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "19be3ca999f69a737cf93939754c30937697e9396a4ecf6b41a5c1adae6b9785",
+        "sha256_in_prefix": "19be3ca999f69a737cf93939754c30937697e9396a4ecf6b41a5c1adae6b9785",
+        "size_in_bytes": 2067
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/__pycache__/contour.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "47199774b3693e97cef0a811884dfe1b036e793ebf377a67c25ac65a1ca409e1",
+        "sha256_in_prefix": "47199774b3693e97cef0a811884dfe1b036e793ebf377a67c25ac65a1ca409e1",
+        "size_in_bytes": 1611
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/__pycache__/feature_artist.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "026727f758823582d265e8f4fe86afd92e463cc9292e24e360913baadd04b598",
+        "sha256_in_prefix": "026727f758823582d265e8f4fe86afd92e463cc9292e24e360913baadd04b598",
+        "size_in_bytes": 4784
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/__pycache__/geoaxes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8fdbdbf68d3f92fc682081b046984469de24fc5f8a299a2459376f1e530d30af",
+        "sha256_in_prefix": "8fdbdbf68d3f92fc682081b046984469de24fc5f8a299a2459376f1e530d30af",
+        "size_in_bytes": 67750
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/__pycache__/geocollection.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "02dc4d759cec48b293dd4bbc07a09e06307567f23f988f3c9fef30d006fe75c2",
+        "sha256_in_prefix": "02dc4d759cec48b293dd4bbc07a09e06307567f23f988f3c9fef30d006fe75c2",
+        "size_in_bytes": 1449
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/__pycache__/gridliner.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e797de7bd208f5524ad7f37de1b6b968c176a7c07a2e58e60fabd4ed32a8f65",
+        "sha256_in_prefix": "2e797de7bd208f5524ad7f37de1b6b968c176a7c07a2e58e60fabd4ed32a8f65",
+        "size_in_bytes": 32788
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/__pycache__/patch.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e6621f7ccc7b52e1f1e7adefa92888437106c240dc235242c9599378173a003",
+        "sha256_in_prefix": "2e6621f7ccc7b52e1f1e7adefa92888437106c240dc235242c9599378173a003",
+        "size_in_bytes": 5878
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/__pycache__/slippy_image_artist.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f9dfffbc862633a80f9357df371c87f5dc6d92ede135ede11f9d0811fdc1991",
+        "sha256_in_prefix": "0f9dfffbc862633a80f9357df371c87f5dc6d92ede135ede11f9d0811fdc1991",
+        "size_in_bytes": 2530
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/__pycache__/style.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "19fdf6e2e87aef8ca05498d56bb2829cff1787c4887e9abd13eb8152b34bd4df",
+        "sha256_in_prefix": "19fdf6e2e87aef8ca05498d56bb2829cff1787c4887e9abd13eb8152b34bd4df",
+        "size_in_bytes": 2045
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/__pycache__/ticker.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ffb682c5e156d8291735e4226e7b0625cc0bd6ea537fdd5a9ffde16573fa80d5",
+        "sha256_in_prefix": "ffb682c5e156d8291735e4226e7b0625cc0bd6ea537fdd5a9ffde16573fa80d5",
+        "size_in_bytes": 18991
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/clip_path.py",
+        "path_type": "hardlink",
+        "sha256": "9a6695bef1e708eb8fa0c8995e99e630ce0224ac4543acf51946e575f5dfa10e",
+        "sha256_in_prefix": "9a6695bef1e708eb8fa0c8995e99e630ce0224ac4543acf51946e575f5dfa10e",
+        "size_in_bytes": 2441
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/contour.py",
+        "path_type": "hardlink",
+        "sha256": "dc91fb1b3f6773a90cb0207d47206107ee723ff3c348a185d922018bfdb25049",
+        "sha256_in_prefix": "dc91fb1b3f6773a90cb0207d47206107ee723ff3c348a185d922018bfdb25049",
+        "size_in_bytes": 3963
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/feature_artist.py",
+        "path_type": "hardlink",
+        "sha256": "369646ab81fef73b12f160f80c775b8461e08d7a5d5ccbac4cdedd505664458e",
+        "sha256_in_prefix": "369646ab81fef73b12f160f80c775b8461e08d7a5d5ccbac4cdedd505664458e",
+        "size_in_bytes": 7602
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/geoaxes.py",
+        "path_type": "hardlink",
+        "sha256": "a6d702d8668e7f87a6368eb5a363c6be1cdf497924455459f9177095e7265b2f",
+        "sha256_in_prefix": "a6d702d8668e7f87a6368eb5a363c6be1cdf497924455459f9177095e7265b2f",
+        "size_in_bytes": 93877
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/geocollection.py",
+        "path_type": "hardlink",
+        "sha256": "fd771ac8b86aacd9215b7430ae932c743b922330d1bd9241d74f88ddc949309b",
+        "sha256_in_prefix": "fd771ac8b86aacd9215b7430ae932c743b922330d1bd9241d74f88ddc949309b",
+        "size_in_bytes": 2236
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/gridliner.py",
+        "path_type": "hardlink",
+        "sha256": "357f5ed849203b8c4b1f5ee92084a5d36fc22d2728b4c86bafb7b515f6fb9894",
+        "sha256_in_prefix": "357f5ed849203b8c4b1f5ee92084a5d36fc22d2728b4c86bafb7b515f6fb9894",
+        "size_in_bytes": 50515
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/patch.py",
+        "path_type": "hardlink",
+        "sha256": "8e0ba1885de983f0e57986a9885e56751bc78cdd8eddb5e9895c3010e8e35327",
+        "sha256_in_prefix": "8e0ba1885de983f0e57986a9885e56751bc78cdd8eddb5e9895c3010e8e35327",
+        "size_in_bytes": 7739
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/slippy_image_artist.py",
+        "path_type": "hardlink",
+        "sha256": "c152043d8d279ce7c72bae3a107ddc2018495194e0f4da47b42d3ee5e7af64f6",
+        "sha256_in_prefix": "c152043d8d279ce7c72bae3a107ddc2018495194e0f4da47b42d3ee5e7af64f6",
+        "size_in_bytes": 2398
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/style.py",
+        "path_type": "hardlink",
+        "sha256": "d2617fa2dc5f38c95f00a788662fb8f0802322b492c8c59893146914e55fc2c2",
+        "sha256_in_prefix": "d2617fa2dc5f38c95f00a788662fb8f0802322b492c8c59893146914e55fc2c2",
+        "size_in_bytes": 3219
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/mpl/ticker.py",
+        "path_type": "hardlink",
+        "sha256": "aa7b9a379d3af759fe98b4d9961d00dc0e0a5801f28346dbe27d8743d6a224e2",
+        "sha256_in_prefix": "aa7b9a379d3af759fe98b4d9961d00dc0e0a5801f28346dbe27d8743d6a224e2",
+        "size_in_bytes": 21140
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "32b1d955af7b47f82c3e901d71a54bdf4e1dbe37765353071f1d17b7463eea1e",
+        "sha256_in_prefix": "32b1d955af7b47f82c3e901d71a54bdf4e1dbe37765353071f1d17b7463eea1e",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "390860219ade6a1d7bfa3824434c5be7e8d4b823eb015aff0479cb851533a7b8",
+        "sha256_in_prefix": "390860219ade6a1d7bfa3824434c5be7e8d4b823eb015aff0479cb851533a7b8",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/conftest.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ad7d64d4d4257e9c87be2557869edafefce5228ccaeb54a075c9197b2f06c81",
+        "sha256_in_prefix": "2ad7d64d4d4257e9c87be2557869edafefce5228ccaeb54a075c9197b2f06c81",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_coastline.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "657ee93bcba1e82df54f00c89b6ae202a57960ee4132b54f973e07d23c2ff723",
+        "sha256_in_prefix": "657ee93bcba1e82df54f00c89b6ae202a57960ee4132b54f973e07d23c2ff723",
+        "size_in_bytes": 915
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_coding_standards.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe997335146cd092d9b11d6341a33bc3bcc5f6b2a78324fa408392168144e1be",
+        "sha256_in_prefix": "fe997335146cd092d9b11d6341a33bc3bcc5f6b2a78324fa408392168144e1be",
+        "size_in_bytes": 2949
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_crs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba222e1bced962b47808176bea6ae9f2a59ec330b67a475cdb3e69af80fa0b07",
+        "sha256_in_prefix": "ba222e1bced962b47808176bea6ae9f2a59ec330b67a475cdb3e69af80fa0b07",
+        "size_in_bytes": 9566
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_crs_transform_vectors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "85b8ab3621a88ec8c282c030a1038bd0b3153ece038415dc125c4022b0522746",
+        "sha256_in_prefix": "85b8ab3621a88ec8c282c030a1038bd0b3153ece038415dc125c4022b0522746",
+        "size_in_bytes": 4224
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_features.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba7fdd105acf2eec75b8342aebef246723f1b52bbfa1f1c7ce1da0473b170200",
+        "sha256_in_prefix": "ba7fdd105acf2eec75b8342aebef246723f1b52bbfa1f1c7ce1da0473b170200",
+        "size_in_bytes": 2789
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_geodesic.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "355aeef881be89d02ee4bad180f9bad684caec6a1166d56486eb1ae5133c1f9d",
+        "sha256_in_prefix": "355aeef881be89d02ee4bad180f9bad684caec6a1166d56486eb1ae5133c1f9d",
+        "size_in_bytes": 6019
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_img_nest.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e02ae3ccf8fab35fde06190619e5d6894182ba06c4dbaaadba924cc7238e7fa5",
+        "sha256_in_prefix": "e02ae3ccf8fab35fde06190619e5d6894182ba06c4dbaaadba924cc7238e7fa5",
+        "size_in_bytes": 10656
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_img_tiles.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce9ddcbcc108c9ef07fddd295d5d3317a2922b7d43d9c973ad87e59d0cc53e0f",
+        "sha256_in_prefix": "ce9ddcbcc108c9ef07fddd295d5d3317a2922b7d43d9c973ad87e59d0cc53e0f",
+        "size_in_bytes": 11168
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_img_transform.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5982cb0b5dfb472456bb101f62cfcab3ad1a43f2aafaa80a0c813c1b70d5ca9",
+        "sha256_in_prefix": "f5982cb0b5dfb472456bb101f62cfcab3ad1a43f2aafaa80a0c813c1b70d5ca9",
+        "size_in_bytes": 2500
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_line_string.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ac27a98d558bbc581784ef68ad867efe3136f422fd7adf0a2143577f8b52634",
+        "sha256_in_prefix": "2ac27a98d558bbc581784ef68ad867efe3136f422fd7adf0a2143577f8b52634",
+        "size_in_bytes": 8020
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_linear_ring.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2983b0daf0c9d999f315a0854b94f38d9fce9dd05ace63f4da024d7a0d987902",
+        "sha256_in_prefix": "2983b0daf0c9d999f315a0854b94f38d9fce9dd05ace63f4da024d7a0d987902",
+        "size_in_bytes": 4375
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_polygon.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "be99252f5d0650877a2aa39ffa81b48c710e30a81f4ed054fce96598e585bbbb",
+        "sha256_in_prefix": "be99252f5d0650877a2aa39ffa81b48c710e30a81f4ed054fce96598e585bbbb",
+        "size_in_bytes": 15573
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_shapereader.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "69eef53391f2d654541c03507fbefba9a2997b30258ec03ff7c4db6bccef1c2c",
+        "sha256_in_prefix": "69eef53391f2d654541c03507fbefba9a2997b30258ec03ff7c4db6bccef1c2c",
+        "size_in_bytes": 4326
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "081699463c29b80636a3f76a4ac6bee9601b8c9262650c3869b2a6430d196487",
+        "sha256_in_prefix": "081699463c29b80636a3f76a4ac6bee9601b8c9262650c3869b2a6430d196487",
+        "size_in_bytes": 3156
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/__pycache__/test_vector_transform.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "959d65e62b6dc3fae0917b63d07f410642324263c2b31346da53b098703d80b4",
+        "sha256_in_prefix": "959d65e62b6dc3fae0917b63d07f410642324263c2b31346da53b098703d80b4",
+        "size_in_bytes": 6303
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "a9492b5af08a38d0a9b32c127b797575abd052451d91b19bd96138b39cba3240",
+        "sha256_in_prefix": "a9492b5af08a38d0a9b32c127b797575abd052451d91b19bd96138b39cba3240",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "05d5aa84e6fe94fbd5570eccafe89198c13471551886ea6c415b0180912652b7",
+        "sha256_in_prefix": "05d5aa84e6fe94fbd5570eccafe89198c13471551886ea6c415b0180912652b7",
+        "size_in_bytes": 328
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "809b7ef9feb83072dd3787938c9a4386721906448e7a1691991f6d97be4a82d3",
+        "sha256_in_prefix": "809b7ef9feb83072dd3787938c9a4386721906448e7a1691991f6d97be4a82d3",
+        "size_in_bytes": 292
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/helpers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "be328b8dd2eefa4af424d5ae47c4740dd3ca3c9518e56afd55c5554b04125bca",
+        "sha256_in_prefix": "be328b8dd2eefa4af424d5ae47c4740dd3ca3c9518e56afd55c5554b04125bca",
+        "size_in_bytes": 480
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_albers_equal_area.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "163098bc34f2c172284d872335b1d1a2ae3da44d5d6b8d4cf0578d29ef5d1142",
+        "sha256_in_prefix": "163098bc34f2c172284d872335b1d1a2ae3da44d5d6b8d4cf0578d29ef5d1142",
+        "size_in_bytes": 4210
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_azimuthal_equidistant.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "545a1bc6b05b5837a81ffc5a0bda57837a437dcc877c873cfd59fb5afa7fb4f6",
+        "sha256_in_prefix": "545a1bc6b05b5837a81ffc5a0bda57837a437dcc877c873cfd59fb5afa7fb4f6",
+        "size_in_bytes": 7410
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_eckert.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "829e39026c2a2c01d113fb54a062832b93cc6a2d2bb03360c77641d9f8617e34",
+        "sha256_in_prefix": "829e39026c2a2c01d113fb54a062832b93cc6a2d2bb03360c77641d9f8617e34",
+        "size_in_bytes": 5913
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_equal_earth.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "88d29c693f6e611b9f5e3aa174518c501be6003c4f747622a7392b10ec15980f",
+        "sha256_in_prefix": "88d29c693f6e611b9f5e3aa174518c501be6003c4f747622a7392b10ec15980f",
+        "size_in_bytes": 2030
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_equidistant_conic.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "89d60450543a8e050a70b13994fbf7e20337876807b985b806697fef46a92a8d",
+        "sha256_in_prefix": "89d60450543a8e050a70b13994fbf7e20337876807b985b806697fef46a92a8d",
+        "size_in_bytes": 4207
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_geostationary.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "502e59f5107142f6b1aed1478de8837a31f12b7c818e21465150cb586c8765d0",
+        "sha256_in_prefix": "502e59f5107142f6b1aed1478de8837a31f12b7c818e21465150cb586c8765d0",
+        "size_in_bytes": 2436
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_gnomonic.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1e783506bafa7414832e65e9f6ec325ddb790e7903cee82781e9ee4fd892befd",
+        "sha256_in_prefix": "1e783506bafa7414832e65e9f6ec325ddb790e7903cee82781e9ee4fd892befd",
+        "size_in_bytes": 4500
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_interrupted_goode_homolosine.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1529883779a67e988cf3c84c963c5c1a45715661b96e8a3f9d5fe5e2b56a737b",
+        "sha256_in_prefix": "1529883779a67e988cf3c84c963c5c1a45715661b96e8a3f9d5fe5e2b56a737b",
+        "size_in_bytes": 1879
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_lambert_azimuthal_equal_area.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8616a623fa5fc604f3119ec341108deb6a7b9a978626140a2eb41c5f66272aa9",
+        "sha256_in_prefix": "8616a623fa5fc604f3119ec341108deb6a7b9a978626140a2eb41c5f66272aa9",
+        "size_in_bytes": 2291
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_lambert_conformal.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "001d16e4fd4faf70c646fc586beedaa2fab53cc7a4e7223aa22843b3583237f2",
+        "sha256_in_prefix": "001d16e4fd4faf70c646fc586beedaa2fab53cc7a4e7223aa22843b3583237f2",
+        "size_in_bytes": 3118
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_mercator.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "25ef69926dd36c8ba6bcdc41061b04ab93c07f592bcc17945f9782ee64b12f7e",
+        "sha256_in_prefix": "25ef69926dd36c8ba6bcdc41061b04ab93c07f592bcc17945f9782ee64b12f7e",
+        "size_in_bytes": 2873
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_miller.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f97558ecdc1b46fe8d83672d5170cc1b79bd7f15556680b39f488c05f5c75011",
+        "sha256_in_prefix": "f97558ecdc1b46fe8d83672d5170cc1b79bd7f15556680b39f488c05f5c75011",
+        "size_in_bytes": 3800
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_mollweide.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c98fb6dc3c77ca619a2bacd43b63a1fd21899ccd99c1a04723996b811865d208",
+        "sha256_in_prefix": "c98fb6dc3c77ca619a2bacd43b63a1fd21899ccd99c1a04723996b811865d208",
+        "size_in_bytes": 4350
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_nearside_perspective.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9fc07d219e5fd9ed6a23ab8b33d8cb21e5e2cbf2a45de722026d7f2e9eb0b3ad",
+        "sha256_in_prefix": "9fc07d219e5fd9ed6a23ab8b33d8cb21e5e2cbf2a45de722026d7f2e9eb0b3ad",
+        "size_in_bytes": 1377
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_orthographic.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d734f36222b0ba1b4ab6e3f28bf54655265ac33651863390e91302683d60b71d",
+        "sha256_in_prefix": "d734f36222b0ba1b4ab6e3f28bf54655265ac33651863390e91302683d60b71d",
+        "size_in_bytes": 4380
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_robinson.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6cc87feb822ce1663010ee95442983e34aa98d963da0559b8d4929c8e098129a",
+        "sha256_in_prefix": "6cc87feb822ce1663010ee95442983e34aa98d963da0559b8d4929c8e098129a",
+        "size_in_bytes": 4187
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_rotated_geodetic.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "126f87fb7fc4c0aeba8a1692db059d8a118abc8dfd41a94e340b19401394d2f0",
+        "sha256_in_prefix": "126f87fb7fc4c0aeba8a1692db059d8a118abc8dfd41a94e340b19401394d2f0",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_rotated_pole.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2194d64528d2ed8f701504ad311f91cdcbe5882f7ce8f12729fb354ea6eab642",
+        "sha256_in_prefix": "2194d64528d2ed8f701504ad311f91cdcbe5882f7ce8f12729fb354ea6eab642",
+        "size_in_bytes": 682
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_sinusoidal.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8508e4b43e37f76d7f3d65d54da54c8ccc20578521aa4c41743e5da74c69ce08",
+        "sha256_in_prefix": "8508e4b43e37f76d7f3d65d54da54c8ccc20578521aa4c41743e5da74c69ce08",
+        "size_in_bytes": 2773
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_stereographic.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ada0ef7c7fbf586b4ff54048921d20ae53bfed826927c40fd22fac4c4f3e51b",
+        "sha256_in_prefix": "4ada0ef7c7fbf586b4ff54048921d20ae53bfed826927c40fd22fac4c4f3e51b",
+        "size_in_bytes": 2724
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_transverse_mercator.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a035c219983ae9577419449e153ac7b842133088a0ce7db9949d6bbb7da8ccde",
+        "sha256_in_prefix": "a035c219983ae9577419449e153ac7b842133088a0ce7db9949d6bbb7da8ccde",
+        "size_in_bytes": 3943
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/__pycache__/test_utm.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "149f32ca8d4ba2b4bee182c4e3983389468e17d5b8bc03b0e156b95654a85658",
+        "sha256_in_prefix": "149f32ca8d4ba2b4bee182c4e3983389468e17d5b8bc03b0e156b95654a85658",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "ad2eee20c2f0d6de1a90a972a122398a1cfbf165fe5d1ea5638b8ca96866f964",
+        "sha256_in_prefix": "ad2eee20c2f0d6de1a90a972a122398a1cfbf165fe5d1ea5638b8ca96866f964",
+        "size_in_bytes": 449
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_albers_equal_area.py",
+        "path_type": "hardlink",
+        "sha256": "831fc98ba1ac2151aa2444c74657509d3ecce208cc916d6751a4d5ce02f1fa07",
+        "sha256_in_prefix": "831fc98ba1ac2151aa2444c74657509d3ecce208cc916d6751a4d5ce02f1fa07",
+        "size_in_bytes": 5767
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_azimuthal_equidistant.py",
+        "path_type": "hardlink",
+        "sha256": "3786a47fc2a1c82b1ca4a6e74eea1e5b6f5ccf69a4ec95aef7b0e32758de78b0",
+        "sha256_in_prefix": "3786a47fc2a1c82b1ca4a6e74eea1e5b6f5ccf69a4ec95aef7b0e32758de78b0",
+        "size_in_bytes": 10619
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_eckert.py",
+        "path_type": "hardlink",
+        "sha256": "d9db72d053645f309de5f4fcc3080b4faf3f40f3d47d9257292e1d710971fb6c",
+        "sha256_in_prefix": "d9db72d053645f309de5f4fcc3080b4faf3f40f3d47d9257292e1d710971fb6c",
+        "size_in_bytes": 8425
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_equal_earth.py",
+        "path_type": "hardlink",
+        "sha256": "970666c0c033b71dcad1b4aec2055c8a3ee99c3f39698315ac7da05f8d64f6f4",
+        "sha256_in_prefix": "970666c0c033b71dcad1b4aec2055c8a3ee99c3f39698315ac7da05f8d64f6f4",
+        "size_in_bytes": 2603
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_equidistant_conic.py",
+        "path_type": "hardlink",
+        "sha256": "6c170564baac9ad2322ac265875e2fa73ef8573cd6724e64417e53a73bb5ad8e",
+        "sha256_in_prefix": "6c170564baac9ad2322ac265875e2fa73ef8573cd6724e64417e53a73bb5ad8e",
+        "size_in_bytes": 5831
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_geostationary.py",
+        "path_type": "hardlink",
+        "sha256": "9509f07d3c621ec7a0ff74041bd069790c389041f84ccde9b2753be25a219c2d",
+        "sha256_in_prefix": "9509f07d3c621ec7a0ff74041bd069790c389041f84ccde9b2753be25a219c2d",
+        "size_in_bytes": 3022
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_gnomonic.py",
+        "path_type": "hardlink",
+        "sha256": "a5032e7c00e1320b78a5ae933eee32c24b05552293643b6fd9f6a0e6b735b112",
+        "sha256_in_prefix": "a5032e7c00e1320b78a5ae933eee32c24b05552293643b6fd9f6a0e6b735b112",
+        "size_in_bytes": 5424
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_interrupted_goode_homolosine.py",
+        "path_type": "hardlink",
+        "sha256": "0803ff071be11f6b6015dfe64c96aa455d0d8500e36754e94971a4e479a2a5fc",
+        "sha256_in_prefix": "0803ff071be11f6b6015dfe64c96aa455d0d8500e36754e94971a4e479a2a5fc",
+        "size_in_bytes": 2282
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_lambert_azimuthal_equal_area.py",
+        "path_type": "hardlink",
+        "sha256": "502cdd966313f62ef0199c51f4c0b919817a272f5ee980f9eb9b33883824ddec",
+        "sha256_in_prefix": "502cdd966313f62ef0199c51f4c0b919817a272f5ee980f9eb9b33883824ddec",
+        "size_in_bytes": 2402
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_lambert_conformal.py",
+        "path_type": "hardlink",
+        "sha256": "11bec585443b4a9eaeeef36032bcc342c6f24a121f83eb2d2d34b2b3dc8eb7ee",
+        "sha256_in_prefix": "11bec585443b4a9eaeeef36032bcc342c6f24a121f83eb2d2d34b2b3dc8eb7ee",
+        "size_in_bytes": 3334
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_mercator.py",
+        "path_type": "hardlink",
+        "sha256": "91e2820c39b80fc3b7240b51e2a1cf2e59d5cf631b90cc033c6bbb3cd84540fb",
+        "sha256_in_prefix": "91e2820c39b80fc3b7240b51e2a1cf2e59d5cf631b90cc033c6bbb3cd84540fb",
+        "size_in_bytes": 3341
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_miller.py",
+        "path_type": "hardlink",
+        "sha256": "da12ecb9b51f7a841a0b8faff81180681265ed08b32a7144d63df1f969f29016",
+        "sha256_in_prefix": "da12ecb9b51f7a841a0b8faff81180681265ed08b32a7144d63df1f969f29016",
+        "size_in_bytes": 4666
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_mollweide.py",
+        "path_type": "hardlink",
+        "sha256": "4e86affcf34ef343382a3dc6e0ca0be5a84986be253005bf5dd8d45b86c11cdd",
+        "sha256_in_prefix": "4e86affcf34ef343382a3dc6e0ca0be5a84986be253005bf5dd8d45b86c11cdd",
+        "size_in_bytes": 5341
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_nearside_perspective.py",
+        "path_type": "hardlink",
+        "sha256": "d1a095ab3a579c4d952f202eb3b5f3bc0dd1c4b8ea58e4bd5977daf62a31fd35",
+        "sha256_in_prefix": "d1a095ab3a579c4d952f202eb3b5f3bc0dd1c4b8ea58e4bd5977daf62a31fd35",
+        "size_in_bytes": 1802
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_orthographic.py",
+        "path_type": "hardlink",
+        "sha256": "975db18c6901200deb0229bc48bbc3579330a5ddad55c51bff803fded2bbf69b",
+        "sha256_in_prefix": "975db18c6901200deb0229bc48bbc3579330a5ddad55c51bff803fded2bbf69b",
+        "size_in_bytes": 6049
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_robinson.py",
+        "path_type": "hardlink",
+        "sha256": "a266b40210a7a64c198a51ba8542cf1beaccbeeb815b2ff9d125f7305b1e9541",
+        "sha256_in_prefix": "a266b40210a7a64c198a51ba8542cf1beaccbeeb815b2ff9d125f7305b1e9541",
+        "size_in_bytes": 5895
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_rotated_geodetic.py",
+        "path_type": "hardlink",
+        "sha256": "926e64ff02868bb403d03ef1d08d84a2c55b33fe1f8068d1824ab47b1189f3f7",
+        "sha256_in_prefix": "926e64ff02868bb403d03ef1d08d84a2c55b33fe1f8068d1824ab47b1189f3f7",
+        "size_in_bytes": 697
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_rotated_pole.py",
+        "path_type": "hardlink",
+        "sha256": "51a0c869331ebb3c973a4c1d4ef8023b96199716bce09cddb39277e4d715e5e4",
+        "sha256_in_prefix": "51a0c869331ebb3c973a4c1d4ef8023b96199716bce09cddb39277e4d715e5e4",
+        "size_in_bytes": 639
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_sinusoidal.py",
+        "path_type": "hardlink",
+        "sha256": "21099a434ad294aad8e1a17c5efd28490ab7c526ba290880b243891b8a0a199f",
+        "sha256_in_prefix": "21099a434ad294aad8e1a17c5efd28490ab7c526ba290880b243891b8a0a199f",
+        "size_in_bytes": 3283
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_stereographic.py",
+        "path_type": "hardlink",
+        "sha256": "d3a3768db566883ec718390d10c86467daa0f068f0e32d86ca7895ebab720fe0",
+        "sha256_in_prefix": "d3a3768db566883ec718390d10c86467daa0f068f0e32d86ca7895ebab720fe0",
+        "size_in_bytes": 3840
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_transverse_mercator.py",
+        "path_type": "hardlink",
+        "sha256": "6153f149176738a8d568d77481133b50de086db1881f8d1837c18ce960180022",
+        "sha256_in_prefix": "6153f149176738a8d568d77481133b50de086db1881f8d1837c18ce960180022",
+        "size_in_bytes": 4321
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/crs/test_utm.py",
+        "path_type": "hardlink",
+        "sha256": "9b713be1597144f615c4507d7b9a3d1c4138ec0cc70249b64676b62bf662aafa",
+        "sha256_in_prefix": "9b713be1597144f615c4507d7b9a3d1c4138ec0cc70249b64676b62bf662aafa",
+        "size_in_bytes": 1718
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/feature/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "32b1d955af7b47f82c3e901d71a54bdf4e1dbe37765353071f1d17b7463eea1e",
+        "sha256_in_prefix": "32b1d955af7b47f82c3e901d71a54bdf4e1dbe37765353071f1d17b7463eea1e",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/feature/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "848a6705264d86a77bcd1c1bea6f340615e87f5a4ade27ec98e97b31c49f7c84",
+        "sha256_in_prefix": "848a6705264d86a77bcd1c1bea6f340615e87f5a4ade27ec98e97b31c49f7c84",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/feature/__pycache__/test_nightshade.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1e28192b7ec297cbb90bfc8252054a11cbffb9b5c246ea9f5a26891925d0fdb6",
+        "sha256_in_prefix": "1e28192b7ec297cbb90bfc8252054a11cbffb9b5c246ea9f5a26891925d0fdb6",
+        "size_in_bytes": 1021
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/feature/test_nightshade.py",
+        "path_type": "hardlink",
+        "sha256": "61d9c29dc4534cec135ed07b7177e089ee9c65f427360a1b6ea46aaaeb998ad8",
+        "sha256_in_prefix": "61d9c29dc4534cec135ed07b7177e089ee9c65f427360a1b6ea46aaaeb998ad8",
+        "size_in_bytes": 1786
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "32b1d955af7b47f82c3e901d71a54bdf4e1dbe37765353071f1d17b7463eea1e",
+        "sha256_in_prefix": "32b1d955af7b47f82c3e901d71a54bdf4e1dbe37765353071f1d17b7463eea1e",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/io/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "416172b6ce67b33cef4ba9734b16e9a6df74d637120a0757388b4473a24824c1",
+        "sha256_in_prefix": "416172b6ce67b33cef4ba9734b16e9a6df74d637120a0757388b4473a24824c1",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/io/__pycache__/test_downloaders.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "22a42bffa53b6c7c0d9829782972bcc2c68298a36584541ac3afe3c3c160f4ed",
+        "sha256_in_prefix": "22a42bffa53b6c7c0d9829782972bcc2c68298a36584541ac3afe3c3c160f4ed",
+        "size_in_bytes": 4383
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/io/__pycache__/test_ogc_clients.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8c23950e32b6b68241a214ef908d68b45970ef49ebf6576be0945696bd409aec",
+        "sha256_in_prefix": "8c23950e32b6b68241a214ef908d68b45970ef49ebf6576be0945696bd409aec",
+        "size_in_bytes": 10055
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/io/__pycache__/test_srtm.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2a347f960a639f13f8f2409e12b9245ec87499f48cff788c54b0b19b81d5ecb",
+        "sha256_in_prefix": "a2a347f960a639f13f8f2409e12b9245ec87499f48cff788c54b0b19b81d5ecb",
+        "size_in_bytes": 5446
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/io/test_downloaders.py",
+        "path_type": "hardlink",
+        "sha256": "6981a0dc33aab7f1c0993909c9873926e2d7abec32e38f6eb8f6359d8d14e10b",
+        "sha256_in_prefix": "6981a0dc33aab7f1c0993909c9873926e2d7abec32e38f6eb8f6359d8d14e10b",
+        "size_in_bytes": 6726
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/io/test_ogc_clients.py",
+        "path_type": "hardlink",
+        "sha256": "06d80ba0f3cfcb9542919be0154b6c4b00c935e204e0c7c828159447073f08f0",
+        "sha256_in_prefix": "06d80ba0f3cfcb9542919be0154b6c4b00c935e204e0c7c828159447073f08f0",
+        "size_in_bytes": 9774
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/io/test_srtm.py",
+        "path_type": "hardlink",
+        "sha256": "bbe7f59f286db548806dbabdca32d2807f16de44e751330c790dcc030d80b3bd",
+        "sha256_in_prefix": "bbe7f59f286db548806dbabdca32d2807f16de44e751330c790dcc030d80b3bd",
+        "size_in_bytes": 5516
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/lakes_shapefile/ne_110m_lakes.dbf",
+        "path_type": "hardlink",
+        "sha256": "fdd58d087d8de0e063e448f543172ae76987729a17cc6f0c164727bd95430728",
+        "sha256_in_prefix": "fdd58d087d8de0e063e448f543172ae76987729a17cc6f0c164727bd95430728",
+        "size_in_bytes": 15532
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/lakes_shapefile/ne_110m_lakes.shp",
+        "path_type": "hardlink",
+        "sha256": "d0a540ac74d9d9526f61933e95a1ab6508ae3aa56bd79fc851a303c60948dfb7",
+        "sha256_in_prefix": "d0a540ac74d9d9526f61933e95a1ab6508ae3aa56bd79fc851a303c60948dfb7",
+        "size_in_bytes": 9324
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/lakes_shapefile/ne_110m_lakes.shx",
+        "path_type": "hardlink",
+        "sha256": "2c0fbcd1d7f31a9f004748b21b5d0fc9afe5316391a9bcd5fb12a5c76733e08b",
+        "sha256_in_prefix": "2c0fbcd1d7f31a9f004748b21b5d0fc9afe5316391a9bcd5fb12a5c76733e08b",
+        "size_in_bytes": 300
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "83f1636333d0a8b91447810a5613640cb7d44517b7cfe031bef8f51e0e5b173f",
+        "sha256_in_prefix": "83f1636333d0a8b91447810a5613640cb7d44517b7cfe031bef8f51e0e5b173f",
+        "size_in_bytes": 12446
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b8492a5a51bec3408bab0f0c590f2f5aef3b89436f0500d48701a8d97e530223",
+        "sha256_in_prefix": "b8492a5a51bec3408bab0f0c590f2f5aef3b89436f0500d48701a8d97e530223",
+        "size_in_bytes": 9903
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/conftest.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d8b91f8a0011818108591d099a4f51d25e51b26aef0adf897cc6d672906f418",
+        "sha256_in_prefix": "9d8b91f8a0011818108591d099a4f51d25e51b26aef0adf897cc6d672906f418",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_axes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf3dcf5462e607a66db9e848d221f3ad3c5a64e7d72728f957ff22ab3c19bd23",
+        "sha256_in_prefix": "cf3dcf5462e607a66db9e848d221f3ad3c5a64e7d72728f957ff22ab3c19bd23",
+        "size_in_bytes": 6254
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_caching.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2def9fdaae9713900fda5d6582f587dbb488d971793cc918dbc37583c56caa35",
+        "sha256_in_prefix": "2def9fdaae9713900fda5d6582f587dbb488d971793cc918dbc37583c56caa35",
+        "size_in_bytes": 6412
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_contour.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "715adce1e74ad89696616ec76ce9425acdd57b982bd70820cb21c713c6215996",
+        "sha256_in_prefix": "715adce1e74ad89696616ec76ce9425acdd57b982bd70820cb21c713c6215996",
+        "size_in_bytes": 3929
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_crs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba7f282a54656d4686e6d5d1db53400f32a3677a1edc7b7b6b6d93f7ccf26b44",
+        "sha256_in_prefix": "ba7f282a54656d4686e6d5d1db53400f32a3677a1edc7b7b6b6d93f7ccf26b44",
+        "size_in_bytes": 1517
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_examples.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "08e2104746d95475831c99a5492543d12c07da796dc9ad56ebd3504fc0605d52",
+        "sha256_in_prefix": "08e2104746d95475831c99a5492543d12c07da796dc9ad56ebd3504fc0605d52",
+        "size_in_bytes": 2478
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_feature_artist.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "09a5b6a670641e21d8e86b1949c2c4c16923a48508cd35343a06494291f6db62",
+        "sha256_in_prefix": "09a5b6a670641e21d8e86b1949c2c4c16923a48508cd35343a06494291f6db62",
+        "size_in_bytes": 3945
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_features.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4989e1ce50d9bf2cc7803d12a7f0a60d930f75a8d5528d58895a77f2a3a4358",
+        "sha256_in_prefix": "b4989e1ce50d9bf2cc7803d12a7f0a60d930f75a8d5528d58895a77f2a3a4358",
+        "size_in_bytes": 2239
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_gridliner.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ed50f3f78f8fcccf291e6b0a79aa3e7b55ef2befd8db5aa317a33f9b9fc34aa",
+        "sha256_in_prefix": "0ed50f3f78f8fcccf291e6b0a79aa3e7b55ef2befd8db5aa317a33f9b9fc34aa",
+        "size_in_bytes": 11578
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_images.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "53d91af4f375c4346936d8cb6ea574144a84fffa3e12a4f6ce7f41930faad7de",
+        "sha256_in_prefix": "53d91af4f375c4346936d8cb6ea574144a84fffa3e12a4f6ce7f41930faad7de",
+        "size_in_bytes": 6108
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_img_transform.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "00eee5975ae6fdfa30cb0cb0081c258218746106c76f2f9aeba59ddc54e6f632",
+        "sha256_in_prefix": "00eee5975ae6fdfa30cb0cb0081c258218746106c76f2f9aeba59ddc54e6f632",
+        "size_in_bytes": 3305
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_mpl_integration.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "21169496db2066a2c400ac215bd97079f5d3ea391f9232342ad88048af98ab5c",
+        "sha256_in_prefix": "21169496db2066a2c400ac215bd97079f5d3ea391f9232342ad88048af98ab5c",
+        "size_in_bytes": 24934
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_nightshade.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "dcc6eca26e5e6a8e2ea02a0c9a6a95b06828a70c7bcab80238278610facba730",
+        "sha256_in_prefix": "dcc6eca26e5e6a8e2ea02a0c9a6a95b06828a70c7bcab80238278610facba730",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_patch.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0377b05f5cc8a132135fa4a98b2201a22cc60a16ac92e6065e499b00a46ff450",
+        "sha256_in_prefix": "0377b05f5cc8a132135fa4a98b2201a22cc60a16ac92e6065e499b00a46ff450",
+        "size_in_bytes": 2379
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_plots.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "95694f24475d43091058fcb1b977c3978b9a46e4d6d51f0a7ee8af46c3f247cd",
+        "sha256_in_prefix": "95694f24475d43091058fcb1b977c3978b9a46e4d6d51f0a7ee8af46c3f247cd",
+        "size_in_bytes": 1095
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_pseudo_color.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "691f1ff35432ffce0d8e32c0826f51699b4d93637641fcb6e3280074eedd0026",
+        "sha256_in_prefix": "691f1ff35432ffce0d8e32c0826f51699b4d93637641fcb6e3280074eedd0026",
+        "size_in_bytes": 2462
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_quiver.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f351f6a43039ea8a4d8683356f8345b2d11476f30491ee2b49ed32730318fad2",
+        "sha256_in_prefix": "f351f6a43039ea8a4d8683356f8345b2d11476f30491ee2b49ed32730318fad2",
+        "size_in_bytes": 3050
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_set_extent.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "929d63241fa35fa6ebfd02ec32116e6dc2cbe5d8d0bb965d3e6e33acaf13d2a4",
+        "sha256_in_prefix": "929d63241fa35fa6ebfd02ec32116e6dc2cbe5d8d0bb965d3e6e33acaf13d2a4",
+        "size_in_bytes": 4611
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_shapely_to_mpl.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2082098a86f93ea99ffb84fb24111b87bb2c8df99eb12e3aa49b54c3646e14fd",
+        "sha256_in_prefix": "2082098a86f93ea99ffb84fb24111b87bb2c8df99eb12e3aa49b54c3646e14fd",
+        "size_in_bytes": 2807
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_style.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ad75425618e5f39957a032e5f02510541c80a8dbf312999ab88929c2851f135",
+        "sha256_in_prefix": "7ad75425618e5f39957a032e5f02510541c80a8dbf312999ab88929c2851f135",
+        "size_in_bytes": 1724
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_ticker.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "353798489824f7800b21d629946fd0b5e3d5ed5aaef8990a68b1de6c5246ffe0",
+        "sha256_in_prefix": "353798489824f7800b21d629946fd0b5e3d5ed5aaef8990a68b1de6c5246ffe0",
+        "size_in_bytes": 13356
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_ticks.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "58988a48458a73cc52b590a8d5d37cd438f7739c824ec56bf08b746a37969b69",
+        "sha256_in_prefix": "58988a48458a73cc52b590a8d5d37cd438f7739c824ec56bf08b746a37969b69",
+        "size_in_bytes": 3507
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/__pycache__/test_web_services.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7fcab42794db4016536148565d9a595c2f73a7fbbfdfcbd1d5a439c63e094c03",
+        "sha256_in_prefix": "7fcab42794db4016536148565d9a595c2f73a7fbbfdfcbd1d5a439c63e094c03",
+        "size_in_bytes": 1525
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "5e386d75e07c3e6d945cd043aeeb65eaa26ad9adcdcabcf4f2d56f9524ce32c5",
+        "sha256_in_prefix": "5e386d75e07c3e6d945cd043aeeb65eaa26ad9adcdcabcf4f2d56f9524ce32c5",
+        "size_in_bytes": 721
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_axes.py",
+        "path_type": "hardlink",
+        "sha256": "c33b2cff44fe73d40477a3e14e17af7192b252d8827e4ce135c5acfabbf9513e",
+        "sha256_in_prefix": "c33b2cff44fe73d40477a3e14e17af7192b252d8827e4ce135c5acfabbf9513e",
+        "size_in_bytes": 5117
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_caching.py",
+        "path_type": "hardlink",
+        "sha256": "080d8e3d478174911fccc95e1b184c5779f8096d37e95c1e406dd7853b3abd9a",
+        "sha256_in_prefix": "080d8e3d478174911fccc95e1b184c5779f8096d37e95c1e406dd7853b3abd9a",
+        "size_in_bytes": 8262
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_contour.py",
+        "path_type": "hardlink",
+        "sha256": "01c1060528f222ca9af1e372228e6d35ad17b7cc57b01d83c64cd84119f02f5c",
+        "sha256_in_prefix": "01c1060528f222ca9af1e372228e6d35ad17b7cc57b01d83c64cd84119f02f5c",
+        "size_in_bytes": 5010
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_crs.py",
+        "path_type": "hardlink",
+        "sha256": "5297bc7294d11963f99e7e482eb2bae128b5ea8e57b2275ce2893998545aab42",
+        "sha256_in_prefix": "5297bc7294d11963f99e7e482eb2bae128b5ea8e57b2275ce2893998545aab42",
+        "size_in_bytes": 1441
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_examples.py",
+        "path_type": "hardlink",
+        "sha256": "a698a6b7ff64e025b3de9861f08eff494bf87460a4e483269ac9da35b80cc883",
+        "sha256_in_prefix": "a698a6b7ff64e025b3de9861f08eff494bf87460a4e483269ac9da35b80cc883",
+        "size_in_bytes": 3012
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_feature_artist.py",
+        "path_type": "hardlink",
+        "sha256": "bdfcc7f20c1d2a727578d49c6ed50692686c2a70e30f49407f8e74823319eb9d",
+        "sha256_in_prefix": "bdfcc7f20c1d2a727578d49c6ed50692686c2a70e30f49407f8e74823319eb9d",
+        "size_in_bytes": 4353
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_features.py",
+        "path_type": "hardlink",
+        "sha256": "1f42727b86536ae7eda32d3198709aa85c476a789ed808541bdd2f31a9f6d4dc",
+        "sha256_in_prefix": "1f42727b86536ae7eda32d3198709aa85c476a789ed808541bdd2f31a9f6d4dc",
+        "size_in_bytes": 2267
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_gridliner.py",
+        "path_type": "hardlink",
+        "sha256": "6a623e17d321425fe638551e9c406d20135f1048c0c140a59efca38f6dedcea8",
+        "sha256_in_prefix": "6a623e17d321425fe638551e9c406d20135f1048c0c140a59efca38f6dedcea8",
+        "size_in_bytes": 15396
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_images.py",
+        "path_type": "hardlink",
+        "sha256": "c3e25a11cc0bab833bcdec3ec661cdad03caa5768910cf1413b3c71a638822ef",
+        "sha256_in_prefix": "c3e25a11cc0bab833bcdec3ec661cdad03caa5768910cf1413b3c71a638822ef",
+        "size_in_bytes": 7293
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_img_transform.py",
+        "path_type": "hardlink",
+        "sha256": "e2a7acdea42869ae9c2fa6878733229b873284c64baa735dfdeb7750e83cb87c",
+        "sha256_in_prefix": "e2a7acdea42869ae9c2fa6878733229b873284c64baa735dfdeb7750e83cb87c",
+        "size_in_bytes": 4697
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_mpl_integration.py",
+        "path_type": "hardlink",
+        "sha256": "db92f3d7ebc0acaf21e35bf3b28a1f8b31c844dae59ab08b551bf0184523a76d",
+        "sha256_in_prefix": "db92f3d7ebc0acaf21e35bf3b28a1f8b31c844dae59ab08b551bf0184523a76d",
+        "size_in_bytes": 31263
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_nightshade.py",
+        "path_type": "hardlink",
+        "sha256": "5ac9e00aa8ad77502661d2984728774ccfa5b93b937747b21c733cf6b66fc352",
+        "sha256_in_prefix": "5ac9e00aa8ad77502661d2984728774ccfa5b93b937747b21c733cf6b66fc352",
+        "size_in_bytes": 716
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_patch.py",
+        "path_type": "hardlink",
+        "sha256": "fa7738b80723796561a6b8dfde55ebce8762f1a14b39a9b4f89c8ac75ac6438b",
+        "sha256_in_prefix": "fa7738b80723796561a6b8dfde55ebce8762f1a14b39a9b4f89c8ac75ac6438b",
+        "size_in_bytes": 1857
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_plots.py",
+        "path_type": "hardlink",
+        "sha256": "ad3ee64a9c6374713ffad5db7ae79f2f63bda103648417577d26c15cb0898630",
+        "sha256_in_prefix": "ad3ee64a9c6374713ffad5db7ae79f2f63bda103648417577d26c15cb0898630",
+        "size_in_bytes": 917
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_pseudo_color.py",
+        "path_type": "hardlink",
+        "sha256": "3bff3cf0b1219fd7bf6f4fc3f00343a7e54a671bbe8ae9ada4a795fbf9650547",
+        "sha256_in_prefix": "3bff3cf0b1219fd7bf6f4fc3f00343a7e54a671bbe8ae9ada4a795fbf9650547",
+        "size_in_bytes": 2946
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_quiver.py",
+        "path_type": "hardlink",
+        "sha256": "5c0ecb82e3d3c2eed3653439ff2b54c98dc9916e3b33ccc8424517ba742115d8",
+        "sha256_in_prefix": "5c0ecb82e3d3c2eed3653439ff2b54c98dc9916e3b33ccc8424517ba742115d8",
+        "size_in_bytes": 2361
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_set_extent.py",
+        "path_type": "hardlink",
+        "sha256": "97bff49914850640eaeb90f1f4aa5f124b682da0d3a1f4d457a5761b97d67372",
+        "sha256_in_prefix": "97bff49914850640eaeb90f1f4aa5f124b682da0d3a1f4d457a5761b97d67372",
+        "size_in_bytes": 6505
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_shapely_to_mpl.py",
+        "path_type": "hardlink",
+        "sha256": "d48f1f3f5b2d9a0f6685e8cca73cde9cbe16c260c69cca4d8a8a5259dbb6cee7",
+        "sha256_in_prefix": "d48f1f3f5b2d9a0f6685e8cca73cde9cbe16c260c69cca4d8a8a5259dbb6cee7",
+        "size_in_bytes": 3911
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_style.py",
+        "path_type": "hardlink",
+        "sha256": "dad2162052f1aaea85fcc6234532884861a683d6b71be50c937b80a350020b03",
+        "sha256_in_prefix": "dad2162052f1aaea85fcc6234532884861a683d6b71be50c937b80a350020b03",
+        "size_in_bytes": 2472
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_ticker.py",
+        "path_type": "hardlink",
+        "sha256": "27d010131db674276d7b38ef2486cb78fe04889bf8b6980e21d47aa930558ade",
+        "sha256_in_prefix": "27d010131db674276d7b38ef2486cb78fe04889bf8b6980e21d47aa930558ade",
+        "size_in_bytes": 13422
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_ticks.py",
+        "path_type": "hardlink",
+        "sha256": "98f9b5c173510da3d445ff7bc58815203a8bac6945b04924a674ddb9bddd92c7",
+        "sha256_in_prefix": "98f9b5c173510da3d445ff7bc58815203a8bac6945b04924a674ddb9bddd92c7",
+        "size_in_bytes": 3214
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/mpl/test_web_services.py",
+        "path_type": "hardlink",
+        "sha256": "ebbd597bc09245dd926b6fd47d41d91c9512b28b7d3af36aa049a5c08b1a25ff",
+        "sha256_in_prefix": "ebbd597bc09245dd926b6fd47d41d91c9512b28b7d3af36aa049a5c08b1a25ff",
+        "size_in_bytes": 1527
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_coastline.py",
+        "path_type": "hardlink",
+        "sha256": "197d2737e6cf970e724165ca2ce69d64693f12ea859847e74a82d8446661fb60",
+        "sha256_in_prefix": "197d2737e6cf970e724165ca2ce69d64693f12ea859847e74a82d8446661fb60",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_coding_standards.py",
+        "path_type": "hardlink",
+        "sha256": "4f186bc9f96fb0395caeaf380ad2ee03025fa355233a8e66ca82ab1bfe414a74",
+        "sha256_in_prefix": "4f186bc9f96fb0395caeaf380ad2ee03025fa355233a8e66ca82ab1bfe414a74",
+        "size_in_bytes": 3402
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_crs.py",
+        "path_type": "hardlink",
+        "sha256": "880dff4e6dfcd412b52a66e8feafe6c625f0fd32d5d1cc33d02ca56ab71b1d08",
+        "sha256_in_prefix": "880dff4e6dfcd412b52a66e8feafe6c625f0fd32d5d1cc33d02ca56ab71b1d08",
+        "size_in_bytes": 12400
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_crs_transform_vectors.py",
+        "path_type": "hardlink",
+        "sha256": "6d288a4f352b4b8a78fd24630eac7f1389a2364dd38632854e326591de9e8a8c",
+        "sha256_in_prefix": "6d288a4f352b4b8a78fd24630eac7f1389a2364dd38632854e326591de9e8a8c",
+        "size_in_bytes": 7177
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_features.py",
+        "path_type": "hardlink",
+        "sha256": "39f99f36cf3d47f0fc7f1426a0eed2398cc7e0b8a31f303d969e545a2d5dd842",
+        "sha256_in_prefix": "39f99f36cf3d47f0fc7f1426a0eed2398cc7e0b8a31f303d969e545a2d5dd842",
+        "size_in_bytes": 2787
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_geodesic.py",
+        "path_type": "hardlink",
+        "sha256": "0080ba3c4e1ce679a690589acbb36ac8e1235a404b1552ad63863c8fc32bd1e1",
+        "sha256_in_prefix": "0080ba3c4e1ce679a690589acbb36ac8e1235a404b1552ad63863c8fc32bd1e1",
+        "size_in_bytes": 6865
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_img_nest.py",
+        "path_type": "hardlink",
+        "sha256": "57a864c5f21b41cd20ce832eee3980ce59f90e4fdf49d8941645ff29499bdfd4",
+        "sha256_in_prefix": "57a864c5f21b41cd20ce832eee3980ce59f90e4fdf49d8941645ff29499bdfd4",
+        "size_in_bytes": 13651
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_img_tiles.py",
+        "path_type": "hardlink",
+        "sha256": "79bceab42f120ecef14200166c66dd981e0579b8f2a5d8c79e4e1aae4bdec57a",
+        "sha256_in_prefix": "79bceab42f120ecef14200166c66dd981e0579b8f2a5d8c79e4e1aae4bdec57a",
+        "size_in_bytes": 14055
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_img_transform.py",
+        "path_type": "hardlink",
+        "sha256": "0f7b57f7b4f84f03788f2f3f0729b7d7d6e53e4c3f3889252388887f6de75205",
+        "sha256_in_prefix": "0f7b57f7b4f84f03788f2f3f0729b7d7d6e53e4c3f3889252388887f6de75205",
+        "size_in_bytes": 3882
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_line_string.py",
+        "path_type": "hardlink",
+        "sha256": "13652c7c4332df19231aa8185db2cba5c0c3b69f6051054306e361dcc51415a6",
+        "sha256_in_prefix": "13652c7c4332df19231aa8185db2cba5c0c3b69f6051054306e361dcc51415a6",
+        "size_in_bytes": 10458
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_linear_ring.py",
+        "path_type": "hardlink",
+        "sha256": "74fa4be0802cd24e0edab7f27870591297129820cbe88ae4f13997290c96db21",
+        "sha256_in_prefix": "74fa4be0802cd24e0edab7f27870591297129820cbe88ae4f13997290c96db21",
+        "size_in_bytes": 7064
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_polygon.py",
+        "path_type": "hardlink",
+        "sha256": "54c17bf2a6511d25d73c3dda89009d30a7d329f0ac8bbda6c48291d5a088103f",
+        "sha256_in_prefix": "54c17bf2a6511d25d73c3dda89009d30a7d329f0ac8bbda6c48291d5a088103f",
+        "size_in_bytes": 20880
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_shapereader.py",
+        "path_type": "hardlink",
+        "sha256": "acf0b3e26d0a0ef7ad5488e6e03d30d75134a1b27645e0db91c81278073826e3",
+        "sha256_in_prefix": "acf0b3e26d0a0ef7ad5488e6e03d30d75134a1b27645e0db91c81278073826e3",
+        "size_in_bytes": 4839
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "946aab6dc1fef58cdcea91c7e272001b61ead3b89fcfaf05b94c09943b117abd",
+        "sha256_in_prefix": "946aab6dc1fef58cdcea91c7e272001b61ead3b89fcfaf05b94c09943b117abd",
+        "size_in_bytes": 2505
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/tests/test_vector_transform.py",
+        "path_type": "hardlink",
+        "sha256": "37ccf81287e9bf12bebd2eb7319820fc23907a8d2f4539391e4a7c905235def7",
+        "sha256_in_prefix": "37ccf81287e9bf12bebd2eb7319820fc23907a8d2f4539391e4a7c905235def7",
+        "size_in_bytes": 8903
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/trace.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/cartopy_1635466705447/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "d1bbf9cb3ca21e52cb73dfcf44808f7e5307d80b1c69f3264c83eedd86b89c75",
+        "sha256_in_prefix": "21ed7e22c17201dcf5bc8350635c197ec040b31d60278f7082f1e9f2cb7d9773",
+        "size_in_bytes": 164696
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/util.py",
+        "path_type": "hardlink",
+        "sha256": "adac880736e94981eb6a282c7fe3419b892da38439cd1d652947303166cfd5a0",
+        "sha256_in_prefix": "adac880736e94981eb6a282c7fe3419b892da38439cd1d652947303166cfd5a0",
+        "size_in_bytes": 3173
+      },
+      {
+        "_path": "lib/python3.8/site-packages/cartopy/vector_transform.py",
+        "path_type": "hardlink",
+        "sha256": "5d62cf4220889ad28ab354b3d9a91504f5c3915ac7ea31951896ae5e9ec48363",
+        "sha256_in_prefix": "5d62cf4220889ad28ab354b3d9a91504f5c3915ac7ea31951896ae5e9ec48363",
+        "size_in_bytes": 6274
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "cartopy==0.20.1=py38hda056e9_2",
+  "sha256": "eb7ef246e06c669ae91487f4a33e38830cca2ce995b1511aa8af015ceea3988d",
+  "size": 1692631,
+  "subdir": "osx-64",
+  "timestamp": 1635466877866,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cartopy-0.20.1-py38hda056e9_2.tar.bz2",
+  "version": "0.20.1"
+}

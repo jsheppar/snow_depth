@@ -1,0 +1,115 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.4"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/imagesize-1.3.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/imagesize-1.3.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/imagesize-1.3.0.dist-info/LICENSE.rst",
+    "lib/python3.8/site-packages/imagesize-1.3.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/imagesize-1.3.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/imagesize-1.3.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/imagesize-1.3.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/imagesize-1.3.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/imagesize-1.3.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/imagesize.py",
+    "lib/python3.8/site-packages/__pycache__/imagesize.cpython-38.pyc"
+  ],
+  "fn": "imagesize-1.3.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/imagesize-1.3.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "be807e7606fff9436e5e700f6bffb7c6",
+  "name": "imagesize",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/imagesize-1.3.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/imagesize-1.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/imagesize-1.3.0.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "d0659c2767a164c2bf2736ee9f7bb619e0f165c89a962839de53fd5f77f62f4e",
+        "sha256_in_prefix": "d0659c2767a164c2bf2736ee9f7bb619e0f165c89a962839de53fd5f77f62f4e",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "site-packages/imagesize-1.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c22c8c82921ceed9553f54f0388858a322f0313426864ddd3110d89a7a19c3d6",
+        "sha256_in_prefix": "c22c8c82921ceed9553f54f0388858a322f0313426864ddd3110d89a7a19c3d6",
+        "size_in_bytes": 1396
+      },
+      {
+        "_path": "site-packages/imagesize-1.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "41fa2192ba3f1f6a641d9866bfe3be149a4183869f333d55f635eb5dac8b7418",
+        "sha256_in_prefix": "41fa2192ba3f1f6a641d9866bfe3be149a4183869f333d55f635eb5dac8b7418",
+        "size_in_bytes": 796
+      },
+      {
+        "_path": "site-packages/imagesize-1.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/imagesize-1.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/imagesize-1.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "099b6afba707255d538298535dc4002f848b70a12c97874ba1ebf3629cd8dc43",
+        "sha256_in_prefix": "099b6afba707255d538298535dc4002f848b70a12c97874ba1ebf3629cd8dc43",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/imagesize-1.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fff8fa9258b3a0a09a664db55b6f9d29c400565769d28a5f1d5122122664e914",
+        "sha256_in_prefix": "fff8fa9258b3a0a09a664db55b6f9d29c400565769d28a5f1d5122122664e914",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/imagesize.py",
+        "path_type": "hardlink",
+        "sha256": "0c61861a9de6a714db6ff932860c69688edc114e7ef27cc4380f25c69f79731c",
+        "sha256_in_prefix": "0c61861a9de6a714db6ff932860c69688edc114e7ef27cc4380f25c69f79731c",
+        "size_in_bytes": 13352
+      },
+      {
+        "_path": "lib/python3.8/site-packages/__pycache__/imagesize.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "imagesize==1.3.0=pyhd8ed1ab_0",
+  "sha256": "30e06a54ef5d9584e14c0a70a21946b2ffcf58729fe8ff54226ad6f3bd7f298b",
+  "size": 9143,
+  "subdir": "noarch",
+  "timestamp": 1636492758526,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/imagesize-1.3.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.3.0"
+}

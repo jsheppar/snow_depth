@@ -1,0 +1,1201 @@
+{
+  "build": "pyha770c72_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "geoviews 1.9.2"
+  ],
+  "depends": [
+    "bokeh >=2.4.0,<2.5.0",
+    "cartopy >=0.18.0",
+    "holoviews >=1.14.2",
+    "numpy >=1.0",
+    "param >=1.9.3",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/geoviews-core-1.9.2-pyha770c72_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/geoviews-1.9.2.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/geoviews-1.9.2.dist-info/LICENSE",
+    "lib/python3.8/site-packages/geoviews-1.9.2.dist-info/METADATA",
+    "lib/python3.8/site-packages/geoviews-1.9.2.dist-info/RECORD",
+    "lib/python3.8/site-packages/geoviews-1.9.2.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/geoviews-1.9.2.dist-info/WHEEL",
+    "lib/python3.8/site-packages/geoviews-1.9.2.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/geoviews-1.9.2.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/geoviews-1.9.2.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/geoviews/.version",
+    "lib/python3.8/site-packages/geoviews/__init__.py",
+    "lib/python3.8/site-packages/geoviews/__main__.py",
+    "lib/python3.8/site-packages/geoviews/annotators.py",
+    "lib/python3.8/site-packages/geoviews/data/__init__.py",
+    "lib/python3.8/site-packages/geoviews/data/geom_dict.py",
+    "lib/python3.8/site-packages/geoviews/data/geopandas.py",
+    "lib/python3.8/site-packages/geoviews/data/iris.py",
+    "lib/python3.8/site-packages/geoviews/dist/geoviews.js",
+    "lib/python3.8/site-packages/geoviews/dist/geoviews.js.map",
+    "lib/python3.8/site-packages/geoviews/dist/geoviews.json",
+    "lib/python3.8/site-packages/geoviews/dist/geoviews.min.js",
+    "lib/python3.8/site-packages/geoviews/dist/lib/index.d.ts",
+    "lib/python3.8/site-packages/geoviews/dist/lib/index.js",
+    "lib/python3.8/site-packages/geoviews/dist/lib/index.js.map",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/checkpoint_tool.d.ts",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/checkpoint_tool.js",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/checkpoint_tool.js.map",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/clear_tool.d.ts",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/clear_tool.js",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/clear_tool.js.map",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/index.d.ts",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/index.js",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/index.js.map",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/poly_draw.d.ts",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/poly_draw.js",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/poly_draw.js.map",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/poly_edit.d.ts",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/poly_edit.js",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/poly_edit.js.map",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/restore_tool.d.ts",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/restore_tool.js",
+    "lib/python3.8/site-packages/geoviews/dist/lib/models/restore_tool.js.map",
+    "lib/python3.8/site-packages/geoviews/element/__init__.py",
+    "lib/python3.8/site-packages/geoviews/element/comparison.py",
+    "lib/python3.8/site-packages/geoviews/element/geo.py",
+    "lib/python3.8/site-packages/geoviews/examples/Homepage.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/assets/boundaries/boundaries.dbf",
+    "lib/python3.8/site-packages/geoviews/examples/assets/boundaries/boundaries.shp",
+    "lib/python3.8/site-packages/geoviews/examples/assets/boundaries/boundaries.shx",
+    "lib/python3.8/site-packages/geoviews/examples/assets/cities.csv",
+    "lib/python3.8/site-packages/geoviews/examples/assets/referendum.csv",
+    "lib/python3.8/site-packages/geoviews/examples/assets/results.json",
+    "lib/python3.8/site-packages/geoviews/examples/datasets.yml",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/airport_graph.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/brexit_choropleth.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/city_populations_2050.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/filled_contours.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/great_circle.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/katrina_track.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/new_york_boroughs.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/orthographic_vectorfield.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/tile_sources.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/trimesh_uk.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/vectorfield_example.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/world_population.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/xarray_image.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/bokeh/xarray_quadmesh.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/airport_graph.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/brexit_choropleth.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/city_population.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/filled_contours.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/great_circle.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/katrina_track.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/new_york_boroughs.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/orthographic_vectorfield.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/tile_sources.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/trimesh_uk.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/vectorfield_example.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/world_population.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/xarray_image.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/gallery/matplotlib/xarray_quadmesh.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/user_guide/Annotators.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/user_guide/Geometries.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/user_guide/Gridded_Datasets_I.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/user_guide/Gridded_Datasets_II.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/user_guide/Projections.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/user_guide/Resampling_Grids.ipynb",
+    "lib/python3.8/site-packages/geoviews/examples/user_guide/Working_with_Bokeh.ipynb",
+    "lib/python3.8/site-packages/geoviews/feature.py",
+    "lib/python3.8/site-packages/geoviews/icons/DenoteBackground.png",
+    "lib/python3.8/site-packages/geoviews/icons/DenoteForeground.png",
+    "lib/python3.8/site-packages/geoviews/icons/PolyBreak.png",
+    "lib/python3.8/site-packages/geoviews/links.py",
+    "lib/python3.8/site-packages/geoviews/models/__init__.py",
+    "lib/python3.8/site-packages/geoviews/models/checkpoint_tool.ts",
+    "lib/python3.8/site-packages/geoviews/models/clear_tool.ts",
+    "lib/python3.8/site-packages/geoviews/models/custom_tools.py",
+    "lib/python3.8/site-packages/geoviews/models/index.ts",
+    "lib/python3.8/site-packages/geoviews/models/poly_draw.ts",
+    "lib/python3.8/site-packages/geoviews/models/poly_edit.ts",
+    "lib/python3.8/site-packages/geoviews/models/restore_tool.ts",
+    "lib/python3.8/site-packages/geoviews/operation/__init__.py",
+    "lib/python3.8/site-packages/geoviews/operation/projection.py",
+    "lib/python3.8/site-packages/geoviews/operation/regrid.py",
+    "lib/python3.8/site-packages/geoviews/operation/resample.py",
+    "lib/python3.8/site-packages/geoviews/plotting/__init__.py",
+    "lib/python3.8/site-packages/geoviews/plotting/bokeh/__init__.py",
+    "lib/python3.8/site-packages/geoviews/plotting/bokeh/callbacks.py",
+    "lib/python3.8/site-packages/geoviews/plotting/bokeh/plot.py",
+    "lib/python3.8/site-packages/geoviews/plotting/mpl/__init__.py",
+    "lib/python3.8/site-packages/geoviews/plotting/plot.py",
+    "lib/python3.8/site-packages/geoviews/streams.py",
+    "lib/python3.8/site-packages/geoviews/tests/__init__.py",
+    "lib/python3.8/site-packages/geoviews/tests/data/__init__.py",
+    "lib/python3.8/site-packages/geoviews/tests/data/test_geopandas.py",
+    "lib/python3.8/site-packages/geoviews/tests/data/test_iris.py",
+    "lib/python3.8/site-packages/geoviews/tests/data/test_multigeometry.py",
+    "lib/python3.8/site-packages/geoviews/tests/test_conversions.py",
+    "lib/python3.8/site-packages/geoviews/tests/test_element.py",
+    "lib/python3.8/site-packages/geoviews/tests/test_projection.py",
+    "lib/python3.8/site-packages/geoviews/tile_sources.py",
+    "lib/python3.8/site-packages/geoviews/util.py",
+    "lib/python3.8/site-packages/geoviews/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/__pycache__/annotators.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/data/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/data/__pycache__/geom_dict.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/data/__pycache__/geopandas.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/data/__pycache__/iris.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/element/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/element/__pycache__/comparison.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/element/__pycache__/geo.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/__pycache__/feature.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/__pycache__/links.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/models/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/models/__pycache__/custom_tools.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/operation/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/operation/__pycache__/projection.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/operation/__pycache__/regrid.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/operation/__pycache__/resample.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/plotting/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/plotting/bokeh/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/plotting/bokeh/__pycache__/callbacks.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/plotting/bokeh/__pycache__/plot.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/plotting/mpl/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/plotting/__pycache__/plot.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/__pycache__/streams.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/tests/data/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/tests/data/__pycache__/test_geopandas.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/tests/data/__pycache__/test_iris.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/tests/data/__pycache__/test_multigeometry.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/tests/__pycache__/test_conversions.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/tests/__pycache__/test_element.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/tests/__pycache__/test_projection.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/__pycache__/tile_sources.cpython-38.pyc",
+    "lib/python3.8/site-packages/geoviews/__pycache__/util.cpython-38.pyc",
+    "bin/geoviews"
+  ],
+  "fn": "geoviews-core-1.9.2-pyha770c72_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/geoviews-core-1.9.2-pyha770c72_0",
+    "type": 1
+  },
+  "md5": "49d7d82589ef5fada21b8bbad55326e5",
+  "name": "geoviews-core",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/geoviews-core-1.9.2-pyha770c72_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/geoviews-1.9.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/geoviews-1.9.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3f61f8877b26783947aad1ce44e45e5d3b8c1d64dd9463da95591735800544dc",
+        "sha256_in_prefix": "3f61f8877b26783947aad1ce44e45e5d3b8c1d64dd9463da95591735800544dc",
+        "size_in_bytes": 1489
+      },
+      {
+        "_path": "site-packages/geoviews-1.9.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5370745c8189be3a53d6f1020162aafcf18223de16832c752a24c527c7f20e69",
+        "sha256_in_prefix": "5370745c8189be3a53d6f1020162aafcf18223de16832c752a24c527c7f20e69",
+        "size_in_bytes": 10649
+      },
+      {
+        "_path": "site-packages/geoviews-1.9.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b1af191ee756df6d616a9fcb3d64139847143043e0ad0a92a9165b02d07dc97f",
+        "sha256_in_prefix": "b1af191ee756df6d616a9fcb3d64139847143043e0ad0a92a9165b02d07dc97f",
+        "size_in_bytes": 13743
+      },
+      {
+        "_path": "site-packages/geoviews-1.9.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/geoviews-1.9.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/geoviews-1.9.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "857e2ec8d44b07879faed50d72af79ee81e6df7b67d85363b4c61e16cf7d0a30",
+        "sha256_in_prefix": "857e2ec8d44b07879faed50d72af79ee81e6df7b67d85363b4c61e16cf7d0a30",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/geoviews-1.9.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "179961fc24529c4139a3e7add04475c80cf71436839f0d1256e9e076934ef91a",
+        "sha256_in_prefix": "179961fc24529c4139a3e7add04475c80cf71436839f0d1256e9e076934ef91a",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "site-packages/geoviews-1.9.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0ebc25d1ae5a24bc10a657ec6906a3b21e61fe26bab2503496f3942021e88e45",
+        "sha256_in_prefix": "0ebc25d1ae5a24bc10a657ec6906a3b21e61fe26bab2503496f3942021e88e45",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/geoviews/.version",
+        "path_type": "hardlink",
+        "sha256": "5f88f2e7a762f44009133d2c42edacd15b8cc9eb0ad268b42eaf1b3bf4df7962",
+        "sha256_in_prefix": "5f88f2e7a762f44009133d2c42edacd15b8cc9eb0ad268b42eaf1b3bf4df7962",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "site-packages/geoviews/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d07990bc1b06af5af71fb5ef5218b06b2eaf41eec610da23a39a0432003ee5a0",
+        "sha256_in_prefix": "d07990bc1b06af5af71fb5ef5218b06b2eaf41eec610da23a39a0432003ee5a0",
+        "size_in_bytes": 2136
+      },
+      {
+        "_path": "site-packages/geoviews/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "081d33b715200b477a0ce217798fb2e763a1ea0501726771da832b9f7c645292",
+        "sha256_in_prefix": "081d33b715200b477a0ce217798fb2e763a1ea0501726771da832b9f7c645292",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "site-packages/geoviews/annotators.py",
+        "path_type": "hardlink",
+        "sha256": "7d39692d515cd27a0c243330f41088aee0bee31e08564e486bd8ee3862439f19",
+        "sha256_in_prefix": "7d39692d515cd27a0c243330f41088aee0bee31e08564e486bd8ee3862439f19",
+        "size_in_bytes": 3015
+      },
+      {
+        "_path": "site-packages/geoviews/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9e3115c61d3dcaaef5e18fd27180bbc456e54e1c5afabbcc1a225947c5618a17",
+        "sha256_in_prefix": "9e3115c61d3dcaaef5e18fd27180bbc456e54e1c5afabbcc1a225947c5618a17",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "site-packages/geoviews/data/geom_dict.py",
+        "path_type": "hardlink",
+        "sha256": "943c8778874c3bfbea20b478e9582c2d409b1e7d1584ba7062f33e635ffeb8d1",
+        "sha256_in_prefix": "943c8778874c3bfbea20b478e9582c2d409b1e7d1584ba7062f33e635ffeb8d1",
+        "size_in_bytes": 13376
+      },
+      {
+        "_path": "site-packages/geoviews/data/geopandas.py",
+        "path_type": "hardlink",
+        "sha256": "026445acd1c24a2d235e78837e12be5da3de3586aa605a60dcd806e66d5f2eb5",
+        "sha256_in_prefix": "026445acd1c24a2d235e78837e12be5da3de3586aa605a60dcd806e66d5f2eb5",
+        "size_in_bytes": 22492
+      },
+      {
+        "_path": "site-packages/geoviews/data/iris.py",
+        "path_type": "hardlink",
+        "sha256": "529d8135c733fad2027499a1297a30836b09889785f3cd2adae18e0927c9f923",
+        "sha256_in_prefix": "529d8135c733fad2027499a1297a30836b09889785f3cd2adae18e0927c9f923",
+        "size_in_bytes": 14918
+      },
+      {
+        "_path": "site-packages/geoviews/dist/geoviews.js",
+        "path_type": "hardlink",
+        "sha256": "31ed910593a5c85c1afffe7029893155019ffac7a9cda4f7f9caf40d97221151",
+        "sha256_in_prefix": "31ed910593a5c85c1afffe7029893155019ffac7a9cda4f7f9caf40d97221151",
+        "size_in_bytes": 25756
+      },
+      {
+        "_path": "site-packages/geoviews/dist/geoviews.js.map",
+        "path_type": "hardlink",
+        "sha256": "4797873ecf98b85ec9c1dd5ddb7b64ef7a1c0fd09c97602ca094e592088a78b2",
+        "sha256_in_prefix": "4797873ecf98b85ec9c1dd5ddb7b64ef7a1c0fd09c97602ca094e592088a78b2",
+        "size_in_bytes": 27225
+      },
+      {
+        "_path": "site-packages/geoviews/dist/geoviews.json",
+        "path_type": "hardlink",
+        "sha256": "bad258655a1a98fd81ecd76dfb160e15468f51528874dd625217470ac0bfcd7c",
+        "sha256_in_prefix": "bad258655a1a98fd81ecd76dfb160e15468f51528874dd625217470ac0bfcd7c",
+        "size_in_bytes": 77361
+      },
+      {
+        "_path": "site-packages/geoviews/dist/geoviews.min.js",
+        "path_type": "hardlink",
+        "sha256": "f63347a31f1b54f07ff826cbac72271addc5be3284d1b69724f25fe8d1912c7d",
+        "sha256_in_prefix": "f63347a31f1b54f07ff826cbac72271addc5be3284d1b69724f25fe8d1912c7d",
+        "size_in_bytes": 12038
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/index.d.ts",
+        "path_type": "hardlink",
+        "sha256": "270aa8348a0eaf35664c6f23fdfda0e80a46333c6378be2a7e492972bdf96cec",
+        "sha256_in_prefix": "270aa8348a0eaf35664c6f23fdfda0e80a46333c6378be2a7e492972bdf96cec",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/index.js",
+        "path_type": "hardlink",
+        "sha256": "c764d387562670624c9da140449548667d1588e6dd8d12da2fe04c18f1fadf6b",
+        "sha256_in_prefix": "c764d387562670624c9da140449548667d1588e6dd8d12da2fe04c18f1fadf6b",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/index.js.map",
+        "path_type": "hardlink",
+        "sha256": "47cab6305305f41f43d1778d79d65b0aebcc7943eb6e2f093f8074ed510d6fed",
+        "sha256_in_prefix": "47cab6305305f41f43d1778d79d65b0aebcc7943eb6e2f093f8074ed510d6fed",
+        "size_in_bytes": 238
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/checkpoint_tool.d.ts",
+        "path_type": "hardlink",
+        "sha256": "a348953385aec6018c7fb4ae3054c443d46a6381e572c97de46ad2fc94b71f75",
+        "sha256_in_prefix": "a348953385aec6018c7fb4ae3054c443d46a6381e572c97de46ad2fc94b71f75",
+        "size_in_bytes": 829
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/checkpoint_tool.js",
+        "path_type": "hardlink",
+        "sha256": "fc272d6e02c3f925ec6405bd972c0650fd78d4149617b111e8b898bdbdca7d45",
+        "sha256_in_prefix": "fc272d6e02c3f925ec6405bd972c0650fd78d4149617b111e8b898bdbdca7d45",
+        "size_in_bytes": 1603
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/checkpoint_tool.js.map",
+        "path_type": "hardlink",
+        "sha256": "9426438121458c55c4dc7ed106133dac465033964f079638478a9eb26ac35c3e",
+        "sha256_in_prefix": "9426438121458c55c4dc7ed106133dac465033964f079638478a9eb26ac35c3e",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/clear_tool.d.ts",
+        "path_type": "hardlink",
+        "sha256": "50e9a4af73dd87513dcf3710da1167c044873c5c3f3ed9736a8c250e590fc2db",
+        "sha256_in_prefix": "50e9a4af73dd87513dcf3710da1167c044873c5c3f3ed9736a8c250e590fc2db",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/clear_tool.js",
+        "path_type": "hardlink",
+        "sha256": "eddee4057cf684ec8fd28824d47a46858cf925e99747f7ecada4162c2764822c",
+        "sha256_in_prefix": "eddee4057cf684ec8fd28824d47a46858cf925e99747f7ecada4162c2764822c",
+        "size_in_bytes": 991
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/clear_tool.js.map",
+        "path_type": "hardlink",
+        "sha256": "18b3d1829bef08482cd7ddb1a36d8f5ae60a11f69306935a341ef9f398a62ecd",
+        "sha256_in_prefix": "18b3d1829bef08482cd7ddb1a36d8f5ae60a11f69306935a341ef9f398a62ecd",
+        "size_in_bytes": 883
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/index.d.ts",
+        "path_type": "hardlink",
+        "sha256": "261cdd90c83ba071a57d276775343726fa5aa62d42de9399b0f48f8ef7e1faaa",
+        "sha256_in_prefix": "261cdd90c83ba071a57d276775343726fa5aa62d42de9399b0f48f8ef7e1faaa",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/index.js",
+        "path_type": "hardlink",
+        "sha256": "b4555bea4497cc5bbb2ea67ae1cbd42552a9de3a7d8633abf56c3a7ca693300d",
+        "sha256_in_prefix": "b4555bea4497cc5bbb2ea67ae1cbd42552a9de3a7d8633abf56c3a7ca693300d",
+        "size_in_bytes": 273
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/index.js.map",
+        "path_type": "hardlink",
+        "sha256": "c80ba0a68df167f1fcedd862eafb84e8a46ed54b8ec4870d165b93711935f69c",
+        "sha256_in_prefix": "c80ba0a68df167f1fcedd862eafb84e8a46ed54b8ec4870d165b93711935f69c",
+        "size_in_bytes": 322
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/poly_draw.d.ts",
+        "path_type": "hardlink",
+        "sha256": "06fec2bef289fe138fb62953f3852d72379c15c14741fa0096096619e2be0721",
+        "sha256_in_prefix": "06fec2bef289fe138fb62953f3852d72379c15c14741fa0096096619e2be0721",
+        "size_in_bytes": 1375
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/poly_draw.js",
+        "path_type": "hardlink",
+        "sha256": "8288feb407b7be2c76fe139c20c56e74148c3ab79bdf3bb7c96b17afc061017f",
+        "sha256_in_prefix": "8288feb407b7be2c76fe139c20c56e74148c3ab79bdf3bb7c96b17afc061017f",
+        "size_in_bytes": 6949
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/poly_draw.js.map",
+        "path_type": "hardlink",
+        "sha256": "ae52f4f74b19edad7a40190199bd11f772dd959e0f76a499e03a1231fee28576",
+        "sha256_in_prefix": "ae52f4f74b19edad7a40190199bd11f772dd959e0f76a499e03a1231fee28576",
+        "size_in_bytes": 7631
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/poly_edit.d.ts",
+        "path_type": "hardlink",
+        "sha256": "7e0686bbc874fbfad0f8bebac72f1122990cd9c37b3a9c76fec64cec2f5c26eb",
+        "sha256_in_prefix": "7e0686bbc874fbfad0f8bebac72f1122990cd9c37b3a9c76fec64cec2f5c26eb",
+        "size_in_bytes": 1593
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/poly_edit.js",
+        "path_type": "hardlink",
+        "sha256": "5e7ea505cecf26e772d69c23da4fae95b3ff68dc1136cba8ebf1aefcddbc5cec",
+        "sha256_in_prefix": "5e7ea505cecf26e772d69c23da4fae95b3ff68dc1136cba8ebf1aefcddbc5cec",
+        "size_in_bytes": 8085
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/poly_edit.js.map",
+        "path_type": "hardlink",
+        "sha256": "f1d9d466fa57ea23d5cb610b59a064f9ab2122858294dd4871001b49af9c4494",
+        "sha256_in_prefix": "f1d9d466fa57ea23d5cb610b59a064f9ab2122858294dd4871001b49af9c4494",
+        "size_in_bytes": 8904
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/restore_tool.d.ts",
+        "path_type": "hardlink",
+        "sha256": "0cc19993e4988c6ce18a7608d90d98549a1ef0708457359983a40d2aa09e55c3",
+        "sha256_in_prefix": "0cc19993e4988c6ce18a7608d90d98549a1ef0708457359983a40d2aa09e55c3",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/restore_tool.js",
+        "path_type": "hardlink",
+        "sha256": "e81e0595cf99e9f29a410ac148f153e3070632d0328343716f46a40ec1333267",
+        "sha256_in_prefix": "e81e0595cf99e9f29a410ac148f153e3070632d0328343716f46a40ec1333267",
+        "size_in_bytes": 1093
+      },
+      {
+        "_path": "site-packages/geoviews/dist/lib/models/restore_tool.js.map",
+        "path_type": "hardlink",
+        "sha256": "5fc1d2505ff9e5f42e49a120449b4320d20e686e04d6226e59f62a697bffbf2b",
+        "sha256_in_prefix": "5fc1d2505ff9e5f42e49a120449b4320d20e686e04d6226e59f62a697bffbf2b",
+        "size_in_bytes": 981
+      },
+      {
+        "_path": "site-packages/geoviews/element/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b52e9f41685479f94950375bcb4b7331f05ff741b1d38385991b06d5143bf190",
+        "sha256_in_prefix": "b52e9f41685479f94950375bcb4b7331f05ff741b1d38385991b06d5143bf190",
+        "size_in_bytes": 3017
+      },
+      {
+        "_path": "site-packages/geoviews/element/comparison.py",
+        "path_type": "hardlink",
+        "sha256": "c180e575fa1f24592b389d466dc18121cd5c914fc98384acdd885068ae9797ed",
+        "sha256_in_prefix": "c180e575fa1f24592b389d466dc18121cd5c914fc98384acdd885068ae9797ed",
+        "size_in_bytes": 924
+      },
+      {
+        "_path": "site-packages/geoviews/element/geo.py",
+        "path_type": "hardlink",
+        "sha256": "1db282da3ceb67cf74836eea4a77b20204f9e03abcca4e7227e499d8b1f2484d",
+        "sha256_in_prefix": "1db282da3ceb67cf74836eea4a77b20204f9e03abcca4e7227e499d8b1f2484d",
+        "size_in_bytes": 31707
+      },
+      {
+        "_path": "site-packages/geoviews/examples/Homepage.ipynb",
+        "path_type": "hardlink",
+        "sha256": "75e0c36e92bba096cd41750388491ce03b139967d419f1a654d51cd4f9cb41f4",
+        "sha256_in_prefix": "75e0c36e92bba096cd41750388491ce03b139967d419f1a654d51cd4f9cb41f4",
+        "size_in_bytes": 3480
+      },
+      {
+        "_path": "site-packages/geoviews/examples/assets/boundaries/boundaries.dbf",
+        "path_type": "hardlink",
+        "sha256": "6c57e9393a5ab0627d9474addbe12d01fb19ba7d7e6e0355a60eae499fe273fa",
+        "sha256_in_prefix": "6c57e9393a5ab0627d9474addbe12d01fb19ba7d7e6e0355a60eae499fe273fa",
+        "size_in_bytes": 4056
+      },
+      {
+        "_path": "site-packages/geoviews/examples/assets/boundaries/boundaries.shp",
+        "path_type": "hardlink",
+        "sha256": "73fe42c3d9049f06be81bebfe37d26c32d964b1ceee74055f390f07a4712b3f5",
+        "sha256_in_prefix": "73fe42c3d9049f06be81bebfe37d26c32d964b1ceee74055f390f07a4712b3f5",
+        "size_in_bytes": 341072
+      },
+      {
+        "_path": "site-packages/geoviews/examples/assets/boundaries/boundaries.shx",
+        "path_type": "hardlink",
+        "sha256": "34ebcf9183b635e43631b05cc0a63a7094a7695d3de0c6ddd6e3298d51412335",
+        "sha256_in_prefix": "34ebcf9183b635e43631b05cc0a63a7094a7695d3de0c6ddd6e3298d51412335",
+        "size_in_bytes": 3292
+      },
+      {
+        "_path": "site-packages/geoviews/examples/assets/cities.csv",
+        "path_type": "hardlink",
+        "sha256": "de4a43269ad5d7368b5ac79f6b6292eb1435e95cf457efe3193e3f6177bc1392",
+        "sha256_in_prefix": "de4a43269ad5d7368b5ac79f6b6292eb1435e95cf457efe3193e3f6177bc1392",
+        "size_in_bytes": 496370
+      },
+      {
+        "_path": "site-packages/geoviews/examples/assets/referendum.csv",
+        "path_type": "hardlink",
+        "sha256": "1c509b341ca85441d5f549288fdd32e6e891137b370fa24bdb6986a5edcc73a7",
+        "sha256_in_prefix": "1c509b341ca85441d5f549288fdd32e6e891137b370fa24bdb6986a5edcc73a7",
+        "size_in_bytes": 23034
+      },
+      {
+        "_path": "site-packages/geoviews/examples/assets/results.json",
+        "path_type": "hardlink",
+        "sha256": "21e36bd033e6f3bc203bd2c857effda2a45b2cd8d3c9cc8f82e0d5982a0822eb",
+        "sha256_in_prefix": "21e36bd033e6f3bc203bd2c857effda2a45b2cd8d3c9cc8f82e0d5982a0822eb",
+        "size_in_bytes": 100504
+      },
+      {
+        "_path": "site-packages/geoviews/examples/datasets.yml",
+        "path_type": "hardlink",
+        "sha256": "5609a1b0328f5ab6e13394251d8ee4e35ee2b6bc8141ff645f166e8e672df860",
+        "sha256_in_prefix": "5609a1b0328f5ab6e13394251d8ee4e35ee2b6bc8141ff645f166e8e672df860",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/airport_graph.ipynb",
+        "path_type": "hardlink",
+        "sha256": "383edd4ab78e78b9c0852940b37a6fe5fa778d294781bd268d4073c46d91f75f",
+        "sha256_in_prefix": "383edd4ab78e78b9c0852940b37a6fe5fa778d294781bd268d4073c46d91f75f",
+        "size_in_bytes": 2263
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/brexit_choropleth.ipynb",
+        "path_type": "hardlink",
+        "sha256": "5b97dab13856a32f39772a4d58c34010cc9e9f969cc0d68595a66e27ee25e209",
+        "sha256_in_prefix": "5b97dab13856a32f39772a4d58c34010cc9e9f969cc0d68595a66e27ee25e209",
+        "size_in_bytes": 1275
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/city_populations_2050.ipynb",
+        "path_type": "hardlink",
+        "sha256": "bb6f8c4e8116c3c09841e9fedd96499035598c497d906a83173471c316605666",
+        "sha256_in_prefix": "bb6f8c4e8116c3c09841e9fedd96499035598c497d906a83173471c316605666",
+        "size_in_bytes": 1499
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/filled_contours.ipynb",
+        "path_type": "hardlink",
+        "sha256": "86f04f8b5e443c2636660728019414ce3f145e85994d8aecd80a4e6a9c69a26c",
+        "sha256_in_prefix": "86f04f8b5e443c2636660728019414ce3f145e85994d8aecd80a4e6a9c69a26c",
+        "size_in_bytes": 1963
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/great_circle.ipynb",
+        "path_type": "hardlink",
+        "sha256": "1e7d4e63217e45bb3a25e05d1dcde41f1417bf07f42a92d1ccfa0250a4f0dc6f",
+        "sha256_in_prefix": "1e7d4e63217e45bb3a25e05d1dcde41f1417bf07f42a92d1ccfa0250a4f0dc6f",
+        "size_in_bytes": 2133
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/katrina_track.ipynb",
+        "path_type": "hardlink",
+        "sha256": "ebb47cdd4e42ee3b13347852f2446b881828af429bb2501f533a706378104cc9",
+        "sha256_in_prefix": "ebb47cdd4e42ee3b13347852f2446b881828af429bb2501f533a706378104cc9",
+        "size_in_bytes": 3364
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/new_york_boroughs.ipynb",
+        "path_type": "hardlink",
+        "sha256": "4e422b496dbe1d53fa7d14e03961e1c5dddff73935529198574d52fb975f946c",
+        "sha256_in_prefix": "4e422b496dbe1d53fa7d14e03961e1c5dddff73935529198574d52fb975f946c",
+        "size_in_bytes": 1244
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/orthographic_vectorfield.ipynb",
+        "path_type": "hardlink",
+        "sha256": "12ca8628a0795c6743ee2d96bcf482ccdd36482e5ff25b8b2eb20d062bf86580",
+        "sha256_in_prefix": "12ca8628a0795c6743ee2d96bcf482ccdd36482e5ff25b8b2eb20d062bf86580",
+        "size_in_bytes": 2040
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/tile_sources.ipynb",
+        "path_type": "hardlink",
+        "sha256": "3f7974883f0c3256d8899b1fe523c96884ae284d0651eabad8bfa9099bdd70e0",
+        "sha256_in_prefix": "3f7974883f0c3256d8899b1fe523c96884ae284d0651eabad8bfa9099bdd70e0",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/trimesh_uk.ipynb",
+        "path_type": "hardlink",
+        "sha256": "5688f4648e9d40157231fdc313a84dd1c3b3aca05b4eed3d80147f8426f80a9b",
+        "sha256_in_prefix": "5688f4648e9d40157231fdc313a84dd1c3b3aca05b4eed3d80147f8426f80a9b",
+        "size_in_bytes": 4147
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/vectorfield_example.ipynb",
+        "path_type": "hardlink",
+        "sha256": "c3c5d3736e0e07186a303e7f6d1be04e699794a3b9063de730aa961c8d123b23",
+        "sha256_in_prefix": "c3c5d3736e0e07186a303e7f6d1be04e699794a3b9063de730aa961c8d123b23",
+        "size_in_bytes": 1941
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/world_population.ipynb",
+        "path_type": "hardlink",
+        "sha256": "a7e090243da5eb86eb04a5c6e8b4c1b443143a49af96d9d7f3ffc9e4016444f0",
+        "sha256_in_prefix": "a7e090243da5eb86eb04a5c6e8b4c1b443143a49af96d9d7f3ffc9e4016444f0",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/xarray_image.ipynb",
+        "path_type": "hardlink",
+        "sha256": "f006b1cf03fb9d7a735d0593e1948abea3afa4c1af28d3951bef3537548d3ec3",
+        "sha256_in_prefix": "f006b1cf03fb9d7a735d0593e1948abea3afa4c1af28d3951bef3537548d3ec3",
+        "size_in_bytes": 1308
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/bokeh/xarray_quadmesh.ipynb",
+        "path_type": "hardlink",
+        "sha256": "027572b9af1beb12c35d33e2a9870e42b3cf0dd6b6f80794ae4321ddbcbd7773",
+        "sha256_in_prefix": "027572b9af1beb12c35d33e2a9870e42b3cf0dd6b6f80794ae4321ddbcbd7773",
+        "size_in_bytes": 1028
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/airport_graph.ipynb",
+        "path_type": "hardlink",
+        "sha256": "fde88b7badfe0d68828c64a9f5ff3e6edbe01fdde4a11060218e39a2805b1ff9",
+        "sha256_in_prefix": "fde88b7badfe0d68828c64a9f5ff3e6edbe01fdde4a11060218e39a2805b1ff9",
+        "size_in_bytes": 2162
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/brexit_choropleth.ipynb",
+        "path_type": "hardlink",
+        "sha256": "f3895182651381d14eb99c31bd690db7158e3081a20823d228e6f5735a084053",
+        "sha256_in_prefix": "f3895182651381d14eb99c31bd690db7158e3081a20823d228e6f5735a084053",
+        "size_in_bytes": 1239
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/city_population.ipynb",
+        "path_type": "hardlink",
+        "sha256": "dd6c32125e9b3543c4db3b5e9bb53a205add076ef57a0c6db6a7925e913e9d0f",
+        "sha256_in_prefix": "dd6c32125e9b3543c4db3b5e9bb53a205add076ef57a0c6db6a7925e913e9d0f",
+        "size_in_bytes": 1460
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/filled_contours.ipynb",
+        "path_type": "hardlink",
+        "sha256": "77f4c20b70d74c4fac98b15bd4a698836428eac13455aa9a3fb4145c4022beb7",
+        "sha256_in_prefix": "77f4c20b70d74c4fac98b15bd4a698836428eac13455aa9a3fb4145c4022beb7",
+        "size_in_bytes": 1887
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/great_circle.ipynb",
+        "path_type": "hardlink",
+        "sha256": "03d721251c9d13c7e1e583ed6eab4bc4e4e84cc0c2c250d3e193dc373dbb3cd8",
+        "sha256_in_prefix": "03d721251c9d13c7e1e583ed6eab4bc4e4e84cc0c2c250d3e193dc373dbb3cd8",
+        "size_in_bytes": 2203
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/katrina_track.ipynb",
+        "path_type": "hardlink",
+        "sha256": "02bf51380a56ba5a10a32db786cee62892c674d8cc1861a608e8551a285e4e0a",
+        "sha256_in_prefix": "02bf51380a56ba5a10a32db786cee62892c674d8cc1861a608e8551a285e4e0a",
+        "size_in_bytes": 3258
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/new_york_boroughs.ipynb",
+        "path_type": "hardlink",
+        "sha256": "e4ae2bfd37e2f37c4f68013794d2f0a4a1e56d35d42be9b50efc41efa78d8561",
+        "sha256_in_prefix": "e4ae2bfd37e2f37c4f68013794d2f0a4a1e56d35d42be9b50efc41efa78d8561",
+        "size_in_bytes": 1276
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/orthographic_vectorfield.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d65295e21e36051a2400362e1a94edb728586d5da9d357a060f1a5c006d4b31e",
+        "sha256_in_prefix": "d65295e21e36051a2400362e1a94edb728586d5da9d357a060f1a5c006d4b31e",
+        "size_in_bytes": 2074
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/tile_sources.ipynb",
+        "path_type": "hardlink",
+        "sha256": "014a8ee8801b7bd267f9e34d75da4dbab6f3046035bcfdcc6194b1b70bac2332",
+        "sha256_in_prefix": "014a8ee8801b7bd267f9e34d75da4dbab6f3046035bcfdcc6194b1b70bac2332",
+        "size_in_bytes": 947
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/trimesh_uk.ipynb",
+        "path_type": "hardlink",
+        "sha256": "52a845ea0bccad285ae45d6d6ef1fa615dae0487f08b78863cdfa74eed7533b8",
+        "sha256_in_prefix": "52a845ea0bccad285ae45d6d6ef1fa615dae0487f08b78863cdfa74eed7533b8",
+        "size_in_bytes": 4198
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/vectorfield_example.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d2bea36e13c2a69e77564e43ad6f7c7f5eb50ea7f5ea6eed0e7986e9d1428eb4",
+        "sha256_in_prefix": "d2bea36e13c2a69e77564e43ad6f7c7f5eb50ea7f5ea6eed0e7986e9d1428eb4",
+        "size_in_bytes": 1986
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/world_population.ipynb",
+        "path_type": "hardlink",
+        "sha256": "8040ad03e572017f535943c31a9ab1e586ff869cd7340c6658e774e3fa66ddf3",
+        "sha256_in_prefix": "8040ad03e572017f535943c31a9ab1e586ff869cd7340c6658e774e3fa66ddf3",
+        "size_in_bytes": 1332
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/xarray_image.ipynb",
+        "path_type": "hardlink",
+        "sha256": "60100d0deebba74abb4e6cc53f8e3996c4f4d5e1fb2c03d44282e8a0c1ba866e",
+        "sha256_in_prefix": "60100d0deebba74abb4e6cc53f8e3996c4f4d5e1fb2c03d44282e8a0c1ba866e",
+        "size_in_bytes": 1304
+      },
+      {
+        "_path": "site-packages/geoviews/examples/gallery/matplotlib/xarray_quadmesh.ipynb",
+        "path_type": "hardlink",
+        "sha256": "0bac311fb1cd41775c5f00f810017e5d816efbcbc3564bcf527c83ffecfb04fa",
+        "sha256_in_prefix": "0bac311fb1cd41775c5f00f810017e5d816efbcbc3564bcf527c83ffecfb04fa",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "site-packages/geoviews/examples/user_guide/Annotators.ipynb",
+        "path_type": "hardlink",
+        "sha256": "2693097b5b7863c555ee409ed043b6e93113626a67c66dff819107d0fdb1f799",
+        "sha256_in_prefix": "2693097b5b7863c555ee409ed043b6e93113626a67c66dff819107d0fdb1f799",
+        "size_in_bytes": 8447
+      },
+      {
+        "_path": "site-packages/geoviews/examples/user_guide/Geometries.ipynb",
+        "path_type": "hardlink",
+        "sha256": "e8578949c7506b37433bc98f8970906629d4c1bceaaf6b33a47408e9489fb8b0",
+        "sha256_in_prefix": "e8578949c7506b37433bc98f8970906629d4c1bceaaf6b33a47408e9489fb8b0",
+        "size_in_bytes": 11979
+      },
+      {
+        "_path": "site-packages/geoviews/examples/user_guide/Gridded_Datasets_I.ipynb",
+        "path_type": "hardlink",
+        "sha256": "0d6dbfeb879a63d3413c8319be3cf9cc79480b8e54b3e9b06ea63346cf1d1a80",
+        "sha256_in_prefix": "0d6dbfeb879a63d3413c8319be3cf9cc79480b8e54b3e9b06ea63346cf1d1a80",
+        "size_in_bytes": 10975
+      },
+      {
+        "_path": "site-packages/geoviews/examples/user_guide/Gridded_Datasets_II.ipynb",
+        "path_type": "hardlink",
+        "sha256": "8acc02184e83fbab4366c373fb044600269158694d981bb8aea2c80af29c3632",
+        "sha256_in_prefix": "8acc02184e83fbab4366c373fb044600269158694d981bb8aea2c80af29c3632",
+        "size_in_bytes": 12831
+      },
+      {
+        "_path": "site-packages/geoviews/examples/user_guide/Projections.ipynb",
+        "path_type": "hardlink",
+        "sha256": "64794ce0c43d592a8462f925198cd3296bd5446c9ecc532bd246a5a32220fd5a",
+        "sha256_in_prefix": "64794ce0c43d592a8462f925198cd3296bd5446c9ecc532bd246a5a32220fd5a",
+        "size_in_bytes": 9115
+      },
+      {
+        "_path": "site-packages/geoviews/examples/user_guide/Resampling_Grids.ipynb",
+        "path_type": "hardlink",
+        "sha256": "3d8ed9e6488ac87c1933aaaa7faee11964f48ea998316ef4db4f37aa6c5adcb8",
+        "sha256_in_prefix": "3d8ed9e6488ac87c1933aaaa7faee11964f48ea998316ef4db4f37aa6c5adcb8",
+        "size_in_bytes": 12784
+      },
+      {
+        "_path": "site-packages/geoviews/examples/user_guide/Working_with_Bokeh.ipynb",
+        "path_type": "hardlink",
+        "sha256": "feb547770878c5c77ad096799e0de47a4259630ea34ad90fc560cb1951abe781",
+        "sha256_in_prefix": "feb547770878c5c77ad096799e0de47a4259630ea34ad90fc560cb1951abe781",
+        "size_in_bytes": 8182
+      },
+      {
+        "_path": "site-packages/geoviews/feature.py",
+        "path_type": "hardlink",
+        "sha256": "fd3ee2e0280e189cd05da02699f3c17e66facb87f83818908942ee9ca99fffb5",
+        "sha256_in_prefix": "fd3ee2e0280e189cd05da02699f3c17e66facb87f83818908942ee9ca99fffb5",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "site-packages/geoviews/icons/DenoteBackground.png",
+        "path_type": "hardlink",
+        "sha256": "2509dc7bdd32277a3dbb8cec6443bb7799a2600c6494c5591945ca0db967e827",
+        "sha256_in_prefix": "2509dc7bdd32277a3dbb8cec6443bb7799a2600c6494c5591945ca0db967e827",
+        "size_in_bytes": 1863
+      },
+      {
+        "_path": "site-packages/geoviews/icons/DenoteForeground.png",
+        "path_type": "hardlink",
+        "sha256": "6a5d1f98552834c2166e9671c909c9f40a618a171362eb9d823883328fcd523b",
+        "sha256_in_prefix": "6a5d1f98552834c2166e9671c909c9f40a618a171362eb9d823883328fcd523b",
+        "size_in_bytes": 1581
+      },
+      {
+        "_path": "site-packages/geoviews/icons/PolyBreak.png",
+        "path_type": "hardlink",
+        "sha256": "6f7e5103450886aed656355b1cf13af0f85f6ea407006cc5e39c27c1d034f569",
+        "sha256_in_prefix": "6f7e5103450886aed656355b1cf13af0f85f6ea407006cc5e39c27c1d034f569",
+        "size_in_bytes": 1847
+      },
+      {
+        "_path": "site-packages/geoviews/links.py",
+        "path_type": "hardlink",
+        "sha256": "6f7fd99f0bc42f508a6c1d50b6f8ac90733f6df33968710c2dae4bd8cb028f9b",
+        "sha256_in_prefix": "6f7fd99f0bc42f508a6c1d50b6f8ac90733f6df33968710c2dae4bd8cb028f9b",
+        "size_in_bytes": 9428
+      },
+      {
+        "_path": "site-packages/geoviews/models/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "93ea4120ad20a1d0d8e7396852026a7fe9dbd8df30b820bb2d4248cbb36ed336",
+        "sha256_in_prefix": "93ea4120ad20a1d0d8e7396852026a7fe9dbd8df30b820bb2d4248cbb36ed336",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "site-packages/geoviews/models/checkpoint_tool.ts",
+        "path_type": "hardlink",
+        "sha256": "1b1ec8ed32cf6619d38ec0ff51ca58ba744931cb193683df30e5099725ac08ee",
+        "sha256_in_prefix": "1b1ec8ed32cf6619d38ec0ff51ca58ba744931cb193683df30e5099725ac08ee",
+        "size_in_bytes": 1625
+      },
+      {
+        "_path": "site-packages/geoviews/models/clear_tool.ts",
+        "path_type": "hardlink",
+        "sha256": "aaceae11c0144508523763df45dcfda390905f5b05005de7272d50f3dbbc5fa7",
+        "sha256_in_prefix": "aaceae11c0144508523763df45dcfda390905f5b05005de7272d50f3dbbc5fa7",
+        "size_in_bytes": 1150
+      },
+      {
+        "_path": "site-packages/geoviews/models/custom_tools.py",
+        "path_type": "hardlink",
+        "sha256": "19a72808cd4600271309b5f01f27994d2c6ed2cf46348f55c1354f298733a7be",
+        "sha256_in_prefix": "19a72808cd4600271309b5f01f27994d2c6ed2cf46348f55c1354f298733a7be",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "site-packages/geoviews/models/index.ts",
+        "path_type": "hardlink",
+        "sha256": "0b78a00c7f737ce834b294fc61ffb7844b09a1666ecc5880b44187e2b88ae055",
+        "sha256_in_prefix": "0b78a00c7f737ce834b294fc61ffb7844b09a1666ecc5880b44187e2b88ae055",
+        "size_in_bytes": 225
+      },
+      {
+        "_path": "site-packages/geoviews/models/poly_draw.ts",
+        "path_type": "hardlink",
+        "sha256": "d1476bf69f49da0a2e120c167b58603d525650a7d636310a033feed11320b104",
+        "sha256_in_prefix": "d1476bf69f49da0a2e120c167b58603d525650a7d636310a033feed11320b104",
+        "size_in_bytes": 6660
+      },
+      {
+        "_path": "site-packages/geoviews/models/poly_edit.ts",
+        "path_type": "hardlink",
+        "sha256": "6c3b5313f599540c80f4a18579f6c65caa1925816df9a51e5ef6906be69adc20",
+        "sha256_in_prefix": "6c3b5313f599540c80f4a18579f6c65caa1925816df9a51e5ef6906be69adc20",
+        "size_in_bytes": 7768
+      },
+      {
+        "_path": "site-packages/geoviews/models/restore_tool.ts",
+        "path_type": "hardlink",
+        "sha256": "a52927de1af5e1eafd7d68f3815bf5210eba549e6857ef96d8f3a739bb45c19e",
+        "sha256_in_prefix": "a52927de1af5e1eafd7d68f3815bf5210eba549e6857ef96d8f3a739bb45c19e",
+        "size_in_bytes": 1232
+      },
+      {
+        "_path": "site-packages/geoviews/operation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8996026ff0355adbdd7d4be1a1b16125b5bbb1c91b360bf5683bc6bae5bd5628",
+        "sha256_in_prefix": "8996026ff0355adbdd7d4be1a1b16125b5bbb1c91b360bf5683bc6bae5bd5628",
+        "size_in_bytes": 2025
+      },
+      {
+        "_path": "site-packages/geoviews/operation/projection.py",
+        "path_type": "hardlink",
+        "sha256": "936b368e1ec55077004acbb3543c1afef4bb3ad3b68cacbcdd1aa0c9bc18b80e",
+        "sha256_in_prefix": "936b368e1ec55077004acbb3543c1afef4bb3ad3b68cacbcdd1aa0c9bc18b80e",
+        "size_in_bytes": 17946
+      },
+      {
+        "_path": "site-packages/geoviews/operation/regrid.py",
+        "path_type": "hardlink",
+        "sha256": "4de52f608de2366a1b0d11a4c2db7947672fcd3353ba863be6a7c26395576f73",
+        "sha256_in_prefix": "4de52f608de2366a1b0d11a4c2db7947672fcd3353ba863be6a7c26395576f73",
+        "size_in_bytes": 5678
+      },
+      {
+        "_path": "site-packages/geoviews/operation/resample.py",
+        "path_type": "hardlink",
+        "sha256": "1eea2329f0226926c9eca98965ad6eab3be1f433bc26f163212fe1fb9c8cbf3a",
+        "sha256_in_prefix": "1eea2329f0226926c9eca98965ad6eab3be1f433bc26f163212fe1fb9c8cbf3a",
+        "size_in_bytes": 7360
+      },
+      {
+        "_path": "site-packages/geoviews/plotting/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "22a1c92583a1e46a612ab525700ad34e01e737f29c9a667bd6f8e9c7d3b57a56",
+        "sha256_in_prefix": "22a1c92583a1e46a612ab525700ad34e01e737f29c9a667bd6f8e9c7d3b57a56",
+        "size_in_bytes": 1407
+      },
+      {
+        "_path": "site-packages/geoviews/plotting/bokeh/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8970abbecc96566eaca33b550e53ae60b470d506277214a5936cca5ccf5553d0",
+        "sha256_in_prefix": "8970abbecc96566eaca33b550e53ae60b470d506277214a5936cca5ccf5553d0",
+        "size_in_bytes": 11403
+      },
+      {
+        "_path": "site-packages/geoviews/plotting/bokeh/callbacks.py",
+        "path_type": "hardlink",
+        "sha256": "77224ab45eaf92c3e403bf182c27d58a591ece9b848a353208902d2b6a59cfa6",
+        "sha256_in_prefix": "77224ab45eaf92c3e403bf182c27d58a591ece9b848a353208902d2b6a59cfa6",
+        "size_in_bytes": 14629
+      },
+      {
+        "_path": "site-packages/geoviews/plotting/bokeh/plot.py",
+        "path_type": "hardlink",
+        "sha256": "bfb8a35e5e9aea27e8b31e8486cdaac283ba92f657eaa656dec948fb85a2c34e",
+        "sha256_in_prefix": "bfb8a35e5e9aea27e8b31e8486cdaac283ba92f657eaa656dec948fb85a2c34e",
+        "size_in_bytes": 8687
+      },
+      {
+        "_path": "site-packages/geoviews/plotting/mpl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b9dfa83e9293a961e312ca006f084769399037ebdcfb34365f15b07567b0cf1a",
+        "sha256_in_prefix": "b9dfa83e9293a961e312ca006f084769399037ebdcfb34365f15b07567b0cf1a",
+        "size_in_bytes": 18787
+      },
+      {
+        "_path": "site-packages/geoviews/plotting/plot.py",
+        "path_type": "hardlink",
+        "sha256": "f5ff7f3c1d3d089313d2bdff3e56b467a14a56c4d626070dedf35daa4fac20ef",
+        "sha256_in_prefix": "f5ff7f3c1d3d089313d2bdff3e56b467a14a56c4d626070dedf35daa4fac20ef",
+        "size_in_bytes": 3012
+      },
+      {
+        "_path": "site-packages/geoviews/streams.py",
+        "path_type": "hardlink",
+        "sha256": "e48157ccdc571e84e7d494409227c0224a6efd60b24145cb88575803a490bbeb",
+        "sha256_in_prefix": "e48157ccdc571e84e7d494409227c0224a6efd60b24145cb88575803a490bbeb",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "site-packages/geoviews/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "44457036c75458c4d829c65a5ebdc52d0cd28bed2ff92c93e0e7692f8aa35bee",
+        "sha256_in_prefix": "44457036c75458c4d829c65a5ebdc52d0cd28bed2ff92c93e0e7692f8aa35bee",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "site-packages/geoviews/tests/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/geoviews/tests/data/test_geopandas.py",
+        "path_type": "hardlink",
+        "sha256": "2c0c4b64ceba5a9bcf17ba6554daf8a8324c68ed05f2738fd3cf57dabfb2e75c",
+        "sha256_in_prefix": "2c0c4b64ceba5a9bcf17ba6554daf8a8324c68ed05f2738fd3cf57dabfb2e75c",
+        "size_in_bytes": 7530
+      },
+      {
+        "_path": "site-packages/geoviews/tests/data/test_iris.py",
+        "path_type": "hardlink",
+        "sha256": "5d1431bbc6a5fd363cf0f386d301a888bcb7cc08ad24048edf347beb2acb3668",
+        "sha256_in_prefix": "5d1431bbc6a5fd363cf0f386d301a888bcb7cc08ad24048edf347beb2acb3668",
+        "size_in_bytes": 9165
+      },
+      {
+        "_path": "site-packages/geoviews/tests/data/test_multigeometry.py",
+        "path_type": "hardlink",
+        "sha256": "6bb093c0493c42a6d884fa027c04b8afb0c7d7f7bd9fdc6000f0ded952c87213",
+        "sha256_in_prefix": "6bb093c0493c42a6d884fa027c04b8afb0c7d7f7bd9fdc6000f0ded952c87213",
+        "size_in_bytes": 7661
+      },
+      {
+        "_path": "site-packages/geoviews/tests/test_conversions.py",
+        "path_type": "hardlink",
+        "sha256": "5f2f6cf7477607954c5c391fe0c75462bc0d71a3f59a1b14b2bb6f0458d7a2fc",
+        "sha256_in_prefix": "5f2f6cf7477607954c5c391fe0c75462bc0d71a3f59a1b14b2bb6f0458d7a2fc",
+        "size_in_bytes": 1083
+      },
+      {
+        "_path": "site-packages/geoviews/tests/test_element.py",
+        "path_type": "hardlink",
+        "sha256": "8dac8acbfdd6614f87326166d4d7a105ccfe35680657f5178ceb06be61526047",
+        "sha256_in_prefix": "8dac8acbfdd6614f87326166d4d7a105ccfe35680657f5178ceb06be61526047",
+        "size_in_bytes": 6504
+      },
+      {
+        "_path": "site-packages/geoviews/tests/test_projection.py",
+        "path_type": "hardlink",
+        "sha256": "39003833cc7499beb3588d0e194303c0df0f1fd3106ac9e101c044eb3b355abb",
+        "sha256_in_prefix": "39003833cc7499beb3588d0e194303c0df0f1fd3106ac9e101c044eb3b355abb",
+        "size_in_bytes": 1253
+      },
+      {
+        "_path": "site-packages/geoviews/tile_sources.py",
+        "path_type": "hardlink",
+        "sha256": "c02d2cb799e5601a5e4ec0d6ffc3c9363b75c745ac535542cb6a4c5b7f09874c",
+        "sha256_in_prefix": "c02d2cb799e5601a5e4ec0d6ffc3c9363b75c745ac535542cb6a4c5b7f09874c",
+        "size_in_bytes": 5333
+      },
+      {
+        "_path": "site-packages/geoviews/util.py",
+        "path_type": "hardlink",
+        "sha256": "a1788f8a8c180eefbaf48c491eb2f6b5b85e64dd1b4ebe926e3d8bc3657e3a54",
+        "sha256_in_prefix": "a1788f8a8c180eefbaf48c491eb2f6b5b85e64dd1b4ebe926e3d8bc3657e3a54",
+        "size_in_bytes": 23860
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/__pycache__/annotators.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/data/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/data/__pycache__/geom_dict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/data/__pycache__/geopandas.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/data/__pycache__/iris.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/element/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/element/__pycache__/comparison.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/element/__pycache__/geo.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/__pycache__/feature.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/__pycache__/links.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/models/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/models/__pycache__/custom_tools.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/operation/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/operation/__pycache__/projection.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/operation/__pycache__/regrid.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/operation/__pycache__/resample.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/plotting/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/plotting/bokeh/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/plotting/bokeh/__pycache__/callbacks.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/plotting/bokeh/__pycache__/plot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/plotting/mpl/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/plotting/__pycache__/plot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/__pycache__/streams.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/tests/data/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/tests/data/__pycache__/test_geopandas.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/tests/data/__pycache__/test_iris.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/tests/data/__pycache__/test_multigeometry.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/tests/__pycache__/test_conversions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/tests/__pycache__/test_element.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/tests/__pycache__/test_projection.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/__pycache__/tile_sources.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/geoviews/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/geoviews",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "geoviews-core==1.9.2=pyha770c72_0",
+  "sha256": "8d48a47d4fe029b19f4424495638510716c2c855626355e39cc1e74a09748466",
+  "size": 416905,
+  "subdir": "noarch",
+  "timestamp": 1632940689080,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/geoviews-core-1.9.2-pyha770c72_0.tar.bz2",
+  "version": "1.9.2"
+}

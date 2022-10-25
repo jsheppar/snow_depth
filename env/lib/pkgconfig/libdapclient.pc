@@ -1,0 +1,16 @@
+prefix=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+ccompiler=x86_64-apple-darwin13.4.0-clang
+cppcompiler=x86_64-apple-darwin13.4.0-clang++
+
+Name: libdapclient
+Description: Client side of the OPeNDAP C++ implementation of the Data Access Protocol
+Version: 3.20.6
+Requires: libdap
+Libs: -L${libdir} -ldapclient
+Libs.private: -L/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib -lcurl
+Requires.private: 
+Cflags: -I${includedir}/libdap
+

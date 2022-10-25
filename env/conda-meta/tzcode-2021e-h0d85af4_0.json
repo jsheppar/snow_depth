@@ -1,0 +1,66 @@
+{
+  "build": "h0d85af4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/tzcode-2021e-h0d85af4_0",
+  "features": "",
+  "files": [
+    "bin/tzselect",
+    "bin/zdump",
+    "bin/zic",
+    "lib/libtz.a"
+  ],
+  "fn": "tzcode-2021e-h0d85af4_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/tzcode-2021e-h0d85af4_0",
+    "type": 1
+  },
+  "md5": "b272a5c0a89b135275d63cb3205db314",
+  "name": "tzcode",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/tzcode-2021e-h0d85af4_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/tzselect",
+        "path_type": "hardlink",
+        "sha256": "4f8e2b7e2d2eb097b6538869e4844e5e509f59d0937adfa3af337296e9853d1b",
+        "sha256_in_prefix": "4f8e2b7e2d2eb097b6538869e4844e5e509f59d0937adfa3af337296e9853d1b",
+        "size_in_bytes": 15306
+      },
+      {
+        "_path": "bin/zdump",
+        "path_type": "hardlink",
+        "sha256": "eac0039a499d39f17ebe04ac7135e2b8614da0cedd5ca585d6a41830e290747b",
+        "sha256_in_prefix": "eac0039a499d39f17ebe04ac7135e2b8614da0cedd5ca585d6a41830e290747b",
+        "size_in_bytes": 45032
+      },
+      {
+        "_path": "bin/zic",
+        "path_type": "hardlink",
+        "sha256": "e04f5c793aaedcea43c830b8e4703eea365abf839d294da502ae0df6abd36ff3",
+        "sha256_in_prefix": "e04f5c793aaedcea43c830b8e4703eea365abf839d294da502ae0df6abd36ff3",
+        "size_in_bytes": 54688
+      },
+      {
+        "_path": "lib/libtz.a",
+        "path_type": "hardlink",
+        "sha256": "20e47eea7a05322604c70e38a8099295167c2e1c182c5ef45b193977e0a829c1",
+        "sha256_in_prefix": "20e47eea7a05322604c70e38a8099295167c2e1c182c5ef45b193977e0a829c1",
+        "size_in_bytes": 34432
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "tzcode==2021e=h0d85af4_0",
+  "sha256": "0344a96dada940479561102aa73f9161e6f99330c5adf56af5b2fa838ad4a6ce",
+  "size": 65025,
+  "subdir": "osx-64",
+  "timestamp": 1634875945195,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/tzcode-2021e-h0d85af4_0.tar.bz2",
+  "version": "2021e"
+}

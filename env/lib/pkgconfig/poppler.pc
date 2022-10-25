@@ -1,0 +1,10 @@
+prefix=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env
+libdir=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib
+includedir=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/include
+
+Name: poppler
+Description: PDF rendering library
+Version: 21.09.0
+
+Libs: -L${libdir} -lpoppler
+Cflags: -I${includedir}/poppler

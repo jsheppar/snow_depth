@@ -1,0 +1,213 @@
+{
+  "build": "py38h50d1736_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/pluggy-1.0.0-py38h50d1736_2",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pluggy/__init__.py",
+    "lib/python3.8/site-packages/pluggy/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pluggy/__pycache__/_callers.cpython-38.pyc",
+    "lib/python3.8/site-packages/pluggy/__pycache__/_hooks.cpython-38.pyc",
+    "lib/python3.8/site-packages/pluggy/__pycache__/_manager.cpython-38.pyc",
+    "lib/python3.8/site-packages/pluggy/__pycache__/_result.cpython-38.pyc",
+    "lib/python3.8/site-packages/pluggy/__pycache__/_tracing.cpython-38.pyc",
+    "lib/python3.8/site-packages/pluggy/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/pluggy/_callers.py",
+    "lib/python3.8/site-packages/pluggy/_hooks.py",
+    "lib/python3.8/site-packages/pluggy/_manager.py",
+    "lib/python3.8/site-packages/pluggy/_result.py",
+    "lib/python3.8/site-packages/pluggy/_tracing.py",
+    "lib/python3.8/site-packages/pluggy/_version.py"
+  ],
+  "fn": "pluggy-1.0.0-py38h50d1736_2.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/pluggy-1.0.0-py38h50d1736_2",
+    "type": 1
+  },
+  "md5": "3a502faf240f80d2bba40359c1525e8c",
+  "name": "pluggy",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/pluggy-1.0.0-py38h50d1736_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606",
+        "sha256_in_prefix": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606",
+        "size_in_bytes": 1110
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4390fbb88db556b10e3dbe970f470ce2f635664a6dc9bda2388638dcc1dfc172",
+        "sha256_in_prefix": "4390fbb88db556b10e3dbe970f470ce2f635664a6dc9bda2388638dcc1dfc172",
+        "size_in_bytes": 4345
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5100395229be6b2f167b3f6791e53e0aaee8371ea7e45b2b6871074cf25253df",
+        "sha256_in_prefix": "5100395229be6b2f167b3f6791e53e0aaee8371ea7e45b2b6871074cf25253df",
+        "size_in_bytes": 1502
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "1943d8e9b78f549c87d12721e9fa158016a5bbfabc5ff6e73e8cb96087441ffe",
+        "sha256_in_prefix": "1943d8e9b78f549c87d12721e9fa158016a5bbfabc5ff6e73e8cb96087441ffe",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c4a4824616a2faff4c724bccb96a8dcf5e9cd6d6ec98e820a0c4b04e07296071",
+        "sha256_in_prefix": "c4a4824616a2faff4c724bccb96a8dcf5e9cd6d6ec98e820a0c4b04e07296071",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3f8e336d0e79f1e817b0603278a85664717e25e099f40771ea3ad76c010bd41",
+        "sha256_in_prefix": "e3f8e336d0e79f1e817b0603278a85664717e25e099f40771ea3ad76c010bd41",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d723d56bd09424c3ba6563dc6da4b3cee35dd899aa1ef9765e82d0696be05d47",
+        "sha256_in_prefix": "d723d56bd09424c3ba6563dc6da4b3cee35dd899aa1ef9765e82d0696be05d47",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/__pycache__/_callers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e50c079740aee37d7dc47623a48e70848279cea918ce7e7f312c3cf9e104bdc",
+        "sha256_in_prefix": "5e50c079740aee37d7dc47623a48e70848279cea918ce7e7f312c3cf9e104bdc",
+        "size_in_bytes": 1494
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/__pycache__/_hooks.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ca0837e599d4463cf511f78717556b46223add7d2811fae0f7a5e5dc76bd7e0",
+        "sha256_in_prefix": "5ca0837e599d4463cf511f78717556b46223add7d2811fae0f7a5e5dc76bd7e0",
+        "size_in_bytes": 11015
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/__pycache__/_manager.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "963629e374dfc184253393ea8926bc089af0bdc05cf7282c4a8234087463c821",
+        "sha256_in_prefix": "963629e374dfc184253393ea8926bc089af0bdc05cf7282c4a8234087463c821",
+        "size_in_bytes": 13881
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/__pycache__/_result.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce2636b7c9017c226248a27bf10bf616f0decb59cde0b10f358a0611ea7998ea",
+        "sha256_in_prefix": "ce2636b7c9017c226248a27bf10bf616f0decb59cde0b10f358a0611ea7998ea",
+        "size_in_bytes": 2158
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/__pycache__/_tracing.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2ee9cb2cc1ec5d366ffb2780d30407e4b28969f5a00d50dcd9a911f8ae52aca",
+        "sha256_in_prefix": "f2ee9cb2cc1ec5d366ffb2780d30407e4b28969f5a00d50dcd9a911f8ae52aca",
+        "size_in_bytes": 2308
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/__pycache__/_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa29e49ae08358efb7927b89dce5ab9166d9a06077f1ec3fdc7eb248e872220b",
+        "sha256_in_prefix": "fa29e49ae08358efb7927b89dce5ab9166d9a06077f1ec3fdc7eb248e872220b",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/_callers.py",
+        "path_type": "hardlink",
+        "sha256": "96ad8a3576b384aafe285fc624fc38bec636107c10e4e376752899502b5a790c",
+        "sha256_in_prefix": "96ad8a3576b384aafe285fc624fc38bec636107c10e4e376752899502b5a790c",
+        "size_in_bytes": 2097
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/_hooks.py",
+        "path_type": "hardlink",
+        "sha256": "3903e7aafec9eee7cb6554122021e9370e006167570f04d57de6022ff644c113",
+        "sha256_in_prefix": "3903e7aafec9eee7cb6554122021e9370e006167570f04d57de6022ff644c113",
+        "size_in_bytes": 11496
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/_manager.py",
+        "path_type": "hardlink",
+        "sha256": "98a42788daa3fcb3edb77e6be9d10b6d13eba84759fe23cbe95745cb1efdf3ba",
+        "sha256_in_prefix": "98a42788daa3fcb3edb77e6be9d10b6d13eba84759fe23cbe95745cb1efdf3ba",
+        "size_in_bytes": 14752
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/_result.py",
+        "path_type": "hardlink",
+        "sha256": "b0b4cbd37e1003749f91ef29b5a75492fa165b9890d4fbf3ca80bfec5d9e41f8",
+        "sha256_in_prefix": "b0b4cbd37e1003749f91ef29b5a75492fa165b9890d4fbf3ca80bfec5d9e41f8",
+        "size_in_bytes": 1535
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/_tracing.py",
+        "path_type": "hardlink",
+        "sha256": "c52bf8575a54fe293ca550a9a1b4c7f209e30770d0e228a7837b6ff9b0ee1ed0",
+        "sha256_in_prefix": "c52bf8575a54fe293ca550a9a1b4c7f209e30770d0e228a7837b6ff9b0ee1ed0",
+        "size_in_bytes": 1541
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pluggy/_version.py",
+        "path_type": "hardlink",
+        "sha256": "6038691405e0bf7edc998d69667f2440d71800ec23f3cdc185602da1ace2486e",
+        "sha256_in_prefix": "6038691405e0bf7edc998d69667f2440d71800ec23f3cdc185602da1ace2486e",
+        "size_in_bytes": 142
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pluggy==1.0.0=py38h50d1736_2",
+  "sha256": "5c2eda534180c480a8d627575a5803b4b3417e82a9faab7b8df3937da91acdc4",
+  "size": 25606,
+  "subdir": "osx-64",
+  "timestamp": 1635833039872,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/pluggy-1.0.0-py38h50d1736_2.tar.bz2",
+  "version": "1.0.0"
+}

@@ -1,0 +1,301 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "backoff",
+    "dask",
+    "datashader",
+    "fiona",
+    "geopandas",
+    "geoviews",
+    "h5py",
+    "holoviews",
+    "hvplot",
+    "intake",
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "python >=3.0",
+    "requests",
+    "shapely",
+    "tqdm",
+    "xarray"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/icepyx-0.4.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/_icepyx_version.py",
+    "lib/python3.8/site-packages/icepyx-0.4.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/icepyx-0.4.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/icepyx-0.4.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/icepyx-0.4.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/icepyx-0.4.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/icepyx-0.4.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/icepyx-0.4.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/icepyx-0.4.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/icepyx/__init__.py",
+    "lib/python3.8/site-packages/icepyx/core/APIformatting.py",
+    "lib/python3.8/site-packages/icepyx/core/Earthdata.py",
+    "lib/python3.8/site-packages/icepyx/core/__init__.py",
+    "lib/python3.8/site-packages/icepyx/core/exceptions.py",
+    "lib/python3.8/site-packages/icepyx/core/geospatial.py",
+    "lib/python3.8/site-packages/icepyx/core/granules.py",
+    "lib/python3.8/site-packages/icepyx/core/icesat2data.py",
+    "lib/python3.8/site-packages/icepyx/core/is2ref.py",
+    "lib/python3.8/site-packages/icepyx/core/query.py",
+    "lib/python3.8/site-packages/icepyx/core/validate_inputs.py",
+    "lib/python3.8/site-packages/icepyx/core/variables.py",
+    "lib/python3.8/site-packages/icepyx/core/visualization.py",
+    "lib/python3.8/site-packages/__pycache__/_icepyx_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/core/__pycache__/APIformatting.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/core/__pycache__/Earthdata.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/core/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/core/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/core/__pycache__/geospatial.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/core/__pycache__/granules.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/core/__pycache__/icesat2data.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/core/__pycache__/is2ref.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/core/__pycache__/query.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/core/__pycache__/validate_inputs.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/core/__pycache__/variables.cpython-38.pyc",
+    "lib/python3.8/site-packages/icepyx/core/__pycache__/visualization.cpython-38.pyc"
+  ],
+  "fn": "icepyx-0.4.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/icepyx-0.4.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "c2ee57c88ba2045717e6d04794f79e09",
+  "name": "icepyx",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/icepyx-0.4.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/_icepyx_version.py",
+        "path_type": "hardlink",
+        "sha256": "ca18963b3d07a09191448f7e250d9e87fd006c1cb2fbaa6c2b4f3e9294d21c9c",
+        "sha256_in_prefix": "ca18963b3d07a09191448f7e250d9e87fd006c1cb2fbaa6c2b4f3e9294d21c9c",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/icepyx-0.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/icepyx-0.4.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8d06bc529a01b44a5a6bcf87f06dbfda7e9b20e9873bbf019eb9c461a59b5ee2",
+        "sha256_in_prefix": "8d06bc529a01b44a5a6bcf87f06dbfda7e9b20e9873bbf019eb9c461a59b5ee2",
+        "size_in_bytes": 1551
+      },
+      {
+        "_path": "site-packages/icepyx-0.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "768f2943ca0519f46fba7525b95e5930cde8a30bcc63a64ce50a28b95d289847",
+        "sha256_in_prefix": "768f2943ca0519f46fba7525b95e5930cde8a30bcc63a64ce50a28b95d289847",
+        "size_in_bytes": 6139
+      },
+      {
+        "_path": "site-packages/icepyx-0.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0d2fe3d13bdc62c47fdabd6838ff158c6bfb6bb830c6594983ab95bf4f7f0e69",
+        "sha256_in_prefix": "0d2fe3d13bdc62c47fdabd6838ff158c6bfb6bb830c6594983ab95bf4f7f0e69",
+        "size_in_bytes": 2522
+      },
+      {
+        "_path": "site-packages/icepyx-0.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/icepyx-0.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/icepyx-0.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "01acc7375c92d4a2056aac85b4410e752435b61380be19028afe900992ca1406",
+        "sha256_in_prefix": "01acc7375c92d4a2056aac85b4410e752435b61380be19028afe900992ca1406",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/icepyx-0.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1937c65a6e988772d1ff67390e4db6273444f0a230dfdb55f6581b5ef939d9b2",
+        "sha256_in_prefix": "1937c65a6e988772d1ff67390e4db6273444f0a230dfdb55f6581b5ef939d9b2",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "site-packages/icepyx/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b0d112a8af7292e454ed6e1616ba6426dee2fbc99b066866e98de487b4510437",
+        "sha256_in_prefix": "b0d112a8af7292e454ed6e1616ba6426dee2fbc99b066866e98de487b4510437",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/icepyx/core/APIformatting.py",
+        "path_type": "hardlink",
+        "sha256": "3d486d2f4c61b3f6827cb3047c7fb8f3db416da27c056454e7f686abb04fef4c",
+        "sha256_in_prefix": "3d486d2f4c61b3f6827cb3047c7fb8f3db416da27c056454e7f686abb04fef4c",
+        "size_in_bytes": 18654
+      },
+      {
+        "_path": "site-packages/icepyx/core/Earthdata.py",
+        "path_type": "hardlink",
+        "sha256": "a572d53228d3e42e199bb2da55f9bddb36d072b475e843959a47f116dc4372db",
+        "sha256_in_prefix": "a572d53228d3e42e199bb2da55f9bddb36d072b475e843959a47f116dc4372db",
+        "size_in_bytes": 4875
+      },
+      {
+        "_path": "site-packages/icepyx/core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/icepyx/core/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "cf9183e8aca9600df34b1d0b300754930db2c8c69065d7a97f3fc80ec15d6424",
+        "sha256_in_prefix": "cf9183e8aca9600df34b1d0b300754930db2c8c69065d7a97f3fc80ec15d6424",
+        "size_in_bytes": 506
+      },
+      {
+        "_path": "site-packages/icepyx/core/geospatial.py",
+        "path_type": "hardlink",
+        "sha256": "acaf05b8c271aa28afbffc2569e51b04e58ca4362d6faab164793bbada790df2",
+        "sha256_in_prefix": "acaf05b8c271aa28afbffc2569e51b04e58ca4362d6faab164793bbada790df2",
+        "size_in_bytes": 3734
+      },
+      {
+        "_path": "site-packages/icepyx/core/granules.py",
+        "path_type": "hardlink",
+        "sha256": "1a65cccd69d7fedd00e8666711c0f4b54b1abe6713e85458bb2f91cfac814f13",
+        "sha256_in_prefix": "1a65cccd69d7fedd00e8666711c0f4b54b1abe6713e85458bb2f91cfac814f13",
+        "size_in_bytes": 21793
+      },
+      {
+        "_path": "site-packages/icepyx/core/icesat2data.py",
+        "path_type": "hardlink",
+        "sha256": "ccc28b688c5d05df84f3058e1a5cab3818d9e5490bc2c0c9d72994a716b5d255",
+        "sha256_in_prefix": "ccc28b688c5d05df84f3058e1a5cab3818d9e5490bc2c0c9d72994a716b5d255",
+        "size_in_bytes": 292
+      },
+      {
+        "_path": "site-packages/icepyx/core/is2ref.py",
+        "path_type": "hardlink",
+        "sha256": "1bf2b955a4bd686ed3351fafe5ba7d290c746768587d9f31bd9975d3bd8d56d5",
+        "sha256_in_prefix": "1bf2b955a4bd686ed3351fafe5ba7d290c746768587d9f31bd9975d3bd8d56d5",
+        "size_in_bytes": 7719
+      },
+      {
+        "_path": "site-packages/icepyx/core/query.py",
+        "path_type": "hardlink",
+        "sha256": "abc5e5861b667d9d13161ae5b35a445e87cb8102e1e3c3f3c4249a3e391f196b",
+        "sha256_in_prefix": "abc5e5861b667d9d13161ae5b35a445e87cb8102e1e3c3f3c4249a3e391f196b",
+        "size_in_bytes": 37983
+      },
+      {
+        "_path": "site-packages/icepyx/core/validate_inputs.py",
+        "path_type": "hardlink",
+        "sha256": "41beada19e873048c042db7bd6fd1892c5a810b2993ca8e799e18fce49b6d440",
+        "sha256_in_prefix": "41beada19e873048c042db7bd6fd1892c5a810b2993ca8e799e18fce49b6d440",
+        "size_in_bytes": 11696
+      },
+      {
+        "_path": "site-packages/icepyx/core/variables.py",
+        "path_type": "hardlink",
+        "sha256": "6401104f6362538f41ee183d5ccad26e054befa5f0118a1ac356efc27ae7c3d8",
+        "sha256_in_prefix": "6401104f6362538f41ee183d5ccad26e054befa5f0118a1ac356efc27ae7c3d8",
+        "size_in_bytes": 24604
+      },
+      {
+        "_path": "site-packages/icepyx/core/visualization.py",
+        "path_type": "hardlink",
+        "sha256": "857bf65ab012d3928fdc0d22ba48805fbac1665707cd8c9abf7f332c820027df",
+        "sha256_in_prefix": "857bf65ab012d3928fdc0d22ba48805fbac1665707cd8c9abf7f332c820027df",
+        "size_in_bytes": 15453
+      },
+      {
+        "_path": "lib/python3.8/site-packages/__pycache__/_icepyx_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/core/__pycache__/APIformatting.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/core/__pycache__/Earthdata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/core/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/core/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/core/__pycache__/geospatial.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/core/__pycache__/granules.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/core/__pycache__/icesat2data.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/core/__pycache__/is2ref.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/core/__pycache__/query.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/core/__pycache__/validate_inputs.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/core/__pycache__/variables.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/icepyx/core/__pycache__/visualization.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "icepyx==0.4.0=pyhd8ed1ab_0",
+  "sha256": "fccefa1660e680a7dd01a753684babe2fbbb471f603f0c069d6c30fb24b4aee2",
+  "size": 40361,
+  "subdir": "noarch",
+  "timestamp": 1620954216328,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/icepyx-0.4.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.4.0"
+}

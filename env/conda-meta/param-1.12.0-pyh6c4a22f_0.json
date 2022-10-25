@@ -1,0 +1,188 @@
+{
+  "build": "pyh6c4a22f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=2.7"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/param-1.12.0-pyh6c4a22f_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/numbergen/__init__.py",
+    "lib/python3.8/site-packages/param-1.12.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/param-1.12.0.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/param-1.12.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/param-1.12.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/param-1.12.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/param-1.12.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/param-1.12.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/param-1.12.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/param/.version",
+    "lib/python3.8/site-packages/param/__init__.py",
+    "lib/python3.8/site-packages/param/ipython.py",
+    "lib/python3.8/site-packages/param/parameterized.py",
+    "lib/python3.8/site-packages/param/serializer.py",
+    "lib/python3.8/site-packages/param/version.py",
+    "lib/python3.8/site-packages/numbergen/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/param/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/param/__pycache__/ipython.cpython-38.pyc",
+    "lib/python3.8/site-packages/param/__pycache__/parameterized.cpython-38.pyc",
+    "lib/python3.8/site-packages/param/__pycache__/serializer.cpython-38.pyc",
+    "lib/python3.8/site-packages/param/__pycache__/version.cpython-38.pyc"
+  ],
+  "fn": "param-1.12.0-pyh6c4a22f_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/param-1.12.0-pyh6c4a22f_0",
+    "type": 1
+  },
+  "md5": "fe68d614336ad99a3bede46e0c6ca26b",
+  "name": "param",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/param-1.12.0-pyh6c4a22f_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/numbergen/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9ec825633360eab712bd63794d8c67bf26c7ab3ac924a9a7f24d15f022cc34c0",
+        "sha256_in_prefix": "9ec825633360eab712bd63794d8c67bf26c7ab3ac924a9a7f24d15f022cc34c0",
+        "size_in_bytes": 27537
+      },
+      {
+        "_path": "site-packages/param-1.12.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/param-1.12.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "5a9d4c05af073853da58a459ceea16950285c76973bade74574d8a5336c28074",
+        "sha256_in_prefix": "5a9d4c05af073853da58a459ceea16950285c76973bade74574d8a5336c28074",
+        "size_in_bytes": 1506
+      },
+      {
+        "_path": "site-packages/param-1.12.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a0f763023adb1edf33ee4871b6c99780eb3df873093b2dff37c23bcace6c0b41",
+        "sha256_in_prefix": "a0f763023adb1edf33ee4871b6c99780eb3df873093b2dff37c23bcace6c0b41",
+        "size_in_bytes": 5644
+      },
+      {
+        "_path": "site-packages/param-1.12.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "373545aed7d307f3469aa868a2c99e5af05f310252d04724199c9643e4c9d0a3",
+        "sha256_in_prefix": "373545aed7d307f3469aa868a2c99e5af05f310252d04724199c9643e4c9d0a3",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "site-packages/param-1.12.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/param-1.12.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/param-1.12.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "104313c00464e2dcf84a5f6554a939d3047314f648bfdd3351e991a8326ab142",
+        "sha256_in_prefix": "104313c00464e2dcf84a5f6554a939d3047314f648bfdd3351e991a8326ab142",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/param-1.12.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3b010bea829229e31b66ff6b97eaca24243aef377c2c544e9b5a97a9e1e97a39",
+        "sha256_in_prefix": "3b010bea829229e31b66ff6b97eaca24243aef377c2c544e9b5a97a9e1e97a39",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "site-packages/param/.version",
+        "path_type": "hardlink",
+        "sha256": "767ae1f3fd8a70f992214cd3d764ae86fc7f19a44625d2880ddbb382386febc1",
+        "sha256_in_prefix": "767ae1f3fd8a70f992214cd3d764ae86fc7f19a44625d2880ddbb382386febc1",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/param/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79166e50d90ef32a553fefbfa755fc4b5ce5d471f54f0fce13d463190194954e",
+        "sha256_in_prefix": "79166e50d90ef32a553fefbfa755fc4b5ce5d471f54f0fce13d463190194954e",
+        "size_in_bytes": 79712
+      },
+      {
+        "_path": "site-packages/param/ipython.py",
+        "path_type": "hardlink",
+        "sha256": "e1d24e97ef5da93e1db49be7fce62d5154c10fa4f4d5cab4b4c53f7f4e87e265",
+        "sha256_in_prefix": "e1d24e97ef5da93e1db49be7fce62d5154c10fa4f4d5cab4b4c53f7f4e87e265",
+        "size_in_bytes": 13723
+      },
+      {
+        "_path": "site-packages/param/parameterized.py",
+        "path_type": "hardlink",
+        "sha256": "9545e7e4d8512a746f47ecea227d0451d3193546c68e893914eb63519169f80f",
+        "sha256_in_prefix": "9545e7e4d8512a746f47ecea227d0451d3193546c68e893914eb63519169f80f",
+        "size_in_bytes": 145547
+      },
+      {
+        "_path": "site-packages/param/serializer.py",
+        "path_type": "hardlink",
+        "sha256": "6189d07517fa2593a21266f568aeca4afe216274f2c12c45a176322aae83581e",
+        "sha256_in_prefix": "6189d07517fa2593a21266f568aeca4afe216274f2c12c45a176322aae83581e",
+        "size_in_bytes": 11538
+      },
+      {
+        "_path": "site-packages/param/version.py",
+        "path_type": "hardlink",
+        "sha256": "72aa8f6c97e123d1af76b2e92875903f20e49d274a98da11ae3b415eb0cf2e16",
+        "sha256_in_prefix": "72aa8f6c97e123d1af76b2e92875903f20e49d274a98da11ae3b415eb0cf2e16",
+        "size_in_bytes": 30994
+      },
+      {
+        "_path": "lib/python3.8/site-packages/numbergen/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/param/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/param/__pycache__/ipython.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/param/__pycache__/parameterized.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/param/__pycache__/serializer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/param/__pycache__/version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "param==1.12.0=pyh6c4a22f_0",
+  "sha256": "0d70c83d857d20bcf612fe1dfdc6c4cda4a0468b6e8bcd87804e0b8fff2e3892",
+  "size": 73611,
+  "subdir": "noarch",
+  "timestamp": 1634834245648,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/param-1.12.0-pyh6c4a22f_0.tar.bz2",
+  "version": "1.12.0"
+}

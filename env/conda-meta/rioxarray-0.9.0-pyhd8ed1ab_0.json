@@ -1,0 +1,308 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "packaging",
+    "pyproj >=2.2",
+    "python >=3.7",
+    "rasterio",
+    "scipy",
+    "xarray >=0.17"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/rioxarray-0.9.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/rioxarray-0.9.0.dist-info/AUTHORS.rst",
+    "lib/python3.8/site-packages/rioxarray-0.9.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/rioxarray-0.9.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/rioxarray-0.9.0.dist-info/LICENSE_datacube",
+    "lib/python3.8/site-packages/rioxarray-0.9.0.dist-info/LICENSE_xarray",
+    "lib/python3.8/site-packages/rioxarray-0.9.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/rioxarray-0.9.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/rioxarray-0.9.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/rioxarray-0.9.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/rioxarray-0.9.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/rioxarray-0.9.0.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/rioxarray-0.9.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/rioxarray/__init__.py",
+    "lib/python3.8/site-packages/rioxarray/_io.py",
+    "lib/python3.8/site-packages/rioxarray/_options.py",
+    "lib/python3.8/site-packages/rioxarray/_show_versions.py",
+    "lib/python3.8/site-packages/rioxarray/_version.py",
+    "lib/python3.8/site-packages/rioxarray/crs.py",
+    "lib/python3.8/site-packages/rioxarray/exceptions.py",
+    "lib/python3.8/site-packages/rioxarray/merge.py",
+    "lib/python3.8/site-packages/rioxarray/raster_array.py",
+    "lib/python3.8/site-packages/rioxarray/raster_dataset.py",
+    "lib/python3.8/site-packages/rioxarray/raster_writer.py",
+    "lib/python3.8/site-packages/rioxarray/rioxarray.py",
+    "lib/python3.8/site-packages/rioxarray/xarray_plugin.py",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/_io.cpython-38.pyc",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/_options.cpython-38.pyc",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/_show_versions.cpython-38.pyc",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/crs.cpython-38.pyc",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/merge.cpython-38.pyc",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/raster_array.cpython-38.pyc",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/raster_dataset.cpython-38.pyc",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/raster_writer.cpython-38.pyc",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/rioxarray.cpython-38.pyc",
+    "lib/python3.8/site-packages/rioxarray/__pycache__/xarray_plugin.cpython-38.pyc"
+  ],
+  "fn": "rioxarray-0.9.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/rioxarray-0.9.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "242157795479aa5d72129e15cd462abe",
+  "name": "rioxarray",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/rioxarray-0.9.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/rioxarray-0.9.0.dist-info/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "15a86bea63f3a89555dbb30e759e089e1456cf61bf07354246e7d2703f1873ee",
+        "sha256_in_prefix": "15a86bea63f3a89555dbb30e759e089e1456cf61bf07354246e7d2703f1873ee",
+        "size_in_bytes": 10214
+      },
+      {
+        "_path": "site-packages/rioxarray-0.9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/rioxarray-0.9.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc42218397122980cecb27949528a7ce6b958d75266c2462547b4608779fa45",
+        "sha256_in_prefix": "cfc42218397122980cecb27949528a7ce6b958d75266c2462547b4608779fa45",
+        "size_in_bytes": 10802
+      },
+      {
+        "_path": "site-packages/rioxarray-0.9.0.dist-info/LICENSE_datacube",
+        "path_type": "hardlink",
+        "sha256": "18ce98c967949a3f96b36e6b06e262c0643244adf1a13e000d15b0009b3ce46d",
+        "sha256_in_prefix": "18ce98c967949a3f96b36e6b06e262c0643244adf1a13e000d15b0009b3ce46d",
+        "size_in_bytes": 654
+      },
+      {
+        "_path": "site-packages/rioxarray-0.9.0.dist-info/LICENSE_xarray",
+        "path_type": "hardlink",
+        "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+        "sha256_in_prefix": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+        "size_in_bytes": 10273
+      },
+      {
+        "_path": "site-packages/rioxarray-0.9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d9bc80652105517277c95cc40e9f56b4040245cc83a190bb42be8f5fa0d5067d",
+        "sha256_in_prefix": "d9bc80652105517277c95cc40e9f56b4040245cc83a190bb42be8f5fa0d5067d",
+        "size_in_bytes": 6231
+      },
+      {
+        "_path": "site-packages/rioxarray-0.9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c488cb83739d94d567679bc8dd606fc4d26e7974b20e4164b9fc915e80b3f482",
+        "sha256_in_prefix": "c488cb83739d94d567679bc8dd606fc4d26e7974b20e4164b9fc915e80b3f482",
+        "size_in_bytes": 2782
+      },
+      {
+        "_path": "site-packages/rioxarray-0.9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rioxarray-0.9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/rioxarray-0.9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "868ddf4260b4b43d7b1665d1806d94aedcebca1003deb7dcbb890d75d7ca0390",
+        "sha256_in_prefix": "868ddf4260b4b43d7b1665d1806d94aedcebca1003deb7dcbb890d75d7ca0390",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/rioxarray-0.9.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "53545015d6aaf84f5f8c60beb51b4017c8312e8fc0ac822cdbce81e7b791e0b0",
+        "sha256_in_prefix": "53545015d6aaf84f5f8c60beb51b4017c8312e8fc0ac822cdbce81e7b791e0b0",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "site-packages/rioxarray-0.9.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5644f4edd06c56687f4f0a2c7c83e3354b31641f42cfa62cb4b06c3f8469914d",
+        "sha256_in_prefix": "5644f4edd06c56687f4f0a2c7c83e3354b31641f42cfa62cb4b06c3f8469914d",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/rioxarray/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e1cea9695c5151ac31c99908b33435cdbba69b47b6c907eb6b6f7bb7052c02ba",
+        "sha256_in_prefix": "e1cea9695c5151ac31c99908b33435cdbba69b47b6c907eb6b6f7bb7052c02ba",
+        "size_in_bytes": 405
+      },
+      {
+        "_path": "site-packages/rioxarray/_io.py",
+        "path_type": "hardlink",
+        "sha256": "473657e747aedaa6a03cdbc1587ab9e168f066571a5ec6ff83451e2173d78c4b",
+        "sha256_in_prefix": "473657e747aedaa6a03cdbc1587ab9e168f066571a5ec6ff83451e2173d78c4b",
+        "size_in_bytes": 31722
+      },
+      {
+        "_path": "site-packages/rioxarray/_options.py",
+        "path_type": "hardlink",
+        "sha256": "57f066b609ec84c73a57380198a83f494a27ab507bd961307f2c210a7a118eaa",
+        "sha256_in_prefix": "57f066b609ec84c73a57380198a83f494a27ab507bd961307f2c210a7a118eaa",
+        "size_in_bytes": 2693
+      },
+      {
+        "_path": "site-packages/rioxarray/_show_versions.py",
+        "path_type": "hardlink",
+        "sha256": "803127997307e08e62bf9bf85f6be343e30fddff7e86dde69923c2c23db9f737",
+        "sha256_in_prefix": "803127997307e08e62bf9bf85f6be343e30fddff7e86dde69923c2c23db9f737",
+        "size_in_bytes": 2321
+      },
+      {
+        "_path": "site-packages/rioxarray/_version.py",
+        "path_type": "hardlink",
+        "sha256": "b1d70de7534e75b353e9953173ba2cb86d41927fb07c5f5ed9c340e601e9245f",
+        "sha256_in_prefix": "b1d70de7534e75b353e9953173ba2cb86d41927fb07c5f5ed9c340e601e9245f",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "site-packages/rioxarray/crs.py",
+        "path_type": "hardlink",
+        "sha256": "f34d35ad0587bf0f863acc4c5943e25cb551d6436a43675ce0dd907daf5e997e",
+        "sha256_in_prefix": "f34d35ad0587bf0f863acc4c5943e25cb551d6436a43675ce0dd907daf5e997e",
+        "size_in_bytes": 1122
+      },
+      {
+        "_path": "site-packages/rioxarray/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "2bb90d5147d5f662c02c8c1e4b21c6208eeedfb7eb128a31f110e6a9b1d9174e",
+        "sha256_in_prefix": "2bb90d5147d5f662c02c8c1e4b21c6208eeedfb7eb128a31f110e6a9b1d9174e",
+        "size_in_bytes": 1230
+      },
+      {
+        "_path": "site-packages/rioxarray/merge.py",
+        "path_type": "hardlink",
+        "sha256": "ed19774469db9f9df7ce9434ca76134c6113818a60e1bf6f1c023e312752fb87",
+        "sha256_in_prefix": "ed19774469db9f9df7ce9434ca76134c6113818a60e1bf6f1c023e312752fb87",
+        "size_in_bytes": 9270
+      },
+      {
+        "_path": "site-packages/rioxarray/raster_array.py",
+        "path_type": "hardlink",
+        "sha256": "07f390241345f96db69f90b6c63d70004d914cfda01a2f24c828fbcdcff313a4",
+        "sha256_in_prefix": "07f390241345f96db69f90b6c63d70004d914cfda01a2f24c828fbcdcff313a4",
+        "size_in_bytes": 35279
+      },
+      {
+        "_path": "site-packages/rioxarray/raster_dataset.py",
+        "path_type": "hardlink",
+        "sha256": "5a3a78dee3fc242ee2d99c117ee2209df878cfb347c01e8afe77b219ca22d907",
+        "sha256_in_prefix": "5a3a78dee3fc242ee2d99c117ee2209df878cfb347c01e8afe77b219ca22d907",
+        "size_in_bytes": 18930
+      },
+      {
+        "_path": "site-packages/rioxarray/raster_writer.py",
+        "path_type": "hardlink",
+        "sha256": "5c0daf6371e3a02e6bbf662873417f503521c9da5259d67ab92100312a5ed3fc",
+        "sha256_in_prefix": "5c0daf6371e3a02e6bbf662873417f503521c9da5259d67ab92100312a5ed3fc",
+        "size_in_bytes": 9733
+      },
+      {
+        "_path": "site-packages/rioxarray/rioxarray.py",
+        "path_type": "hardlink",
+        "sha256": "eaa149d037812a6e0d82ee80d8b5e7b0af88eebc37ced7e69cdb0583167acbd8",
+        "sha256_in_prefix": "eaa149d037812a6e0d82ee80d8b5e7b0af88eebc37ced7e69cdb0583167acbd8",
+        "size_in_bytes": 37542
+      },
+      {
+        "_path": "site-packages/rioxarray/xarray_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "e32d9d7773c3d87709d3c3a16fbe922c31e8c4fdf7fc409f8a54467c0705041e",
+        "sha256_in_prefix": "e32d9d7773c3d87709d3c3a16fbe922c31e8c4fdf7fc409f8a54467c0705041e",
+        "size_in_bytes": 2108
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/_io.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/_options.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/_show_versions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/crs.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/merge.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/raster_array.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/raster_dataset.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/raster_writer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/rioxarray.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rioxarray/__pycache__/xarray_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "rioxarray==0.9.0=pyhd8ed1ab_0",
+  "sha256": "cd54e0394b3d9cafcf65cb97b0d30f1f82585d4416eebf50b3c475d74fdd692e",
+  "size": 44997,
+  "subdir": "noarch",
+  "timestamp": 1637774624314,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/rioxarray-0.9.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.9.0"
+}

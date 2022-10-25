@@ -1,0 +1,15 @@
+prefix=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+ccompiler=x86_64-apple-darwin13.4.0-clang
+cppcompiler=x86_64-apple-darwin13.4.0-clang++
+
+Name: libdap
+Description: Common items for the OPeNDAP C++ implementation of the Data Access Protocol
+Version: 3.20.6
+Libs: -L${libdir} -ldap
+Libs.private:  -L/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib -lxml2 -L/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib -lz -L/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib -llzma -lpthread -L/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib -liconv -L/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib -licui18n -licuuc -licudata -lm -lpthread
+Requires.private: 
+Cflags: -I${includedir}/libdap
+

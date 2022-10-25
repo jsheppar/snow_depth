@@ -1,0 +1,1802 @@
+{
+  "build": "pyh6c4a22f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "colorcet >=0.9.0",
+    "dask >=0.18.0",
+    "datashape >=0.5.1",
+    "numba >=0.51.0",
+    "numpy >=1.7",
+    "pandas >=0.24.1",
+    "param >=1.6.1",
+    "pillow >=3.1.1",
+    "pyct >=0.4.5",
+    "python >=2.7",
+    "scipy",
+    "toolz >=0.7.4",
+    "xarray >=0.9.6"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/datashader-0.13.0-pyh6c4a22f_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/datashader-0.13.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/datashader-0.13.0.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/datashader-0.13.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/datashader-0.13.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/datashader-0.13.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/datashader-0.13.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/datashader-0.13.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/datashader-0.13.0.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/datashader-0.13.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/datashader/.version",
+    "lib/python3.8/site-packages/datashader/__init__.py",
+    "lib/python3.8/site-packages/datashader/__main__.py",
+    "lib/python3.8/site-packages/datashader/bokeh_ext.py",
+    "lib/python3.8/site-packages/datashader/bundling.py",
+    "lib/python3.8/site-packages/datashader/colors.py",
+    "lib/python3.8/site-packages/datashader/compatibility.py",
+    "lib/python3.8/site-packages/datashader/compiler.py",
+    "lib/python3.8/site-packages/datashader/composite.py",
+    "lib/python3.8/site-packages/datashader/core.py",
+    "lib/python3.8/site-packages/datashader/data_libraries/__init__.py",
+    "lib/python3.8/site-packages/datashader/data_libraries/cudf.py",
+    "lib/python3.8/site-packages/datashader/data_libraries/dask.py",
+    "lib/python3.8/site-packages/datashader/data_libraries/dask_cudf.py",
+    "lib/python3.8/site-packages/datashader/data_libraries/dask_xarray.py",
+    "lib/python3.8/site-packages/datashader/data_libraries/pandas.py",
+    "lib/python3.8/site-packages/datashader/data_libraries/xarray.py",
+    "lib/python3.8/site-packages/datashader/datatypes.py",
+    "lib/python3.8/site-packages/datashader/examples/FAQ.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/README.md",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/airport_connections.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/chesapeake_farout.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/chesbay_detail.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/dashboard.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/ds_hv_bokeh.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/ds_hv_bokeh2.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/featured-badge-gh.svg",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/fire.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/hot.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/houston_district29.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/jet.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/landsat.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/nyc_pickups_vs_dropoffs.jpg",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/nyc_races.jpg",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/nyc_taxi-paramnb.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/nyc_taxi_100k.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/parambokeh.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/pcap.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/pipeline.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/pipeline2.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/rainbow.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/sym_attractors.jpg",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/uk_researchers.png",
+    "lib/python3.8/site-packages/datashader/examples/assets/images/usa_census.jpg",
+    "lib/python3.8/site-packages/datashader/examples/data/.data_stubs/nyc_taxi.csv",
+    "lib/python3.8/site-packages/datashader/examples/datasets.yml",
+    "lib/python3.8/site-packages/datashader/examples/environment.yml",
+    "lib/python3.8/site-packages/datashader/examples/filetimes.py",
+    "lib/python3.8/site-packages/datashader/examples/filetimes.sh",
+    "lib/python3.8/site-packages/datashader/examples/filetimes.yml",
+    "lib/python3.8/site-packages/datashader/examples/getting_started/1_Introduction.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/getting_started/2_Pipeline.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/getting_started/3_Interactivity.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/getting_started/index.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/index.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/pcap_to_parquet.py",
+    "lib/python3.8/site-packages/datashader/examples/raster.py",
+    "lib/python3.8/site-packages/datashader/examples/streaming-aggregation.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/streaming.py",
+    "lib/python3.8/site-packages/datashader/examples/taxi_preprocessing_example.py",
+    "lib/python3.8/site-packages/datashader/examples/tiling.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/user_guide/10_Performance.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/user_guide/1_Plotting_Pitfalls.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/user_guide/2_Points.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/user_guide/3_Timeseries.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/user_guide/4_Trajectories.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/user_guide/5_Grids.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/user_guide/6_Trimesh.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/user_guide/7_Networks.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/user_guide/8_Geography.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/user_guide/9_Extending.ipynb",
+    "lib/python3.8/site-packages/datashader/examples/user_guide/index.ipynb",
+    "lib/python3.8/site-packages/datashader/glyphs/__init__.py",
+    "lib/python3.8/site-packages/datashader/glyphs/area.py",
+    "lib/python3.8/site-packages/datashader/glyphs/glyph.py",
+    "lib/python3.8/site-packages/datashader/glyphs/line.py",
+    "lib/python3.8/site-packages/datashader/glyphs/points.py",
+    "lib/python3.8/site-packages/datashader/glyphs/polygon.py",
+    "lib/python3.8/site-packages/datashader/glyphs/quadmesh.py",
+    "lib/python3.8/site-packages/datashader/glyphs/trimesh.py",
+    "lib/python3.8/site-packages/datashader/layout.py",
+    "lib/python3.8/site-packages/datashader/macros.py",
+    "lib/python3.8/site-packages/datashader/mpl_ext.py",
+    "lib/python3.8/site-packages/datashader/pipeline.py",
+    "lib/python3.8/site-packages/datashader/reductions.py",
+    "lib/python3.8/site-packages/datashader/resampling.py",
+    "lib/python3.8/site-packages/datashader/tests/__init__.py",
+    "lib/python3.8/site-packages/datashader/tests/data/test_001_antialias_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_001_antialias_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_001_antialias_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_001_antialias_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_001_noaa_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_001_noaa_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_001_noaa_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_001_noaa_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_002_antialias_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_002_antialias_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_002_antialias_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_002_antialias_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_002_noaa_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_002_noaa_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_002_noaa_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_002_noaa_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_003_antialias_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_003_antialias_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_003_antialias_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_003_antialias_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_003_noaa_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_003_noaa_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_003_noaa_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_003_noaa_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_004_antialias_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_004_antialias_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_004_antialias_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_004_antialias_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_004_noaa_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_004_noaa_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_004_noaa_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_004_noaa_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_005_antialias_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_005_antialias_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_005_antialias_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_005_antialias_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_005_noaa_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_005_noaa_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_005_noaa_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_005_noaa_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_006_antialias_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_006_antialias_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_006_antialias_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_006_antialias_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_006_noaa_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_006_noaa_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_006_noaa_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_006_noaa_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_007_antialias_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_007_antialias_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_007_antialias_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_007_antialias_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_007_noaa_clipped.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_007_noaa_clipped.png",
+    "lib/python3.8/site-packages/datashader/tests/data/test_007_noaa_normal.nc",
+    "lib/python3.8/site-packages/datashader/tests/data/test_007_noaa_normal.png",
+    "lib/python3.8/site-packages/datashader/tests/data/world.rgb.tif",
+    "lib/python3.8/site-packages/datashader/tests/test_antialias.py",
+    "lib/python3.8/site-packages/datashader/tests/test_bokeh_ext.py",
+    "lib/python3.8/site-packages/datashader/tests/test_bundling.py",
+    "lib/python3.8/site-packages/datashader/tests/test_colors.py",
+    "lib/python3.8/site-packages/datashader/tests/test_compatibility.py",
+    "lib/python3.8/site-packages/datashader/tests/test_composite.py",
+    "lib/python3.8/site-packages/datashader/tests/test_dask.py",
+    "lib/python3.8/site-packages/datashader/tests/test_datatypes.py",
+    "lib/python3.8/site-packages/datashader/tests/test_glyphs.py",
+    "lib/python3.8/site-packages/datashader/tests/test_layout.py",
+    "lib/python3.8/site-packages/datashader/tests/test_macros.py",
+    "lib/python3.8/site-packages/datashader/tests/test_mpl_ext.py",
+    "lib/python3.8/site-packages/datashader/tests/test_pandas.py",
+    "lib/python3.8/site-packages/datashader/tests/test_pipeline.py",
+    "lib/python3.8/site-packages/datashader/tests/test_polygons.py",
+    "lib/python3.8/site-packages/datashader/tests/test_quadmesh.py",
+    "lib/python3.8/site-packages/datashader/tests/test_raster.py",
+    "lib/python3.8/site-packages/datashader/tests/test_tiles.py",
+    "lib/python3.8/site-packages/datashader/tests/test_transfer_functions.py",
+    "lib/python3.8/site-packages/datashader/tests/test_utils.py",
+    "lib/python3.8/site-packages/datashader/tests/test_xarray.py",
+    "lib/python3.8/site-packages/datashader/tiles.py",
+    "lib/python3.8/site-packages/datashader/transfer_functions/__init__.py",
+    "lib/python3.8/site-packages/datashader/transfer_functions/_cpu_utils.py",
+    "lib/python3.8/site-packages/datashader/transfer_functions/_cuda_utils.py",
+    "lib/python3.8/site-packages/datashader/utils.py",
+    "lib/python3.8/site-packages/datashader/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/bokeh_ext.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/bundling.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/colors.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/compatibility.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/compiler.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/composite.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/core.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/cudf.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/dask.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/dask_cudf.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/dask_xarray.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/pandas.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/xarray.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/datatypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/examples/__pycache__/filetimes.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/examples/__pycache__/pcap_to_parquet.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/examples/__pycache__/raster.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/examples/__pycache__/streaming.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/examples/__pycache__/taxi_preprocessing_example.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/glyphs/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/glyphs/__pycache__/area.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/glyphs/__pycache__/glyph.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/glyphs/__pycache__/line.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/glyphs/__pycache__/points.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/glyphs/__pycache__/polygon.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/glyphs/__pycache__/quadmesh.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/glyphs/__pycache__/trimesh.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/layout.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/macros.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/mpl_ext.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/pipeline.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/reductions.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/resampling.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_antialias.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_bokeh_ext.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_bundling.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_colors.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_compatibility.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_composite.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_dask.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_datatypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_glyphs.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_layout.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_macros.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_mpl_ext.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_pandas.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_pipeline.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_polygons.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_quadmesh.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_raster.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_tiles.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_transfer_functions.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/tests/__pycache__/test_xarray.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/tiles.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/transfer_functions/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/transfer_functions/__pycache__/_cpu_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/transfer_functions/__pycache__/_cuda_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/datashader/__pycache__/utils.cpython-38.pyc",
+    "bin/datashader"
+  ],
+  "fn": "datashader-0.13.0-pyh6c4a22f_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/datashader-0.13.0-pyh6c4a22f_0",
+    "type": 1
+  },
+  "md5": "bcc353a756d4ad98b97fcc5aa1f9ce4c",
+  "name": "datashader",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/datashader-0.13.0-pyh6c4a22f_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/datashader-0.13.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/datashader-0.13.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "d59da7d9bd4e148e4fbb7c0db3ce8dce682c338c9c54e22944c3ddfcf756f2c1",
+        "sha256_in_prefix": "d59da7d9bd4e148e4fbb7c0db3ce8dce682c338c9c54e22944c3ddfcf756f2c1",
+        "size_in_bytes": 1502
+      },
+      {
+        "_path": "site-packages/datashader-0.13.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fb1074c0c6eafeaf8b88e9b1fe55ab1d64160b52aaa385361e5e169e08ce01b8",
+        "sha256_in_prefix": "fb1074c0c6eafeaf8b88e9b1fe55ab1d64160b52aaa385361e5e169e08ce01b8",
+        "size_in_bytes": 9996
+      },
+      {
+        "_path": "site-packages/datashader-0.13.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "684f28fc76d3cd8ddf3e3b56817e1e3ae7ccd0bf7fd1c8089c3d5727a1c4b572",
+        "sha256_in_prefix": "684f28fc76d3cd8ddf3e3b56817e1e3ae7ccd0bf7fd1c8089c3d5727a1c4b572",
+        "size_in_bytes": 21360
+      },
+      {
+        "_path": "site-packages/datashader-0.13.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/datashader-0.13.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/datashader-0.13.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f4bebbc0045666238a5fc2a27a5c829f436aece87dcc291e84ae64c0a2af658c",
+        "sha256_in_prefix": "f4bebbc0045666238a5fc2a27a5c829f436aece87dcc291e84ae64c0a2af658c",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/datashader-0.13.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "2341264f7553121f3fd6501ed50a78f5e6e2daf22d8e2cdd19fb5c5ac164f2c9",
+        "sha256_in_prefix": "2341264f7553121f3fd6501ed50a78f5e6e2daf22d8e2cdd19fb5c5ac164f2c9",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "site-packages/datashader-0.13.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a3e03951f6db59cf9f33a262cab75f1869ff8447f2fa8953026dfd68cc2d2bc4",
+        "sha256_in_prefix": "a3e03951f6db59cf9f33a262cab75f1869ff8447f2fa8953026dfd68cc2d2bc4",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/datashader/.version",
+        "path_type": "hardlink",
+        "sha256": "b0821f668e6e8604985478cae21e171e081b84a235f705749892cdee2f9f6dba",
+        "sha256_in_prefix": "b0821f668e6e8604985478cae21e171e081b84a235f705749892cdee2f9f6dba",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/datashader/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9c87d756a2847416a365145cdfbc2512f54814925bf321c09ba8e9b105d5df09",
+        "sha256_in_prefix": "9c87d756a2847416a365145cdfbc2512f54814925bf321c09ba8e9b105d5df09",
+        "size_in_bytes": 1577
+      },
+      {
+        "_path": "site-packages/datashader/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "d6a9905b24027f82b5a5193bc6f212d66fa8ee3d44d5b0820540bb7e7627b81e",
+        "sha256_in_prefix": "d6a9905b24027f82b5a5193bc6f212d66fa8ee3d44d5b0820540bb7e7627b81e",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "site-packages/datashader/bokeh_ext.py",
+        "path_type": "hardlink",
+        "sha256": "bfef1bfa44d1e41e63d3987f97d5fe5a8d853af8af654a912daf6144939b6e70",
+        "sha256_in_prefix": "bfef1bfa44d1e41e63d3987f97d5fe5a8d853af8af654a912daf6144939b6e70",
+        "size_in_bytes": 19453
+      },
+      {
+        "_path": "site-packages/datashader/bundling.py",
+        "path_type": "hardlink",
+        "sha256": "6105aea9f75f6ab7e2284d3a94261d7b797b449992224c495ac86e7d93995fc2",
+        "sha256_in_prefix": "6105aea9f75f6ab7e2284d3a94261d7b797b449992224c495ac86e7d93995fc2",
+        "size_in_bytes": 17856
+      },
+      {
+        "_path": "site-packages/datashader/colors.py",
+        "path_type": "hardlink",
+        "sha256": "187ab3ce213698286b7c36f3adb21304ab53c0f826b7716be3c912dd8ffc7e44",
+        "sha256_in_prefix": "187ab3ce213698286b7c36f3adb21304ab53c0f826b7716be3c912dd8ffc7e44",
+        "size_in_bytes": 33584
+      },
+      {
+        "_path": "site-packages/datashader/compatibility.py",
+        "path_type": "hardlink",
+        "sha256": "3cd2713a64ca99dd370e6d9c107dd3069c4abbbfc529ab4610862fd96fa5b599",
+        "sha256_in_prefix": "3cd2713a64ca99dd370e6d9c107dd3069c4abbbfc529ab4610862fd96fa5b599",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "site-packages/datashader/compiler.py",
+        "path_type": "hardlink",
+        "sha256": "d29330f69b24f8a29b5799fc5bfe08a948989f534258d28e5abd651249446d79",
+        "sha256_in_prefix": "d29330f69b24f8a29b5799fc5bfe08a948989f534258d28e5abd651249446d79",
+        "size_in_bytes": 6243
+      },
+      {
+        "_path": "site-packages/datashader/composite.py",
+        "path_type": "hardlink",
+        "sha256": "1614d29bcb29801742860689135de7f9dcf0679643b44c4fec82821b803999c4",
+        "sha256_in_prefix": "1614d29bcb29801742860689135de7f9dcf0679643b44c4fec82821b803999c4",
+        "size_in_bytes": 4243
+      },
+      {
+        "_path": "site-packages/datashader/core.py",
+        "path_type": "hardlink",
+        "sha256": "b4a66a81fe89fe45f9d169e20c71c9d12f79143484bcf138d1fe595d5ae8590e",
+        "sha256_in_prefix": "b4a66a81fe89fe45f9d169e20c71c9d12f79143484bcf138d1fe595d5ae8590e",
+        "size_in_bytes": 53209
+      },
+      {
+        "_path": "site-packages/datashader/data_libraries/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "afc78cc7235e16361c159da6ebf7bab236304fed36897c73736e30f3363ceb22",
+        "sha256_in_prefix": "afc78cc7235e16361c159da6ebf7bab236304fed36897c73736e30f3363ceb22",
+        "size_in_bytes": 503
+      },
+      {
+        "_path": "site-packages/datashader/data_libraries/cudf.py",
+        "path_type": "hardlink",
+        "sha256": "74b204161bdd05e91ff59d01fb177cbe53a8a43c3a89f91d381379d42ba7cb81",
+        "sha256_in_prefix": "74b204161bdd05e91ff59d01fb177cbe53a8a43c3a89f91d381379d42ba7cb81",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "site-packages/datashader/data_libraries/dask.py",
+        "path_type": "hardlink",
+        "sha256": "09fa7493fa7e81afb7e0a42eda9503c77382c39a97ba19826720fbe714bd55fd",
+        "sha256_in_prefix": "09fa7493fa7e81afb7e0a42eda9503c77382c39a97ba19826720fbe714bd55fd",
+        "size_in_bytes": 7676
+      },
+      {
+        "_path": "site-packages/datashader/data_libraries/dask_cudf.py",
+        "path_type": "hardlink",
+        "sha256": "288389c07cd825db937f7f7aebe3d1e80be9610e6ae3dde6ec959c5ddba5aa62",
+        "sha256_in_prefix": "288389c07cd825db937f7f7aebe3d1e80be9610e6ae3dde6ec959c5ddba5aa62",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "site-packages/datashader/data_libraries/dask_xarray.py",
+        "path_type": "hardlink",
+        "sha256": "a008b90f180dfee0031da7aa1fbe0183feb090fd4ca578629272654d97e9d05a",
+        "sha256_in_prefix": "a008b90f180dfee0031da7aa1fbe0183feb090fd4ca578629272654d97e9d05a",
+        "size_in_bytes": 12698
+      },
+      {
+        "_path": "site-packages/datashader/data_libraries/pandas.py",
+        "path_type": "hardlink",
+        "sha256": "c7e02f7d30710eb04bb27e8ed9bf470d2b39c1e8d46f4816e133dc345ec35c4b",
+        "sha256_in_prefix": "c7e02f7d30710eb04bb27e8ed9bf470d2b39c1e8d46f4816e133dc345ec35c4b",
+        "size_in_bytes": 1753
+      },
+      {
+        "_path": "site-packages/datashader/data_libraries/xarray.py",
+        "path_type": "hardlink",
+        "sha256": "ad09e2c3067212c7f1f59abaf2fa954dbb6d5067d25974b46a46e8d3cb3967d5",
+        "sha256_in_prefix": "ad09e2c3067212c7f1f59abaf2fa954dbb6d5067d25974b46a46e8d3cb3967d5",
+        "size_in_bytes": 862
+      },
+      {
+        "_path": "site-packages/datashader/datatypes.py",
+        "path_type": "hardlink",
+        "sha256": "c8adf1fea24d6f4ba82f70480aeddc71e9634ac4594586f807c16590a327bf66",
+        "sha256_in_prefix": "c8adf1fea24d6f4ba82f70480aeddc71e9634ac4594586f807c16590a327bf66",
+        "size_in_bytes": 27725
+      },
+      {
+        "_path": "site-packages/datashader/examples/FAQ.ipynb",
+        "path_type": "hardlink",
+        "sha256": "6ad03dd0889c0ef0b6d1de6116b74fd41cf9aa8ec85fc10246e2907cd66977a5",
+        "sha256_in_prefix": "6ad03dd0889c0ef0b6d1de6116b74fd41cf9aa8ec85fc10246e2907cd66977a5",
+        "size_in_bytes": 5726
+      },
+      {
+        "_path": "site-packages/datashader/examples/README.md",
+        "path_type": "hardlink",
+        "sha256": "79699bbe6287cd80722be89136e6c1aa5f33d17541c4ed64c8e361e472eabfbd",
+        "sha256_in_prefix": "79699bbe6287cd80722be89136e6c1aa5f33d17541c4ed64c8e361e472eabfbd",
+        "size_in_bytes": 3508
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/airport_connections.png",
+        "path_type": "hardlink",
+        "sha256": "5108d7af337cafcafa8725b718c356c4468a68d17575a2c3242a263cc4ba5260",
+        "sha256_in_prefix": "5108d7af337cafcafa8725b718c356c4468a68d17575a2c3242a263cc4ba5260",
+        "size_in_bytes": 302623
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/chesapeake_farout.png",
+        "path_type": "hardlink",
+        "sha256": "1c642b98c0a2b35e638756a4f7380062282f3b765271b1b44ed14d37db47925e",
+        "sha256_in_prefix": "1c642b98c0a2b35e638756a4f7380062282f3b765271b1b44ed14d37db47925e",
+        "size_in_bytes": 197453
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/chesbay_detail.png",
+        "path_type": "hardlink",
+        "sha256": "8d4296d7b8c0361cdea91b43d7e83eb1da8e07d926fcea78ee8a4dbb0e688bd7",
+        "sha256_in_prefix": "8d4296d7b8c0361cdea91b43d7e83eb1da8e07d926fcea78ee8a4dbb0e688bd7",
+        "size_in_bytes": 81848
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/dashboard.png",
+        "path_type": "hardlink",
+        "sha256": "5b0ebe658f7e672afcbaea20fa9ba0daa3019fb910686ef96f9cb9cb2208c15a",
+        "sha256_in_prefix": "5b0ebe658f7e672afcbaea20fa9ba0daa3019fb910686ef96f9cb9cb2208c15a",
+        "size_in_bytes": 2361009
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/ds_hv_bokeh.png",
+        "path_type": "hardlink",
+        "sha256": "41c94cb1dc09abd87ccf819a9fe0c57889748bb1caf35ac6aec3057e61c6f2ea",
+        "sha256_in_prefix": "41c94cb1dc09abd87ccf819a9fe0c57889748bb1caf35ac6aec3057e61c6f2ea",
+        "size_in_bytes": 63144
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/ds_hv_bokeh2.png",
+        "path_type": "hardlink",
+        "sha256": "f80b644af9da032a11ab6a3e601ff2c64bbfcf5a1689f3669b326e0ba391796b",
+        "sha256_in_prefix": "f80b644af9da032a11ab6a3e601ff2c64bbfcf5a1689f3669b326e0ba391796b",
+        "size_in_bytes": 263933
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/featured-badge-gh.svg",
+        "path_type": "hardlink",
+        "sha256": "af47fa9c55a64da8dfab9fe6445bea6bef942168a4904fe68c8b2fcb1ec7f5e6",
+        "sha256_in_prefix": "af47fa9c55a64da8dfab9fe6445bea6bef942168a4904fe68c8b2fcb1ec7f5e6",
+        "size_in_bytes": 14198
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/fire.png",
+        "path_type": "hardlink",
+        "sha256": "8b545b1207af536a7dedd22828483332756b8dbad62bc3b1e2a6d76763e64e11",
+        "sha256_in_prefix": "8b545b1207af536a7dedd22828483332756b8dbad62bc3b1e2a6d76763e64e11",
+        "size_in_bytes": 8668
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/hot.png",
+        "path_type": "hardlink",
+        "sha256": "9c6fe8a9c039ea96237837d414ebad43d0dbb7e0469319ce08fa493652c86686",
+        "sha256_in_prefix": "9c6fe8a9c039ea96237837d414ebad43d0dbb7e0469319ce08fa493652c86686",
+        "size_in_bytes": 6839
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/houston_district29.png",
+        "path_type": "hardlink",
+        "sha256": "62d0e1ea7fcf9cb2832ac9707ef27806e74f595485e663217eb8f5752365aa73",
+        "sha256_in_prefix": "62d0e1ea7fcf9cb2832ac9707ef27806e74f595485e663217eb8f5752365aa73",
+        "size_in_bytes": 896343
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/jet.png",
+        "path_type": "hardlink",
+        "sha256": "03625666f92b2708c90c0e83c2c73c8760d6e6b6de05bb363d2d12cc9332be66",
+        "sha256_in_prefix": "03625666f92b2708c90c0e83c2c73c8760d6e6b6de05bb363d2d12cc9332be66",
+        "size_in_bytes": 8208
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/landsat.png",
+        "path_type": "hardlink",
+        "sha256": "d1cd80e4848fd7c31f5785c8e95ef86ee319673d3f8d4528bd5b2e00ba83ea5e",
+        "sha256_in_prefix": "d1cd80e4848fd7c31f5785c8e95ef86ee319673d3f8d4528bd5b2e00ba83ea5e",
+        "size_in_bytes": 560703
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/nyc_pickups_vs_dropoffs.jpg",
+        "path_type": "hardlink",
+        "sha256": "589cddb8eacc9955e157b3594cfc0156f3e64b0c38fdc54c072eb72a54654121",
+        "sha256_in_prefix": "589cddb8eacc9955e157b3594cfc0156f3e64b0c38fdc54c072eb72a54654121",
+        "size_in_bytes": 149067
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/nyc_races.jpg",
+        "path_type": "hardlink",
+        "sha256": "5e659e8680813ed427c373ac0e7a1449a35e5e52111dce49573f037fa2f07c29",
+        "sha256_in_prefix": "5e659e8680813ed427c373ac0e7a1449a35e5e52111dce49573f037fa2f07c29",
+        "size_in_bytes": 232435
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/nyc_taxi-paramnb.png",
+        "path_type": "hardlink",
+        "sha256": "a75a9080ed2e64403d1485fb19e9d81bf06344b8ad5a584c8a8fc614ed0963d8",
+        "sha256_in_prefix": "a75a9080ed2e64403d1485fb19e9d81bf06344b8ad5a584c8a8fc614ed0963d8",
+        "size_in_bytes": 2023801
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/nyc_taxi_100k.png",
+        "path_type": "hardlink",
+        "sha256": "efc6e9c6f6f3dfb9096a921df635ed8e12b4d03059c3e72e0c23887b685636d5",
+        "sha256_in_prefix": "efc6e9c6f6f3dfb9096a921df635ed8e12b4d03059c3e72e0c23887b685636d5",
+        "size_in_bytes": 299178
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/parambokeh.png",
+        "path_type": "hardlink",
+        "sha256": "02646a62993c9b42b25aa1ec078600a90bfccf36f8c86750a31f5cfb3cf3023b",
+        "sha256_in_prefix": "02646a62993c9b42b25aa1ec078600a90bfccf36f8c86750a31f5cfb3cf3023b",
+        "size_in_bytes": 3075144
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/pcap.png",
+        "path_type": "hardlink",
+        "sha256": "7222d5b9fafd7e03b16a515b040d1bf73935cd62a553dea033080dbe8fcf850c",
+        "sha256_in_prefix": "7222d5b9fafd7e03b16a515b040d1bf73935cd62a553dea033080dbe8fcf850c",
+        "size_in_bytes": 242596
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/pipeline.png",
+        "path_type": "hardlink",
+        "sha256": "6f791efbe7eb8c646a38ee5273132d88eaf81e9a589dfb6bdcc261022af6d14c",
+        "sha256_in_prefix": "6f791efbe7eb8c646a38ee5273132d88eaf81e9a589dfb6bdcc261022af6d14c",
+        "size_in_bytes": 65289
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/pipeline2.png",
+        "path_type": "hardlink",
+        "sha256": "a9da342032f683a8b36cd2bd393977e7443c558210d0ad21d46dc2fd47e5f5e2",
+        "sha256_in_prefix": "a9da342032f683a8b36cd2bd393977e7443c558210d0ad21d46dc2fd47e5f5e2",
+        "size_in_bytes": 168517
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/rainbow.png",
+        "path_type": "hardlink",
+        "sha256": "380cc612d28a4fb645a26b6bd978814f047d79bb581275989d056e14e4e354e5",
+        "sha256_in_prefix": "380cc612d28a4fb645a26b6bd978814f047d79bb581275989d056e14e4e354e5",
+        "size_in_bytes": 10647
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/sym_attractors.jpg",
+        "path_type": "hardlink",
+        "sha256": "c827324f331db614e4f8437aba90a28399a819df181ea20c1f912757a44166ac",
+        "sha256_in_prefix": "c827324f331db614e4f8437aba90a28399a819df181ea20c1f912757a44166ac",
+        "size_in_bytes": 1103011
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/uk_researchers.png",
+        "path_type": "hardlink",
+        "sha256": "b57384a4e83ae607f891a4e020384fa1b78ee06f1f46f93961b7ff5250bfe930",
+        "sha256_in_prefix": "b57384a4e83ae607f891a4e020384fa1b78ee06f1f46f93961b7ff5250bfe930",
+        "size_in_bytes": 183436
+      },
+      {
+        "_path": "site-packages/datashader/examples/assets/images/usa_census.jpg",
+        "path_type": "hardlink",
+        "sha256": "00e0e2a424aa4a83ecd9d2d7c1ed9f9757d11dccf42ea173eba6c4dfc802c822",
+        "sha256_in_prefix": "00e0e2a424aa4a83ecd9d2d7c1ed9f9757d11dccf42ea173eba6c4dfc802c822",
+        "size_in_bytes": 273689
+      },
+      {
+        "_path": "site-packages/datashader/examples/data/.data_stubs/nyc_taxi.csv",
+        "path_type": "hardlink",
+        "sha256": "e678ea3b786b9f4585d38111b6a139ed46c9237cb547d3b05779cafef23d9ce0",
+        "sha256_in_prefix": "e678ea3b786b9f4585d38111b6a139ed46c9237cb547d3b05779cafef23d9ce0",
+        "size_in_bytes": 7721406
+      },
+      {
+        "_path": "site-packages/datashader/examples/datasets.yml",
+        "path_type": "hardlink",
+        "sha256": "881cfe582ac9336d63e1634d129cd1ecbe19e864b26e3139e3f22b2a76d42b43",
+        "sha256_in_prefix": "881cfe582ac9336d63e1634d129cd1ecbe19e864b26e3139e3f22b2a76d42b43",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "site-packages/datashader/examples/environment.yml",
+        "path_type": "hardlink",
+        "sha256": "0e2f11303761683a0f0b004310de49c43e3d67b00a615accc4a66e4440761885",
+        "sha256_in_prefix": "0e2f11303761683a0f0b004310de49c43e3d67b00a615accc4a66e4440761885",
+        "size_in_bytes": 419
+      },
+      {
+        "_path": "site-packages/datashader/examples/filetimes.py",
+        "path_type": "hardlink",
+        "sha256": "94d38b366dd811b1f8218f261167b16cd1d91990ead314f0a2a26c228652c2cc",
+        "sha256_in_prefix": "94d38b366dd811b1f8218f261167b16cd1d91990ead314f0a2a26c228652c2cc",
+        "size_in_bytes": 15978
+      },
+      {
+        "_path": "site-packages/datashader/examples/filetimes.sh",
+        "path_type": "hardlink",
+        "sha256": "d8e475ace54ae005447907e6399ef455b9e189f338fc59d4df8a23a8dbdcc2e7",
+        "sha256_in_prefix": "d8e475ace54ae005447907e6399ef455b9e189f338fc59d4df8a23a8dbdcc2e7",
+        "size_in_bytes": 2783
+      },
+      {
+        "_path": "site-packages/datashader/examples/filetimes.yml",
+        "path_type": "hardlink",
+        "sha256": "f97c2f5e2c1701ff3cb6eea8686323490f63bdcfc7248ee7eded3e6d18076d2c",
+        "sha256_in_prefix": "f97c2f5e2c1701ff3cb6eea8686323490f63bdcfc7248ee7eded3e6d18076d2c",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "site-packages/datashader/examples/getting_started/1_Introduction.ipynb",
+        "path_type": "hardlink",
+        "sha256": "e1f726e368204c9e9760570c935a54ad3fabde8d4fde0fbf18ee06baab2a306d",
+        "sha256_in_prefix": "e1f726e368204c9e9760570c935a54ad3fabde8d4fde0fbf18ee06baab2a306d",
+        "size_in_bytes": 5908
+      },
+      {
+        "_path": "site-packages/datashader/examples/getting_started/2_Pipeline.ipynb",
+        "path_type": "hardlink",
+        "sha256": "5c4733ed6985b39b5751c13893a51bd5667a2e19835325a0560424f4632f7bf7",
+        "sha256_in_prefix": "5c4733ed6985b39b5751c13893a51bd5667a2e19835325a0560424f4632f7bf7",
+        "size_in_bytes": 45643
+      },
+      {
+        "_path": "site-packages/datashader/examples/getting_started/3_Interactivity.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d1906008cd95fa56bf06bbc757aef1d467993fb1090fd6dd3edaa8c83f3d445c",
+        "sha256_in_prefix": "d1906008cd95fa56bf06bbc757aef1d467993fb1090fd6dd3edaa8c83f3d445c",
+        "size_in_bytes": 25970
+      },
+      {
+        "_path": "site-packages/datashader/examples/getting_started/index.ipynb",
+        "path_type": "hardlink",
+        "sha256": "78ef5576b9a50d8a0ed82b7d59ecebbcb94d34b87ae0af17ffa26a81445283e9",
+        "sha256_in_prefix": "78ef5576b9a50d8a0ed82b7d59ecebbcb94d34b87ae0af17ffa26a81445283e9",
+        "size_in_bytes": 987
+      },
+      {
+        "_path": "site-packages/datashader/examples/index.ipynb",
+        "path_type": "hardlink",
+        "sha256": "71e20588c763ef819101d90862c0c436329962c394cb7f50220761b75b600eab",
+        "sha256_in_prefix": "71e20588c763ef819101d90862c0c436329962c394cb7f50220761b75b600eab",
+        "size_in_bytes": 5153
+      },
+      {
+        "_path": "site-packages/datashader/examples/pcap_to_parquet.py",
+        "path_type": "hardlink",
+        "sha256": "3f6c7e87bd707508d3972b793a3866b70b379987fb85d0c312c743b2756fc84c",
+        "sha256_in_prefix": "3f6c7e87bd707508d3972b793a3866b70b379987fb85d0c312c743b2756fc84c",
+        "size_in_bytes": 2993
+      },
+      {
+        "_path": "site-packages/datashader/examples/raster.py",
+        "path_type": "hardlink",
+        "sha256": "6ae3c21e27b30c704df3a7d239c5274ad5424c4674dbf6ecc6c8a1f3042092db",
+        "sha256_in_prefix": "6ae3c21e27b30c704df3a7d239c5274ad5424c4674dbf6ecc6c8a1f3042092db",
+        "size_in_bytes": 3476
+      },
+      {
+        "_path": "site-packages/datashader/examples/streaming-aggregation.ipynb",
+        "path_type": "hardlink",
+        "sha256": "fa5bd844f720cb6c9f7e00350a21979db73a2178fcfc6c727e2e8bae9cf9b5df",
+        "sha256_in_prefix": "fa5bd844f720cb6c9f7e00350a21979db73a2178fcfc6c727e2e8bae9cf9b5df",
+        "size_in_bytes": 15004
+      },
+      {
+        "_path": "site-packages/datashader/examples/streaming.py",
+        "path_type": "hardlink",
+        "sha256": "0c8902411440c36526d1362624a830e8344685f09541480a04aafc9b491932fc",
+        "sha256_in_prefix": "0c8902411440c36526d1362624a830e8344685f09541480a04aafc9b491932fc",
+        "size_in_bytes": 5155
+      },
+      {
+        "_path": "site-packages/datashader/examples/taxi_preprocessing_example.py",
+        "path_type": "hardlink",
+        "sha256": "713960c7155e25ab4477e06b8c319f9ab73c6d994f694d7c8c3b84ced522fd8a",
+        "sha256_in_prefix": "713960c7155e25ab4477e06b8c319f9ab73c6d994f694d7c8c3b84ced522fd8a",
+        "size_in_bytes": 2785
+      },
+      {
+        "_path": "site-packages/datashader/examples/tiling.ipynb",
+        "path_type": "hardlink",
+        "sha256": "e88e5dc64b85d7a5163c8be0e68eb3158ecb55cc143e07e51ae9e7e54ad5b30c",
+        "sha256_in_prefix": "e88e5dc64b85d7a5163c8be0e68eb3158ecb55cc143e07e51ae9e7e54ad5b30c",
+        "size_in_bytes": 12162
+      },
+      {
+        "_path": "site-packages/datashader/examples/user_guide/10_Performance.ipynb",
+        "path_type": "hardlink",
+        "sha256": "bd407db9b3a59e14c1e315edd51ebb2a1dd0244d0e92ab715d481b0a694404ae",
+        "sha256_in_prefix": "bd407db9b3a59e14c1e315edd51ebb2a1dd0244d0e92ab715d481b0a694404ae",
+        "size_in_bytes": 16294
+      },
+      {
+        "_path": "site-packages/datashader/examples/user_guide/1_Plotting_Pitfalls.ipynb",
+        "path_type": "hardlink",
+        "sha256": "68830d98e835f7b05397ae7ef484b7d0658b7a0f1ff8e03eba2fa6c2d3773de4",
+        "sha256_in_prefix": "68830d98e835f7b05397ae7ef484b7d0658b7a0f1ff8e03eba2fa6c2d3773de4",
+        "size_in_bytes": 33621
+      },
+      {
+        "_path": "site-packages/datashader/examples/user_guide/2_Points.ipynb",
+        "path_type": "hardlink",
+        "sha256": "611d8a3af61ba6d8cc5751c1e4baa9b8f6eabf43766fe4b124ad82866c0079b0",
+        "sha256_in_prefix": "611d8a3af61ba6d8cc5751c1e4baa9b8f6eabf43766fe4b124ad82866c0079b0",
+        "size_in_bytes": 1830
+      },
+      {
+        "_path": "site-packages/datashader/examples/user_guide/3_Timeseries.ipynb",
+        "path_type": "hardlink",
+        "sha256": "9b28a0e50fdf7a854faac269a477976dd35e7334577887dfd585fa2426266674",
+        "sha256_in_prefix": "9b28a0e50fdf7a854faac269a477976dd35e7334577887dfd585fa2426266674",
+        "size_in_bytes": 21822
+      },
+      {
+        "_path": "site-packages/datashader/examples/user_guide/4_Trajectories.ipynb",
+        "path_type": "hardlink",
+        "sha256": "0c80adcace72340e6023b5007c541d48abb208899fd1798087a009922b4694f2",
+        "sha256_in_prefix": "0c80adcace72340e6023b5007c541d48abb208899fd1798087a009922b4694f2",
+        "size_in_bytes": 6415
+      },
+      {
+        "_path": "site-packages/datashader/examples/user_guide/5_Grids.ipynb",
+        "path_type": "hardlink",
+        "sha256": "2827f59907234e804dccdd56a948f2073924d26c9ade72a095ae983a3163c306",
+        "sha256_in_prefix": "2827f59907234e804dccdd56a948f2073924d26c9ade72a095ae983a3163c306",
+        "size_in_bytes": 20552
+      },
+      {
+        "_path": "site-packages/datashader/examples/user_guide/6_Trimesh.ipynb",
+        "path_type": "hardlink",
+        "sha256": "e81e835ad6f900aa2faaed7af28c1b30ed87478f60a4d410c9d0c13cc3500ad5",
+        "sha256_in_prefix": "e81e835ad6f900aa2faaed7af28c1b30ed87478f60a4d410c9d0c13cc3500ad5",
+        "size_in_bytes": 18300
+      },
+      {
+        "_path": "site-packages/datashader/examples/user_guide/7_Networks.ipynb",
+        "path_type": "hardlink",
+        "sha256": "57da05e4c30966deac4afa8b7d433496d91f3be564315ffad12c54744ce340c2",
+        "sha256_in_prefix": "57da05e4c30966deac4afa8b7d433496d91f3be564315ffad12c54744ce340c2",
+        "size_in_bytes": 20776
+      },
+      {
+        "_path": "site-packages/datashader/examples/user_guide/8_Geography.ipynb",
+        "path_type": "hardlink",
+        "sha256": "7260303dacd1d9570c45718b142fa5f6cfb13e791bb0a11bc322caf167ffb8d5",
+        "sha256_in_prefix": "7260303dacd1d9570c45718b142fa5f6cfb13e791bb0a11bc322caf167ffb8d5",
+        "size_in_bytes": 2003
+      },
+      {
+        "_path": "site-packages/datashader/examples/user_guide/9_Extending.ipynb",
+        "path_type": "hardlink",
+        "sha256": "205283575c24a7d463f2d8b1ca417cb65a12d0c3f508374642abc95ceccb42ce",
+        "sha256_in_prefix": "205283575c24a7d463f2d8b1ca417cb65a12d0c3f508374642abc95ceccb42ce",
+        "size_in_bytes": 6127
+      },
+      {
+        "_path": "site-packages/datashader/examples/user_guide/index.ipynb",
+        "path_type": "hardlink",
+        "sha256": "3269884a9baceb71b6f6fe81043d0f96bbd35fa227fa550a7cb7e0f00a8652b0",
+        "sha256_in_prefix": "3269884a9baceb71b6f6fe81043d0f96bbd35fa227fa550a7cb7e0f00a8652b0",
+        "size_in_bytes": 1914
+      },
+      {
+        "_path": "site-packages/datashader/glyphs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e006c941ddd561910fd15248da93858f74d1ea58ac255c9fc338b260210f91f0",
+        "sha256_in_prefix": "e006c941ddd561910fd15248da93858f74d1ea58ac255c9fc338b260210f91f0",
+        "size_in_bytes": 909
+      },
+      {
+        "_path": "site-packages/datashader/glyphs/area.py",
+        "path_type": "hardlink",
+        "sha256": "0ec5c3e6dccfd528c4a0082b6927209957b58095fd51acbfa7d1483c491f1bc1",
+        "sha256_in_prefix": "0ec5c3e6dccfd528c4a0082b6927209957b58095fd51acbfa7d1483c491f1bc1",
+        "size_in_bytes": 69434
+      },
+      {
+        "_path": "site-packages/datashader/glyphs/glyph.py",
+        "path_type": "hardlink",
+        "sha256": "ba1b0385bbd2e2ea25dbaa640a806ecf658dc9c762db3f1d2f6a69f4e26c0ec5",
+        "sha256_in_prefix": "ba1b0385bbd2e2ea25dbaa640a806ecf658dc9c762db3f1d2f6a69f4e26c0ec5",
+        "size_in_bytes": 5123
+      },
+      {
+        "_path": "site-packages/datashader/glyphs/line.py",
+        "path_type": "hardlink",
+        "sha256": "57a5bf80aaaad34b9b282c3d0440d5ccbfea4ed38b30d3c88b72792037827551",
+        "sha256_in_prefix": "57a5bf80aaaad34b9b282c3d0440d5ccbfea4ed38b30d3c88b72792037827551",
+        "size_in_bytes": 38661
+      },
+      {
+        "_path": "site-packages/datashader/glyphs/points.py",
+        "path_type": "hardlink",
+        "sha256": "bf3a3704183a530d9cbbb4622cf4cd3ced9068105e6de0655e3737463d4bc718",
+        "sha256_in_prefix": "bf3a3704183a530d9cbbb4622cf4cd3ced9068105e6de0655e3737463d4bc718",
+        "size_in_bytes": 9666
+      },
+      {
+        "_path": "site-packages/datashader/glyphs/polygon.py",
+        "path_type": "hardlink",
+        "sha256": "aac929ba019d1d0ee9797f0fb38f71a4875f1363244025156a2b51c892a30999",
+        "sha256_in_prefix": "aac929ba019d1d0ee9797f0fb38f71a4875f1363244025156a2b51c892a30999",
+        "size_in_bytes": 9999
+      },
+      {
+        "_path": "site-packages/datashader/glyphs/quadmesh.py",
+        "path_type": "hardlink",
+        "sha256": "1512eb7bbc1b7227dd8bf6620bd5017aa3cad8b96e5c5761ffeb3bf8ee717088",
+        "sha256_in_prefix": "1512eb7bbc1b7227dd8bf6620bd5017aa3cad8b96e5c5761ffeb3bf8ee717088",
+        "size_in_bytes": 25581
+      },
+      {
+        "_path": "site-packages/datashader/glyphs/trimesh.py",
+        "path_type": "hardlink",
+        "sha256": "6bfb5f909832c2f24252f5192fa1061e40125930cb64b3f938df4cf91e69b14a",
+        "sha256_in_prefix": "6bfb5f909832c2f24252f5192fa1061e40125930cb64b3f938df4cf91e69b14a",
+        "size_in_bytes": 8401
+      },
+      {
+        "_path": "site-packages/datashader/layout.py",
+        "path_type": "hardlink",
+        "sha256": "14c8b0683576fbd083213424a252a141532803f7c760fadb7ed2fb696a1a8300",
+        "sha256_in_prefix": "14c8b0683576fbd083213424a252a141532803f7c760fadb7ed2fb696a1a8300",
+        "size_in_bytes": 9006
+      },
+      {
+        "_path": "site-packages/datashader/macros.py",
+        "path_type": "hardlink",
+        "sha256": "d44106b697296f179f35454136917fe218131bd7fe0e00099b4add240c12081c",
+        "sha256_in_prefix": "d44106b697296f179f35454136917fe218131bd7fe0e00099b4add240c12081c",
+        "size_in_bytes": 8888
+      },
+      {
+        "_path": "site-packages/datashader/mpl_ext.py",
+        "path_type": "hardlink",
+        "sha256": "b0ac4102888598116dd600eccdf9721ac0b744a54d405d166a9c6020704568bc",
+        "sha256_in_prefix": "b0ac4102888598116dd600eccdf9721ac0b744a54d405d166a9c6020704568bc",
+        "size_in_bytes": 23725
+      },
+      {
+        "_path": "site-packages/datashader/pipeline.py",
+        "path_type": "hardlink",
+        "sha256": "6576ac0defddfda5f2e8cc59300e8468de5ecf96ed8e1cae97cf6844143eb2b2",
+        "sha256_in_prefix": "6576ac0defddfda5f2e8cc59300e8468de5ecf96ed8e1cae97cf6844143eb2b2",
+        "size_in_bytes": 2701
+      },
+      {
+        "_path": "site-packages/datashader/reductions.py",
+        "path_type": "hardlink",
+        "sha256": "5b53cd8472711b316908eecd4197b0f1917fd64123a3c33591d9d1b46e143353",
+        "sha256_in_prefix": "5b53cd8472711b316908eecd4197b0f1917fd64123a3c33591d9d1b46e143353",
+        "size_in_bytes": 27092
+      },
+      {
+        "_path": "site-packages/datashader/resampling.py",
+        "path_type": "hardlink",
+        "sha256": "71e59070eda60b0b5053da4b0ac2fe93fc08b984836bae5b1e859787d4592c44",
+        "sha256_in_prefix": "71e59070eda60b0b5053da4b0ac2fe93fc08b984836bae5b1e859787d4592c44",
+        "size_in_bytes": 36056
+      },
+      {
+        "_path": "site-packages/datashader/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_001_antialias_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "1d002f4a2fc0e0b7d2b3daae256e9b6a56aa493ee4eca3b5cbe1a99ffe969672",
+        "sha256_in_prefix": "1d002f4a2fc0e0b7d2b3daae256e9b6a56aa493ee4eca3b5cbe1a99ffe969672",
+        "size_in_bytes": 9397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_001_antialias_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "6bd5f6fa46349c08eefd947098ddcd53ceadaea4c182ffe0e5ba7f7a0a9ea78a",
+        "sha256_in_prefix": "6bd5f6fa46349c08eefd947098ddcd53ceadaea4c182ffe0e5ba7f7a0a9ea78a",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_001_antialias_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "96f723017ecafbda453a8e68dd8b02a35848500ca38af4a0ad272604a18ffd33",
+        "sha256_in_prefix": "96f723017ecafbda453a8e68dd8b02a35848500ca38af4a0ad272604a18ffd33",
+        "size_in_bytes": 19397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_001_antialias_normal.png",
+        "path_type": "hardlink",
+        "sha256": "30bbbfa9aebe1a2583e156c84d502206ff1ea2ba297ad6257b547c02c4e734a4",
+        "sha256_in_prefix": "30bbbfa9aebe1a2583e156c84d502206ff1ea2ba297ad6257b547c02c4e734a4",
+        "size_in_bytes": 1135
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_001_noaa_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "a066efa096c1197d21de25617ab76fff7d68bfc6d4558f15978f2af06b9b2d2b",
+        "sha256_in_prefix": "a066efa096c1197d21de25617ab76fff7d68bfc6d4558f15978f2af06b9b2d2b",
+        "size_in_bytes": 9397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_001_noaa_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "a95e4155201417028d06046bb4bcf6614e3cddacb30e28cdc8a0d34bbe5bfdc5",
+        "sha256_in_prefix": "a95e4155201417028d06046bb4bcf6614e3cddacb30e28cdc8a0d34bbe5bfdc5",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_001_noaa_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "9293c1d48fd37ee115b3a403ecf58757cc7a53a715b50adb30e67ec92d85734b",
+        "sha256_in_prefix": "9293c1d48fd37ee115b3a403ecf58757cc7a53a715b50adb30e67ec92d85734b",
+        "size_in_bytes": 19397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_001_noaa_normal.png",
+        "path_type": "hardlink",
+        "sha256": "bd06d116a2d54088cd24af8f709e575f11ead792e739973d4154d5863c160da5",
+        "sha256_in_prefix": "bd06d116a2d54088cd24af8f709e575f11ead792e739973d4154d5863c160da5",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_002_antialias_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "181ed00188af8dc51be84b93a779605e6a4e470df1771fe576a274ecfad729fa",
+        "sha256_in_prefix": "181ed00188af8dc51be84b93a779605e6a4e470df1771fe576a274ecfad729fa",
+        "size_in_bytes": 9397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_002_antialias_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "c19aaad0dfd7692371295abdcc644240457fc6e00145f8796542a8df97e903a8",
+        "sha256_in_prefix": "c19aaad0dfd7692371295abdcc644240457fc6e00145f8796542a8df97e903a8",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_002_antialias_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "a74dcd742ee8b410a863f69b4ad151db22ebcd1c5b3f857c81a2971a993dac4b",
+        "sha256_in_prefix": "a74dcd742ee8b410a863f69b4ad151db22ebcd1c5b3f857c81a2971a993dac4b",
+        "size_in_bytes": 19397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_002_antialias_normal.png",
+        "path_type": "hardlink",
+        "sha256": "73a5e238630f0408a7d0675f4b7ec87cc4b13546d9a5ab981950b3f3100fa018",
+        "sha256_in_prefix": "73a5e238630f0408a7d0675f4b7ec87cc4b13546d9a5ab981950b3f3100fa018",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_002_noaa_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "260e07ec7baed4889d7ac8018968f23c7c2a0ccf49d2fe0eb1ea8c383263ff68",
+        "sha256_in_prefix": "260e07ec7baed4889d7ac8018968f23c7c2a0ccf49d2fe0eb1ea8c383263ff68",
+        "size_in_bytes": 9397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_002_noaa_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "6bbd7819228dfced596880a8b1e19ba6ddc711dd2eadb70c07fcedc3c5857c31",
+        "sha256_in_prefix": "6bbd7819228dfced596880a8b1e19ba6ddc711dd2eadb70c07fcedc3c5857c31",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_002_noaa_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "5783f58e8304ce3960cb6f5304de74d21894c2c7f8cb77aee8eef265e3984b44",
+        "sha256_in_prefix": "5783f58e8304ce3960cb6f5304de74d21894c2c7f8cb77aee8eef265e3984b44",
+        "size_in_bytes": 19397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_002_noaa_normal.png",
+        "path_type": "hardlink",
+        "sha256": "a85507865f785a04495b92635851447be0a4c5f0569ad1111a129aed1838f800",
+        "sha256_in_prefix": "a85507865f785a04495b92635851447be0a4c5f0569ad1111a129aed1838f800",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_003_antialias_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "3f2eb9d0cd9bd0cc482cc6bffd72d7c24add7744b259e777d451e5a646805062",
+        "sha256_in_prefix": "3f2eb9d0cd9bd0cc482cc6bffd72d7c24add7744b259e777d451e5a646805062",
+        "size_in_bytes": 9397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_003_antialias_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "d3049bdb6b5f8d3e6cce0feae34131dc925c62b164fa3a62994cccbeba318fd8",
+        "sha256_in_prefix": "d3049bdb6b5f8d3e6cce0feae34131dc925c62b164fa3a62994cccbeba318fd8",
+        "size_in_bytes": 487
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_003_antialias_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "86c26269a743cda74f99608c8d4ec236b7af7cc5a87aa7e7bce6424377b9a69c",
+        "sha256_in_prefix": "86c26269a743cda74f99608c8d4ec236b7af7cc5a87aa7e7bce6424377b9a69c",
+        "size_in_bytes": 19397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_003_antialias_normal.png",
+        "path_type": "hardlink",
+        "sha256": "cffb3c4cfa65ed053fdf7f61a1df04e5b00edf693171d251e9f7af33c8fc7eb7",
+        "sha256_in_prefix": "cffb3c4cfa65ed053fdf7f61a1df04e5b00edf693171d251e9f7af33c8fc7eb7",
+        "size_in_bytes": 1206
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_003_noaa_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "e96ecfda45803d70abcd86a3bb7ff993d1d48880f87f501fb12a79721433f3ac",
+        "sha256_in_prefix": "e96ecfda45803d70abcd86a3bb7ff993d1d48880f87f501fb12a79721433f3ac",
+        "size_in_bytes": 9397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_003_noaa_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "85d8ce8542112f7e9e8c14d98dcf3a8216a004f4a6192eb2e055a136d1b59bc7",
+        "sha256_in_prefix": "85d8ce8542112f7e9e8c14d98dcf3a8216a004f4a6192eb2e055a136d1b59bc7",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_003_noaa_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "797597ca5993fb077c783ce4fcdfd595cb7a92c1dc23f9b23811ad41afa31ccb",
+        "sha256_in_prefix": "797597ca5993fb077c783ce4fcdfd595cb7a92c1dc23f9b23811ad41afa31ccb",
+        "size_in_bytes": 19397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_003_noaa_normal.png",
+        "path_type": "hardlink",
+        "sha256": "0f564140a3cbdd74a416fd7296fdfb1ef439f884c70d58a8e757dc4b0ccb428a",
+        "sha256_in_prefix": "0f564140a3cbdd74a416fd7296fdfb1ef439f884c70d58a8e757dc4b0ccb428a",
+        "size_in_bytes": 593
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_004_antialias_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "3749cf1be6cdee9fab1f00c0682b3b52d545d4367da7b054e8d0d9f45d0257e2",
+        "sha256_in_prefix": "3749cf1be6cdee9fab1f00c0682b3b52d545d4367da7b054e8d0d9f45d0257e2",
+        "size_in_bytes": 9397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_004_antialias_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "99279059d5cf5b381c2fcf4edd5173af7739cbf9bcee87dcd089882472c514b8",
+        "sha256_in_prefix": "99279059d5cf5b381c2fcf4edd5173af7739cbf9bcee87dcd089882472c514b8",
+        "size_in_bytes": 506
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_004_antialias_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "539af03aabd25173cedde75c12b1706fc1decee0f95c3a44e56a884bb79dfcce",
+        "sha256_in_prefix": "539af03aabd25173cedde75c12b1706fc1decee0f95c3a44e56a884bb79dfcce",
+        "size_in_bytes": 19397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_004_antialias_normal.png",
+        "path_type": "hardlink",
+        "sha256": "ed352e7e93613f4b3b7ec48ef4f96407f05072d0c4712ab1e438df3a42863cee",
+        "sha256_in_prefix": "ed352e7e93613f4b3b7ec48ef4f96407f05072d0c4712ab1e438df3a42863cee",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_004_noaa_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "15d3c0551c130ef793905c058aa32d86dddc1519d755384026a63229c44abc6d",
+        "sha256_in_prefix": "15d3c0551c130ef793905c058aa32d86dddc1519d755384026a63229c44abc6d",
+        "size_in_bytes": 9397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_004_noaa_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "5a51b7bce51f6ee3a1d5db13ff87eff537bacb28905e705f1a79d2248e042102",
+        "sha256_in_prefix": "5a51b7bce51f6ee3a1d5db13ff87eff537bacb28905e705f1a79d2248e042102",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_004_noaa_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "81130e8ca026255a01576df4440b89ca24fc011da2cebf7845b7b575523b30f8",
+        "sha256_in_prefix": "81130e8ca026255a01576df4440b89ca24fc011da2cebf7845b7b575523b30f8",
+        "size_in_bytes": 19397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_004_noaa_normal.png",
+        "path_type": "hardlink",
+        "sha256": "39d04fdb50128aee0766eaa85fec8a811aa8b2c65778784332ad894169ed4647",
+        "sha256_in_prefix": "39d04fdb50128aee0766eaa85fec8a811aa8b2c65778784332ad894169ed4647",
+        "size_in_bytes": 454
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_005_antialias_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "2b793b2d3c72796e2aae468c319c1e631b9caf4725b8964ffbb966a5464eb1df",
+        "sha256_in_prefix": "2b793b2d3c72796e2aae468c319c1e631b9caf4725b8964ffbb966a5464eb1df",
+        "size_in_bytes": 9397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_005_antialias_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "c24c0451cd8ec3797a657ce9fec707b6ae5f6a113e8a8c01e8c821a1b8da5194",
+        "sha256_in_prefix": "c24c0451cd8ec3797a657ce9fec707b6ae5f6a113e8a8c01e8c821a1b8da5194",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_005_antialias_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "227588a9d862cafde48639261c8e50dcf09f9dc65cb3d3a4af10bb8b2a56d5d7",
+        "sha256_in_prefix": "227588a9d862cafde48639261c8e50dcf09f9dc65cb3d3a4af10bb8b2a56d5d7",
+        "size_in_bytes": 19397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_005_antialias_normal.png",
+        "path_type": "hardlink",
+        "sha256": "2403cff041a7e9fa1adae1720d7f4cce346c0b0c1621cace455e0465646a3661",
+        "sha256_in_prefix": "2403cff041a7e9fa1adae1720d7f4cce346c0b0c1621cace455e0465646a3661",
+        "size_in_bytes": 1372
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_005_noaa_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "1afd61685f01a536a18b66e311cfd1961a29f3c386dbabd51a1a10797406f761",
+        "sha256_in_prefix": "1afd61685f01a536a18b66e311cfd1961a29f3c386dbabd51a1a10797406f761",
+        "size_in_bytes": 9397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_005_noaa_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "b10510b86fe52998f6f22f7702e2bca296bbf81c5d269dc0834f2e38ba19e817",
+        "sha256_in_prefix": "b10510b86fe52998f6f22f7702e2bca296bbf81c5d269dc0834f2e38ba19e817",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_005_noaa_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "9d19d21557d9c95424cbb609e4d68d7e9fc20d7ac4a60c5e66a594a36bb79e76",
+        "sha256_in_prefix": "9d19d21557d9c95424cbb609e4d68d7e9fc20d7ac4a60c5e66a594a36bb79e76",
+        "size_in_bytes": 19397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_005_noaa_normal.png",
+        "path_type": "hardlink",
+        "sha256": "ec6169366d2eb4b61f7d233a5edd8c65844880cab48ac793d47f9504f2fb4d41",
+        "sha256_in_prefix": "ec6169366d2eb4b61f7d233a5edd8c65844880cab48ac793d47f9504f2fb4d41",
+        "size_in_bytes": 368
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_006_antialias_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "2b793b2d3c72796e2aae468c319c1e631b9caf4725b8964ffbb966a5464eb1df",
+        "sha256_in_prefix": "2b793b2d3c72796e2aae468c319c1e631b9caf4725b8964ffbb966a5464eb1df",
+        "size_in_bytes": 9397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_006_antialias_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "c24c0451cd8ec3797a657ce9fec707b6ae5f6a113e8a8c01e8c821a1b8da5194",
+        "sha256_in_prefix": "c24c0451cd8ec3797a657ce9fec707b6ae5f6a113e8a8c01e8c821a1b8da5194",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_006_antialias_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "1347a75075476abd29d0c5e37b3739d6ee3cf02d41b294be854afbf3aaa3d625",
+        "sha256_in_prefix": "1347a75075476abd29d0c5e37b3739d6ee3cf02d41b294be854afbf3aaa3d625",
+        "size_in_bytes": 19397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_006_antialias_normal.png",
+        "path_type": "hardlink",
+        "sha256": "17e8ea8c36c367ee374773f8330c49f6a5b961e5ff7415c9aee2fd3ebc8067cf",
+        "sha256_in_prefix": "17e8ea8c36c367ee374773f8330c49f6a5b961e5ff7415c9aee2fd3ebc8067cf",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_006_noaa_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "1afd61685f01a536a18b66e311cfd1961a29f3c386dbabd51a1a10797406f761",
+        "sha256_in_prefix": "1afd61685f01a536a18b66e311cfd1961a29f3c386dbabd51a1a10797406f761",
+        "size_in_bytes": 9397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_006_noaa_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "b10510b86fe52998f6f22f7702e2bca296bbf81c5d269dc0834f2e38ba19e817",
+        "sha256_in_prefix": "b10510b86fe52998f6f22f7702e2bca296bbf81c5d269dc0834f2e38ba19e817",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_006_noaa_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "f09baafd6b6d5728251c9c2f3356d33adb2265ce3d216a7da5c18dccdeef1671",
+        "sha256_in_prefix": "f09baafd6b6d5728251c9c2f3356d33adb2265ce3d216a7da5c18dccdeef1671",
+        "size_in_bytes": 19397
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_006_noaa_normal.png",
+        "path_type": "hardlink",
+        "sha256": "914009315e0ef7f2059270fe8fe11d893c852d3e45d89b31c7669fc47a4937dc",
+        "sha256_in_prefix": "914009315e0ef7f2059270fe8fe11d893c852d3e45d89b31c7669fc47a4937dc",
+        "size_in_bytes": 334
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_007_antialias_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "f6f6af03cbb0e74cd6f9a94cb0a8ba760a0723d637338d2d95f0fdc431f8b1a1",
+        "sha256_in_prefix": "f6f6af03cbb0e74cd6f9a94cb0a8ba760a0723d637338d2d95f0fdc431f8b1a1",
+        "size_in_bytes": 9547
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_007_antialias_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "12632a943314e7e2070e7f49c7b4115d7206e18ec9e29bcbf68c681d1f853de5",
+        "sha256_in_prefix": "12632a943314e7e2070e7f49c7b4115d7206e18ec9e29bcbf68c681d1f853de5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_007_antialias_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "ce93d2a06e425ff8330513e4677ae4ed9c2e459ed10111d6155e5cfbe3a033eb",
+        "sha256_in_prefix": "ce93d2a06e425ff8330513e4677ae4ed9c2e459ed10111d6155e5cfbe3a033eb",
+        "size_in_bytes": 19547
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_007_antialias_normal.png",
+        "path_type": "hardlink",
+        "sha256": "d018c3d4673192557f1629c3634ae91cc9b1d64027b7379dc696c03207645dd1",
+        "sha256_in_prefix": "d018c3d4673192557f1629c3634ae91cc9b1d64027b7379dc696c03207645dd1",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_007_noaa_clipped.nc",
+        "path_type": "hardlink",
+        "sha256": "f6f6af03cbb0e74cd6f9a94cb0a8ba760a0723d637338d2d95f0fdc431f8b1a1",
+        "sha256_in_prefix": "f6f6af03cbb0e74cd6f9a94cb0a8ba760a0723d637338d2d95f0fdc431f8b1a1",
+        "size_in_bytes": 9547
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_007_noaa_clipped.png",
+        "path_type": "hardlink",
+        "sha256": "12632a943314e7e2070e7f49c7b4115d7206e18ec9e29bcbf68c681d1f853de5",
+        "sha256_in_prefix": "12632a943314e7e2070e7f49c7b4115d7206e18ec9e29bcbf68c681d1f853de5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_007_noaa_normal.nc",
+        "path_type": "hardlink",
+        "sha256": "9b8e93ee8ba514816580630cd52669168763f3a6928cc20efe926f965d7e2e90",
+        "sha256_in_prefix": "9b8e93ee8ba514816580630cd52669168763f3a6928cc20efe926f965d7e2e90",
+        "size_in_bytes": 19547
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/test_007_noaa_normal.png",
+        "path_type": "hardlink",
+        "sha256": "113d0656c4910d3c49e81bca417d2e58a73496c4af696d53e46ccce6ecdc33ef",
+        "sha256_in_prefix": "113d0656c4910d3c49e81bca417d2e58a73496c4af696d53e46ccce6ecdc33ef",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "site-packages/datashader/tests/data/world.rgb.tif",
+        "path_type": "hardlink",
+        "sha256": "a89c9376a0023c7b76af4df5000639d0e32d976c4f9d8750b1825ed3fac2eb7b",
+        "sha256_in_prefix": "a89c9376a0023c7b76af4df5000639d0e32d976c4f9d8750b1825ed3fac2eb7b",
+        "size_in_bytes": 411822
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_antialias.py",
+        "path_type": "hardlink",
+        "sha256": "db4943c56015fd7a7ea124a76bb6cad08b0dc6886675e6ef6a69f3d9e30b4846",
+        "sha256_in_prefix": "db4943c56015fd7a7ea124a76bb6cad08b0dc6886675e6ef6a69f3d9e30b4846",
+        "size_in_bytes": 14925
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_bokeh_ext.py",
+        "path_type": "hardlink",
+        "sha256": "02b7b8e90950ca29f05497a7e110906a0e2270da3608d076a8763f1f9146ace3",
+        "sha256_in_prefix": "02b7b8e90950ca29f05497a7e110906a0e2270da3608d076a8763f1f9146ace3",
+        "size_in_bytes": 2904
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_bundling.py",
+        "path_type": "hardlink",
+        "sha256": "443aed5eb8a417b48456becc064f570af24b71f8cd49084197ac0545a469d3ec",
+        "sha256_in_prefix": "443aed5eb8a417b48456becc064f570af24b71f8cd49084197ac0545a469d3ec",
+        "size_in_bytes": 7278
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_colors.py",
+        "path_type": "hardlink",
+        "sha256": "84b066516ba13aa827e8510cbb28575b72ea54efc2784bb5db85627133919355",
+        "sha256_in_prefix": "84b066516ba13aa827e8510cbb28575b72ea54efc2784bb5db85627133919355",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_compatibility.py",
+        "path_type": "hardlink",
+        "sha256": "8d1e88e604a00eb9e2d9647ccf1dda2be56f2d61c0043050f5a8b0ee5ae5a174",
+        "sha256_in_prefix": "8d1e88e604a00eb9e2d9647ccf1dda2be56f2d61c0043050f5a8b0ee5ae5a174",
+        "size_in_bytes": 710
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_composite.py",
+        "path_type": "hardlink",
+        "sha256": "82014fb566b9aed230b591c65290d1c07b9878556e50cc1d0f78273794470c27",
+        "sha256_in_prefix": "82014fb566b9aed230b591c65290d1c07b9878556e50cc1d0f78273794470c27",
+        "size_in_bytes": 3656
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_dask.py",
+        "path_type": "hardlink",
+        "sha256": "37a7c42e9aa6a0681ce45939e6dba99574a5660111a02e3566c2a004ec2d6d3c",
+        "sha256_in_prefix": "37a7c42e9aa6a0681ce45939e6dba99574a5660111a02e3566c2a004ec2d6d3c",
+        "size_in_bytes": 46586
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_datatypes.py",
+        "path_type": "hardlink",
+        "sha256": "e684dce1f9f8807bccf8498a47fc979b227c21b5f56b2f1b20481ed8e0ad410b",
+        "sha256_in_prefix": "e684dce1f9f8807bccf8498a47fc979b227c21b5f56b2f1b20481ed8e0ad410b",
+        "size_in_bytes": 25747
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_glyphs.py",
+        "path_type": "hardlink",
+        "sha256": "e89a75b585aa2606165f1ffa12fc4ed9809fe810adb808e508965e1b3df071cf",
+        "sha256_in_prefix": "e89a75b585aa2606165f1ffa12fc4ed9809fe810adb808e508965e1b3df071cf",
+        "size_in_bytes": 24068
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_layout.py",
+        "path_type": "hardlink",
+        "sha256": "6bb8ef005dff33f10e65524c9a1e816c6e899d89dd3e6c1c6f7fb7fd6ebcc768",
+        "sha256_in_prefix": "6bb8ef005dff33f10e65524c9a1e816c6e899d89dd3e6c1c6f7fb7fd6ebcc768",
+        "size_in_bytes": 4332
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_macros.py",
+        "path_type": "hardlink",
+        "sha256": "98c3d11d1bd7948f3cd77859543ffce8d66c6e6d437ffda76f3804727f780a59",
+        "sha256_in_prefix": "98c3d11d1bd7948f3cd77859543ffce8d66c6e6d437ffda76f3804727f780a59",
+        "size_in_bytes": 2100
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_mpl_ext.py",
+        "path_type": "hardlink",
+        "sha256": "d20eff003271212fcf0b60cb9c911a88295726942dd620a678daf4bd3b565d3d",
+        "sha256_in_prefix": "d20eff003271212fcf0b60cb9c911a88295726942dd620a678daf4bd3b565d3d",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "32abe3308e7836e267df4bbd7097fcc8d9a19264baa8060ddc4211aa8995b688",
+        "sha256_in_prefix": "32abe3308e7836e267df4bbd7097fcc8d9a19264baa8060ddc4211aa8995b688",
+        "size_in_bytes": 63984
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_pipeline.py",
+        "path_type": "hardlink",
+        "sha256": "c1f010705f5aca2619cdac3600bfa21851134cf7f4b854b158bedd70b51f249f",
+        "sha256_in_prefix": "c1f010705f5aca2619cdac3600bfa21851134cf7f4b854b158bedd70b51f249f",
+        "size_in_bytes": 1172
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_polygons.py",
+        "path_type": "hardlink",
+        "sha256": "e2ff4cfe2c0ca890b3c1dd5f58a8d7411cef32640462c82aeb692c2f7c550d59",
+        "sha256_in_prefix": "e2ff4cfe2c0ca890b3c1dd5f58a8d7411cef32640462c82aeb692c2f7c550d59",
+        "size_in_bytes": 11246
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_quadmesh.py",
+        "path_type": "hardlink",
+        "sha256": "e99814442a5963496148c5b80e1a84c54fffd39c9301de850ac7e1126c7f0b03",
+        "sha256_in_prefix": "e99814442a5963496148c5b80e1a84c54fffd39c9301de850ac7e1126c7f0b03",
+        "size_in_bytes": 20179
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_raster.py",
+        "path_type": "hardlink",
+        "sha256": "3f1701309457a983007b70f325cafc866f9b9a82a891b2484b2b55ec848a156c",
+        "sha256_in_prefix": "3f1701309457a983007b70f325cafc866f9b9a82a891b2484b2b55ec848a156c",
+        "size_in_bytes": 17931
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_tiles.py",
+        "path_type": "hardlink",
+        "sha256": "f64c821479ef76409b51120a087ec3221e8764cb67d3cae9f817bd2abd088cb6",
+        "sha256_in_prefix": "f64c821479ef76409b51120a087ec3221e8764cb67d3cae9f817bd2abd088cb6",
+        "size_in_bytes": 4448
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_transfer_functions.py",
+        "path_type": "hardlink",
+        "sha256": "6af3e77beb27086436e3bdefcefe3edbc83ff1b3d3b6c7b5945f8772a2ed970d",
+        "sha256_in_prefix": "6af3e77beb27086436e3bdefcefe3edbc83ff1b3d3b6c7b5945f8772a2ed970d",
+        "size_in_bytes": 40011
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "a087860c8bd7b8a818bb66468c634bad963d06dda663cad29d70447e4e91c61e",
+        "sha256_in_prefix": "a087860c8bd7b8a818bb66468c634bad963d06dda663cad29d70447e4e91c61e",
+        "size_in_bytes": 715
+      },
+      {
+        "_path": "site-packages/datashader/tests/test_xarray.py",
+        "path_type": "hardlink",
+        "sha256": "871fb4683111012994ce52d0bccba25a6b2251136070d4919b3b34bf6239abb8",
+        "sha256_in_prefix": "871fb4683111012994ce52d0bccba25a6b2251136070d4919b3b34bf6239abb8",
+        "size_in_bytes": 1974
+      },
+      {
+        "_path": "site-packages/datashader/tiles.py",
+        "path_type": "hardlink",
+        "sha256": "ef7c13d7586531f2ce040af28fbc0faea97306a99bc158692d7fd6853efa2170",
+        "sha256_in_prefix": "ef7c13d7586531f2ce040af28fbc0faea97306a99bc158692d7fd6853efa2170",
+        "size_in_bytes": 13955
+      },
+      {
+        "_path": "site-packages/datashader/transfer_functions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0c40064bb9575b80fc0c812292a967386e877556900acbcd90e52d41e4bbe806",
+        "sha256_in_prefix": "0c40064bb9575b80fc0c812292a967386e877556900acbcd90e52d41e4bbe806",
+        "size_in_bytes": 32406
+      },
+      {
+        "_path": "site-packages/datashader/transfer_functions/_cpu_utils.py",
+        "path_type": "hardlink",
+        "sha256": "d597add98e2501d21d6ee7681ed0c4df3e46d8153390a0e2c8a2f49749de558c",
+        "sha256_in_prefix": "d597add98e2501d21d6ee7681ed0c4df3e46d8153390a0e2c8a2f49749de558c",
+        "size_in_bytes": 911
+      },
+      {
+        "_path": "site-packages/datashader/transfer_functions/_cuda_utils.py",
+        "path_type": "hardlink",
+        "sha256": "90c590d656ec1d9d350608d76fe47506dbfa162ae109ef2b7e338ffb540798c7",
+        "sha256_in_prefix": "90c590d656ec1d9d350608d76fe47506dbfa162ae109ef2b7e338ffb540798c7",
+        "size_in_bytes": 5050
+      },
+      {
+        "_path": "site-packages/datashader/utils.py",
+        "path_type": "hardlink",
+        "sha256": "2ee13f1d8c2c3e1dc632b998b4767aa7971261de9f80e35f9dff00f7c51b42dd",
+        "sha256_in_prefix": "2ee13f1d8c2c3e1dc632b998b4767aa7971261de9f80e35f9dff00f7c51b42dd",
+        "size_in_bytes": 20077
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/bokeh_ext.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/bundling.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/colors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/compatibility.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/compiler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/composite.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/cudf.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/dask.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/dask_cudf.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/dask_xarray.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/pandas.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/data_libraries/__pycache__/xarray.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/datatypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/examples/__pycache__/filetimes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/examples/__pycache__/pcap_to_parquet.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/examples/__pycache__/raster.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/examples/__pycache__/streaming.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/examples/__pycache__/taxi_preprocessing_example.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/glyphs/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/glyphs/__pycache__/area.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/glyphs/__pycache__/glyph.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/glyphs/__pycache__/line.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/glyphs/__pycache__/points.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/glyphs/__pycache__/polygon.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/glyphs/__pycache__/quadmesh.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/glyphs/__pycache__/trimesh.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/layout.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/macros.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/mpl_ext.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/pipeline.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/reductions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/resampling.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_antialias.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_bokeh_ext.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_bundling.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_colors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_compatibility.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_composite.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_dask.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_datatypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_glyphs.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_layout.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_macros.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_mpl_ext.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_pandas.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_pipeline.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_polygons.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_quadmesh.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_raster.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_tiles.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_transfer_functions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/tests/__pycache__/test_xarray.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/tiles.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/transfer_functions/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/transfer_functions/__pycache__/_cpu_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/transfer_functions/__pycache__/_cuda_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/datashader/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/datashader",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "datashader==0.13.0=pyh6c4a22f_0",
+  "sha256": "73e31605b24b0c22d64cb6c9ac24b395d1c6ba15f19723fa01d4d18a3846254a",
+  "size": 14943873,
+  "subdir": "noarch",
+  "timestamp": 1623315680147,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/datashader-0.13.0-pyh6c4a22f_0.tar.bz2",
+  "version": "0.13.0"
+}

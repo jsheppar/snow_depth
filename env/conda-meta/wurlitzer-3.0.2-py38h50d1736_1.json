@@ -1,0 +1,117 @@
+{
+  "build": "py38h50d1736_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/wurlitzer-3.0.2-py38h50d1736_1",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/__pycache__/wurlitzer.cpython-38.pyc",
+    "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/LICENSE",
+    "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/METADATA",
+    "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/RECORD",
+    "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/WHEEL",
+    "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/wurlitzer.py"
+  ],
+  "fn": "wurlitzer-3.0.2-py38h50d1736_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/wurlitzer-3.0.2-py38h50d1736_1",
+    "type": 1
+  },
+  "md5": "586c7d53162e19ee2ab6bbd4b50f787c",
+  "name": "wurlitzer",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/wurlitzer-3.0.2-py38h50d1736_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/__pycache__/wurlitzer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "52e95014472c264815a76d7b598a58421b02ee447e3d3a168d19ef638dfa94ef",
+        "sha256_in_prefix": "52e95014472c264815a76d7b598a58421b02ee447e3d3a168d19ef638dfa94ef",
+        "size_in_bytes": 11271
+      },
+      {
+        "_path": "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "243c695fc3da7c18d835b8578eb4cb924b2c1a3f83080d8f190e3b0e3cba5de6",
+        "sha256_in_prefix": "243c695fc3da7c18d835b8578eb4cb924b2c1a3f83080d8f190e3b0e3cba5de6",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "70c9a3bbfcfd2b28dd33f85ec22270a1fe616bb5359984c858b3ee9d648e0c5c",
+        "sha256_in_prefix": "70c9a3bbfcfd2b28dd33f85ec22270a1fe616bb5359984c858b3ee9d648e0c5c",
+        "size_in_bytes": 1875
+      },
+      {
+        "_path": "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9eecee4186aebb1bc59a4c8a652899bc0c9ed2f7ac710e3a8feee6d459e16570",
+        "sha256_in_prefix": "9eecee4186aebb1bc59a4c8a652899bc0c9ed2f7ac710e3a8feee6d459e16570",
+        "size_in_bytes": 789
+      },
+      {
+        "_path": "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "51ab89bf15646db297a2263cb02897aaf1742693ad14e557db82454196384653",
+        "sha256_in_prefix": "51ab89bf15646db297a2263cb02897aaf1742693ad14e557db82454196384653",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "lib/python3.8/site-packages/wurlitzer-3.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3bda8e53bb69d54e172790149d31676ae18520191b883c4e7404257530a0934a",
+        "sha256_in_prefix": "3bda8e53bb69d54e172790149d31676ae18520191b883c4e7404257530a0934a",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.8/site-packages/wurlitzer.py",
+        "path_type": "hardlink",
+        "sha256": "181c072b3e6d0f57c6337dcbaead2870c403c78c94cc5994346b49028c1d00b5",
+        "sha256_in_prefix": "181c072b3e6d0f57c6337dcbaead2870c403c78c94cc5994346b49028c1d00b5",
+        "size_in_bytes": 14904
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "wurlitzer==3.0.2=py38h50d1736_1",
+  "sha256": "1651544ddc521eb156b8fbb6313f67b182c2b74c2d3c25b33df8bac57cef6fdc",
+  "size": 15555,
+  "subdir": "osx-64",
+  "timestamp": 1636132585362,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/wurlitzer-3.0.2-py38h50d1736_1.tar.bz2",
+  "version": "3.0.2"
+}

@@ -1,0 +1,67 @@
+{
+  "build": "h009f743_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/libllvm10-10.0.1-h009f743_3",
+  "features": "",
+  "files": [
+    "lib/libLLVM-10.dylib",
+    "lib/libLTO.10.dylib",
+    "lib/libRemarks.10.dylib"
+  ],
+  "fn": "libllvm10-10.0.1-h009f743_3.tar.bz2",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/libllvm10-10.0.1-h009f743_3",
+    "type": 1
+  },
+  "md5": "cc65eb0b26253d2789320bfd661852f9",
+  "name": "libllvm10",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/libllvm10-10.0.1-h009f743_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libLLVM-10.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1598572688468/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "92ca4c3cdce71724a077e0a86398c8f0b1f5b15adc1ed40e07dfb21842482b05",
+        "sha256_in_prefix": "fae87a1e5a704bae4efe0586575113bb1638879efea4e797048e6131577982c5",
+        "size_in_bytes": 78237916
+      },
+      {
+        "_path": "lib/libLTO.10.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1598572688468/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1c9f0ca0554544ff511866ad3f77d84cafb9e4f288390e383895594423e96851",
+        "sha256_in_prefix": "e64ef18efb388eada65e99ef1570823709e1307b1bcd6616e2b7615e72c17e71",
+        "size_in_bytes": 209720
+      },
+      {
+        "_path": "lib/libRemarks.10.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1598572688468/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1aa310842629afc5fdf2605fe37ca36c4790ad7084e30a9fe2ff0aa8df6f3869",
+        "sha256_in_prefix": "ca45bfd840d54100054cdac0139ccafaba9e568e253eda4b730d0f481d8ecc08",
+        "size_in_bytes": 10864
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libllvm10==10.0.1=h009f743_3",
+  "sha256": "2eca6a3d2894dce164d21ecec99f8e0d4940808be794ea60c6921aad07ca9791",
+  "size": 21762618,
+  "subdir": "osx-64",
+  "timestamp": 1598581547255,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libllvm10-10.0.1-h009f743_3.tar.bz2",
+  "version": "10.0.1"
+}

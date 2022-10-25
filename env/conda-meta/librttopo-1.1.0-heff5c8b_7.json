@@ -1,0 +1,78 @@
+{
+  "build": "heff5c8b_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "geos >=3.10.0,<3.10.1.0a0",
+    "libcxx >=11.1.0"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/librttopo-1.1.0-heff5c8b_7",
+  "features": "",
+  "files": [
+    "include/librttopo.h",
+    "include/librttopo_geom.h",
+    "lib/librttopo.1.dylib",
+    "lib/librttopo.dylib",
+    "lib/pkgconfig/rttopo.pc"
+  ],
+  "fn": "librttopo-1.1.0-heff5c8b_7.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/librttopo-1.1.0-heff5c8b_7",
+    "type": 1
+  },
+  "md5": "31ef294fb46b4d6daa3f5d3118a95e3c",
+  "name": "librttopo",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/librttopo-1.1.0-heff5c8b_7.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/librttopo.h",
+        "path_type": "hardlink",
+        "sha256": "cdf6854ae50dbfe7aff87b77341b1233af8a4587481674180c4546568060505b",
+        "sha256_in_prefix": "cdf6854ae50dbfe7aff87b77341b1233af8a4587481674180c4546568060505b",
+        "size_in_bytes": 47568
+      },
+      {
+        "_path": "include/librttopo_geom.h",
+        "path_type": "hardlink",
+        "sha256": "5f7796e86fa8b5b7d54d505c15a98c26b01464040c8f411db30eec546b492136",
+        "sha256_in_prefix": "5f7796e86fa8b5b7d54d505c15a98c26b01464040c8f411db30eec546b492136",
+        "size_in_bytes": 78448
+      },
+      {
+        "_path": "lib/librttopo.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "f96e038d7132f6bf9a3d54fcd5c97872b978a2dedeba674d84aea80b8e770e89",
+        "sha256_in_prefix": "f96e038d7132f6bf9a3d54fcd5c97872b978a2dedeba674d84aea80b8e770e89",
+        "size_in_bytes": 450776
+      },
+      {
+        "_path": "lib/librttopo.dylib",
+        "path_type": "softlink",
+        "sha256": "f96e038d7132f6bf9a3d54fcd5c97872b978a2dedeba674d84aea80b8e770e89",
+        "size_in_bytes": 450776
+      },
+      {
+        "_path": "lib/pkgconfig/rttopo.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/librttopo_1635447630153/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "ce53f644e458e63fe7ecb14d6ca101c424d8f82fde7ea908961d058e75bcbb9e",
+        "sha256_in_prefix": "2e374be9744e19f46166aa0a80608443950da7375590a7a6a56a7cfbbe9594ea",
+        "size_in_bytes": 987
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "librttopo==1.1.0=heff5c8b_7",
+  "sha256": "9a7a04f03f1ea67d2e02313591fd4dc0c52bd53d228eadce98ebbffec747b59f",
+  "size": 223858,
+  "subdir": "osx-64",
+  "timestamp": 1635447799850,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/librttopo-1.1.0-heff5c8b_7.tar.bz2",
+  "version": "1.1.0"
+}

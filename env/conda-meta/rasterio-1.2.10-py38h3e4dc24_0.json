@@ -1,0 +1,1043 @@
+{
+  "build": "py38h3e4dc24_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "affine",
+    "attrs",
+    "certifi",
+    "click >=4",
+    "click-plugins",
+    "cligj >=0.5",
+    "libcxx >=11.1.0",
+    "libgdal >=3.3.2,<3.4.0a0",
+    "numpy >=1.18.5,<2.0a0",
+    "proj >=8.1.1,<8.1.2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "setuptools >=0.9.8",
+    "snuggs >=1.4.1"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/rasterio-1.2.10-py38h3e4dc24_0",
+  "features": "",
+  "files": [
+    "bin/rio",
+    "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/AUTHORS.txt",
+    "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/METADATA",
+    "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/RECORD",
+    "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/WHEEL",
+    "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/rasterio/__init__.py",
+    "lib/python3.8/site-packages/rasterio/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/control.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/coords.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/crs.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/drivers.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/dtypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/enums.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/env.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/features.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/fill.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/io.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/mask.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/merge.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/path.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/plot.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/profiles.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/rpc.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/sample.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/session.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/tools.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/transform.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/vrt.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/warp.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/__pycache__/windows.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/_base.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/rasterio/_crs.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/rasterio/_env.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/rasterio/_err.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/rasterio/_example.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/rasterio/_features.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/rasterio/_fill.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/rasterio/_io.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/rasterio/_shim.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/rasterio/_transform.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/rasterio/_warp.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/rasterio/control.py",
+    "lib/python3.8/site-packages/rasterio/coords.py",
+    "lib/python3.8/site-packages/rasterio/crs.py",
+    "lib/python3.8/site-packages/rasterio/drivers.py",
+    "lib/python3.8/site-packages/rasterio/dtypes.py",
+    "lib/python3.8/site-packages/rasterio/enums.py",
+    "lib/python3.8/site-packages/rasterio/env.py",
+    "lib/python3.8/site-packages/rasterio/errors.py",
+    "lib/python3.8/site-packages/rasterio/features.py",
+    "lib/python3.8/site-packages/rasterio/fill.py",
+    "lib/python3.8/site-packages/rasterio/io.py",
+    "lib/python3.8/site-packages/rasterio/mask.py",
+    "lib/python3.8/site-packages/rasterio/merge.py",
+    "lib/python3.8/site-packages/rasterio/path.py",
+    "lib/python3.8/site-packages/rasterio/plot.py",
+    "lib/python3.8/site-packages/rasterio/profiles.py",
+    "lib/python3.8/site-packages/rasterio/rio/__init__.py",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/blocks.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/bounds.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/calc.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/clip.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/convert.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/edit_info.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/env.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/gcps.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/helpers.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/info.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/insp.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/main.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/mask.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/merge.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/options.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/overview.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/rasterize.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/rm.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/sample.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/shapes.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/stack.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/transform.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/__pycache__/warp.cpython-38.pyc",
+    "lib/python3.8/site-packages/rasterio/rio/blocks.py",
+    "lib/python3.8/site-packages/rasterio/rio/bounds.py",
+    "lib/python3.8/site-packages/rasterio/rio/calc.py",
+    "lib/python3.8/site-packages/rasterio/rio/clip.py",
+    "lib/python3.8/site-packages/rasterio/rio/convert.py",
+    "lib/python3.8/site-packages/rasterio/rio/edit_info.py",
+    "lib/python3.8/site-packages/rasterio/rio/env.py",
+    "lib/python3.8/site-packages/rasterio/rio/gcps.py",
+    "lib/python3.8/site-packages/rasterio/rio/helpers.py",
+    "lib/python3.8/site-packages/rasterio/rio/info.py",
+    "lib/python3.8/site-packages/rasterio/rio/insp.py",
+    "lib/python3.8/site-packages/rasterio/rio/main.py",
+    "lib/python3.8/site-packages/rasterio/rio/mask.py",
+    "lib/python3.8/site-packages/rasterio/rio/merge.py",
+    "lib/python3.8/site-packages/rasterio/rio/options.py",
+    "lib/python3.8/site-packages/rasterio/rio/overview.py",
+    "lib/python3.8/site-packages/rasterio/rio/rasterize.py",
+    "lib/python3.8/site-packages/rasterio/rio/rm.py",
+    "lib/python3.8/site-packages/rasterio/rio/sample.py",
+    "lib/python3.8/site-packages/rasterio/rio/shapes.py",
+    "lib/python3.8/site-packages/rasterio/rio/stack.py",
+    "lib/python3.8/site-packages/rasterio/rio/transform.py",
+    "lib/python3.8/site-packages/rasterio/rio/warp.py",
+    "lib/python3.8/site-packages/rasterio/rpc.py",
+    "lib/python3.8/site-packages/rasterio/sample.py",
+    "lib/python3.8/site-packages/rasterio/session.py",
+    "lib/python3.8/site-packages/rasterio/shutil.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/rasterio/tools.py",
+    "lib/python3.8/site-packages/rasterio/transform.py",
+    "lib/python3.8/site-packages/rasterio/vrt.py",
+    "lib/python3.8/site-packages/rasterio/warp.py",
+    "lib/python3.8/site-packages/rasterio/windows.py"
+  ],
+  "fn": "rasterio-1.2.10-py38h3e4dc24_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/rasterio-1.2.10-py38h3e4dc24_0",
+    "type": 1
+  },
+  "md5": "e05e45917c5868d465e2ac9041f37f21",
+  "name": "rasterio",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/rasterio-1.2.10-py38h3e4dc24_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/rio",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "1654a41e1b0db669b2332296b05674940895552a4f72f6b208d31a6971f2ff8c",
+        "sha256_in_prefix": "171fd2b2d557d128d4100ae1fd56fa0e65f90b42e53f2cb45bd35e4bb6bb9033",
+        "size_in_bytes": 482
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/AUTHORS.txt",
+        "path_type": "hardlink",
+        "sha256": "95742d15a02be4cb8d38dac280392c4a99ac8a90b58740930d85a68ee48bb4a5",
+        "sha256_in_prefix": "95742d15a02be4cb8d38dac280392c4a99ac8a90b58740930d85a68ee48bb4a5",
+        "size_in_bytes": 1713
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "1c4441fa02d6ced2ea5f3eab586b5aedb25b934ca6d61fce351c18569930b799",
+        "sha256_in_prefix": "1c4441fa02d6ced2ea5f3eab586b5aedb25b934ca6d61fce351c18569930b799",
+        "size_in_bytes": 1452
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b05301557302158eba36c1ee40c07216be01073e4978b1aceadbb51de318e040",
+        "sha256_in_prefix": "b05301557302158eba36c1ee40c07216be01073e4978b1aceadbb51de318e040",
+        "size_in_bytes": 14579
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f1b5ea820342e4cde4f163969a11b55b2e1b655136cbdae158c9ba4324720fa2",
+        "sha256_in_prefix": "f1b5ea820342e4cde4f163969a11b55b2e1b655136cbdae158c9ba4324720fa2",
+        "size_in_bytes": 8225
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9b85a4e9e3b2f76c8963cee05409109e7faa9d16f4be5fefdb3b26c748605dfa",
+        "sha256_in_prefix": "9b85a4e9e3b2f76c8963cee05409109e7faa9d16f4be5fefdb3b26c748605dfa",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0c885f270c722a70b1b6d62f64304e392acee05c01cbc22ebc9459c9484a96a1",
+        "sha256_in_prefix": "0c885f270c722a70b1b6d62f64304e392acee05c01cbc22ebc9459c9484a96a1",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "c880aa974ce11741fccee4b5346e196183d6a1a99dd45fe12d1327d2f53d15ad",
+        "sha256_in_prefix": "c880aa974ce11741fccee4b5346e196183d6a1a99dd45fe12d1327d2f53d15ad",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio-1.2.10.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9eb92c848784269864ac9caa0160710f633f06eae9daa9b020978b7cc4f3f813",
+        "sha256_in_prefix": "9eb92c848784269864ac9caa0160710f633f06eae9daa9b020978b7cc4f3f813",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a1aad8152e3dfb64611723f6b5ae044e507a1888751e6c9ef7154098f789bccf",
+        "sha256_in_prefix": "a1aad8152e3dfb64611723f6b5ae044e507a1888751e6c9ef7154098f789bccf",
+        "size_in_bytes": 10648
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2f6c38cd599b6f8231321c6f2f8436fa5ac9c40bc20ef80d3989a594c091ac3",
+        "sha256_in_prefix": "d2f6c38cd599b6f8231321c6f2f8436fa5ac9c40bc20ef80d3989a594c091ac3",
+        "size_in_bytes": 8956
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/control.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "76e56e277cf8737d40ac8c666c64a9b36449aa417d46ac61922333d7c53e481b",
+        "sha256_in_prefix": "76e56e277cf8737d40ac8c666c64a9b36449aa417d46ac61922333d7c53e481b",
+        "size_in_bytes": 2687
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/coords.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e758e527cfc88e0528040ceb54f01ef1de888dcbdb28bacaf2c6199aabcc435",
+        "sha256_in_prefix": "8e758e527cfc88e0528040ceb54f01ef1de888dcbdb28bacaf2c6199aabcc435",
+        "size_in_bytes": 1397
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/crs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4156947ee24c5194b11c7ce7548d1e0fad123db3c230f69b7de4a40e419bc41d",
+        "sha256_in_prefix": "4156947ee24c5194b11c7ce7548d1e0fad123db3c230f69b7de4a40e419bc41d",
+        "size_in_bytes": 15352
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/drivers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b8699f6107accf36c5ca6dc9bd4db6be7ca67bff80f42925104cb29b7ab39a88",
+        "sha256_in_prefix": "b8699f6107accf36c5ca6dc9bd4db6be7ca67bff80f42925104cb29b7ab39a88",
+        "size_in_bytes": 2045
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/dtypes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "42d6fd985c28efdd6cbb4cb1ff3c255fa358e7d74e2540859067c97a281f0a98",
+        "sha256_in_prefix": "42d6fd985c28efdd6cbb4cb1ff3c255fa358e7d74e2540859067c97a281f0a98",
+        "size_in_bytes": 4305
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/enums.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "58d916f2e1044b95632cbbf40bc26fee7a17894a9c25c785d5ec148b866aca67",
+        "sha256_in_prefix": "58d916f2e1044b95632cbbf40bc26fee7a17894a9c25c785d5ec148b866aca67",
+        "size_in_bytes": 3805
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/env.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f7e401d7bebf4aead1e4fecb7204ee1488122a43b2ab779421472bba48d3b3e",
+        "sha256_in_prefix": "8f7e401d7bebf4aead1e4fecb7204ee1488122a43b2ab779421472bba48d3b3e",
+        "size_in_bytes": 18428
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/errors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b46b7f6cd58bea063c2240c557dbc7cd59cd82b9553af0bd32a3e4d2de53ed90",
+        "sha256_in_prefix": "b46b7f6cd58bea063c2240c557dbc7cd59cd82b9553af0bd32a3e4d2de53ed90",
+        "size_in_bytes": 7380
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/features.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b393f6b63521d6063cfe9752ff5220d87d2d57de755111d8632c745778a6c97",
+        "sha256_in_prefix": "2b393f6b63521d6063cfe9752ff5220d87d2d57de755111d8632c745778a6c97",
+        "size_in_bytes": 18470
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/fill.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a14883a9cb4e840eecaa55e750aff690635e61f25e5b2a6443a26894d45f094b",
+        "sha256_in_prefix": "a14883a9cb4e840eecaa55e750aff690635e61f25e5b2a6443a26894d45f094b",
+        "size_in_bytes": 2730
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/io.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8688d8a130f90eedda03a7a0aebb0197999ebac02b6a8416bbe78c082f703415",
+        "sha256_in_prefix": "8688d8a130f90eedda03a7a0aebb0197999ebac02b6a8416bbe78c082f703415",
+        "size_in_bytes": 7094
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/mask.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0920562a615f9942327f670c5a3438448bd17d8339a673b42f6584a30363c1b4",
+        "sha256_in_prefix": "0920562a615f9942327f670c5a3438448bd17d8339a673b42f6584a30363c1b4",
+        "size_in_bytes": 6582
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/merge.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "16611989a27e0edbbedafc6b836c846a528cddd6ff3a670a657640a7a7274923",
+        "sha256_in_prefix": "16611989a27e0edbbedafc6b836c846a528cddd6ff3a670a657640a7a7274923",
+        "size_in_bytes": 9115
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/path.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5cb7084c2092415f8d62b50b0b4004a17227db7d0894ec263d598a075fd1f579",
+        "sha256_in_prefix": "5cb7084c2092415f8d62b50b0b4004a17227db7d0894ec263d598a075fd1f579",
+        "size_in_bytes": 5076
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/plot.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e274f0ce08b866d62ba84c0faa1002ff4cfa239429b59683434270dbd3e39dd8",
+        "sha256_in_prefix": "e274f0ce08b866d62ba84c0faa1002ff4cfa239429b59683434270dbd3e39dd8",
+        "size_in_bytes": 9256
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/profiles.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "61777610ae9b046ed7d2caea7ff9e59236fe87c691b30c1d9dd66f29a406a930",
+        "sha256_in_prefix": "61777610ae9b046ed7d2caea7ff9e59236fe87c691b30c1d9dd66f29a406a930",
+        "size_in_bytes": 1799
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/rpc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "99efad4da2b0b00a3aab174516c2ad2cf52af01c18f4a0991eed6a076a1c1922",
+        "sha256_in_prefix": "99efad4da2b0b00a3aab174516c2ad2cf52af01c18f4a0991eed6a076a1c1922",
+        "size_in_bytes": 3643
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/sample.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c8069d5841e72615bd2e1fb9d57e8fe6d2a8d4590278e91af725b8c717871f32",
+        "sha256_in_prefix": "c8069d5841e72615bd2e1fb9d57e8fe6d2a8d4590278e91af725b8c717871f32",
+        "size_in_bytes": 1650
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/session.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d5f56b554d374073fb1965773f7ed57d2dfbb97ed47026b85c4068d4cf3f62b",
+        "sha256_in_prefix": "3d5f56b554d374073fb1965773f7ed57d2dfbb97ed47026b85c4068d4cf3f62b",
+        "size_in_bytes": 15521
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/tools.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4aad788757da44a896345788122c91a17fea95ac0f0f33bcac5f5f2e1564a8b",
+        "sha256_in_prefix": "b4aad788757da44a896345788122c91a17fea95ac0f0f33bcac5f5f2e1564a8b",
+        "size_in_bytes": 2416
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/transform.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "23419d1ed318602fcd93b2711b94bb2a49357d2dcc3f0eed7da2f76c2b84695e",
+        "sha256_in_prefix": "23419d1ed318602fcd93b2711b94bb2a49357d2dcc3f0eed7da2f76c2b84695e",
+        "size_in_bytes": 8386
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/vrt.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ba9895f30dbda764678e22c8998657b49ccf7a76f718f7ad62346884ddbad81",
+        "sha256_in_prefix": "2ba9895f30dbda764678e22c8998657b49ccf7a76f718f7ad62346884ddbad81",
+        "size_in_bytes": 8576
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/warp.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9db32169bfd700816f8ae2f7f1928afbd74efcd71a0696cd941b3e8568772798",
+        "sha256_in_prefix": "9db32169bfd700816f8ae2f7f1928afbd74efcd71a0696cd941b3e8568772798",
+        "size_in_bytes": 17741
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/__pycache__/windows.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "176e3eae8c4890fe60bd6b1c2b8c6f75b236cc6521f39575724d1914664d9766",
+        "sha256_in_prefix": "176e3eae8c4890fe60bd6b1c2b8c6f75b236cc6521f39575724d1914664d9766",
+        "size_in_bytes": 20363
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/_base.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "d138f6489e282ec0d0284ceefe3f3cc7bdd5b2ddab65e68132b6d3f11f7c1a9c",
+        "sha256_in_prefix": "c5e0a04036468dd645f7604a51712bdac9cbd16f4434ba5e2cddd86e56985ec8",
+        "size_in_bytes": 427552
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/_crs.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "02cdfa12a43c4bc9b9f4a7abbcd83601f095a3015051e37a106bdac8ca035598",
+        "sha256_in_prefix": "844d21b7793412f2e95d9e054bd53ba1e1d7614f5d404fc3dbad760512bccdf1",
+        "size_in_bytes": 262368
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/_env.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "8e9d4a069c27e77fb569e81c75542a8c4b0250ab8c1e45f88cfdc922cd5e9851",
+        "sha256_in_prefix": "281177dec1bb53cff683d9c7262339631f58c607e375f0b1e04a972fbd432462",
+        "size_in_bytes": 292412
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/_err.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "b02dcc8e6675baa0c8d4bb1b3525bace87cd4091fe9c064b870eec9684f87a01",
+        "sha256_in_prefix": "6071a69cd0a64259827bff818c3033ba9850342c20e7f080cc2340ee309426f2",
+        "size_in_bytes": 91280
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/_example.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "288b7a73a34b4e0e016681e7bc7519a578315a4e3ee8051e29064d072705c901",
+        "sha256_in_prefix": "badf9b3ed22bcb23098d6facc58190e1cf655055f5fa3e30332262faae46714f",
+        "size_in_bytes": 130372
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/_features.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "13f1a2309f120997ffdd3e5d0666cdb917ca785b6d018ba835f947c3f6557261",
+        "sha256_in_prefix": "ccc7c55db4939e7c2956709650b6311ff1aea1af91d82400ec1cb0b69fdcbf97",
+        "size_in_bytes": 233152
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/_fill.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "da9fbb6e62ce4da1bbc2e59e6005fc668c1139bb6b4c0f870c6398effeccaf7e",
+        "sha256_in_prefix": "f17a9b5535d03f47e87fc0f2a7ab0d726ab33af2f73cc7a163c9874da7740bd8",
+        "size_in_bytes": 41056
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/_io.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "7637447f1adaaa0ea1fa93545b6d1279970cad89fe1874d759217dbbf3cf03fd",
+        "sha256_in_prefix": "176d5e7a0f8e7f2d0c5ca8b25b061f0fdffbbda05db15e4d6f27c70f377382be",
+        "size_in_bytes": 673996
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/_shim.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "c5c9fd22a9fc4376e27a949a916266513f347c6bff2890e0b3b8180a9c96dc88",
+        "sha256_in_prefix": "b41008aadb7875d8ed0a194b09803e57fd5b165555c06c88622808947af07833",
+        "size_in_bytes": 163600
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/_transform.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "71c9306ec1e289103f54aa20318e0412dc71407c2027936acfa7736d39ffb289",
+        "sha256_in_prefix": "106cde4b9e4cb5c70c071642cbfe6533023e703d8e1df82be10f1a598fdc3cbe",
+        "size_in_bytes": 70088
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/_warp.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "0718dc3e758552aebf5422b5154f3bf4c4d50fe2ac323497a376adee82479639",
+        "sha256_in_prefix": "26c16c9e35e7429afe4acc92bb41c87a01fb427f5e47d6f9497eee9fb7342cf1",
+        "size_in_bytes": 475240
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/control.py",
+        "path_type": "hardlink",
+        "sha256": "6740bdc84dfd568094d8112c968308de3c3d858d978bfb99fa3d9e1a95e3ab81",
+        "sha256_in_prefix": "6740bdc84dfd568094d8112c968308de3c3d858d978bfb99fa3d9e1a95e3ab81",
+        "size_in_bytes": 2074
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/coords.py",
+        "path_type": "hardlink",
+        "sha256": "cdd4a7645615d1e728d4aaf94ebfff55e688e2334c0b81c2ccafff636255cef7",
+        "sha256_in_prefix": "cdd4a7645615d1e728d4aaf94ebfff55e688e2334c0b81c2ccafff636255cef7",
+        "size_in_bytes": 1450
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/crs.py",
+        "path_type": "hardlink",
+        "sha256": "4c89a473ae4e478c5897feea75dfd566d1395c4c9e8b196a9ca079d3eec3da16",
+        "sha256_in_prefix": "4c89a473ae4e478c5897feea75dfd566d1395c4c9e8b196a9ca079d3eec3da16",
+        "size_in_bytes": 14737
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/drivers.py",
+        "path_type": "hardlink",
+        "sha256": "8547b4940dba4604053ebcb635fc2d551462e7b7c3fc6cd2bd84bb5e5580cc19",
+        "sha256_in_prefix": "8547b4940dba4604053ebcb635fc2d551462e7b7c3fc6cd2bd84bb5e5580cc19",
+        "size_in_bytes": 2239
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/dtypes.py",
+        "path_type": "hardlink",
+        "sha256": "6682d82d9c93123b2f1529965673ea82ab737a4afcb2f22d6faeae59044df359",
+        "sha256_in_prefix": "6682d82d9c93123b2f1529965673ea82ab737a4afcb2f22d6faeae59044df359",
+        "size_in_bytes": 4604
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/enums.py",
+        "path_type": "hardlink",
+        "sha256": "08438c873f27a76552088d72f15a92648048d8749fb6f3851808508aa4e6695a",
+        "sha256_in_prefix": "08438c873f27a76552088d72f15a92648048d8749fb6f3851808508aa4e6695a",
+        "size_in_bytes": 2604
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/env.py",
+        "path_type": "hardlink",
+        "sha256": "91013197c92d9fced623685bb4b7a1ca74c5109398a41986e55c3f9c5db5dcfd",
+        "sha256_in_prefix": "91013197c92d9fced623685bb4b7a1ca74c5109398a41986e55c3f9c5db5dcfd",
+        "size_in_bytes": 21405
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/errors.py",
+        "path_type": "hardlink",
+        "sha256": "e2d3efe47c3f65f07e00c1cb74a4d49bb3416369e826816d8e478d7bd491b1f7",
+        "sha256_in_prefix": "e2d3efe47c3f65f07e00c1cb74a4d49bb3416369e826816d8e478d7bd491b1f7",
+        "size_in_bytes": 4306
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/features.py",
+        "path_type": "hardlink",
+        "sha256": "52f8cabba5d49ed0defdc29be3c273622d6c383a523f8a381e82b6b6d67f6305",
+        "sha256_in_prefix": "52f8cabba5d49ed0defdc29be3c273622d6c383a523f8a381e82b6b6d67f6305",
+        "size_in_bytes": 23586
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/fill.py",
+        "path_type": "hardlink",
+        "sha256": "2c854f74c96421a57dc563e92a5689694b4e7e0ac7312cb2e2674733c4c99d79",
+        "sha256_in_prefix": "2c854f74c96421a57dc563e92a5689694b4e7e0ac7312cb2e2674733c4c99d79",
+        "size_in_bytes": 2760
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/io.py",
+        "path_type": "hardlink",
+        "sha256": "3e20724a5c14d3d45019f424eff0f2a3f3a7c54e3ea3d528446a6b6ddab3bf91",
+        "sha256_in_prefix": "3e20724a5c14d3d45019f424eff0f2a3f3a7c54e3ea3d528446a6b6ddab3bf91",
+        "size_in_bytes": 6508
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/mask.py",
+        "path_type": "hardlink",
+        "sha256": "25d100ecacf73202e5094fdcca03817d43ee132a44ac285ba17912dea130dd47",
+        "sha256_in_prefix": "25d100ecacf73202e5094fdcca03817d43ee132a44ac285ba17912dea130dd47",
+        "size_in_bytes": 7353
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/merge.py",
+        "path_type": "hardlink",
+        "sha256": "f8859706de422abfca8caada4c488f595ca89a7a213df56e3d6f1c0d488fcfe7",
+        "sha256_in_prefix": "f8859706de422abfca8caada4c488f595ca89a7a213df56e3d6f1c0d488fcfe7",
+        "size_in_bytes": 12616
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/path.py",
+        "path_type": "hardlink",
+        "sha256": "0b02a56ff1fad085eca716ed52674968a58505ae8630c4c62c7cc022d69a9b30",
+        "sha256_in_prefix": "0b02a56ff1fad085eca716ed52674968a58505ae8630c4c62c7cc022d69a9b30",
+        "size_in_bytes": 5001
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/plot.py",
+        "path_type": "hardlink",
+        "sha256": "7f996c6df0c68dcda2a12b941b8f0009ffa254b39ba8b04de6aaab31b4dcb83a",
+        "sha256_in_prefix": "7f996c6df0c68dcda2a12b941b8f0009ffa254b39ba8b04de6aaab31b4dcb83a",
+        "size_in_bytes": 11331
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/profiles.py",
+        "path_type": "hardlink",
+        "sha256": "82bffeca4f45900a18ed8ceeb9badadeb8b64a897f050cfaa1914a3209d1258d",
+        "sha256_in_prefix": "82bffeca4f45900a18ed8ceeb9badadeb8b64a897f050cfaa1914a3209d1258d",
+        "size_in_bytes": 1359
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d3b75b873b52ceb192a988918985a45e5fab692c25578294fbb8ca7e14179c67",
+        "sha256_in_prefix": "d3b75b873b52ceb192a988918985a45e5fab692c25578294fbb8ca7e14179c67",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff99bbdfd36cedcd07b8e4399d92763d42301084844e48d9e0d430649933192c",
+        "sha256_in_prefix": "ff99bbdfd36cedcd07b8e4399d92763d42301084844e48d9e0d430649933192c",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/blocks.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "988ed47d2648bbe3a7e09e8c72054a1849c006878ed89eae01b5c9b5416d12da",
+        "sha256_in_prefix": "988ed47d2648bbe3a7e09e8c72054a1849c006878ed89eae01b5c9b5416d12da",
+        "size_in_bytes": 5042
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/bounds.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "642e1bd8c6464f325926b7c48497a5a318a2c6b30b20776316ec5bf6b6cac931",
+        "sha256_in_prefix": "642e1bd8c6464f325926b7c48497a5a318a2c6b30b20776316ec5bf6b6cac931",
+        "size_in_bytes": 3517
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/calc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "54ea598a1cab3339f959b6db44971fbe95c6b6bad1582fa579f2c4fb4b6deba2",
+        "sha256_in_prefix": "54ea598a1cab3339f959b6db44971fbe95c6b6bad1582fa579f2c4fb4b6deba2",
+        "size_in_bytes": 6922
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/clip.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d93d2e2e14e9445a69281913da437297db57d1a97f3364d4000ce093d862eb8",
+        "sha256_in_prefix": "2d93d2e2e14e9445a69281913da437297db57d1a97f3364d4000ce093d862eb8",
+        "size_in_bytes": 4337
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/convert.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cc39e9ae90e2d7f3a85d56dad3adf63ddd9fb0d3a0934be275678475cac09b51",
+        "sha256_in_prefix": "cc39e9ae90e2d7f3a85d56dad3adf63ddd9fb0d3a0934be275678475cac09b51",
+        "size_in_bytes": 2441
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/edit_info.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff9a1b32183d186f47bca42ee45c2ad6473cf8ad8cfd600b8953830600c4bc6d",
+        "sha256_in_prefix": "ff9a1b32183d186f47bca42ee45c2ad6473cf8ad8cfd600b8953830600c4bc6d",
+        "size_in_bytes": 7145
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/env.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d0f666886d839ec44366d3f74a7328702f6565869001e98cec34043a5bb4afd",
+        "sha256_in_prefix": "7d0f666886d839ec44366d3f74a7328702f6565869001e98cec34043a5bb4afd",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/gcps.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc58b4d903a6c6a249b16b930ac56d95c9c6f0008e21e7ca3d5f01f01435fbf9",
+        "sha256_in_prefix": "fc58b4d903a6c6a249b16b930ac56d95c9c6f0008e21e7ca3d5f01f01435fbf9",
+        "size_in_bytes": 3339
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/helpers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "baffe869fcd410f7a13512cc25d2934575e22d4f6829b3245394f53a9c784e98",
+        "sha256_in_prefix": "baffe869fcd410f7a13512cc25d2934575e22d4f6829b3245394f53a9c784e98",
+        "size_in_bytes": 2977
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/info.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "70e10f2b8bc0e0596b6d6281ce7fdfde06e20fcc844074291930923f31c800db",
+        "sha256_in_prefix": "70e10f2b8bc0e0596b6d6281ce7fdfde06e20fcc844074291930923f31c800db",
+        "size_in_bytes": 4590
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/insp.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5eab8d0bd8fbbf2af6ad2a4b47be6513cd91803633c78ec0432482fb2ae152bb",
+        "sha256_in_prefix": "5eab8d0bd8fbbf2af6ad2a4b47be6513cd91803633c78ec0432482fb2ae152bb",
+        "size_in_bytes": 2576
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/main.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "846f8efa4234140fa8b21cb7e13e71b7c64d2a3b997d8ed962aae4fa00e7916e",
+        "sha256_in_prefix": "846f8efa4234140fa8b21cb7e13e71b7c64d2a3b997d8ed962aae4fa00e7916e",
+        "size_in_bytes": 3216
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/mask.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "78bf8e46b02a245249529d30e28a3fce9d9c77d20134cc09bb99e8318ae30d4e",
+        "sha256_in_prefix": "78bf8e46b02a245249529d30e28a3fce9d9c77d20134cc09bb99e8318ae30d4e",
+        "size_in_bytes": 3612
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/merge.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1310550c3911e138cfe53d3a9f96b62e0036d14a21fc17ee636dc1a54affd1c",
+        "sha256_in_prefix": "f1310550c3911e138cfe53d3a9f96b62e0036d14a21fc17ee636dc1a54affd1c",
+        "size_in_bytes": 2179
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/options.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4abca554f988c9c244e0ae0bedaab8fa04f0199df9f7d3b892b0026193672e05",
+        "sha256_in_prefix": "4abca554f988c9c244e0ae0bedaab8fa04f0199df9f7d3b892b0026193672e05",
+        "size_in_bytes": 10427
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/overview.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ab708935093576a9e7ab5e7c582312134509dfe06454a8c2d7ad924bd63622f",
+        "sha256_in_prefix": "2ab708935093576a9e7ab5e7c582312134509dfe06454a8c2d7ad924bd63622f",
+        "size_in_bytes": 4722
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/rasterize.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6174b76b2f662d7c67530eb6b1215d29873b3acae18b1bff99e103ca6b82c17d",
+        "sha256_in_prefix": "6174b76b2f662d7c67530eb6b1215d29873b3acae18b1bff99e103ca6b82c17d",
+        "size_in_bytes": 6622
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/rm.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f284b692414c025f19c4e12a004835301c5d02ad326904798490f2d3e345aa43",
+        "sha256_in_prefix": "f284b692414c025f19c4e12a004835301c5d02ad326904798490f2d3e345aa43",
+        "size_in_bytes": 1185
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/sample.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8be3050af8967d6c9b83bec7d8498ef5eb85043b3b872bf5d66408fb2738aae4",
+        "sha256_in_prefix": "8be3050af8967d6c9b83bec7d8498ef5eb85043b3b872bf5d66408fb2738aae4",
+        "size_in_bytes": 2626
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/shapes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "585afafa5a4ac04bbbbdb782b654e21cc22762cca234bef033734bb9803af0f7",
+        "sha256_in_prefix": "585afafa5a4ac04bbbbdb782b654e21cc22762cca234bef033734bb9803af0f7",
+        "size_in_bytes": 4385
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/stack.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "83ad8a75ead59d44530d7825313dbf21249de76d10e40b0eab0bb385182f1559",
+        "sha256_in_prefix": "83ad8a75ead59d44530d7825313dbf21249de76d10e40b0eab0bb385182f1559",
+        "size_in_bytes": 3112
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/transform.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e655b7e25e0ec34d85bc1d79b222de87b940b48f846fe3576f2106186dfdbe7",
+        "sha256_in_prefix": "2e655b7e25e0ec34d85bc1d79b222de87b940b48f846fe3576f2106186dfdbe7",
+        "size_in_bytes": 1848
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/__pycache__/warp.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e8aee54cf90533bf02f9f793eea23005055b6cb048808c92e20db8959d5cce3",
+        "sha256_in_prefix": "5e8aee54cf90533bf02f9f793eea23005055b6cb048808c92e20db8959d5cce3",
+        "size_in_bytes": 8407
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/blocks.py",
+        "path_type": "hardlink",
+        "sha256": "17e02f8535c3d5edb4646c9bb5dd8c3384495b9857c3f50d7da7da043c1feeec",
+        "sha256_in_prefix": "17e02f8535c3d5edb4646c9bb5dd8c3384495b9857c3f50d7da7da043c1feeec",
+        "size_in_bytes": 4934
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/bounds.py",
+        "path_type": "hardlink",
+        "sha256": "d250bb2ecfbc57500dd5a51b23e89c9fad002f36b7735bec4bf93e77aac2df9b",
+        "sha256_in_prefix": "d250bb2ecfbc57500dd5a51b23e89c9fad002f36b7735bec4bf93e77aac2df9b",
+        "size_in_bytes": 3891
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/calc.py",
+        "path_type": "hardlink",
+        "sha256": "a1bd51192d073447991166172e380ece09af3b9aaf0b55bc2089d0deb03c6c48",
+        "sha256_in_prefix": "a1bd51192d073447991166172e380ece09af3b9aaf0b55bc2089d0deb03c6c48",
+        "size_in_bytes": 7758
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/clip.py",
+        "path_type": "hardlink",
+        "sha256": "22cb9f5bd4b4d78b8e3b0ab31caf0e22fb855d27c81e27d308aeac9a70178c3c",
+        "sha256_in_prefix": "22cb9f5bd4b4d78b8e3b0ab31caf0e22fb855d27c81e27d308aeac9a70178c3c",
+        "size_in_bytes": 6484
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/convert.py",
+        "path_type": "hardlink",
+        "sha256": "f90f4622f2ee3968e6b729d693411781f428fb4cdb7df2328cc80daec4f5a24e",
+        "sha256_in_prefix": "f90f4622f2ee3968e6b729d693411781f428fb4cdb7df2328cc80daec4f5a24e",
+        "size_in_bytes": 3395
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/edit_info.py",
+        "path_type": "hardlink",
+        "sha256": "4f071cbfb91ea7fd39813fe95ed282406398090e0d8db1b7f8980dda96a35f83",
+        "sha256_in_prefix": "4f071cbfb91ea7fd39813fe95ed282406398090e0d8db1b7f8980dda96a35f83",
+        "size_in_bytes": 9144
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/env.py",
+        "path_type": "hardlink",
+        "sha256": "51c0ba63ceaed0aa4fb95b59e53452d287e17dde9b8509aad7f0dfce1daf1e52",
+        "sha256_in_prefix": "51c0ba63ceaed0aa4fb95b59e53452d287e17dde9b8509aad7f0dfce1daf1e52",
+        "size_in_bytes": 1316
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/gcps.py",
+        "path_type": "hardlink",
+        "sha256": "a08b691c5921eaf36fb73d2197a37ff9e8ae01f95d2892e8357cb530f4b263a0",
+        "sha256_in_prefix": "a08b691c5921eaf36fb73d2197a37ff9e8ae01f95d2892e8357cb530f4b263a0",
+        "size_in_bytes": 3711
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "c9f7a78502df8d3bf83a1b50aa2a22e4040093c5b3cdaadb50df8a0f2b500b95",
+        "sha256_in_prefix": "c9f7a78502df8d3bf83a1b50aa2a22e4040093c5b3cdaadb50df8a0f2b500b95",
+        "size_in_bytes": 3598
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/info.py",
+        "path_type": "hardlink",
+        "sha256": "31634881b13d0fe8515c17425f65db7a90a2d55b137ec0dd5859e487e166460e",
+        "sha256_in_prefix": "31634881b13d0fe8515c17425f65db7a90a2d55b137ec0dd5859e487e166460e",
+        "size_in_bytes": 5507
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/insp.py",
+        "path_type": "hardlink",
+        "sha256": "8f383284b6250c418fd558099a737a7334a996f5a33fa6821f2e69da02052f11",
+        "sha256_in_prefix": "8f383284b6250c418fd558099a737a7334a996f5a33fa6821f2e69da02052f11",
+        "size_in_bytes": 2790
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/main.py",
+        "path_type": "hardlink",
+        "sha256": "1294cdfc8b7f15c48a88ce7fbfa0ae737f31bd2f99d8d51c5ce29dbc77eb4ffb",
+        "sha256_in_prefix": "1294cdfc8b7f15c48a88ce7fbfa0ae737f31bd2f99d8d51c5ce29dbc77eb4ffb",
+        "size_in_bytes": 3046
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/mask.py",
+        "path_type": "hardlink",
+        "sha256": "61efc23cc4cfb6df9baf17204f8e2bf8d7617a701fb7e3d8276dd4af074c795b",
+        "sha256_in_prefix": "61efc23cc4cfb6df9baf17204f8e2bf8d7617a701fb7e3d8276dd4af074c795b",
+        "size_in_bytes": 4744
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/merge.py",
+        "path_type": "hardlink",
+        "sha256": "9b6527ed79713f285281c561711ea2aa0d1a106b79abaafd0dfe8d6a6060546b",
+        "sha256_in_prefix": "9b6527ed79713f285281c561711ea2aa0d1a106b79abaafd0dfe8d6a6060546b",
+        "size_in_bytes": 2111
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/options.py",
+        "path_type": "hardlink",
+        "sha256": "4638b56eb7129a4d477c9c460acdc813ade4f58aa2bf538270f47c05a8cc8636",
+        "sha256_in_prefix": "4638b56eb7129a4d477c9c460acdc813ade4f58aa2bf538270f47c05a8cc8636",
+        "size_in_bytes": 11899
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/overview.py",
+        "path_type": "hardlink",
+        "sha256": "db6188d1dc08d0457bb52ef337933b62d47f74f65ff8338ffe7821be8827b8cc",
+        "sha256_in_prefix": "db6188d1dc08d0457bb52ef337933b62d47f74f65ff8338ffe7821be8827b8cc",
+        "size_in_bytes": 4865
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/rasterize.py",
+        "path_type": "hardlink",
+        "sha256": "0c3866af9e76c795fde8f88ca4a4880d07c1ec664a8aacdb078f319685a42dd7",
+        "sha256_in_prefix": "0c3866af9e76c795fde8f88ca4a4880d07c1ec664a8aacdb078f319685a42dd7",
+        "size_in_bytes": 10105
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/rm.py",
+        "path_type": "hardlink",
+        "sha256": "34969c4fcc7d986888c6b2eb3d9e61ca3a8ccdc78f9c80ba874a0f5bbfbdff87",
+        "sha256_in_prefix": "34969c4fcc7d986888c6b2eb3d9e61ca3a8ccdc78f9c80ba874a0f5bbfbdff87",
+        "size_in_bytes": 946
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/sample.py",
+        "path_type": "hardlink",
+        "sha256": "b9da60b758115183e4a7236c6c7d01e7c0fc8cbcd2532cfccaf618a9ff132a23",
+        "sha256_in_prefix": "b9da60b758115183e4a7236c6c7d01e7c0fc8cbcd2532cfccaf618a9ff132a23",
+        "size_in_bytes": 2526
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/shapes.py",
+        "path_type": "hardlink",
+        "sha256": "f549d8276cf3defcbe081a184bcb5d15f2691f05f5bdbe7df1789569f4b49700",
+        "sha256_in_prefix": "f549d8276cf3defcbe081a184bcb5d15f2691f05f5bdbe7df1789569f4b49700",
+        "size_in_bytes": 4413
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/stack.py",
+        "path_type": "hardlink",
+        "sha256": "cb6351054668871b981a2612b9ab114607b0b30665d6d4ded038e3865a95b105",
+        "sha256_in_prefix": "cb6351054668871b981a2612b9ab114607b0b30665d6d4ded038e3865a95b105",
+        "size_in_bytes": 3959
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/transform.py",
+        "path_type": "hardlink",
+        "sha256": "a27ccdca7b4285ea68b23662aeb1fc281d875c50db4b4992aa91afce4682340b",
+        "sha256_in_prefix": "a27ccdca7b4285ea68b23662aeb1fc281d875c50db4b4992aa91afce4682340b",
+        "size_in_bytes": 1901
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rio/warp.py",
+        "path_type": "hardlink",
+        "sha256": "3e983dea885fdc19123618179c1d99ba6c2b8742b030b11dd9ce141b9a2020f8",
+        "sha256_in_prefix": "3e983dea885fdc19123618179c1d99ba6c2b8742b030b11dd9ce141b9a2020f8",
+        "size_in_bytes": 14402
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/rpc.py",
+        "path_type": "hardlink",
+        "sha256": "11ea711e030f6a1736495c2ea87d0916761427ede4347dd30db86eb9b8e4bcf3",
+        "sha256_in_prefix": "11ea711e030f6a1736495c2ea87d0916761427ede4347dd30db86eb9b8e4bcf3",
+        "size_in_bytes": 3967
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/sample.py",
+        "path_type": "hardlink",
+        "sha256": "63ede51f78312943d4fd5ccf9cf8ae69548cd76edb52ceb8abd35624feebb57a",
+        "sha256_in_prefix": "63ede51f78312943d4fd5ccf9cf8ae69548cd76edb52ceb8abd35624feebb57a",
+        "size_in_bytes": 1636
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/session.py",
+        "path_type": "hardlink",
+        "sha256": "39ec40bbaeba0490e32b645ce39d72a2e3399618bed669e1c563269da1bc296c",
+        "sha256_in_prefix": "39ec40bbaeba0490e32b645ce39d72a2e3399618bed669e1c563269da1bc296c",
+        "size_in_bytes": 17741
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/shutil.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/rasterio_1634058488672/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "49d3d1d5c47c732013da0216a7c5a1135109ee3590ec5ab0473ba0792c4a68a4",
+        "sha256_in_prefix": "c257f5d1c7c0c58a9a3264efac0b52e9675b9a602da5042d3abf389c0a1bec84",
+        "size_in_bytes": 117636
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/tools.py",
+        "path_type": "hardlink",
+        "sha256": "53314380867daf8f0392cdc3ea052a1ed6ded57045ee71dc33fa285e4f6db2bd",
+        "sha256_in_prefix": "53314380867daf8f0392cdc3ea052a1ed6ded57045ee71dc33fa285e4f6db2bd",
+        "size_in_bytes": 2211
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/transform.py",
+        "path_type": "hardlink",
+        "sha256": "9ab41966c7aeb42d6e0487b2754d99d749ac11f3812b4aa362f90b04fff9d9ac",
+        "sha256_in_prefix": "9ab41966c7aeb42d6e0487b2754d99d749ac11f3812b4aa362f90b04fff9d9ac",
+        "size_in_bytes": 7762
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/vrt.py",
+        "path_type": "hardlink",
+        "sha256": "73a07e497d3b20ec508a79adce1792bd5483c2c0201c7e66f3f78feb34e23ac8",
+        "sha256_in_prefix": "73a07e497d3b20ec508a79adce1792bd5483c2c0201c7e66f3f78feb34e23ac8",
+        "size_in_bytes": 10687
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/warp.py",
+        "path_type": "hardlink",
+        "sha256": "0c6e6d876f67cbb4a9b93a192183d9df2fedbeae7fd4b9a31a12011a33dd3d93",
+        "sha256_in_prefix": "0c6e6d876f67cbb4a9b93a192183d9df2fedbeae7fd4b9a31a12011a33dd3d93",
+        "size_in_bytes": 21300
+      },
+      {
+        "_path": "lib/python3.8/site-packages/rasterio/windows.py",
+        "path_type": "hardlink",
+        "sha256": "f6a63ebdb5969b6b57557a5b470f343ee403104c2cd88e5104afa550cbbf4e93",
+        "sha256_in_prefix": "f6a63ebdb5969b6b57557a5b470f343ee403104c2cd88e5104afa550cbbf4e93",
+        "size_in_bytes": 22100
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "rasterio==1.2.10=py38h3e4dc24_0",
+  "sha256": "997f63095855ecec799666b905a13433f8f936b958b1a82ee6c5affaed9d29bd",
+  "size": 8451515,
+  "subdir": "osx-64",
+  "timestamp": 1634059208327,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/rasterio-1.2.10-py38h3e4dc24_0.tar.bz2",
+  "version": "1.2.10"
+}

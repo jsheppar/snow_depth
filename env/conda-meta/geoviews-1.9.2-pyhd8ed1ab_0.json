@@ -1,0 +1,48 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "bokeh >=2.4.0,<2.5.0",
+    "cartopy >=0.18.0",
+    "datashader",
+    "geopandas-base",
+    "geoviews-core 1.9.2 pyha770c72_0",
+    "holoviews >=1.14.2",
+    "netcdf4",
+    "numpy >=1.0",
+    "pandas",
+    "param >=1.9.3,<2.0",
+    "pyct",
+    "python >=3.7",
+    "xarray"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/geoviews-1.9.2-pyhd8ed1ab_0",
+  "features": "",
+  "files": [],
+  "fn": "geoviews-1.9.2-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/geoviews-1.9.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "edfab871814ab14ded60067e404e8315",
+  "name": "geoviews",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/geoviews-1.9.2-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "geoviews==1.9.2=pyhd8ed1ab_0",
+  "sha256": "2972ad59d9a43980ec428254d0fa0568c804a959ea477f105cbb63d0e56ec98a",
+  "size": 5846,
+  "subdir": "noarch",
+  "timestamp": 1632940782598,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/geoviews-1.9.2-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.9.2"
+}

@@ -1,0 +1,39 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pyct-core 0.4.6.*",
+    "python",
+    "pyyaml",
+    "requests"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/pyct-0.4.6-py_0",
+  "features": "",
+  "files": [],
+  "fn": "pyct-0.4.6-py_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/pyct-0.4.6-py_0",
+    "type": 1
+  },
+  "md5": "42d91c89bc3993ec88681cffd3c0e326",
+  "name": "pyct",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/pyct-0.4.6-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "pyct==0.4.6=py_0",
+  "sha256": "50af51619db6a35c36e65e8f50c83c722c3358f1f4b5527e87799b8f9935ace0",
+  "size": 2652,
+  "subdir": "noarch",
+  "timestamp": 1545265022341,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyct-0.4.6-py_0.tar.bz2",
+  "version": "0.4.6"
+}

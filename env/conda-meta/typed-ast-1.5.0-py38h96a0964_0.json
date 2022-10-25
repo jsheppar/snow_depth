@@ -1,0 +1,201 @@
+{
+  "build": "py38h96a0964_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/typed-ast-1.5.0-py38h96a0964_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/typed_ast/__init__.py",
+    "lib/python3.8/site-packages/typed_ast/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/typed_ast/__pycache__/ast27.cpython-38.pyc",
+    "lib/python3.8/site-packages/typed_ast/__pycache__/ast3.cpython-38.pyc",
+    "lib/python3.8/site-packages/typed_ast/__pycache__/conversions.cpython-38.pyc",
+    "lib/python3.8/site-packages/typed_ast/_ast27.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/typed_ast/_ast3.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/typed_ast/ast27.py",
+    "lib/python3.8/site-packages/typed_ast/ast3.py",
+    "lib/python3.8/site-packages/typed_ast/conversions.py",
+    "lib/python3.8/site-packages/typed_ast/tests/__pycache__/test_basics.cpython-38.pyc",
+    "lib/python3.8/site-packages/typed_ast/tests/test_basics.py"
+  ],
+  "fn": "typed-ast-1.5.0-py38h96a0964_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/typed-ast-1.5.0-py38h96a0964_0",
+    "type": 1
+  },
+  "md5": "d46897d8e3452f7f0c36df0012fd8d6c",
+  "name": "typed-ast",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/typed-ast-1.5.0-py38h96a0964_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3f07c33e21c93a2dbf4fa239d1fc626268a5b081e8b79aca3b8f0a47b050f14c",
+        "sha256_in_prefix": "3f07c33e21c93a2dbf4fa239d1fc626268a5b081e8b79aca3b8f0a47b050f14c",
+        "size_in_bytes": 15191
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9e6e7cbf0e6a13a9fd2a33a7049e57453ebf79cfde032e61acd52aa0ecd9eade",
+        "sha256_in_prefix": "9e6e7cbf0e6a13a9fd2a33a7049e57453ebf79cfde032e61acd52aa0ecd9eade",
+        "size_in_bytes": 1477
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "dae47cb1c11f2156b9e8411798d9fc39129ce3087ae0f07a58af60bf244f25af",
+        "sha256_in_prefix": "dae47cb1c11f2156b9e8411798d9fc39129ce3087ae0f07a58af60bf244f25af",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9b85a4e9e3b2f76c8963cee05409109e7faa9d16f4be5fefdb3b26c748605dfa",
+        "sha256_in_prefix": "9b85a4e9e3b2f76c8963cee05409109e7faa9d16f4be5fefdb3b26c748605dfa",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e41db0d1ced750fabce11cd4c57110ff1dcc30e057f4717d65a40e20cdf382ce",
+        "sha256_in_prefix": "e41db0d1ced750fabce11cd4c57110ff1dcc30e057f4717d65a40e20cdf382ce",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast-1.5.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2c2981ca0616068eaaa88a1a64d89ca3153e0cef6047626f8509152704b23759",
+        "sha256_in_prefix": "2c2981ca0616068eaaa88a1a64d89ca3153e0cef6047626f8509152704b23759",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5fda537861c8619b433a67dbf699e7d8312a599300c9a3e5a9d170121b2e4af9",
+        "sha256_in_prefix": "5fda537861c8619b433a67dbf699e7d8312a599300c9a3e5a9d170121b2e4af9",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "450ae47842956f913b5adfc62acb19b3b01399619357a88002ef669fffb38872",
+        "sha256_in_prefix": "450ae47842956f913b5adfc62acb19b3b01399619357a88002ef669fffb38872",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast/__pycache__/ast27.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "62b04253b19ea0d56890bf9d7c1962f6cd5a812f4037af662660e6b10e058056",
+        "sha256_in_prefix": "62b04253b19ea0d56890bf9d7c1962f6cd5a812f4037af662660e6b10e058056",
+        "size_in_bytes": 12433
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast/__pycache__/ast3.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5794fb28a9502448a47b5871ae58566c05527d47303a1cac91588fc04e7b0009",
+        "sha256_in_prefix": "5794fb28a9502448a47b5871ae58566c05527d47303a1cac91588fc04e7b0009",
+        "size_in_bytes": 13340
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast/__pycache__/conversions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d54f150a951b804ba1ef77b521f667697ddb01f411232fac63cbb1dfd53f8db",
+        "sha256_in_prefix": "9d54f150a951b804ba1ef77b521f667697ddb01f411232fac63cbb1dfd53f8db",
+        "size_in_bytes": 7922
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast/_ast27.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/typed-ast_1636834612437/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "ac5380c04eef196ad9d2444b98fa565a2994edb7765394c3b1f6f1523db6705f",
+        "sha256_in_prefix": "449c92320d425605a1a140889f54ced5a95d6a774e24a64590f5eb8801a48f44",
+        "size_in_bytes": 229756
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast/_ast3.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/typed-ast_1636834612437/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "5c50f8f4bce4764b27a4b63abc6af9fcbbf71e043604dc0c877e50291937c2f6",
+        "sha256_in_prefix": "a924a543b640fb88febcffc5e01d3ccf7d7e4c0c9814fa878badfc19ae2b22c5",
+        "size_in_bytes": 277764
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast/ast27.py",
+        "path_type": "hardlink",
+        "sha256": "328b8d9a5494208344ca5dcb05aefde835c1bd934e8e8e7e8023f3a184436f54",
+        "sha256_in_prefix": "328b8d9a5494208344ca5dcb05aefde835c1bd934e8e8e7e8023f3a184436f54",
+        "size_in_bytes": 12630
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast/ast3.py",
+        "path_type": "hardlink",
+        "sha256": "d856ffd135249f19833f30573d87b55e41a124bd49c5e476ccb8af5882374ea2",
+        "sha256_in_prefix": "d856ffd135249f19833f30573d87b55e41a124bd49c5e476ccb8af5882374ea2",
+        "size_in_bytes": 13761
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast/conversions.py",
+        "path_type": "hardlink",
+        "sha256": "27dc010c283e8adddcc5f4a72003169c10e2c0bca97d105ced14dfb51226c1a9",
+        "sha256_in_prefix": "27dc010c283e8adddcc5f4a72003169c10e2c0bca97d105ced14dfb51226c1a9",
+        "size_in_bytes": 8632
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast/tests/__pycache__/test_basics.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b1889797c46ca665b3c8a881b5cbc4ed4ba2a31c7b557f68c5f665eb63401d2",
+        "sha256_in_prefix": "0b1889797c46ca665b3c8a881b5cbc4ed4ba2a31c7b557f68c5f665eb63401d2",
+        "size_in_bytes": 7333
+      },
+      {
+        "_path": "lib/python3.8/site-packages/typed_ast/tests/test_basics.py",
+        "path_type": "hardlink",
+        "sha256": "d9a4263977ea2b204d695a41f4579890ca925b2f50cf5686c150acef422b0caa",
+        "sha256_in_prefix": "d9a4263977ea2b204d695a41f4579890ca925b2f50cf5686c150acef422b0caa",
+        "size_in_bytes": 7516
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "typed-ast==1.5.0=py38h96a0964_0",
+  "sha256": "c7e551d539dd5933ff585bb2efca9e2f93d333ece1e3951ff184692c8eb6ca20",
+  "size": 212234,
+  "subdir": "osx-64",
+  "timestamp": 1636834757827,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/typed-ast-1.5.0-py38h96a0964_0.tar.bz2",
+  "version": "1.5.0"
+}

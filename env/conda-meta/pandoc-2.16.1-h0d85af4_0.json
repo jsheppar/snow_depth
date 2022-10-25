@@ -1,0 +1,42 @@
+{
+  "build": "h0d85af4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/pandoc-2.16.1-h0d85af4_0",
+  "features": "",
+  "files": [
+    "bin/pandoc"
+  ],
+  "fn": "pandoc-2.16.1-h0d85af4_0.tar.bz2",
+  "license": "GPL-2.0",
+  "license_family": "GPL",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/pandoc-2.16.1-h0d85af4_0",
+    "type": 1
+  },
+  "md5": "5c3b4219d890d63c19b4073ad7171e0f",
+  "name": "pandoc",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/pandoc-2.16.1-h0d85af4_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pandoc",
+        "path_type": "hardlink",
+        "sha256": "d4408c5baf4eb63d7b780233b10caf6007d89ffe080e897007a6a1c8a6613aab",
+        "sha256_in_prefix": "d4408c5baf4eb63d7b780233b10caf6007d89ffe080e897007a6a1c8a6613aab",
+        "size_in_bytes": 92378048
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pandoc==2.16.1=h0d85af4_0",
+  "sha256": "9a5cfe6c1b9bf65261715c729d2548364c81e85b21ff866f3559b0e350aa66c2",
+  "size": 16777725,
+  "subdir": "osx-64",
+  "timestamp": 1635962545951,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/pandoc-2.16.1-h0d85af4_0.tar.bz2",
+  "version": "2.16.1"
+}

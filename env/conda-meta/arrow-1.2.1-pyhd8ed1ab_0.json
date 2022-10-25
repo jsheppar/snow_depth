@@ -1,0 +1,242 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "python-dateutil >=2.7.0",
+    "typing_extensions"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/arrow-1.2.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/arrow-1.2.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/arrow-1.2.1.dist-info/LICENSE",
+    "lib/python3.8/site-packages/arrow-1.2.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/arrow-1.2.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/arrow-1.2.1.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/arrow-1.2.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/arrow-1.2.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/arrow-1.2.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/arrow/__init__.py",
+    "lib/python3.8/site-packages/arrow/_version.py",
+    "lib/python3.8/site-packages/arrow/api.py",
+    "lib/python3.8/site-packages/arrow/arrow.py",
+    "lib/python3.8/site-packages/arrow/constants.py",
+    "lib/python3.8/site-packages/arrow/factory.py",
+    "lib/python3.8/site-packages/arrow/formatter.py",
+    "lib/python3.8/site-packages/arrow/locales.py",
+    "lib/python3.8/site-packages/arrow/parser.py",
+    "lib/python3.8/site-packages/arrow/py.typed",
+    "lib/python3.8/site-packages/arrow/util.py",
+    "lib/python3.8/site-packages/arrow/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/arrow/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/arrow/__pycache__/api.cpython-38.pyc",
+    "lib/python3.8/site-packages/arrow/__pycache__/arrow.cpython-38.pyc",
+    "lib/python3.8/site-packages/arrow/__pycache__/constants.cpython-38.pyc",
+    "lib/python3.8/site-packages/arrow/__pycache__/factory.cpython-38.pyc",
+    "lib/python3.8/site-packages/arrow/__pycache__/formatter.cpython-38.pyc",
+    "lib/python3.8/site-packages/arrow/__pycache__/locales.cpython-38.pyc",
+    "lib/python3.8/site-packages/arrow/__pycache__/parser.cpython-38.pyc",
+    "lib/python3.8/site-packages/arrow/__pycache__/util.cpython-38.pyc"
+  ],
+  "fn": "arrow-1.2.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/arrow-1.2.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "c386072a83e93f1e170ce10398241369",
+  "name": "arrow",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/arrow-1.2.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/arrow-1.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/arrow-1.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "40d6e1255d7151f5f041a514725d3c94ffa8c1881e5a0c29b6bea93f03e2e3bb",
+        "sha256_in_prefix": "40d6e1255d7151f5f041a514725d3c94ffa8c1881e5a0c29b6bea93f03e2e3bb",
+        "size_in_bytes": 11341
+      },
+      {
+        "_path": "site-packages/arrow-1.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a11c74011043aac00530a337f6aa72cf4906f0abb896af12401bfaa85979b1d7",
+        "sha256_in_prefix": "a11c74011043aac00530a337f6aa72cf4906f0abb896af12401bfaa85979b1d7",
+        "size_in_bytes": 6958
+      },
+      {
+        "_path": "site-packages/arrow-1.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f87ef840bc9c5bae6e3b1cad100d4b35cfe28102d6ad03484f170e2fb9a07470",
+        "sha256_in_prefix": "f87ef840bc9c5bae6e3b1cad100d4b35cfe28102d6ad03484f170e2fb9a07470",
+        "size_in_bytes": 1890
+      },
+      {
+        "_path": "site-packages/arrow-1.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/arrow-1.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/arrow-1.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "05ab4fd5eef5b19c334ada479b498f23ab818536cc86a4e96644351a4968e941",
+        "sha256_in_prefix": "05ab4fd5eef5b19c334ada479b498f23ab818536cc86a4e96644351a4968e941",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/arrow-1.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "68205384ad91201f36e1cb48de5f62eb3f7897c518a4517e042e26ddd0f3145a",
+        "sha256_in_prefix": "68205384ad91201f36e1cb48de5f62eb3f7897c518a4517e042e26ddd0f3145a",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/arrow/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1f1b12246979e86a1e1c1fff368fa4746982fd67acfd3b5fd2884ecbb3a81628",
+        "sha256_in_prefix": "1f1b12246979e86a1e1c1fff368fa4746982fd67acfd3b5fd2884ecbb3a81628",
+        "size_in_bytes": 872
+      },
+      {
+        "_path": "site-packages/arrow/_version.py",
+        "path_type": "hardlink",
+        "sha256": "3259b81af99bffac90c7051bbf62ac73e0491572cf83d1f556dda257bc17ac0e",
+        "sha256_in_prefix": "3259b81af99bffac90c7051bbf62ac73e0491572cf83d1f556dda257bc17ac0e",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/arrow/api.py",
+        "path_type": "hardlink",
+        "sha256": "ead76aac6d0d8eb28edb6fde5875386b9c5eadf47a22b64f63ecb29c6a67bd33",
+        "sha256_in_prefix": "ead76aac6d0d8eb28edb6fde5875386b9c5eadf47a22b64f63ecb29c6a67bd33",
+        "size_in_bytes": 2755
+      },
+      {
+        "_path": "site-packages/arrow/arrow.py",
+        "path_type": "hardlink",
+        "sha256": "91949a6cdc148b4c4b9f74026d6d29c2d7b14b2d853f8700ee46bb7254d03967",
+        "sha256_in_prefix": "91949a6cdc148b4c4b9f74026d6d29c2d7b14b2d853f8700ee46bb7254d03967",
+        "size_in_bytes": 63560
+      },
+      {
+        "_path": "site-packages/arrow/constants.py",
+        "path_type": "hardlink",
+        "sha256": "da6d6acf80c39ff7d2a138a0f769fd49c44e6239b97287a56801643ba7667fe0",
+        "sha256_in_prefix": "da6d6acf80c39ff7d2a138a0f769fd49c44e6239b97287a56801643ba7667fe0",
+        "size_in_bytes": 2904
+      },
+      {
+        "_path": "site-packages/arrow/factory.py",
+        "path_type": "hardlink",
+        "sha256": "7563f75c861f623aa9ec308e7446000fb3d07ec6e9404ef43e1f4e4b50352e71",
+        "sha256_in_prefix": "7563f75c861f623aa9ec308e7446000fb3d07ec6e9404ef43e1f4e4b50352e71",
+        "size_in_bytes": 11435
+      },
+      {
+        "_path": "site-packages/arrow/formatter.py",
+        "path_type": "hardlink",
+        "sha256": "629618f23786647d2c823736dcf066f0729ff843072e9fbc51ae765dfad580f4",
+        "sha256_in_prefix": "629618f23786647d2c823736dcf066f0729ff843072e9fbc51ae765dfad580f4",
+        "size_in_bytes": 5271
+      },
+      {
+        "_path": "site-packages/arrow/locales.py",
+        "path_type": "hardlink",
+        "sha256": "bb91eac359e88469717d10f03c9030028eac1d52f7bc9bff4962cd4379981e82",
+        "sha256_in_prefix": "bb91eac359e88469717d10f03c9030028eac1d52f7bc9bff4962cd4379981e82",
+        "size_in_bytes": 139165
+      },
+      {
+        "_path": "site-packages/arrow/parser.py",
+        "path_type": "hardlink",
+        "sha256": "8a7818e1ac403b8d2411850bf0cc2a4c88457a0080568b83664ddce183acf5a2",
+        "sha256_in_prefix": "8a7818e1ac403b8d2411850bf0cc2a4c88457a0080568b83664ddce183acf5a2",
+        "size_in_bytes": 25720
+      },
+      {
+        "_path": "site-packages/arrow/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/arrow/util.py",
+        "path_type": "hardlink",
+        "sha256": "c670debea47235e6166e5df1fa7fd3ca8e1c3a01dc7606f1144085b09d57a047",
+        "sha256_in_prefix": "c670debea47235e6166e5df1fa7fd3ca8e1c3a01dc7606f1144085b09d57a047",
+        "size_in_bytes": 3679
+      },
+      {
+        "_path": "lib/python3.8/site-packages/arrow/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/arrow/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/arrow/__pycache__/api.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/arrow/__pycache__/arrow.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/arrow/__pycache__/constants.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/arrow/__pycache__/factory.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/arrow/__pycache__/formatter.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/arrow/__pycache__/locales.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/arrow/__pycache__/parser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/arrow/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "arrow==1.2.1=pyhd8ed1ab_0",
+  "sha256": "7eb860efd3d408e00213a84f60ffe64fa00a4938aa0c7acad850e63d8c9c2cf5",
+  "size": 87204,
+  "subdir": "noarch",
+  "timestamp": 1635261436501,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/arrow-1.2.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.2.1"
+}

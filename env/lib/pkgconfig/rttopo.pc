@@ -1,0 +1,12 @@
+# Package Information for pkg-config
+
+prefix=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env
+exec_prefix=${prefix}
+libdir=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/lib
+includedir=/Users/jsheppar/Dropbox (University of Oregon)/GitHub/snow_depth/env/include
+
+Name: rttopo
+Description: the RT Topology library
+Version: 1.1.0
+Libs: -L${libdir} -lrttopo -lm
+Cflags: -I${includedir} 

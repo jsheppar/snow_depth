@@ -1,0 +1,43 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "fiona",
+    "folium",
+    "geopandas-base 0.10.2 pyha770c72_0",
+    "mapclassify >=2.4.0",
+    "matplotlib-base",
+    "python >=3.7",
+    "rtree",
+    "xyzservices"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/geopandas-0.10.2-pyhd8ed1ab_0",
+  "features": "",
+  "files": [],
+  "fn": "geopandas-0.10.2-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/geopandas-0.10.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "6097c661f844076a5885f1a96809a131",
+  "name": "geopandas",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/geopandas-0.10.2-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "geopandas==0.10.2=pyhd8ed1ab_0",
+  "sha256": "cbe349b35f00d001fc5a0b0a319d6b79da9585411f91f189e9d27181c846da16",
+  "size": 5392,
+  "subdir": "noarch",
+  "timestamp": 1634376852716,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/geopandas-0.10.2-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.10.2"
+}

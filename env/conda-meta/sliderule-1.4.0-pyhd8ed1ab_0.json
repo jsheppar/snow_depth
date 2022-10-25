@@ -1,0 +1,329 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "gdal",
+    "geopandas",
+    "h5py",
+    "ipykernel",
+    "ipyleaflet",
+    "ipympl",
+    "ipywidgets",
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "pyproj",
+    "pytables",
+    "python >=3.6",
+    "requests",
+    "scipy",
+    "setuptools",
+    "shapely",
+    "tk",
+    "traitlets",
+    "xyzservices"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/sliderule-1.4.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "bin/big_request.py",
+    "bin/display_raster.py",
+    "bin/extract_h5_dataset.py",
+    "bin/get_files_in_region.py",
+    "bin/h5pyd_read_perf.py",
+    "bin/icepx_region.py",
+    "bin/monitor.py",
+    "bin/query_metrics.py",
+    "bin/query_services.py",
+    "bin/query_version.py",
+    "bin/region_of_interest.py",
+    "bin/stream_events.py",
+    "bin/tail_events.py",
+    "lib/python3.8/site-packages/sliderule-1.4.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/sliderule-1.4.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/sliderule-1.4.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/sliderule-1.4.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/sliderule-1.4.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/sliderule-1.4.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/sliderule-1.4.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/sliderule-1.4.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/sliderule/__init__.py",
+    "lib/python3.8/site-packages/sliderule/icesat2.py",
+    "lib/python3.8/site-packages/sliderule/io.py",
+    "lib/python3.8/site-packages/sliderule/ipxapi.py",
+    "lib/python3.8/site-packages/sliderule/ipysliderule.py",
+    "lib/python3.8/site-packages/sliderule/sliderule.py",
+    "lib/python3.8/site-packages/sliderule/stream2disk.py",
+    "lib/python3.8/site-packages/sliderule/version.py",
+    "lib/python3.8/site-packages/sliderule/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/sliderule/__pycache__/icesat2.cpython-38.pyc",
+    "lib/python3.8/site-packages/sliderule/__pycache__/io.cpython-38.pyc",
+    "lib/python3.8/site-packages/sliderule/__pycache__/ipxapi.cpython-38.pyc",
+    "lib/python3.8/site-packages/sliderule/__pycache__/ipysliderule.cpython-38.pyc",
+    "lib/python3.8/site-packages/sliderule/__pycache__/sliderule.cpython-38.pyc",
+    "lib/python3.8/site-packages/sliderule/__pycache__/stream2disk.cpython-38.pyc",
+    "lib/python3.8/site-packages/sliderule/__pycache__/version.cpython-38.pyc"
+  ],
+  "fn": "sliderule-1.4.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/sliderule-1.4.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a0ea5d7b969c25635726889057d0f87a",
+  "name": "sliderule",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/sliderule-1.4.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/big_request.py",
+        "path_type": "hardlink",
+        "sha256": "02e38c2a541f351f1f8b71e4865121790a2aef8b61b266e24cb139c32a3970b4",
+        "sha256_in_prefix": "02e38c2a541f351f1f8b71e4865121790a2aef8b61b266e24cb139c32a3970b4",
+        "size_in_bytes": 2717
+      },
+      {
+        "_path": "python-scripts/display_raster.py",
+        "path_type": "hardlink",
+        "sha256": "685082b054e1fdf90d64d18e9afbee45b89ef90aca640ee5b01e56eebbc7a112",
+        "sha256_in_prefix": "685082b054e1fdf90d64d18e9afbee45b89ef90aca640ee5b01e56eebbc7a112",
+        "size_in_bytes": 1123
+      },
+      {
+        "_path": "python-scripts/extract_h5_dataset.py",
+        "path_type": "hardlink",
+        "sha256": "d5b29edf194e39a47ccde2b775745636c9078203dcc15a260b0e7551ba7a2cb7",
+        "sha256_in_prefix": "d5b29edf194e39a47ccde2b775745636c9078203dcc15a260b0e7551ba7a2cb7",
+        "size_in_bytes": 1671
+      },
+      {
+        "_path": "python-scripts/get_files_in_region.py",
+        "path_type": "hardlink",
+        "sha256": "529530263548ef289e94136fef9848b0c3f663d78189efc39acd891f3cc1ed9e",
+        "sha256_in_prefix": "529530263548ef289e94136fef9848b0c3f663d78189efc39acd891f3cc1ed9e",
+        "size_in_bytes": 846
+      },
+      {
+        "_path": "python-scripts/h5pyd_read_perf.py",
+        "path_type": "hardlink",
+        "sha256": "71623e49fd978358ab4ea3dbe3a07789c4378791bce2bb3f91f359d83b79ecb3",
+        "sha256_in_prefix": "71623e49fd978358ab4ea3dbe3a07789c4378791bce2bb3f91f359d83b79ecb3",
+        "size_in_bytes": 2690
+      },
+      {
+        "_path": "python-scripts/icepx_region.py",
+        "path_type": "hardlink",
+        "sha256": "37a83a3d19e4a095df01c2925b1a0aa5e1a4a3d6b29fe953aca0e27e65eb1ce6",
+        "sha256_in_prefix": "37a83a3d19e4a095df01c2925b1a0aa5e1a4a3d6b29fe953aca0e27e65eb1ce6",
+        "size_in_bytes": 3003
+      },
+      {
+        "_path": "python-scripts/monitor.py",
+        "path_type": "hardlink",
+        "sha256": "4e3df76206870f2328b0b47f1089b825ebb8fd1e2200365e124908cbd1e2e06b",
+        "sha256_in_prefix": "4e3df76206870f2328b0b47f1089b825ebb8fd1e2200365e124908cbd1e2e06b",
+        "size_in_bytes": 7027
+      },
+      {
+        "_path": "python-scripts/query_metrics.py",
+        "path_type": "hardlink",
+        "sha256": "defd28331df1d06be87a024a68e97907dfe3b19cffa41a36a4e1df8b5d6781b1",
+        "sha256_in_prefix": "defd28331df1d06be87a024a68e97907dfe3b19cffa41a36a4e1df8b5d6781b1",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "python-scripts/query_services.py",
+        "path_type": "hardlink",
+        "sha256": "90c63af07e6f039b1767e2fd1203f6dc1a92376d7ab2dd8a51e53430ecaa2d3c",
+        "sha256_in_prefix": "90c63af07e6f039b1767e2fd1203f6dc1a92376d7ab2dd8a51e53430ecaa2d3c",
+        "size_in_bytes": 772
+      },
+      {
+        "_path": "python-scripts/query_version.py",
+        "path_type": "hardlink",
+        "sha256": "cb93944942c3535c8982ca2f5560a1e3eead462d29d155d77d37e95d41ffc73e",
+        "sha256_in_prefix": "cb93944942c3535c8982ca2f5560a1e3eead462d29d155d77d37e95d41ffc73e",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "python-scripts/region_of_interest.py",
+        "path_type": "hardlink",
+        "sha256": "29c99ff458ab47d01b71c9b4dcfa93daed79dde9e591f139216770650cd01018",
+        "sha256_in_prefix": "29c99ff458ab47d01b71c9b4dcfa93daed79dde9e591f139216770650cd01018",
+        "size_in_bytes": 4852
+      },
+      {
+        "_path": "python-scripts/stream_events.py",
+        "path_type": "hardlink",
+        "sha256": "ae9dc251b8f2bc2e6a11938fa0b8d554a96d91da2f5d4351d2b4fe2b6c8645a8",
+        "sha256_in_prefix": "ae9dc251b8f2bc2e6a11938fa0b8d554a96d91da2f5d4351d2b4fe2b6c8645a8",
+        "size_in_bytes": 1570
+      },
+      {
+        "_path": "python-scripts/tail_events.py",
+        "path_type": "hardlink",
+        "sha256": "62ca4a264753c69e685df7b2032ec5c772d40b50b4c89f2eebde2362896e59f6",
+        "sha256_in_prefix": "62ca4a264753c69e685df7b2032ec5c772d40b50b4c89f2eebde2362896e59f6",
+        "size_in_bytes": 1316
+      },
+      {
+        "_path": "site-packages/sliderule-1.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/sliderule-1.4.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d75f6b9a6ff1fd72024756cbcefe484978424df2751800ddc35e397d9de46ccd",
+        "sha256_in_prefix": "d75f6b9a6ff1fd72024756cbcefe484978424df2751800ddc35e397d9de46ccd",
+        "size_in_bytes": 1524
+      },
+      {
+        "_path": "site-packages/sliderule-1.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e2ecc166e319f1b50dd77ccaf7434b76cd02ba38c5ea4bef4a091da3733dbc35",
+        "sha256_in_prefix": "e2ecc166e319f1b50dd77ccaf7434b76cd02ba38c5ea4bef4a091da3733dbc35",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "site-packages/sliderule-1.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b36dc8307bf6a15036789ac10fdde74e370983bf3a2ca2c504049785d6485138",
+        "sha256_in_prefix": "b36dc8307bf6a15036789ac10fdde74e370983bf3a2ca2c504049785d6485138",
+        "size_in_bytes": 3608
+      },
+      {
+        "_path": "site-packages/sliderule-1.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/sliderule-1.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/sliderule-1.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c941dc573c5349dc5ce3c6de5f6215514833b68d75bdd73c3bb6f0a3abfb8ee7",
+        "sha256_in_prefix": "c941dc573c5349dc5ce3c6de5f6215514833b68d75bdd73c3bb6f0a3abfb8ee7",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/sliderule-1.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "95ce7140ea261fcde700c72f8e36b56653f730f73269353e3b9b645dc35b3c75",
+        "sha256_in_prefix": "95ce7140ea261fcde700c72f8e36b56653f730f73269353e3b9b645dc35b3c75",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/sliderule/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "098d9f1aad3846d329c36eaf7e063aeb18a66a7de159d562f87501e80884cb17",
+        "sha256_in_prefix": "098d9f1aad3846d329c36eaf7e063aeb18a66a7de159d562f87501e80884cb17",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "site-packages/sliderule/icesat2.py",
+        "path_type": "hardlink",
+        "sha256": "468eec96aba8b2d07240ad8ddad148a3661a2cb5d4cfde2a39dbfdad506204d9",
+        "sha256_in_prefix": "468eec96aba8b2d07240ad8ddad148a3661a2cb5d4cfde2a39dbfdad506204d9",
+        "size_in_bytes": 31580
+      },
+      {
+        "_path": "site-packages/sliderule/io.py",
+        "path_type": "hardlink",
+        "sha256": "6f1882d5fc2bd94171165ef2ac073a3b8f4ec99eb88459dfbe3f1843b55fc9cb",
+        "sha256_in_prefix": "6f1882d5fc2bd94171165ef2ac073a3b8f4ec99eb88459dfbe3f1843b55fc9cb",
+        "size_in_bytes": 23542
+      },
+      {
+        "_path": "site-packages/sliderule/ipxapi.py",
+        "path_type": "hardlink",
+        "sha256": "90372daceeaffee90e7c6652ac3fc687d36b6cc3383363c2087468625853a8d2",
+        "sha256_in_prefix": "90372daceeaffee90e7c6652ac3fc687d36b6cc3383363c2087468625853a8d2",
+        "size_in_bytes": 3815
+      },
+      {
+        "_path": "site-packages/sliderule/ipysliderule.py",
+        "path_type": "hardlink",
+        "sha256": "e4de321a0e98e30d69bbd8054b16fda979e3615e648f235e32884e8016f51901",
+        "sha256_in_prefix": "e4de321a0e98e30d69bbd8054b16fda979e3615e648f235e32884e8016f51901",
+        "size_in_bytes": 47393
+      },
+      {
+        "_path": "site-packages/sliderule/sliderule.py",
+        "path_type": "hardlink",
+        "sha256": "c103a238b0a406d7c6bd58140c45c0cc32b830a74814123987d4ba16f919254f",
+        "sha256_in_prefix": "c103a238b0a406d7c6bd58140c45c0cc32b830a74814123987d4ba16f919254f",
+        "size_in_bytes": 14182
+      },
+      {
+        "_path": "site-packages/sliderule/stream2disk.py",
+        "path_type": "hardlink",
+        "sha256": "a665255c533497d9622878696d54120a07819aa24ac4f32d57d587be7f7a40af",
+        "sha256_in_prefix": "a665255c533497d9622878696d54120a07819aa24ac4f32d57d587be7f7a40af",
+        "size_in_bytes": 3374
+      },
+      {
+        "_path": "site-packages/sliderule/version.py",
+        "path_type": "hardlink",
+        "sha256": "f455917e195e8a1f5f6b7a1a225e75557927d7f614bc8f9cdf052dfadf0197ca",
+        "sha256_in_prefix": "f455917e195e8a1f5f6b7a1a225e75557927d7f614bc8f9cdf052dfadf0197ca",
+        "size_in_bytes": 322
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sliderule/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sliderule/__pycache__/icesat2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sliderule/__pycache__/io.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sliderule/__pycache__/ipxapi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sliderule/__pycache__/ipysliderule.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sliderule/__pycache__/sliderule.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sliderule/__pycache__/stream2disk.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/sliderule/__pycache__/version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "sliderule==1.4.0=pyhd8ed1ab_0",
+  "sha256": "b393b16483f319912ae9fbb2b6440cecc0c6896f8ea5939efd6a3d6fe2834b56",
+  "size": 42002,
+  "subdir": "noarch",
+  "timestamp": 1647365259348,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/sliderule-1.4.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.4.0"
+}
